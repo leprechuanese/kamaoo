@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# crea solo users del log
+in="$1"
+canal="$2"
+if [ ! -f "$in" ]; then
+	echo "File not found! '$in'"
+	echo 'Usage: $0 "<archivo_log>" "<canal>"'
+	exit
+fi
+echo 
+while IFS= read -r line; do
+	words=$(echo "$line" | grep "$canal" | awk '{print $4}')
+	if [ ${words//[,:.\"\[]} ]; then
+		echo -n "${words//[,:.\"]} "
+	fi
+done < "$in"
+echo;echo

@@ -22,7 +22,7 @@ d = path.dirname(__file__)
 # read the mask image
 # taken from
 # http://www.stencilry.org/stencils/movies/star%20wars/storm-trooper.gif
-mask = np.array(Image.open(path.join(d, "stormtrooper_mask.png")))
+mask = np.array(Image.open(path.join(d, "star.png")))
 
 # movie script of "a new hope"
 # http://www.imsdb.com/scripts/Star-Wars-A-New-Hope.html
@@ -45,7 +45,7 @@ default_colors = wc.to_array()
 plt.title("Custom colors")
 wc.to_file("fn-worldcloud-color.png")
 plt.imshow(wc.recolor(color_func=grey_color_func, random_state=3))
-wc.to_file("fn-worldcloud-simple.png")
+#wc.to_file("fn-worldcloud-simple.png")
 plt.axis("off")
 plt.figure()
 plt.title("Default colors")

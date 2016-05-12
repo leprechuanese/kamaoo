@@ -22,7 +22,7 @@ d = path.dirname(__file__)
 # read the mask image
 # taken from
 # http://www.stencilry.org/stencils/movies/star%20wars/storm-trooper.gif
-mask = np.array(Image.open(path.join(d, "stormtrooper_mask.png")))
+mask = np.array(Image.open(path.join(d, "thinking.png")))
 
 # movie script of "a new hope"
 # http://www.imsdb.com/scripts/Star-Wars-A-New-Hope.html

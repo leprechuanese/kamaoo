@@ -1,0 +1,27 @@
+ 1286  sudo apt-add-repository ppa:brightbox/ruby-ng
+ 1287  sudo apt-get update
+ 1288  sudo apt-get install ruby2.2 ruby2.2-dev build-essential libssl-dev redis-server
+ 1289  sudo gem install lita lita-irc
+ 1290  cd
+ 1291  lita new unlike
+ 1292  cd unlike
+ 1293  ls
+ 1294  nano Gemfile
+ 1295  nano lita_config.rb
+ 1296  lita start
+ 1297  nano lita_config.rb
+ 1307  sudo gem install lita-dig
+ 1308  sudo gem install lita-google
+ 1311  sudo gem install lita-logger
+ 1318  sudo gem install lita-words-counter
+ 1320  nano Gemfile
+ 1321  nano lita_config.rb
+ 1322  lita start
+
+webpages:
+https://www.jasondavies.com/wordcloud/
+https://plugins.lita.io/
+https://www.digitalocean.com/community/tutorials/how-to-install-the-lita-chat-bot-for-irc-on-ubuntu-14-04
+
+my bot se llama kamma kamaao y esta en #kamaao y responde solo a deb
+

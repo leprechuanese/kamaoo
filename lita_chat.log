@@ -1,0 +1,221 @@
+[2016-05-11 22:55:44 -0500] [deb in #kamaoo] esto es
+[2016-05-11 22:55:46 -0500] [deb in #kamaoo] la primer
+[2016-05-11 22:55:50 -0500] [deb in #kamaoo] verz que veo
+[2016-05-11 22:58:30 -0500] [deb in #kamaoo] google "wtf"
+[2016-05-11 22:58:41 -0500] [deb in #kamaoo] help google 
+[2016-05-11 22:58:51 -0500] [deb in #kamaoo] help 
+[2016-05-11 23:11:01 -0500] [themill in #debian] yes, found that
+[2016-05-11 23:11:49 -0500] [ipatrol in #debian] themill: where did I mention it's name before?
+[2016-05-11 23:11:57 -0500] [themill in #debian] the version string was enough ;)
+[2016-05-11 23:12:08 -0500] [ipatrol in #debian] oh, you googled it?
+[2016-05-11 23:13:26 -0500] [jmcnaught in #debian-offtopic] the moon is very orange here tonight
+[2016-05-11 23:14:25 -0500] [avis- in #debian-offtopic] pretty cool.
+[2016-05-11 23:17:11 -0500] [avis- in #debian-offtopic] did you have a decent dinner ?
+[2016-05-11 23:18:51 -0500] [avis- in #debian-offtopic] every so often, or at least once the past 6 months.  we had a orange moon.  i'm near the gulf coast about 2 hours away.
+[2016-05-11 23:40:13 -0500] [Sheraf in #debian] Hi
+[2016-05-11 23:40:24 -0500] [Sheraf in #debian] I just installed NFS on my server, mounted from windows
+[2016-05-11 23:40:33 -0500] [Sheraf in #debian] when i go in /var/www it's empty
+[2016-05-11 23:40:42 -0500] [Sheraf in #debian] but it's not empty on my debian
+[2016-05-11 23:40:51 -0500] [Sheraf in #debian] i think it's some permission issue
+[2016-05-11 23:40:58 -0500] [Sheraf in #debian] but i can't find how to fix it
+[2016-05-11 23:41:00 -0500] [Sheraf in #debian] any idea?
+[2016-05-11 23:43:13 -0500] [somiaj in #debian] Sheraf: any reason youw ant to use nfs if mounting from windows? Why not use samba?
+[2016-05-11 23:43:56 -0500] [Sheraf in #debian] i need performance
+[2016-05-11 23:44:05 -0500] [Sheraf in #debian] i was using sshfs before, but it's too slow
+[2016-05-11 23:44:14 -0500] [Sheraf in #debian] samba would probably faster, but NFS would probably be the best
+[2016-05-11 23:44:16 -0500] [somiaj in #debian] samba is not sshfs
+[2016-05-11 23:44:24 -0500] [Sheraf in #debian] never said it was
+[2016-05-11 23:44:34 -0500] [somiaj in #debian] why do you think nfs would be the best, if windows is the client, why not use a protpcol windows has natively?
+[2016-05-11 23:45:10 -0500] [njs in #debian] I've successfully switched to from sshfs to samba when I needed faster transfers
+[2016-05-11 23:45:20 -0500] [njs in #debian] ...and that was actually just linux-to-linux, it was just simpler than setting up nfs
+[2016-05-11 23:46:06 -0500] [somiaj in #debian] Anyways I'm unsure on how to configure a windows nfs client.
+[2016-05-11 23:46:30 -0500] [prussian in #debian] it is
+[2016-05-11 23:46:41 -0500] [prussian in #debian] I prefer CIFS over nfs
+[2016-05-11 23:46:56 -0500] [prussian in #debian] less of a headache worring about unix perms too
+[2016-05-11 23:47:12 -0500] [pyface in #debian] is there a relatively easy way to change the keymap, per application? im using xfce
+[2016-05-11 23:47:23 -0500] [prussian in #debian] pyface: key map as in..
+[2016-05-11 23:47:30 -0500] [prussian in #debian] like swapping a key with another?
+[2016-05-11 23:47:37 -0500] [pyface in #debian] yeh, thats it
+[2016-05-11 23:47:38 -0500] [prussian in #debian] like caps lock = control?
+[2016-05-11 23:47:44 -0500] [somiaj in #debian] pyface: unsure if you can do per application, but you can probabaly put a button that can quickly switch for you, or use a keybinding
+[2016-05-11 23:47:46 -0500] [pyface in #debian] like ( instead of 9
+[2016-05-11 23:47:56 -0500] [prussian in #debian] ya
+[2016-05-11 23:47:57 -0500] [markybob in #debian] per application? no
+[2016-05-11 23:48:02 -0500] [prussian in #debian] you can try Xmodmap
+[2016-05-11 23:48:02 -0500] [pyface in #debian] or _ instead of -
+[2016-05-11 23:48:13 -0500] [njs in #debian] pyface: I'm pretty sure X does not provide any way to do that, except maybe by having some program like your window manager track which window has focus and switch around the global keymap as you go
+[2016-05-11 23:48:32 -0500] [pyface in #debian] ah mkay
+[2016-05-11 23:48:35 -0500] [prussian in #debian] ya
+[2016-05-11 23:48:36 -0500] [njs in #debian] I don't know of any window managers that have this feature, though, it's just the only way I can see that feature being possible to implement
+[2016-05-11 23:48:37 -0500] [prussian in #debian] that too
+[2016-05-11 23:48:59 -0500] [prussian in #debian] otherwise Xmodmap.
+[2016-05-11 23:49:29 -0500] [somiaj in #debian] not sure if xmodmap would achive what was being asked, that only configures the modifiers
+[2016-05-11 23:49:50 -0500] [somiaj in #debian] Though sounds like you want sort of 'shift lock' key.
+[2016-05-11 23:51:01 -0500] [pyface in #debian] ye pretty much. its for programming, really. im using pycharm but it seems to not have the amount of keymap customising that im after
+[2016-05-11 23:55:47 -0500] [geetar in #debian] question: I am new to debian.  On an old Mac without a DVD drive, I was able to install MintPPC, which I understand is based on ubuntu which I think is based on debian. Can I convert this distribution to a straight debian install?
+[2016-05-11 23:56:33 -0500] [jml2 in #debian] geetar, nope
+[2016-05-11 23:56:56 -0500] [jml2 in #debian] geetar, ubuntu and debian used to share the same repos... that was years ago.. not anymore
+[2016-05-11 23:57:15 -0500] [geetar in #debian] jml2, thanks
+[2016-05-11 23:58:07 -0500] [jml2 in #debian] geetar, they share the same bug reports, but their repos/compiles differ...  they can differ in many ways -- even though it is the same upstream..
+[2016-05-11 23:58:30 -0500] [jml2 in #debian] geetar, if you see a simple package (outside repo) meant for ubuntu that is also meant for debian, then you often won't have a problem..
+[2016-05-11 23:59:28 -0500] [jml2 in #debian] geetar, (they share "some" same bug reports, between launchpad and debian reportbug..  it's mostly for ubuntu though)
+[2016-05-12 00:01:11 -0500] [geetar in #debian] jml2, MintPPC did not recognize the wireless card in the emac.  I wanted to add that to the installed kernel.
+[2016-05-12 00:02:08 -0500] [markybob in #debian] geetar: ask #mintppc for support then
+[2016-05-12 00:03:39 -0500] [geetar in #debian] markybob: will do, mintppc is a low traffic chat channel and I wanted to try debian.
+[2016-05-12 00:03:53 -0500] [geetar in #debian] markybob, thanks
+[2016-05-12 00:04:32 -0500] [Sheraf in #debian] i'm trying samba
+[2016-05-12 00:04:34 -0500] [Sheraf in #debian] it won't le met write
+[2016-05-12 00:04:55 -0500] [trysten in #debian] i'm dealing with some error prone harddisks and my /var/log/kern.log is 20G. what mechanism should I use to keep it under control?
+[2016-05-12 00:05:36 -0500] [trysten in #debian] the log files. the harddisks are being recovered.
+[2016-05-12 00:06:30 -0500] [trysten in #debian] more specifically: i want to truncate my logs periodically. I would assume debian has a system for this, is it only logrotate?
+[2016-05-12 00:07:51 -0500] [deb in #debian-es-offtopic] !gm frangor 
+[2016-05-12 00:07:53 -0500] [orome in #debian-es-offtopic] deb: Error: "gm" is not a valid command.
+[2016-05-12 00:08:12 -0500] [frangor in #debian-es-offtopic] buenos dias deb 
+[2016-05-12 00:08:41 -0500] [deb in #debian-es-offtopic] como estas?
+[2016-05-12 00:15:09 -0500] [dgriffi in #debian] does anyone here know anything about coreboot?
+[2016-05-12 00:17:19 -0500] [markybob in #debian] trysten: logrotate by default rotates weekly and keeps 4 weeks worth. for you to have 20G in kern.log...something's really fucked. read the log and find out what and fix it
+[2016-05-12 00:17:31 -0500] [jml2 in #debian] dgriffi, it's for people who want to do some cloud things
+[2016-05-12 00:17:52 -0500] [jml2 in #debian] dgriffi, and then there's the other people who want to muck around with their bios
+[2016-05-12 00:17:58 -0500] [dgriffi in #debian] jml2: I'm just having a crappy time getting things working
+[2016-05-12 00:17:58 -0500] [markybob in #debian] trysten: my kern.log is 700K and kern.log.1 is 2.2M
+[2016-05-12 00:18:13 -0500] [jml2 in #debian] dgriffi, that's cuse you aint mucky
+[2016-05-12 00:18:45 -0500] [trysten in #debian] markybob: yes, they are sata chip errors because i'm trying to recover failing harddrives. do you perhaps know of a way to stop issuing such errors tothe log file?
+[2016-05-12 00:19:06 -0500] [markybob in #debian] no
+[2016-05-12 00:19:11 -0500] [jml2 in #debian] dgriffi, the term also  can be grub-coreboot
+[2016-05-12 00:19:28 -0500] [jml2 in #debian] dgriffi, it's becoming more and more obscure as a term on its own...
+[2016-05-12 00:19:38 -0500] [dgriffi in #debian] jml2: huh?  I'm just trying to get coreboot+seabios working
+[2016-05-12 00:22:34 -0500] [trysten in #debian] thank you very much for the info marky bob
+[2016-05-12 00:23:22 -0500] [markybob in #debian] trysten: this is linux generic enough to where you might want to try ##linux
+[2016-05-12 00:27:13 -0500] [markybob in #debian] trysten: know what..this might do it. sudo systemctl stop rsyslog.service
+[2016-05-12 00:27:31 -0500] [trysten in #debian] hey that's not too bad of an idea
+[2016-05-12 00:27:35 -0500] [trysten in #debian] good thinking
+[2016-05-12 00:27:41 -0500] [hiya in #debian] how to create a cron job for script to execute with a command every 30 mins?
+[2016-05-12 00:27:51 -0500] [hiya in #debian] the script is in the ~ folder
+[2016-05-12 00:29:25 -0500] [markybob in #debian] hiya: do you want to add it to /etc/crontab? do you have root? run it as root?
+[2016-05-12 00:30:38 -0500] [rjsalts in #debian] hiya: or if not running as root, crontab -e -u foo
+[2016-05-12 00:30:50 -0500] [hiya in #debian] markybob, I need it to run a root otherwise it won't work, the problem is its "tc" command script for controlling bandwidth but since it is based on openvpn 's tun0 tc rules vanish when openvpn restarts so, I need it to do clear rules (via script) and apply rules (via script) again
+[2016-05-12 00:31:41 -0500] [hiya in #debian] it has to happen every 30 mins so that even if KVM restarts owing to any issues it applies the rules again and any disorderly bandwidth management is only there for 30 mins
+[2016-05-12 00:31:51 -0500] [hiya in #debian] if I set it for 15 mins, would it cause much load on system?
+[2016-05-12 00:31:54 -0500] [markybob in #debian] hiya: so sudo nano -w /etc/crontab and add "*/30 * * * * root /home/user/bin/foo" without quotes
+[2016-05-12 00:33:07 -0500] [hiya in #debian] markybob, but I run the script like ./clear.rules.sh
+[2016-05-12 00:33:23 -0500] [markybob in #debian] hiya: i don't really care. crontab will want the full path
+[2016-05-12 00:33:31 -0500] [hiya in #debian] markybob, but I run the script like ./add.rules.sh <para> <para> <para> <para>
+[2016-05-12 00:33:43 -0500] [markybob in #debian] hiya: so add the params after
+[2016-05-12 00:34:00 -0500] [hiya in #debian] markybob, but I need both rules? so I add two lines?
+[2016-05-12 00:34:26 -0500] [hiya in #debian] markybob, it I set it to do it every 30 mins vs 1 min | what is the difference on processor load?
+[2016-05-12 00:34:28 -0500] [markybob in #debian] hiya: i'd merge them into a single script. add whatever clear is to the start of add
+[2016-05-12 00:36:40 -0500] [hiya in #debian] markybob, does cron jobs bring CPU load?
+[2016-05-12 00:37:06 -0500] [markybob in #debian] hiya: depending on what the job does, sure.
+[2016-05-12 00:37:51 -0500] [markybob in #debian] trysten: worked?
+[2016-05-12 00:40:02 -0500] [frangor in #debian-es-offtopic] cansado xD
+[2016-05-12 00:40:04 -0500] [frangor in #debian-es-offtopic] y tu?
+[2016-05-12 00:47:03 -0500] [rjsalts in #debian] hiya: wouldn't this be better in ifup.d or the like?
+[2016-05-12 00:48:19 -0500] [rjsalts in #debian] hiya: if it's reapplying qos rules when the vpn connection is disconnected/reconnected
+[2016-05-12 00:57:10 -0500] [hiya in #debian] rjsalts, Ok, I don't know how to do it though
+[2016-05-12 01:03:16 -0500] [rjsalts in #debian] hiya: if you put a script in /etc/network/ifup.d it will be called with certain environment variables
+[2016-05-12 01:03:23 -0500] [rjsalts in #debian] hiya: see man interfaces
+[2016-05-12 01:04:32 -0500] [unborn in #debian] hiya: whats the script name in your case? and where the script is located?
+[2016-05-12 01:05:20 -0500] [markybob in #debian] rjsalts: not that easy. that'll run for lo as well unless you do some bash magic to check
+[2016-05-12 01:05:58 -0500] [unborn in #debian] hiya: there is very small difference to run script on server and on personal machine but both will work.. if you give me name of the script with correct location I give you correct command, you just use for your crontab
+[2016-05-12 01:06:14 -0500] [markybob in #debian] unborn: i already gave it to him
+[2016-05-12 01:06:59 -0500] [unborn in #debian] morning markybob ah great :)
+[2016-05-12 01:15:16 -0500] [hiya in #debian] unborn, rjsalts I have a script that manages tc command with parameters | so its ./clear.rules and then ./add.rules <para> <para> <para> <para>
+[2016-05-12 01:18:40 -0500] [markybob in #debian] hiya: what do you think was wrong with my answer exactly?
+[2016-05-12 01:19:34 -0500] [markybob in #debian] hiya: https://paste.debian.net/683506/
+[2016-05-12 01:23:24 -0500] [hiya in #debian] markybob, people are suggesting me ifup.d solution when the interface and off and back on, hence asking more, nothing else
+[2016-05-12 01:26:52 -0500] [hmf in #debian] does debian currently support SGI MIPS (Fuel  & Tezro)
+[2016-05-12 01:27:11 -0500] [hmf in #debian] the IP35 machines, fastest MIPS machines SGI released before giving up MIPS...
+[2016-05-12 01:28:19 -0500] [hmf in #debian] I have an O2, which it supports, but those are really not the fastest
+[2016-05-12 01:28:55 -0500] [markybob in #debian] hmf: https://www.debian.org/ports/mips/
+[2016-05-12 01:33:53 -0500] [hmf in #debian] k I'm on a fuel (R16000).. the last/fastest workstation SGI made.. its not supported, so... is that Linux or debian ?
+[2016-05-12 01:33:58 -0500] [hmf in #debian] probably the kernel
+[2016-05-12 01:34:46 -0500] [hmf in #debian] yep, fuels and tezros (IP35 level machines) are not supported by linux
+[2016-05-12 01:35:01 -0500] [hmf in #debian] everything supports the indys and o2s tho..
+[2016-05-12 01:35:19 -0500] [unborn in #debian] hiya: https://paste.debian.net/683507/
+[2016-05-12 01:35:44 -0500] [hmf in #debian] I'm going to see about FreeBSD/MIPS.. oh - same deal...
+[2016-05-12 01:36:10 -0500] [hmf in #debian] i have irix so i guess that's what im using
+[2016-05-12 01:37:06 -0500] [unborn in #debian] that is simplest solution for you how to run cronjob.. if you need to run this as root then log into machine as root and crontab my-cronjob and paste it there
+[2016-05-12 01:37:13 -0500] [hiya in #debian] unborn, why /dev/null ?
+[2016-05-12 01:37:15 -0500] [hmf in #debian] or, i can patch the kernel with hw support for an IP35 system.. but I have absolutely 0-time for that.. which sucks because I'm a kernel developer for BSD, Linux and Solaris
+[2016-05-12 01:37:38 -0500] [hiya in #debian] unborn, Also I got a lot of para for add-rules l
+[2016-05-12 01:37:41 -0500] [unborn in #debian] hiya: so output does not generate anything
+[2016-05-12 01:38:03 -0500] [markybob in #debian] he's trying to stop output. but you said it needed to be root so you need to add root like what i said earlier
+[2016-05-12 01:38:10 -0500] [unborn in #debian] hiya: put them all into one script as I suggested into some-rule.sh
+[2016-05-12 01:38:49 -0500] [unborn in #debian] markybob: it would be easier if he add this to roots crontab..
+[2016-05-12 01:38:58 -0500] [markybob in #debian] that's what i said
+[2016-05-12 01:39:06 -0500] [markybob in #debian] i said sudo -w /etc/crontab
+[2016-05-12 01:39:12 -0500] [markybob in #debian] and gave him everything
+[2016-05-12 01:39:21 -0500] [unborn in #debian] ah did not seen this markybob sorry
+[2016-05-12 01:39:23 -0500] [markybob in #debian] and no one listens :( now i'm going on a smoke break
+[2016-05-12 01:39:52 -0500] [unborn in #debian] markybob: yeah last night there was guy with pdo issue exactly same thing :D
+[2016-05-12 01:40:04 -0500] [posi in #debian] anyone wanna make open source deb packages for my postgresql extension. happy to pay
+[2016-05-12 01:40:26 -0500] [posi in #debian] github.com/posix4e/jsoncdc. it's already on pgxn
+[2016-05-12 01:40:41 -0500] [posi in #debian] hooray money for open source
+[2016-05-12 01:41:13 -0500] [unborn in #debian] hiya: if you would like to see output every time you run that cronjob then remove /dev/null.....
+[2016-05-12 01:43:05 -0500] [unborn in #debian] hiya: to get logs that cronjob done its thing you can replace >/dev/null 2>&1 with >/some-folder/logfile-name.txt that will create text file with output (what you normally see when you run command in terminal) simple
+[2016-05-12 01:49:13 -0500] [unborn in #debian] hiya: is it working for you?
+[2016-05-12 01:51:36 -0500] [lugonzaro in #debian-es] hola
+[2016-05-12 07:53:41 -0500] [aypea[1] in #debian] nadeem: check dmesg for clues
+[2016-05-12 08:42:25 -0500] [Walex in #debian] DammitJim: you can set the DPI on different X11 'screens' and evenn on different monitors mapped to the same 'screen', but applications don't always care (actually, almost never)
+[2016-05-12 08:42:25 -0500] [DammitJim in #debian] ok, how do I do that per monitor?
+[2016-05-12 08:42:27 -0500] [Walakea in #debian] but there is no way to see KDE 5 on jessie without issueas, right?
+[2016-05-12 08:43:03 -0500] [Walex in #debian] DammitJim: 'man xrandr' => '--dpi'
+[2016-05-12 08:43:20 -0500] [DammitJim in #debian] Walex, that's what I used, but that does it for ALL monitors
+[2016-05-12 08:50:31 -0500] [DammitJim in #debian] I was just trying to make sure I wasn't doing anything stupid which happens 90% of the time
+[2016-05-12 08:51:32 -0500] [Walex in #debian] DammitJim: you are trying to do something that should work, but the reason why usually it does not is usually complicated, but it all goes back to that Keith Packard guy and his moronic changes
+[2016-05-12 08:54:23 -0500] [rengo in #debian-es] hola buenos diaso tardes
+[2016-05-12 08:54:32 -0500] [rengo in #debian-es]  tengo consulta tecnica
+[2016-05-12 08:55:05 -0500] [deb in #debian-es] adelante señor rengo
+[2016-05-12 08:55:25 -0500] [DELLtra in #debian-es] nas o/
+[2016-05-12 08:55:43 -0500] [rengo in #debian-es] quiero crear server pxe multiboot. pero server dhcp sea router y usar imagenes booteo distros linux, windows, etc
+[2016-05-12 08:56:05 -0500] [rengo in #debian-es] entedieron?
+[2016-05-12 08:56:13 -0500] [rengo in #debian-es] hacer server de esos con debian?
+[2016-05-12 08:56:16 -0500] [kasimon in #debian] Hello everyone. Is there a place where one can download older debian isos or at least the content?
+[2016-05-12 08:56:23 -0500] [deb in #debian-es] como un cibercafe?
+[2016-05-12 08:56:32 -0500] [rengo in #debian-es] si
+[2016-05-12 08:56:43 -0500] [kasimon in #debian] I'm looking for the latest wheezy amd64 cd, jigdo and/or netinst would be okay.
+[2016-05-12 08:56:50 -0500] [rengo in #debian-es] quiero hacerlo en mi casa
+[2016-05-12 08:56:50 -0500] [DELLtra in #debian-es] algo como proxmox ?
+[2016-05-12 08:56:58 -0500] [deb in #debian-es] existe un distro linux que hace eso, no recuerdo el nombre
+[2016-05-12 08:57:00 -0500] [rengo in #debian-es] eso virtualizar maquinas
+[2016-05-12 08:57:35 -0500] [rengo in #debian-es] +configuracion dhcp sea router de ips a los clientes
+[2016-05-12 08:57:49 -0500] [DELLtra in #debian-es] no entendi
+[2016-05-12 08:57:52 -0500] [DELLtra in #debian-es] jajaja
+[2016-05-12 08:58:14 -0500] [rengo in #debian-es] quiero crear server pxe debian
+[2016-05-12 08:58:27 -0500] [rengo in #debian-es] configurar ips de router
+[2016-05-12 08:58:39 -0500] [deb in #debian-es] ya existe una distro asi, te da un menu boot, se escoge el os que deseas bootear y las imagenes las toma desde el server, buscala en distrowatch
+[2016-05-12 08:58:42 -0500] [rengo in #debian-es] sea multiboot linux, windows, etc
+[2016-05-12 08:58:50 -0500] [petemc in #debian] !archive
+[2016-05-12 08:58:50 -0500] [dpkg in #debian] well, archive is a collection of files.  'tar', 'ar', 'cpio' are all archiving tools.  This is *not* the same as compression, which is a separate operation.  Debian Archives is the repository for old Debian releases, see http://www.debian.org/distrib/archive .  For the package archive, ask me about <snapshot>.  Old Debian <ISO> files are archived at http://cdimage.debian.org/cdimage/archive/
+[2016-05-12 08:59:02 -0500] [rengo in #debian-es] ok deb gracias buscare
+[2016-05-12 08:59:25 -0500] [DELLtra in #debian-es] alguien que pueda ayudarme en asterisk
+[2016-05-12 08:59:31 -0500] [DELLtra in #debian-es] ??
+[2016-05-12 08:59:56 -0500] [deb in #debian-es] DELLtra, pm
+[2016-05-12 09:00:10 -0500] [DELLtra in #debian-es] pm ?
+[2016-05-12 09:00:15 -0500] [deb in #debian-es] privado
+[2016-05-12 09:01:04 -0500] [ewew in #debian] Hi. Why is system with systemd ignoring setting in /etc/default/devpts file ?
+[2016-05-12 09:02:14 -0500] [rengo in #debian-es] deb:  nolo encuentro
+[2016-05-12 09:08:48 -0500] [kasimon in #debian] petemc: Awesome, thanks. I was looking at debian archive and cdimage.d.o, but missed that folder.
+[2016-05-12 09:10:05 -0500] [themill in #debian] ewew: that config file is for sysvinit
+[2016-05-12 09:13:37 -0500] [ewew in #debian] thermill What do you suggest to correct this ? I know i must read the docs for systemd.
+[2016-05-12 09:17:26 -0500] [s123 in #debian] Hi guys. What do you guys do when the stable kernel is buggy and the backports kernel is even worse?
+[2016-05-12 09:18:00 -0500] [aypea[1] in #debian] take up fishing
+[2016-05-12 09:18:20 -0500] [aypea[1] in #debian] rolls his own anyway.
+[2016-05-12 09:18:35 -0500] [Nik05 in #debian] run the one from experimental
+[2016-05-12 09:19:17 -0500] [kasimon in #debian] s123: apt show kernel-package
+[2016-05-12 09:19:48 -0500] [themill in #debian] You also make sure you have written actionable bug reports
+[2016-05-12 09:22:39 -0500] [redips in #debian-es] SaluII
+[2016-05-12 09:24:16 -0500] [ewew in #debian] themill From where it get the mount parameters for /dev/pts ?
+[2016-05-12 09:28:00 -0500] [themill in #debian] ewew: https://lists.debian.org/debian-user/2015/11/msg00800.html
+[2016-05-12 09:28:33 -0500] [ewew in #debian] thermill or fstab ?
+[2016-05-12 09:30:36 -0500] [jelly in #debian-offtopic] heh, customer complains that *.nyud.net cache isn't working
+[2016-05-12 09:31:13 -0500] [jelly in #debian-offtopic] Iridos: that was roughly the answer I got, years ago
+[2016-05-12 09:31:33 -0500] [jelly in #debian-offtopic] "why do we still have a single hash" "because... reasons"
+[2016-05-12 09:34:37 -0500] [ratrace in #debian] Anyone using selinux on debian? are the policies up to date and well integrated with debian or is there a lot of manual work to get them going?
+[2016-05-12 09:37:34 -0500] [jelly in #debian] ratrace: last time I looked it up, the policies were basically completely unmaintained
+[2016-05-12 09:42:07 -0500] [jelly in #debian] ,v linux-image-grsec-amd64
+[2016-05-12 09:42:08 -0500] [judd in #debian] Package: linux-image-grsec-amd64 on amd64 -- jessie-backports: 7~bpo8+1; sid: 7
+[2016-05-12 09:52:25 -0500] [hypermist in #debian] collect2: error: ld returned 1 exit status
+[2016-05-12 09:52:25 -0500] [hypermist in #debian]  ,_, and thats all i get as a error
+[2016-05-12 09:52:28 -0500] [hypermist in #debian] Well gosh darnit
+[2016-05-12 09:53:06 -0500] [Iridos in #debian-offtopic] jelly, that doesn't include that this is the official channel on freenode, though!

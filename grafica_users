@@ -1,0 +1,3 @@
+./solo_users "lita_chat.log" > data-log
+python crea_grafica-colored.py
+curl -F c=@fn-worldcloud-color.png https://ptpb.pw

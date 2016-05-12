@@ -19,8 +19,47 @@
  1322  lita start
 
 webpages:
+https://www.jasondavies.com/wordcloud/
 https://plugins.lita.io/
 https://www.digitalocean.com/community/tutorials/how-to-install-the-lita-chat-bot-for-irc-on-ubuntu-14-04
 
 my bot se llama kamma kamaao y esta en #kamaao y responde solo a deb
+
+
+
+ahora instalar el wordcloud para hacer el grafico
+https://github.com/amueller/word_cloud
+
+
+
+ 1410  wget https://github.com/amueller/word_cloud/archive/master.zip
+ 1411  unzip master.zip
+ 1412  rm master.zip
+ 1413  cd word_cloud-master
+ 1416  sudo apt-get install python-dev
+ 1417  sudo pip install -r requirements.txt
+python setup.py install
+sudo apt-get install python-matplotlib
+
+crear graficas
+
+./solo_users "lita_chat.log" > data-log
+python crea_grafica-simple.py
+
+o por canal
+
+./solo_palabras "lita_chat.log" "#debian-es" > data-log
+python crea_grafica-colored.py
+curl -F c=@fn-worldcloud-color.png https://ptpb.pw
+
+ 1513  ./solo_palabras "lita_chat.log" "#debian-es-offtopic" > data-log
+ 1514  python crea_grafica-colored.py
+ 1515  curl -F c=@fn-worldcloud-color.png https://ptpb.pw 
+
+
+
+
+
+
+
 

@@ -25,3 +25,43 @@ https://www.digitalocean.com/community/tutorials/how-to-install-the-lita-chat-bo
 
 my bot se llama kamma kamaao y esta en #kamaao y responde solo a deb
 
+
+
+ahora instalar el wordcloud para hacer el grafico
+https://github.com/amueller/word_cloud
+
+
+
+ 1410  wget https://github.com/amueller/word_cloud/archive/master.zip
+ 1411  unzip master.zip
+ 1412  rm master.zip
+ 1413  cd word_cloud-master
+ 1416  sudo apt-get install python-dev
+ 1417  sudo pip install -r requirements.txt
+python setup.py install
+sudo apt-get install python-matplotlib
+
+crear graficas
+
+./solo_users "lita_chat.log" > data-log
+python crea_grafica-simple.py
+
+por canal:
+
+./solo_users "lita_chat.log" "#debian-es" > data-log
+python crea_grafica-colored.py
+curl -F c=@fn-worldcloud-color.png https://ptpb.pw
+
+otro: 
+
+./solo_palabras "lita_chat.log" "#debian-es-offtopic" > data-log
+python crea_grafica-colored.py
+curl -F c=@fn-worldcloud-color.png https://ptpb.pw 
+
+
+
+
+
+
+
+

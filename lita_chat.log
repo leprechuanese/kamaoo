@@ -219,3 +219,1307 @@
 [2016-05-12 09:52:25 -0500] [hypermist in #debian]  ,_, and thats all i get as a error
 [2016-05-12 09:52:28 -0500] [hypermist in #debian] Well gosh darnit
 [2016-05-12 09:53:06 -0500] [Iridos in #debian-offtopic] jelly, that doesn't include that this is the official channel on freenode, though!
+[2016-05-12 11:35:08 -0500] [styler2go in #debian] petn-randall, i am not sure anymore :( i just want to have anipv6 repeater
+[2016-05-12 11:35:17 -0500] [jhutchins in #debian] Iridos: How did openstack get into this?
+[2016-05-12 11:35:51 -0500] [Iridos in #debian] Iridos, when you google the error... you find they did something to get rid of the problem with that error
+[2016-05-12 11:36:17 -0500] [Iridos in #debian] (together with debian 7)
+[2016-05-12 11:36:38 -0500] [Devastator in #debian] it is odd.. at this point I'm thinking about starting all over
+[2016-05-12 11:36:45 -0500] [deb in #kamaoo] help
+[2016-05-12 11:37:03 -0500] [deb in #kamaoo] join #freebsd-es
+[2016-05-12 11:37:11 -0500] [Iridos in #debian] something's not utf8 save
+[2016-05-12 11:37:30 -0500] [petn-randall in #debian] styler2go: Repeater? Sounds like you don't want a router, but a network bridge.
+[2016-05-12 11:37:54 -0500] [deb in #kamaoo] info
+[2016-05-12 11:37:56 -0500] [petn-randall in #debian] styler2go: Should all devices on both sides behave as if they're on the same network?
+[2016-05-12 11:37:58 -0500] [styler2go in #debian] petn-randall, yes, i just want all traffic from wlan1 to wlan0
+[2016-05-12 11:38:11 -0500] [styler2go in #debian] petn-randall, in best case yes, but not necessary
+[2016-05-12 11:38:12 -0500] [Iridos in #debian] err, jhutchins not me... now people think I like talking with myself :-/
+[2016-05-12 11:38:19 -0500] [Pseudo in #debian] hi hello there
+[2016-05-12 11:38:34 -0500] [styler2go in #debian] wlan0 is hosting the access point with hostapd and wlan1 is connected to the wifi currently
+[2016-05-12 11:38:40 -0500] [Pseudo in #debian] what the problem with openssl any issue with that ?
+[2016-05-12 11:38:51 -0500] [jhutchins in #debian] styler2go: http://tldp.org/HOWTO/IP-Masquerade-HOWTO/
+[2016-05-12 11:39:02 -0500] [Pseudo in #debian] because am using any irc client which is failed to connect to a ssl port
+[2016-05-12 11:39:16 -0500] [styler2go in #debian] jhutchins, tried that with iptables, it worked at work with ipv4 but at home i only have ipv6 and it doesnt work anym1ore
+[2016-05-12 11:39:22 -0500] [jhutchins in #debian] Pseudo: No problem here with irssi.  Check your port.
+[2016-05-12 11:39:31 -0500] [Pseudo in #debian] currently been trying irssi and weechat
+[2016-05-12 11:39:40 -0500] [jhutchins in #debian] styler2go: Ah.  Rules are different for 6.
+[2016-05-12 11:39:51 -0500] [Pseudo in #debian] jhutchins: i cant use either port 6697 or 7000 in irssi
+[2016-05-12 11:40:06 -0500] [blind in #bash] spaceman: what is your actual goal?
+[2016-05-12 11:40:10 -0500] [mekhami in #django] write a TemplateView and point the template_name to that? but is that angular 'app' directory in template finder directory?
+[2016-05-12 11:40:18 -0500] [Pseudo in #debian]  ./connect -ssl chat.freenode.net 7000
+[2016-05-12 11:40:24 -0500] [styler2go in #debian] can you help me setting it up, jhutchins ?
+[2016-05-12 11:40:28 -0500] [nashgul in #debian-es-offtopic] teraflops libvirtd es incompatible con networkmanager?
+[2016-05-12 11:40:39 -0500] [nashgul in #debian-es-offtopic] S/N ?
+[2016-05-12 11:40:40 -0500] [blind in #bash] jvv: because you don't have a file called '; ls'  maybe?
+[2016-05-12 11:40:41 -0500] [nashgul in #debian-es-offtopic] :-D
+[2016-05-12 11:40:47 -0500] [sjohnson in #bash] blind: it appears spaceman wants to delete files found via the "locate" command.
+[2016-05-12 11:40:54 -0500] [digitalice in #django] hello
+[2016-05-12 11:40:57 -0500] [Pseudo in #debian] orh its ok
+[2016-05-12 11:41:03 -0500] [blind in #bash] sjohnson: I'd like him to articulate his own goal.
+[2016-05-12 11:41:09 -0500] [Pseudo in #debian] well i try another server othe rthan freenode
+[2016-05-12 11:41:48 -0500] [spaceman in #bash] blind: to destroy anything related to samba as i've purged samba but many files remain'
+[2016-05-12 11:41:53 -0500] [digitalice in #django] Got a question: I want to avoid doing the CompanyModel.objects.all() every time I create a Form. How can I do that, I'm taking this approach: http://dpaste.com/0XSQTPA
+[2016-05-12 11:42:04 -0500] [deb in #kamaoo] join #python
+[2016-05-12 11:42:09 -0500] [blind in #bash] !faq 1
+[2016-05-12 11:42:10 -0500] [greybot in #bash] http://mywiki.wooledge.org/BashFAQ/001 -- How can I read a file (data stream, variable) line-by-line (and/or field-by-field)?
+[2016-05-12 11:42:29 -0500] [hubot__ in ##windows] windows store has putty?
+[2016-05-12 11:42:32 -0500] [hubot__ in ##windows] for lumia phones?
+[2016-05-12 11:42:41 -0500] [nashgul in #debian-es-offtopic] vale ya
+[2016-05-12 11:42:52 -0500] [nashgul in #debian-es-offtopic] solo tengo que crear el bridge con networkmanager
+[2016-05-12 11:42:52 -0500] [hubot__ in ##windows] i guess it was on invite base only on beta mode or somethign like that
+[2016-05-12 11:43:07 -0500] [deb in #kamaoo] join #debian-offtopic
+[2016-05-12 11:43:13 -0500] [simulacr in #bash] >A null suffix forces gunzip to try decompression on all given files regardless of suffix, as in:  >gunzip -S "" *
+[2016-05-12 11:43:14 -0500] [simulacr in #bash] did it even work? gzip-1.8 and still: >gunzip -S "" filename >gzip: invalid suffix ''
+[2016-05-12 11:43:20 -0500] [jvv in #bash] blind: I was rather asking why in first case value of variable can be interpreted as something to execute while in second cant
+[2016-05-12 11:43:39 -0500] [spaceman in #bash] blind: yes so i build a sh script to handle the interpretation of the output of locate then yes?  i could barely understand that link
+[2016-05-12 11:43:40 -0500] [deb in #kamaoo] help
+[2016-05-12 11:43:49 -0500] [teraflops in #debian-es-offtopic] nashgul: no, porque lo va a ser?
+[2016-05-12 11:43:49 -0500] [jmcnaught in #debian] Devastator: when do you get that error? are you doing a preseed?
+[2016-05-12 11:44:17 -0500] [nashgul in #debian-es-offtopic] nah, es que me da una alerta libvirtd dicnedo que no encuentra virbr0
+[2016-05-12 11:44:21 -0500] [ghutzriop in #django] hi, I use a template tag that has a keyword argument, but I need to merge two string for that. how can I do that?
+[2016-05-12 11:44:25 -0500] [teraflops in #debian-es-offtopic] yo use en este portatil libvirt para las cuatro gilivms que uso y uso NM
+[2016-05-12 11:44:26 -0500] [nashgul in #debian-es-offtopic] es que habra que crearlo con NM
+[2016-05-12 11:44:28 -0500] [blind in #bash] jvv: in the first example, your command is the variable, so ls runs because that's what the variable expands to. in the second example, the variable expands to what you've set it to, "; ls" which is passed as an argument to the rm command, which in turn tries to delete a file named "; ls"
+[2016-05-12 11:44:35 -0500] [nashgul in #debian-es-offtopic] no?
+[2016-05-12 11:44:38 -0500] [Devastator in #debian] jmcnaught sometimes after I select country, longest I could get was after setting root account and user account
+[2016-05-12 11:44:51 -0500] [nashgul in #debian-es-offtopic] mira:
+[2016-05-12 11:44:52 -0500] [teraflops in #debian-es-offtopic] nashgul: tienes instalado ebtables?
+[2016-05-12 11:44:54 -0500] [nashgul in #debian-es-offtopic] may 12 18:33:04 zhora libvirtd[8138]: Error interno: No se pudo encontrar ruta para binario dmidecode
+[2016-05-12 11:44:56 -0500] [nashgul in #debian-es-offtopic] may 12 18:33:04 zhora libvirtd[8138]: Error interno: No se pudo encontrar ruta para binario dmidecode
+[2016-05-12 11:44:57 -0500] [Alma in #bash] Ah I give up this script just won't read multiple arguments
+[2016-05-12 11:44:58 -0500] [nashgul in #debian-es-offtopic] may 12 18:33:04 zhora libvirtd[8138]: No se puede crear puente virbr0: El paquete no está instalado
+[2016-05-12 11:45:00 -0500] [nashgul in #debian-es-offtopic] si
+[2016-05-12 11:45:02 -0500] [nashgul in #debian-es-offtopic] esta instalado
+[2016-05-12 11:45:06 -0500] [teraflops in #debian-es-offtopic] y brofgeutils?
+[2016-05-12 11:45:09 -0500] [teraflops in #debian-es-offtopic] vaya
+[2016-05-12 11:45:11 -0500] [nashgul in #debian-es-offtopic] si tb
+[2016-05-12 11:45:12 -0500] [teraflops in #debian-es-offtopic] P
+[2016-05-12 11:45:14 -0500] [nashgul in #debian-es-offtopic] xD
+[2016-05-12 11:45:16 -0500] [nashgul in #debian-es-offtopic] te entendi
+[2016-05-12 11:45:18 -0500] [nashgul in #debian-es-offtopic] :-D
+[2016-05-12 11:45:19 -0500] [teraflops in #debian-es-offtopic] hahaha
+[2016-05-12 11:45:21 -0500] [teraflops in #debian-es-offtopic] :S
+[2016-05-12 11:45:21 -0500] [nashgul in #debian-es-offtopic] xD
+[2016-05-12 11:45:49 -0500] [jmcnaught in #debian] Devastator: do you get the same problem if you choose a different country?
+[2016-05-12 11:46:06 -0500] [moldy in #django] ghutzriop: sounds like you may want a (built-in?) template filter?
+[2016-05-12 11:46:34 -0500] [moldy in #django] ghutzriop: how do you want to merge the strings?
+[2016-05-12 11:46:45 -0500] [teraflops in #debian-es-offtopic] nashgul: ese bridge no tiene nada que ver con libvirt estas usando algo tuneado o algun script peregrino?
+[2016-05-12 11:46:52 -0500] [Devastator in #debian] jmcnaught I didn't try, next on the list..
+[2016-05-12 11:46:53 -0500] [nashgul in #debian-es-offtopic] no
+[2016-05-12 11:46:54 -0500] [spaceman in #bash] i am not a programmer by nature but i assume there is a way to pipe 'rm' command
+[2016-05-12 11:46:58 -0500] [teraflops in #debian-es-offtopic] si lo necesitas crealo
+[2016-05-12 11:47:00 -0500] [Wietienkie in #django] ghutzriop, you can use foo|add:bar
+[2016-05-12 11:47:01 -0500] [teraflops in #debian-es-offtopic] a mi no me dice eso
+[2016-05-12 11:47:03 -0500] [nashgul in #debian-es-offtopic] ok
+[2016-05-12 11:47:13 -0500] [blind in #bash] !faq 1 > spaceman
+[2016-05-12 11:47:14 -0500] [greybot in #bash] spaceman: http://mywiki.wooledge.org/BashFAQ/001 -- How can I read a file (data stream, variable) line-by-line (and/or field-by-field)?
+[2016-05-12 11:47:15 -0500] [Alma in #bash] pipe rm?
+[2016-05-12 11:47:19 -0500] [yitz_ in #bash] rm doesn't typically have output
+[2016-05-12 11:47:25 -0500] [Devastator in #debian] jmcnaught problem is, if I choose another country I will have to set date and time manually :(
+[2016-05-12 11:48:12 -0500] [jmcnaught in #debian] Devastator: this is for troubleshooting, figuring out what the problem is
+[2016-05-12 11:48:27 -0500] [sjohnson in #bash] spaceman: it sounds like what you're looking for is xargs.  try:  locate stuff | xargs ls -l
+[2016-05-12 11:49:11 -0500] [spaceman in #bash] sjohnson: ok.  xargs i've never heard of before.  i'll look it up.
+[2016-05-12 11:49:22 -0500] [Devastator in #debian] jmcnaught yes, I have no problem doing it
+[2016-05-12 11:49:26 -0500] [Devastator in #debian] let me see
+[2016-05-12 11:49:31 -0500] [deb in #debian-es-offtopic] teraflops, me avente 3 scripts para lo de wordcloud con bot log xD
+[2016-05-12 11:49:36 -0500] [sjohnson in #bash] spaceman: you should also learn the risks associated with using it.
+[2016-05-12 11:49:40 -0500] [sjohnson in #bash] !xargs > spaceman
+[2016-05-12 11:49:41 -0500] [greybot in #bash] spaceman: xargs(1) is dangerous (broken, exploitable, etc.) when reading non-NUL-delimited input. If you're working with filenames, use find's -exec [command] {} + instead. If you can get NUL-delimited output, use xargs -0. Otherwise, you probably want a while read or for loop instead.
+[2016-05-12 11:50:33 -0500] [sjohnson in #bash] (the last part of that bot message leading to !faq 1)
+[2016-05-12 11:50:53 -0500] [jmcnaught in #debian] Devastator: also you mentioned qemu, are you launching qemu from the cli, or are you in some sort of virt-manager console?
+[2016-05-12 11:50:56 -0500] [deb in #debian-es-offtopic] le falta hacer el vsg automatico usando ej proyecto ese
+[2016-05-12 11:51:06 -0500] [Devastator in #debian] jmcnaught virt-manager
+[2016-05-12 11:51:17 -0500] [Wietienkie in #django] digitalice, why aren´t you using a ModelChoiceField?
+[2016-05-12 11:51:26 -0500] [ironbeard in #django] Does django take care of translating verbose_name and verbose_name_plural, or is it the onus of the coder to add _() to the Meta classes for every object even if the verbose name lines up with the class name?
+[2016-05-12 11:51:36 -0500] [Devastator in #debian] jmcnaught you helped me setup what I have so far :)
+[2016-05-12 11:51:42 -0500] [petn-randall in #debian] styler2go: Then you want to bridge both interfaces. https://wiki.debian.org/BridgeNetworkConnections
+[2016-05-12 11:51:44 -0500] [Wietienkie in #django] ironbeard, the latter
+[2016-05-12 11:51:47 -0500] [digitalice in #django] WickedHangover, That form is not a ModelForm.
+[2016-05-12 11:51:56 -0500] [Devastator in #debian] jmcnaught yesterday the problem was I downloaded arm64 image instead of amd64
+[2016-05-12 11:52:03 -0500] [ironbeard in #django] Wietienkie: aww, boo :( Thanks!
+[2016-05-12 11:52:08 -0500] [spaceman in #bash] sjohnson: yes interesting.  far far beyond what i know lol..  i just know single line stuff.  thnx tho
+[2016-05-12 11:52:10 -0500] [Wietienkie in #django] digitalice, so?
+[2016-05-12 11:52:36 -0500] [spaceman in #bash] i don't have a good time with the 'find' command but i've never bothered to read the man page
+[2016-05-12 11:52:45 -0500] [digitalice in #django] Wietienkie, I can's use a model form ...
+[2016-05-12 11:52:46 -0500] [TheBard in ##windows] hubot__, it doesnt have a port of Putty, but it does have several SSH and hyperterminal apps
+[2016-05-12 11:53:01 -0500] [petn-randall in #debian] styler2go: Bridging is OSI layer 2 (MAC addresses), routing is on OSI layer 3 (IP addresses).
+[2016-05-12 11:53:13 -0500] [jmcnaught in #debian] Devastator: doh! i actually keep a small VM on my laptop that boots directly into the installer, but i cannot make it give me this error. what language/region settings are you using?
+[2016-05-12 11:53:19 -0500] [styler2go in #debian] gimme that osi 2
+[2016-05-12 11:53:22 -0500] [spaceman in #bash] i could learn a lot from this chat i like it.  i just need more practical uses for bash
+[2016-05-12 11:53:30 -0500] [styler2go in #debian] could you help me doing that or is it easy?
+[2016-05-12 11:54:08 -0500] [Devastator in #debian] jmcnaught I'm choosing language English, country Brazil and keymap Brazilian
+[2016-05-12 11:54:54 -0500] [hubot__ in ##windows] it=what? TheBard
+[2016-05-12 11:54:58 -0500] [Wietienkie in #django] digitalice, who says you need a model form for a ModelChoiceField?
+[2016-05-12 11:55:13 -0500] [TheBard in ##windows] Store for Windows Mobile
+[2016-05-12 11:56:10 -0500] [jhutchins in #debian] styler2go: I don't know the methods for ipv6 yet, I would need to research.  I have true ipv6 from my provider but really haven't messed with it.  The lag is  a lot worse than my ipv4.
+[2016-05-12 11:56:11 -0500] [digitalice in #django] Wietienkie, sorry, I've read bad ... mecause a ModelChoiceFieled runs the query every time a form is created.
+[2016-05-12 11:56:35 -0500] [teraflops in #debian-es-offtopic] deb: no te hace falta ese sitio
+[2016-05-12 11:56:37 -0500] [digitalice in #django] Wietienkie, If my formset is about 100 forms, it will generate 100 queries ... all the same ...
+[2016-05-12 11:56:54 -0500] [Wietienkie in #django] ah yes, I see what you´re getting at
+[2016-05-12 11:57:05 -0500] [Wietienkie in #django] give me a moment, I have workarounds for that, but it´s not pretty
+[2016-05-12 11:57:11 -0500] [teraflops in #debian-es-offtopic] deb: en git esta la libreria en python que hace eso, hay mucha gente que la usa, en atchlinux esta pacgraph por ejemplo
+[2016-05-12 11:57:20 -0500] [teraflops in #debian-es-offtopic] arch*
+[2016-05-12 11:57:32 -0500] [deb in #debian-es-offtopic] si la mire
+[2016-05-12 11:57:43 -0500] [deb in #debian-es-offtopic] no pensaba usar el sitio, pensaba usar el projecto
+[2016-05-12 11:57:50 -0500] [jmcnaught in #debian] Devastator: hmmm.. and the default locale you choose is en_US.UTF-8?
+[2016-05-12 11:57:57 -0500] [Devastator in #debian] jmcnaught yes sir
+[2016-05-12 11:58:30 -0500] [Alma in #bash] pastebin.com/FBSAgtqu
+[2016-05-12 11:58:30 -0500] [pasteban in #bash] Paste is available without ads on http://pastebin.com/raw?i=FBSAgtqu
+[2016-05-12 11:58:42 -0500] [teraflops in #debian-es-offtopic] deb: ah bien suena mejor
+[2016-05-12 11:59:16 -0500] [Alma in #bash] A script that needs to take three arguments, it currently only takes one, if you give more than one, it doesn't work
+[2016-05-12 11:59:31 -0500] [jhutchins in #debian] Devastator: Does the error prevent the installer from completing?
+[2016-05-12 11:59:48 -0500] [styler2go in #debian] petn-randall, brctl addif br0 wlan0 wlan1; can't add wlan0 to bridge br0: Operation not supported
+[2016-05-12 12:00:02 -0500] [Devastator in #debian] jhutchins yes, it goes to a black screen, throwing those messages in a loop
+[2016-05-12 12:00:02 -0500] [Alma in #bash] The arguments are numbers 1 2 and 3 and the script is supposed to take in any combination of those
+[2016-05-12 12:00:13 -0500] [mayur1 in #django] Hi guys, my makemigrations doesnt seem to update, How do I fix it?
+[2016-05-12 12:00:17 -0500] [blind in #bash] Alma: I think you want "$#" not "$@"
+[2016-05-12 12:00:21 -0500] [mayur1 in #django] I also tried makemigrations app_name
+[2016-05-12 12:00:28 -0500] [TomTomTosch in #debian-offtopic] week... end... soon...
+[2016-05-12 12:00:33 -0500] [jhutchins in #debian] Devastator: It's possible it's a bad copy of the installer.
+[2016-05-12 12:00:33 -0500] [blind in #bash] "$@" is an array of all the arguments passed in, "$#" is the count of arguments passed in
+[2016-05-12 12:00:41 -0500] [deb in #debian-es-offtopic] heh
+[2016-05-12 12:00:41 -0500] [jhutchins in #debian] Devastator: Did you verify the iso and the burn?
+[2016-05-12 12:00:41 -0500] [mayur1 in #django] when I hit migrate, it shows me the error which I already fixed
+[2016-05-12 12:01:11 -0500] [Devastator in #debian] jhutchins I'm making qemu boot the iso directly and md5 matches, can it still be bad?
+[2016-05-12 12:01:30 -0500] [deb in #debian-es-offtopic] mira lo que hice
+[2016-05-12 12:01:48 -0500] [deb in #debian-es-offtopic] https://github.com/leprechuanese/kamaoo   rapido y a la brava
+[2016-05-12 12:01:49 -0500] [orome in #debian-es-offtopic] Title: GitHub - leprechuanese/kamaoo: irc bot based in kira, doing some logs and a wordcloud in webpage (at github.com)
+[2016-05-12 12:01:49 -0500] [guideX in ##windows] hubot__: no, windows desktop does
+[2016-05-12 12:01:51 -0500] [theseb in #debian] dhcp question.....every reboot my linux box may get a new private IP address.....how receive the new address?  (Can dynamic dns work with PRIVATE LANS/addresses too?)
+[2016-05-12 12:01:58 -0500] [Alma in #bash] oh i see
+[2016-05-12 12:02:27 -0500] [deb in #debian-es-offtopic] ahora usar esos datos y generar por ejemplo las palabras y generar el graph, de ahi subirlo a un web
+[2016-05-12 12:02:28 -0500] [Alma in #bash] Would $# just count the amount of arguments but not the argument itself right?
+[2016-05-12 12:02:32 -0500] [asd213 in #debian] guys, what's the best way to compile a kernel straight from upstream sources? make deb-pkg or make-kpkg?
+[2016-05-12 12:02:43 -0500] [guideX in ##windows] hubot__: for windows phone, use https://www.microsoft.com/en-us/store/apps/the-ssh-client/9wzdncrcwnwh
+[2016-05-12 12:02:47 -0500] [Alma in #bash] I mean, if I wrote 1 3, it would spell option 1 2 because there are two arguments
+[2016-05-12 12:02:50 -0500] [guideX in ##windows] I have used it on my 1520
+[2016-05-12 12:03:06 -0500] [hubot__ in ##windows] yeah i found it also; not much good review for that app yet. guideX
+[2016-05-12 12:03:09 -0500] [markybob in #debian] make deb-pkg per handbook. you should read it. make-kpkg is no longer supported
+[2016-05-12 12:03:25 -0500] [deb in #debian-es-offtopic] no me vayas a robar el key de mi bot! lol, no te creas, esa key ya no sirve
+[2016-05-12 12:03:29 -0500] [Wietienkie in #django] digitalice, https://dpaste.de/w6xW the idea is in there
+[2016-05-12 12:03:59 -0500] [Syslq in ##windows] Is ms killing windows phone?
+[2016-05-12 12:04:19 -0500] [merced in ##windows] Syslq: "sunk costs fallacy"
+[2016-05-12 12:04:28 -0500] [guideX in ##windows] Syslq: ms, or anyone else, will have a pretty hard time killing my 1520 :D
+[2016-05-12 12:04:38 -0500] [Syslq in ##windows] merced, I mean too bad
+[2016-05-12 12:04:39 -0500] [teraflops in #debian-es-offtopic] deb: te soprenderia de la de api keys que se pillan rebuscando por github :P
+[2016-05-12 12:04:46 -0500] [Syslq in ##windows] Windows phone is really a good business phone
+[2016-05-12 12:04:52 -0500] [jmcnaught in #debian] Devastator: this is "virsh dumpxml" of my installer VM if you want to compare: http://paste.debian.net/683610/
+[2016-05-12 12:05:09 -0500] [Syslq in ##windows] I have been using androids since 2010 myself but I set up some crap on coworkers phone sometimes and windows UI is super
+[2016-05-12 12:05:11 -0500] [merced in ##windows] i doubt they'll kill it
+[2016-05-12 12:05:18 -0500] [markybob in #debian] asd213: read 4.5 and 4.6 http://kernel-handbook.alioth.debian.org/ch-common-tasks.html#s-kernel-org-package
+[2016-05-12 12:05:19 -0500] [Wietienkie in #django] so, for an actual formset instance, you can pass the queryset around to the formset, and let the formset pass it down to its forms
+[2016-05-12 12:05:23 -0500] [merced in ##windows] i agree with that though, i love the ui
+[2016-05-12 12:05:24 -0500] [greycat in #bash] # f() { echo "$# args"; echo "first is $1, second is $2"; };  f 1 3
+[2016-05-12 12:05:25 -0500] [shbot in #bash] greycat: 2 args
+[2016-05-12 12:05:25 -0500] [shbot in #bash] greycat: first is 1, second is 3
+[2016-05-12 12:05:36 -0500] [Syslq in ##windows] guideX, that will kill you if it falls on your head.... It's portable TV
+[2016-05-12 12:05:46 -0500] [styler2go in #debian] petn-randall, is it workign for wifi?
+[2016-05-12 12:05:52 -0500] [Syslq in ##windows] merced, yeah, it's very logical, operation is painless
+[2016-05-12 12:05:54 -0500] [deb in #debian-es-offtopic] jajaja
+[2016-05-12 12:06:06 -0500] [Syslq in ##windows] Also very cheap for specs...
+[2016-05-12 12:06:08 -0500] [greycat in #bash] This isn't rocket surgery.
+[2016-05-12 12:06:26 -0500] [deb in #debian-es-offtopic] sip, una vez me meti en algo asi, problemon, meti al github algo que no debia de meter xD
+[2016-05-12 12:06:45 -0500] [deb in #debian-es-offtopic] tube que borrar el repo
+[2016-05-12 12:06:50 -0500] [sepeck in ##windows] Syslq: MS is not 'killing' the phone.  They've already said this multiple times in multiple venues.  But it makes a great click bait article
+[2016-05-12 12:07:05 -0500] [Devastator in #debian] jmcnaught how do I list domains?
+[2016-05-12 12:07:11 -0500] [sepeck in ##windows] Syslq: HP is coming out with the X3 later this summer
+[2016-05-12 12:07:25 -0500] [Zucca in #bash] Hi. What's the preferable way to group several commands so that I can redirect the output from all grouped commands with a single '> file'. Basically I'm trying to avoid > after ever command. Does {} do it? It that also the way in plain POSIX or UNIX shell?
+[2016-05-12 12:07:28 -0500] [guideX in ##windows] Syslq: it's quite large, however, my hands are also quite large, so no issue on the size.. just yeah, gotta avoid dropping on own head :P
+[2016-05-12 12:07:40 -0500] [Zucca in #bash] *every
+[2016-05-12 12:07:41 -0500] [merced in ##windows] guideX: what's the size compared to the iphone 6+?
+[2016-05-12 12:07:48 -0500] [merced in ##windows] i just bought my mom one, crazy big
+[2016-05-12 12:07:50 -0500] [Syslq in ##windows] I'm not a HP fan to be honest. Too many laptop issues
+[2016-05-12 12:07:53 -0500] [yitz_ in #bash] {foo;bar;} > file
+[2016-05-12 12:08:00 -0500] [snfgf in #bash] why doesn't 'umask 077 && touch file' create a file with rwx------ permissions?
+[2016-05-12 12:08:01 -0500] [Syslq in ##windows] Several, different price ranges, models...
+[2016-05-12 12:08:02 -0500] [greycat in #bash] needs space
+[2016-05-12 12:08:11 -0500] [guideX in ##windows] well the lumia 1520 is only smaller than the galaxy mega as far as I know.. it's larger than the iphone plus as well as note
+[2016-05-12 12:08:13 -0500] [Syslq in ##windows] My cheap lenovo seems indistructable compared to them
+[2016-05-12 12:08:16 -0500] [sepeck in ##windows] Syslq: it was merely an example of another Windows Mbile device coming out.
+[2016-05-12 12:08:20 -0500] [Iridos in #debian] Devastator, can you manually _set_ the locale?
+[2016-05-12 12:08:29 -0500] [greycat in #bash] because 0666 & 0077 is not rwx------
+[2016-05-12 12:08:30 -0500] [jmcnaught in #debian] Devastator: virsh list (you probably need to use "-c qemu:///system" for all virsh commands, leaving them out for simplicity)
+[2016-05-12 12:08:32 -0500] [Syslq in ##windows] sepeck, ah sorry, I thought HP is comming out with their own platform
+[2016-05-12 12:08:36 -0500] [koniiiik in #django] mayur1: So what's the error you're getting?
+[2016-05-12 12:08:38 -0500] [guideX in ##windows] Syslq: hp has a bad record with some of its laptops, but I think they may have improved in recent years
+[2016-05-12 12:08:52 -0500] [Syslq in ##windows] guideX, I have issues with elitebooks and zbooks
+[2016-05-12 12:08:55 -0500] [sepeck in ##windows] http://www8.hp.com/us/en/ads/new-style-it/overview.html
+[2016-05-12 12:08:56 -0500] [Syslq in ##windows] new ones...
+[2016-05-12 12:08:59 -0500] [Zucca in #bash] yitz_: Also valid in sh?
+[2016-05-12 12:09:09 -0500] [yitz_ in #bash] Zucca: sure
+[2016-05-12 12:09:13 -0500] [yitz_ in #bash] !tias > Zucca
+[2016-05-12 12:09:13 -0500] [greybot in #bash] Zucca: Try It And See
+[2016-05-12 12:09:14 -0500] [Syslq in ##windows] zbook == 4x my lenovo b590 price btw :)
+[2016-05-12 12:09:24 -0500] [Zucca in #bash] Thanks.
+[2016-05-12 12:09:28 -0500] [Zucca in #bash] Will do that.
+[2016-05-12 12:09:56 -0500] [mayur1 in #django]  koniiiik: initially I had a charfield of max_length = 50000 then it gave me error that max is 65535 , so I changed it to TextField() still it gives me error that the value is too long. when I hit inspectdb it shows me previous schema
+[2016-05-12 12:09:59 -0500] [Iridos in #debian-offtopic] ezz eet?
+[2016-05-12 12:10:00 -0500] [sepeck in ##windows] but this seems to be wandering into ##hardware territory
+[2016-05-12 12:10:01 -0500] [Syslq in ##windows] sepeck, mah not sure it's a great idea. Phone market is suffering from the low price effect. Perfectly decent smartphones are < 200€
+[2016-05-12 12:10:05 -0500] [sjohnson in #bash] # { echo hi ; echo blah ; } > stuff.txt ; cat stuff.txt
+[2016-05-12 12:10:06 -0500] [shbot in #bash] sjohnson: hi
+[2016-05-12 12:10:06 -0500] [shbot in #bash] sjohnson: blah
+[2016-05-12 12:10:16 -0500] [Syslq in ##windows] sepeck, indeed
+[2016-05-12 12:10:20 -0500] [Zucca in #bash] # {echo 1; echo 2; echo foo; echo baz;} > result.txt; cat result.txt
+[2016-05-12 12:10:20 -0500] [shbot in #bash] Zucca: bash: syntax error near unexpected token `}'
+[2016-05-12 12:10:21 -0500] [geirha in #bash] snfgf: commands don't set execute bit on files it creates unless it makes sense.
+[2016-05-12 12:10:25 -0500] [TomTomTosch in #debian-offtopic] sooooon... but still sooooo loooooooong....
+[2016-05-12 12:10:25 -0500] [mayur1 in #django] initial charfield of max_length = 500000**
+[2016-05-12 12:10:27 -0500] [greycat in #bash] needs space
+[2016-05-12 12:10:33 -0500] [Zucca in #bash] # {echo 1; echo 2; echo foo; echo baz} > result.txt; cat result.txt
+[2016-05-12 12:10:34 -0500] [shbot in #bash] Zucca: bash: {echo: command not found
+[2016-05-12 12:10:35 -0500] [shbot in #bash] Zucca: 2
+[2016-05-12 12:10:35 -0500] [shbot in #bash] Zucca: etc... ( http://ix.io/DCe )
+[2016-05-12 12:10:39 -0500] [greycat in #bash] needs space after {
+[2016-05-12 12:10:43 -0500] [crash_ in #debian] does deb-pkg handle multicore when compiling with set concurrent_level?
+[2016-05-12 12:10:53 -0500] [Zucca in #bash] Ah. Roger.
+[2016-05-12 12:10:57 -0500] [yitz_ in #bash] { foo; bar; } > file  # for the corrent syntax
+[2016-05-12 12:11:07 -0500] [Zucca in #bash] Thanks. :)
+[2016-05-12 12:11:08 -0500] [ghutzriop in #django] moldy, Wietienkie: well, looks like that isn't even helpful. the problem is, that I need the result from a tag as the keyword argument for another tag
+[2016-05-12 12:11:13 -0500] [EpicMinecrafting in #django] Did anyone here combine django with react?
+[2016-05-12 12:12:04 -0500] [Wietienkie in #django] ghutzriop, that was not clear from your initial description
+[2016-05-12 12:12:10 -0500] [Wietienkie in #django] which tag do you need the result from?
+[2016-05-12 12:12:14 -0500] [koniiiik in #django] mayur1: dpaste the traceback, please.
+[2016-05-12 12:12:16 -0500] [Wietienkie in #django] EpicMinecrafting, yes-ish
+[2016-05-12 12:12:38 -0500] [asd213 in #debian] markybob. Ty. Found this: https://debian-handbook.info/browse/jessie/sect.kernel-compilation.html    Do you know what happens if I ommit LOCALVERSION?
+[2016-05-12 12:12:38 -0500] [EpicMinecrafting in #django] Wietienkie: and with what results?
+[2016-05-12 12:12:55 -0500] [ghutzriop in #django] Wietienkie, I thought I could cheat the problem, but apparently not
+[2016-05-12 12:12:56 -0500] [Wietienkie in #django] mayur1, koniiiik sounds to me like makemigrations created a migration setting the charfield length to 500 000, and when actually applying it, the database errors out
+[2016-05-12 12:12:57 -0500] [Iridos in #debian-offtopic] that's w hat SHE said?
+[2016-05-12 12:13:16 -0500] [teraflops in #debian-es-offtopic] jaja
+[2016-05-12 12:13:24 -0500] [TomTomTosch in #debian-offtopic] she never did, actually...
+[2016-05-12 12:13:34 -0500] [TomTomTosch in #debian-offtopic] x(
+[2016-05-12 12:13:41 -0500] [mayur1 in #django] Wietienkie: Yeah, and now when I change the value, it doesnt update
+[2016-05-12 12:13:54 -0500] [Wietienkie in #django] now the migration is either applied or not according to django (mysql? postgres? sqlite?), and makemigrations can or maybe can´t detect the changes, but you cannot run migrate even if it did because the db hits that previous faulty migration
+[2016-05-12 12:14:29 -0500] [mayur1 in #django] Wietienkie: its mysql
+[2016-05-12 12:14:34 -0500] [greycat in #debian] I know a way you could find out what happens.
+[2016-05-12 12:14:41 -0500] [Wietienkie in #django] EpicMinecrafting, we´re using it in conjunction with JSPM and dropping all the static assets in a single staticfiles_dirs directory
+[2016-05-12 12:14:44 -0500] [Devastator in #debian] Iridos no :(
+[2016-05-12 12:15:03 -0500] [mayur1 in #django] Wietienkie: I tried deleting the /migrations folder but still it doesnt reflect
+[2016-05-12 12:15:04 -0500] [Wietienkie in #django] so far I quite enjoy it, but the development workflow needed some heavy tweaking to make it bearable in terms of speed
+[2016-05-12 12:15:09 -0500] [koniiiik in #django] Wietienkie: Yes, that's what I'm guessing, but it's always better to see the actual error and not guess.
+[2016-05-12 12:15:14 -0500] [EpicMinecrafting in #django] Wietienkie: jspm?
+[2016-05-12 12:15:22 -0500] [Wietienkie in #django] mayur1, _never_ ever delete hte migrations folder
+[2016-05-12 12:15:39 -0500] [mayur1 in #django] Wietienkie: I mean I didnt delete it , just renamed it
+[2016-05-12 12:15:43 -0500] [Wietienkie in #django] EpicMinecrafting, package manager around systemjs, sort of an equivalent/alternative to webpack
+[2016-05-12 12:15:50 -0500] [EpicMinecrafting in #django] And what is slow, website?
+[2016-05-12 12:15:53 -0500] [mayur1 in #django] Wietienkie: I read a StackOverflow answer that fixed it
+[2016-05-12 12:16:02 -0500] [EpicMinecrafting in #django] Hmm,why not npm?
+[2016-05-12 12:16:07 -0500] [Iridos in #debian-offtopic] sorry I asked
+[2016-05-12 12:16:07 -0500] [Wietienkie in #django] mayur1, can you list the migrations (I think manage.py showmigrations) and dpaste the output?
+[2016-05-12 12:16:14 -0500] [RippyDippy in #debian] Devastator says Iridos says no
+[2016-05-12 12:16:19 -0500] [Wietienkie in #django] ah, the dreaded stackoverflow word has fallen :-)
+[2016-05-12 12:16:49 -0500] [Wietienkie in #django] EpicMinecrafting, npm for development tooling, jspm for actual dependency management (jspm would be equivalent of pip)
+[2016-05-12 12:16:50 -0500] [Devastator in #debian] jmcnaught well, I've deleted the other vm and created a new one, unfortunately I'm remotely connected to my work computer which is then connected to the "vm server"
+[2016-05-12 12:17:02 -0500] [Devastator in #debian] jmcnaught gonna test in about 40 min
+[2016-05-12 12:17:15 -0500] [mayur1 in #django] Wietienkie: https://dpaste.de/4Fif
+[2016-05-12 12:17:17 -0500] [Wietienkie in #django] and slow in the sense that by default it loads all the imports via xhr when needed and transpiles on the fly
+[2016-05-12 12:17:25 -0500] [Wietienkie in #django] with React that has lots of imports, that´s quite slow
+[2016-05-12 12:17:33 -0500] [mayur1 in #django] Wietienkie: the appname is classifier
+[2016-05-12 12:17:43 -0500] [Wietienkie in #django] mayur1, which migration holds the change to 500 000 length?
+[2016-05-12 12:17:48 -0500] [koniiiik in #django] Heh, stackoverflow is the new Ubuntu forum – sudo this, remove /etc/that ...
+[2016-05-12 12:17:57 -0500] [TomTomTosch in #debian-offtopic] i just had a lucture with crazy russian dude. i only understood every other word, but it was still pretty fun :D
+[2016-05-12 12:18:04 -0500] [mayur1 in #django] koniiiik: ahahhaha yes
+[2016-05-12 12:18:17 -0500] [Wietienkie in #django] mayur1, classifier/0001_initial?
+[2016-05-12 12:18:25 -0500] [mayur1 in #django] Wietienkie: yes
+[2016-05-12 12:18:33 -0500] [Wietienkie in #django] dpaste the contents of that migration file please
+[2016-05-12 12:18:52 -0500] [mayur1 in #django] Wietienkie: I renamed the migration folder, lemme reverse it
+[2016-05-12 12:19:10 -0500] [koniiiik in #django] My favorite ones are things like sudo chmod 777 -R / ...
+[2016-05-12 12:19:35 -0500] [TomTomTosch in #debian-offtopic] he liked to shout if he got excited and 70s soviet literature. not kidding.
+[2016-05-12 12:19:36 -0500] [koniiiik in #django] “That fixed it for me.”™
+[2016-05-12 12:19:45 -0500] [morphyeys in ##windows] guys.. 1 fast question related to access any ideas how to create a button in a form to run a select query with where clause to find a specific record with chosen id
+[2016-05-12 12:19:56 -0500] [TomTomTosch in #debian-offtopic] * and referenced
+[2016-05-12 12:20:05 -0500] [mayur1 in #django] Wietienkie: https://dpaste.de/TvWu
+[2016-05-12 12:20:12 -0500] [lpapp in #pocoo] "@Jacopo: On a real API I would probably not have user registration as part of the API. Registration would be done on a web site, where you can have CSRF protection and if you like them, captchas. The method to prevent bogus registrations varies depending on the application and is a hard problem. You may need to be prepared to ban accounts after they are found spamming or doing other bad things." -> hmm, do 
+[2016-05-12 12:20:18 -0500] [lpapp in #pocoo] you share that opinion?
+[2016-05-12 12:20:21 -0500] [lpapp in #pocoo] hi
+[2016-05-12 12:20:23 -0500] [Iridos in #debian-offtopic] luctures can be hard
+[2016-05-12 12:20:43 -0500] [TomTomTosch in #debian-offtopic] *licktures
+[2016-05-12 12:20:47 -0500] [mayur1 in #django] koniiiik: one of the fix said to remove all the rows in django_migration table lol I did that too
+[2016-05-12 12:21:04 -0500] [xBBTx in #django] well ok, then I can't trust the output of showmigrations...
+[2016-05-12 12:21:16 -0500] [koniiiik in #django] *facepalm* d-:
+[2016-05-12 12:21:28 -0500] [xBBTx in #django] (am also Wietienkie, but on laptop)
+[2016-05-12 12:21:34 -0500] [mayur1 in #django] koniiiik: surprisingly, it was the accepted answer
+[2016-05-12 12:22:05 -0500] [xBBTx in #django] mayur1: which migration made the charfield 500 000 max_length?
+[2016-05-12 12:22:12 -0500] [koniiiik in #django] Yeah, a green checkmark next to an answer is not a guarantee that it's correct...
+[2016-05-12 12:22:32 -0500] [xBBTx in #django] it's like piping wget to bash...
+[2016-05-12 12:22:48 -0500] [koniiiik in #django] It's just a guarantee that it made the problem go away for the OP, often by making things even worse without them realizing.
+[2016-05-12 12:23:03 -0500] [mayur1 in #django]  xBBTx: I deleted the migrations table :( probably that migration is lost
+[2016-05-12 12:23:16 -0500] [xBBTx in #django] mayur1: your migrations are in python files, not in database
+[2016-05-12 12:23:36 -0500] [xBBTx in #django] you know what, dpaste every single file in classifier/migrations for me
+[2016-05-12 12:23:43 -0500] [xBBTx in #django] then I can maybe try to make some sense of the current situation
+[2016-05-12 12:24:08 -0500] [xBBTx in #django] and while you're at it, I'd also like to see the current schema of your database for each table that starts with classifier_ as name
+[2016-05-12 12:24:21 -0500] [xBBTx in #django] so I need to see which tables there are, and what columns they have
+[2016-05-12 12:24:27 -0500] [mayur1 in #django] xBBTx: first one : https://dpaste.de/Ogk3
+[2016-05-12 12:25:20 -0500] [mayur1 in #django] xBBTx: second: https://dpaste.de/Hksj
+[2016-05-12 12:26:08 -0500] [mayur1 in #django] xBBTx: third: https://dpaste.de/Hms6
+[2016-05-12 12:26:20 -0500] [xBBTx in #django] mayur1: you can stop :-)
+[2016-05-12 12:26:31 -0500] [xBBTx in #django] mayur1: no sorry, not yet
+[2016-05-12 12:26:36 -0500] [xBBTx in #django] that's 50 000 instead of 500 000
+[2016-05-12 12:26:39 -0500] [mayur1 in #django] xBBTx: the next one is the one with 500,000 change
+[2016-05-12 12:26:45 -0500] [xBBTx in #django] ok, show me that one
+[2016-05-12 12:26:55 -0500] [mayur1 in #django] https://dpaste.de/2PAd
+[2016-05-12 12:27:05 -0500] [lpapp in #pocoo] e.g. what is wrong about a confirmation email?
+[2016-05-12 12:27:11 -0500] [xBBTx in #django] ok
+[2016-05-12 12:27:45 -0500] [xBBTx in #django] now to be sure, show me your current database tables
+[2016-05-12 12:28:11 -0500] [xBBTx in #django] either phpmyadmin screenshot or mysql shell screenshot, as long as I can see what the tables look like
+[2016-05-12 12:28:19 -0500] [mayur1 in #django] https://dpaste.de/Sp0B
+[2016-05-12 12:28:24 -0500] [xBBTx in #django] from that information I can try and puzzle together where the mismatch is
+[2016-05-12 12:28:44 -0500] [mayur1 in #django] xBBTx: there are few more migrations after that
+[2016-05-12 12:29:00 -0500] [xBBTx in #django] yeah, I saw that
+[2016-05-12 12:29:20 -0500] [xBBTx in #django] I don't think they are relevant
+[2016-05-12 12:29:34 -0500] [koniiiik in #django] mayur1: In any case, if it is at all possible, switch to Postgres – there at least if a migration fails, it will be rolled back instead of leaving your database schema halfway through a migration...
+[2016-05-12 12:29:49 -0500] [mayur1 in #django] xBBTx: this is my inspectdb : https://dpaste.de/wQ7M
+[2016-05-12 12:29:53 -0500] [Iridos in #debian-offtopic] could have been an unlucture
+[2016-05-12 12:29:55 -0500] [xBBTx in #django] mayur1: you said you delete the django_migrations contents, is that showmigrations output in https://dpaste.de/TvWu still accurate?
+[2016-05-12 12:30:29 -0500] [mayur1 in #django] if you look at the inspectdb output, it reflects the latest schema
+[2016-05-12 12:30:30 -0500] [alayek in #bash] hi I need some help with Windows style file ending and Linux style file ending. Basically, I am running into some errors with copying a file from Windows to Linux environment within a vagrant box.
+[2016-05-12 12:30:48 -0500] [greycat in #bash] Copying a file shouldn't cause a problem.  READING it might.
+[2016-05-12 12:31:03 -0500] [mayur1 in #django] so that's where my db is currently stuck at
+[2016-05-12 12:31:08 -0500] [alayek in #bash] I need to replace the Windows style line ending with Linux style, without using dos2unix
+[2016-05-12 12:31:09 -0500] [xBBTx in #django] yes, that's clear
+[2016-05-12 12:31:15 -0500] [alayek in #bash] Yeah, it's the ~/.bashrc
+[2016-05-12 12:31:16 -0500] [greycat in #bash] Why can't you use dos2unix?
+[2016-05-12 12:31:21 -0500] [xBBTx in #django] okay, I'll provide you some context first, and then we can try and go through the steps to fix it
+[2016-05-12 12:31:38 -0500] [greycat in #bash] What else can't you use?
+[2016-05-12 12:31:39 -0500] [alayek in #bash] I need it to execute and not error out like this: https://github.com/byteknacker/fcc-python-vagrant/issues/13
+[2016-05-12 12:31:40 -0500] [mayur1 in #django] xBBTx: so that's why I said there are few more migrations after the 500,000 change
+[2016-05-12 12:32:03 -0500] [xBBTx in #django] mysql doesn't run schema migrations in a transaction (horrible design flaw imo)
+[2016-05-12 12:32:09 -0500] [alayek in #bash] I was thinking more of a `sed` would do
+[2016-05-12 12:32:30 -0500] [sjohnson in #bash] alayek: what's wrong with dos2unix (as previously asked) ?
+[2016-05-12 12:32:31 -0500] [greycat in #bash] I don't know what the hell dos2unix has to do with python, but...
+[2016-05-12 12:32:31 -0500] [mayur1 in #django] xBBTx, when I renamed the migrations folder, maybe the database was update, so the 500,000 error is gone, but the table is still the old one
+[2016-05-12 12:32:32 -0500] [greycat in #bash] !cr
+[2016-05-12 12:32:32 -0500] [greybot in #bash] Carriage Return (ASCII 13). Often represented by ^M or \r. CRs are found just before newlines in text files generated by DOS/Windows apps. You can see them with ''sed -n l''. See http://mywiki.wooledge.org/BashFAQ/052 to get rid of them.
+[2016-05-12 12:32:34 -0500] [xBBTx in #django] the migration being run is entered into the django_migrations table, so that it's marked as executed, and the migration steps are executed
+[2016-05-12 12:32:50 -0500] [Alma in #bash] Finally
+[2016-05-12 12:32:51 -0500] [Alma in #bash] I made it work
+[2016-05-12 12:33:08 -0500] [alayek in #bash] greycat: I don't want to install a utility on the vagrant box, just to help provision.
+[2016-05-12 12:33:12 -0500] [mayur1 in #django] so basically renaming the migrations folder was a horrible idea
+[2016-05-12 12:33:14 -0500] [greycat in #bash] *facepalm*
+[2016-05-12 12:33:17 -0500] [alayek in #bash] If sed can do the job, I am all for it
+[2016-05-12 12:33:21 -0500] [greycat in #bash] So vagrant is another !b29 right?
+[2016-05-12 12:33:22 -0500] [xBBTx in #django] mysql errored out when trying to alter that length to 500 000, but since that isn't run in a transaction, the insertion in the django_migrations table is not reverted
+[2016-05-12 12:33:29 -0500] [greycat in #bash] Like docker?
+[2016-05-12 12:33:33 -0500] [alayek in #bash] umm... not sure what's !b29
+[2016-05-12 12:33:33 -0500] [TomTomTosch in #debian-offtopic] possibly.
+[2016-05-12 12:33:36 -0500] [greycat in #bash] !b29
+[2016-05-12 12:33:36 -0500] [greybot in #bash] It's always git. Or python virtualenv, or docker, puppet, ansible, or mysql. ALWAYS.
+[2016-05-12 12:33:54 -0500] [mayur1 in #django] xBBtx: if you look out the inspectdb, the 500,000 is altered
+[2016-05-12 12:33:55 -0500] [xBBTx in #django] the error is gone, since django doesn't try to run that 500 000 change anymore, as it's marked as executed
+[2016-05-12 12:33:59 -0500] [xBBTx in #django] but it isn't
+[2016-05-12 12:34:13 -0500] [greycat in #bash] I'm guessing this url with -python in it was just your way of saying "command not found" or something.
+[2016-05-12 12:34:23 -0500] [greycat in #bash] would've been shorter to type "command not found"
+[2016-05-12 12:34:29 -0500] [mayur1 in #django] xBBTx: the error is gone too, the problem is changes after that are not reflected
+[2016-05-12 12:34:32 -0500] [xBBTx in #django] mayur1: inspectdb says 50 000, since that how the column is, because in the db it was never changed to 500 000, because mysql threw an error for that
+[2016-05-12 12:34:32 -0500] [DELLtra in #debian-es] alguien que pueda orientarme con asterisk ?
+[2016-05-12 12:34:39 -0500] [anddam in #pocoo] that was an odd interaction
+[2016-05-12 12:34:48 -0500] [xBBTx in #django] mayur1: stop talking for a bit and read what I write down
+[2016-05-12 12:35:04 -0500] [mayur1 in #django] xBBTx: ok let me tell you this way :
+[2016-05-12 12:35:07 -0500] [xBBTx in #django] your migrations and actual db state are out of sync, you first have to fix that
+[2016-05-12 12:35:23 -0500] [mayur1 in #django] xBBTx: ok ok you go ahead :-x
+[2016-05-12 12:35:25 -0500] [alayek in #bash] greycat: thanks for the Wiki link.
+[2016-05-12 12:35:28 -0500] [anddam in #pocoo] oh nvm, houseprices you renamed, I read that is if left the channel
+[2016-05-12 12:35:40 -0500] [anddam in #pocoo] houseprices: I'd say confirmation email are good
+[2016-05-12 12:35:42 -0500] [xBBTx in #django] another question maybe first - which records did you remove from django_migrations? all of them?
+[2016-05-12 12:35:53 -0500] [houseprices in #pocoo] thanks!
+[2016-05-12 12:35:56 -0500] [mayur1 in #django] no
+[2016-05-12 12:36:08 -0500] [mayur1 in #django] just the ones where appname = 'classifier'
+[2016-05-12 12:36:15 -0500] [mayur1 in #django] rest are untouched
+[2016-05-12 12:36:27 -0500] [xBBTx in #django] figured
+[2016-05-12 12:36:39 -0500] [xBBTx in #django] and when you now run 'migrate', you get the 500 000 error?
+[2016-05-12 12:36:40 -0500] [sjohnson in #bash] !b25
+[2016-05-12 12:36:40 -0500] [greybot in #bash] The newbie won't accept any answer that uses practical or standard tools.
+[2016-05-12 12:36:44 -0500] [Iridos in #debian-offtopic] guess you're not venturing a guess on the channel that stuff up there came from
+[2016-05-12 12:36:53 -0500] [greycat in #bash] to be fair, sed is a fair answer to this
+[2016-05-12 12:36:58 -0500] [greycat in #bash] Gah, poor writing.
+[2016-05-12 12:37:42 -0500] [greycat in #bash] Still don't know what a vagrant is, other than a guy with no home and no job.
+[2016-05-12 12:38:11 -0500] [mayur1 in #django] yes
+[2016-05-12 12:38:30 -0500] [mayur1 in #django] does it have anything to do with manage=False
+[2016-05-12 12:38:32 -0500] [TomTomTosch in #debian-offtopic] don't see it in #debian, so maybe #fsf?
+[2016-05-12 12:38:41 -0500] [xBBTx in #django] no
+[2016-05-12 12:39:13 -0500] [Iridos in #debian-offtopic] nah... man, I tried to be obvious!
+[2016-05-12 12:39:16 -0500] [Iridos in #debian-offtopic] #debianfork
+[2016-05-12 12:39:31 -0500] [xBBTx in #django] so, since you deleted those records from django_migrations, when migrating, django is trying to apply 0004_auto_20160512_1635
+[2016-05-12 12:39:35 -0500] [xBBTx in #django] which is faulty and crashes
+[2016-05-12 12:39:40 -0500] [TomTomTosch in #debian-offtopic] oh, right. forgot that exists.
+[2016-05-12 12:40:36 -0500] [xBBTx in #django] mayur1: if you change that migration to this: https://dpaste.de/cfWm#L18
+[2016-05-12 12:40:40 -0500] [mayur1 in #django] bingo!
+[2016-05-12 12:40:46 -0500] [mayur1 in #django] i changed the 500,000 to 50,000
+[2016-05-12 12:40:47 -0500] [Alma in #bash] !!=
+[2016-05-12 12:40:48 -0500] [xBBTx in #django] (change the CharField into a TextField in the migration)
+[2016-05-12 12:40:56 -0500] [xBBTx in #django] that works too, yes :)
+[2016-05-12 12:40:57 -0500] [mayur1 in #django] that fixed it
+[2016-05-12 12:41:03 -0500] [mayur1 in #django] :-*
+[2016-05-12 12:41:07 -0500] [xBBTx in #django] maybe even safer
+[2016-05-12 12:41:22 -0500] [Alma in #bash] !expelliarmus
+[2016-05-12 12:41:26 -0500] [greycat in #bash] Nobody ever tried to use Pascal <> here before.  You were the first one.
+[2016-05-12 12:41:31 -0500] [sjohnson in #bash] i like using dos2unix (or similar things) because they can handle other encodings where doing that might break something.
+[2016-05-12 12:41:35 -0500] [mayur1 in #django] so what was my mistake here? so that i dont repeat it again
+[2016-05-12 12:41:36 -0500] [greycat in #bash] So there was never a need to make a != factoid.
+[2016-05-12 12:41:40 -0500] [sjohnson in #bash] not quite sure how well sed would work on UTF-16.
+[2016-05-12 12:42:07 -0500] [sjohnson in #bash] maybe it'd work fine.
+[2016-05-12 12:42:07 -0500] [xBBTx in #django] not knowing the actual database constraints I'd say, you should probably have gone with TextField from the start
+[2016-05-12 12:42:38 -0500] [xBBTx in #django] other than that... bad luck?
+[2016-05-12 12:42:48 -0500] [koniiiik in #django] mayur1: Really, CharField is not intended for strings longer than a couple hundred.
+[2016-05-12 12:42:55 -0500] [Riviera in #bash] sjohnson: would you believe there are UTF-16 locales?
+[2016-05-12 12:43:02 -0500] [mayur1 in #django] xBBTx: I didnt know charfield had a limit of 65k
+[2016-05-12 12:43:13 -0500] [koala_man in #bash] I wouldn't believe that
+[2016-05-12 12:43:15 -0500] [xBBTx in #django] mayur1: it's probably database dependent
+[2016-05-12 12:43:23 -0500] [xBBTx in #django] which is why Django doesn't yell about it
+[2016-05-12 12:43:27 -0500] [greycat in #bash] On unix-like systems?  Or on Windows?
+[2016-05-12 12:43:55 -0500] [xBBTx in #django] sqlite for instance is the other way around - if you define a charfield with length 50, and save a model with a length of 55 for that field, it will store 55 characters
+[2016-05-12 12:44:13 -0500] [xBBTx in #django] which is incredibly fun if you then migrate to real database... /s
+[2016-05-12 12:44:47 -0500] [koniiiik in #django] xBBTx: If you want to index the column, the practical limit on mysql is less than 300 chars, IIRC, and it's a limit on the sum of the lengths of all varchar columns in the table.
+[2016-05-12 12:44:52 -0500] [koniiiik in #django] Eh, I meant mayur1.
+[2016-05-12 12:44:53 -0500] [sjohnson in #bash] i would believe it.
+[2016-05-12 12:45:14 -0500] [xBBTx in #django] koniiiik: depends on which charset you use for the column... :(
+[2016-05-12 12:45:19 -0500] [koniiiik in #django] mayur1: So it's really pretty much impossible for Django to give any reasonable warning, at least when it comes to mysql.
+[2016-05-12 12:45:22 -0500] [koniiiik in #django] Oh yes.
+[2016-05-12 12:45:36 -0500] [Section1 in #debian-es] yo algo conozco de asterisk
+[2016-05-12 12:45:42 -0500] [xBBTx in #django] so yeah, in short, I don't touch mysql unless there's really no way around it
+[2016-05-12 12:46:22 -0500] [koala_man in #bash] any english text in utf-16 will contain a bunch of nul bytes
+[2016-05-12 12:46:25 -0500] [xBBTx in #django] one of the most-wished-for tasks for a project we have is migrating an application from mysql to postgres
+[2016-05-12 12:46:38 -0500] [xBBTx in #django] but try to get time and money for that from your client :/
+[2016-05-12 12:47:26 -0500] [Camusensei in #bash] there are utf-16 roman letters?
+[2016-05-12 12:47:39 -0500] [DELLtra in #debian-es] estoy en atersiknow y necesito configurar una las terminales de una tarjeta sangoma a102
+[2016-05-12 12:47:45 -0500] [Tazmain in ##windows] hi all, is there any way I can throttle an applications bandwidth to simulate a slow connection ?
+[2016-05-12 12:48:07 -0500] [sjohnson in #bash] course.
+[2016-05-12 12:48:18 -0500] [koala_man in #bash] # printf "foobar" | iconv -f ascii -t utf16 | od -t x1
+[2016-05-12 12:48:19 -0500] [shbot in #bash] koala_man: iconv: conversion to `utf16' is not supported
+[2016-05-12 12:48:19 -0500] [shbot in #bash] koala_man: Try `iconv --help' or `iconv --usage' for more information.
+[2016-05-12 12:48:19 -0500] [shbot in #bash] koala_man: 0000000
+[2016-05-12 12:48:22 -0500] [Alma in #bash] I have a very long variable with 6 (space) 6 a lot of them
+[2016-05-12 12:48:23 -0500] [morphyeys in ##windows] how can I set the values of my text fields in an access form to be query results?
+[2016-05-12 12:48:32 -0500] [koala_man in #bash] ff fe 66 00 6f 00 6f 00 62 00 61 00 72 00  in any case
+[2016-05-12 12:48:48 -0500] [Alma in #bash] Which would be the ideal way to "if variable has any number character different than 6"
+[2016-05-12 12:49:08 -0500] [greycat in #bash] if [[ $var = *[0-57-9]* ]]
+[2016-05-12 12:49:24 -0500] [sjohnson in #bash] # printf "blah\r\n" | iconv -f ASCII -t UTF-16 | od -t x1
+[2016-05-12 12:49:24 -0500] [shbot in #bash] sjohnson: iconv: conversion to `UTF-16' is not supported
+[2016-05-12 12:49:25 -0500] [shbot in #bash] sjohnson: 0000000
+[2016-05-12 12:49:25 -0500] [shbot in #bash] sjohnson: Try `iconv --help' or `iconv --usage' for more information.
+[2016-05-12 12:50:08 -0500] [Iridos in #debian-offtopic] actually got stuff done for once... AND could play with videos :P
+[2016-05-12 12:50:11 -0500] [Iridos in #debian-offtopic] like https://kaos.rz.uni-ulm.de/~k/movie.mpg
+[2016-05-12 12:50:18 -0500] [Iridos in #debian-offtopic] fun stuff
+[2016-05-12 12:50:38 -0500] [TomTomTosch in #debian-offtopic] yey, productive days are the best days.
+[2016-05-12 12:50:47 -0500] [Alma in #bash] it worked greycat
+[2016-05-12 12:50:51 -0500] [Alma in #bash] thank youuuuu
+[2016-05-12 12:50:58 -0500] [Iridos in #debian-offtopic] not productive enough, though :(
+[2016-05-12 12:51:03 -0500] [Iridos in #debian-offtopic] oh well
+[2016-05-12 12:51:13 -0500] [Iridos in #debian-offtopic] still a lot of hours left
+[2016-05-12 12:51:14 -0500] [babyswizz in #django] Hi all, I have a product model with users given permission to create, edit and delete but I want users to be able to edit or delete only products they created. How do I do this?
+[2016-05-12 12:51:15 -0500] [Iridos in #debian-offtopic] ... in this life
+[2016-05-12 12:51:29 -0500] [Camusensei in #bash] must be some kind of magic he only can do. yep. for sure.
+[2016-05-12 12:52:00 -0500] [Alma in #bash] :O
+[2016-05-12 12:52:02 -0500] [cnk in #django] babyswizz: Django doesn't do object level permissions by default, you will need an add on like guardian for this
+[2016-05-12 12:52:03 -0500] [sol1x in #django] if i want to set cache control on an django restframework viewset, how would i do that properly? I saw, that these views inherit from djangos View class, so i could apply a decorator on the dispatch method, correct?
+[2016-05-12 12:52:05 -0500] [Alma in #bash] Do I sense some jealousy?
+[2016-05-12 12:52:13 -0500] [TomTomTosch in #debian-offtopic] what does this simulate?
+[2016-05-12 12:52:27 -0500] [surfnturf_ in #django] babyswizz: or you could Fk each object to it's owner
+[2016-05-12 12:52:31 -0500] [Camusensei in #bash] that was actually my way of coming back to you because you didn't show you tried
+[2016-05-12 12:53:00 -0500] [greycat in #bash] I'm totally happy that a clear, unambiguous question was asked.
+[2016-05-12 12:53:11 -0500] [greycat in #bash] Didn't even need a web server.
+[2016-05-12 12:53:31 -0500] [Camusensei in #bash] do you usually do?
+[2016-05-12 12:53:37 -0500] [greycat in #bash] !questions
+[2016-05-12 12:53:38 -0500] [greybot in #bash] Ask questions. Don't just paste 200 lines of code on a web page and say "HERE MY KODE <URL> WHATZ RONG". Describe the problem, clearly and concisely. If necessary, give the SMALLEST sample code that demonstrates the problem.
+[2016-05-12 12:53:42 -0500] [cnk in #django] sol1x: the main mention of caching in the DRF docs is in the throttling section
+[2016-05-12 12:53:56 -0500] [babyswizz in #django] surfnturf_: what is FK and how do I do that?
+[2016-05-12 12:54:01 -0500] [greycat in #bash] All the bloody damned time, yes.  https://hateful/javascript/page what's wrong
+[2016-05-12 12:54:06 -0500] [surfnturf_ in #django] ForeignKey
+[2016-05-12 12:54:23 -0500] [Camusensei in #bash] I like that factoid :) Okay so you just mixed up server and browser, no big deal
+[2016-05-12 12:54:26 -0500] [cnk in #django] that establishes ownership but does not do the permission checking
+[2016-05-12 12:54:36 -0500] [sol1x in #django] cnk: thanks for the hint
+[2016-05-12 12:54:41 -0500] [surfnturf_ in #django] you do the permission checking yourself
+[2016-05-12 12:54:47 -0500] [greycat in #bash] The querent uses a web server to attempt to pass along his question.
+[2016-05-12 12:54:58 -0500] [greycat in #bash] Because god knows typing english words here would take more effort.
+[2016-05-12 12:54:58 -0500] [surfnturf_ in #django] for example, when you show lists of objects, you filter by owner
+[2016-05-12 12:55:07 -0500] [babyswizz in #django] oh ok
+[2016-05-12 12:55:25 -0500] [Devastator in #debian] jmcnaught I'm gonna start over now that I have a bit more knowledge, no backported kernel this time
+[2016-05-12 12:55:32 -0500] [Camusensei in #bash] point taken :)
+[2016-05-12 12:55:35 -0500] [EpicMinecrafting in #django] Honestly, react or angular?
+[2016-05-12 12:56:00 -0500] [cnk in #django] babyswizz: when I needed similar permissions, I went with the rules app. Liked it
+[2016-05-12 12:56:07 -0500] [cnk in #django] EpicMinecrafting: react
+[2016-05-12 12:56:52 -0500] [sjohnson in #bash] geirha: can shbot's iconv eventually support Uniform Text File-16?
+[2016-05-12 12:57:01 -0500] [sol1x in #django] can you elaborate on react/angular?
+[2016-05-12 12:57:21 -0500] [Camusensei in #bash] I don't think that's even wished for :/
+[2016-05-12 12:57:31 -0500] [EpicMinecrafting in #django] sol1x: both are "frameworks"
+[2016-05-12 12:57:36 -0500] [sol1x in #django] i started looking into angular, it has some nice features. On the other hand some things are really - weird
+[2016-05-12 12:57:45 -0500] [greycat in #bash] # iconv -l
+[2016-05-12 12:57:47 -0500] [shbot in #bash] greycat: The following list contains all the coded character sets known.  This does
+[2016-05-12 12:57:48 -0500] [shbot in #bash] greycat: etc... ( http://ix.io/DD1 )
+[2016-05-12 12:57:48 -0500] [shbot in #bash] greycat: not necessarily mean that all combinations of these names can be used for
+[2016-05-12 12:57:50 -0500] [babyswizz in #django] cnk: Please forgive my ignorance but what is rules app
+[2016-05-12 12:57:51 -0500] [Camusensei in #bash] By the way, any pointer to a bash script test framework of some kind? I'm writing one for work currently, but if something already exists, it would be nice
+[2016-05-12 12:57:58 -0500] [Section1 in #debian-es] ah no conozco atersiknow
+[2016-05-12 12:58:04 -0500] [Section1 in #debian-es] debe ser algun front end
+[2016-05-12 12:58:06 -0500] [babyswizz in #django] trying to learn as much as I can lol
+[2016-05-12 12:58:12 -0500] [trevor_s in ##windows] anyone know the best way to export all office 365 mailboxes to .pst files?
+[2016-05-12 12:58:16 -0500] [Section1 in #debian-es] yo tengo un asterisk normal con dos placa analogas
+[2016-05-12 12:58:18 -0500] [cnk in #django] https://www.djangopackages.com/packages/p/django-rules/
+[2016-05-12 12:58:23 -0500] [Section1 in #debian-es] de la marca de asterisk
+[2016-05-12 12:58:27 -0500] [Section1 in #debian-es] pero debe ser lo mismo
+[2016-05-12 12:58:42 -0500] [babyswizz in #django] thanks
+[2016-05-12 12:58:44 -0500] [Section1 in #debian-es] http://wiki.sangoma.com/wanpipe-linux-asterisk-appendix
+[2016-05-12 12:58:53 -0500] [Section1 in #debian-es] igual ahi explica bastante
+[2016-05-12 12:59:33 -0500] [greycat in #bash] I don't know what makes iconv know how to use a given character set, but the list I get on Debian 8 is much, much larger than that list.
+[2016-05-12 13:00:38 -0500] [sepeck in ##windows] trevor_s: ##windows-server
+[2016-05-12 13:01:12 -0500] [Iridos in #debian-offtopic] well... they don't write what the examples do.. but...
+[2016-05-12 13:01:19 -0500] [sjohnson in #bash] greycat: same.  several pages long of all sorts of stuff.
+[2016-05-12 13:01:25 -0500] [Iridos in #debian-offtopic] tearing of a single-layer sheet of some atoms
+[2016-05-12 13:02:27 -0500] [DELLtra in #debian-es] lo que se requiere hacer es que asterisk tome de una linea principal ingrese por un puerto de la tarjeta y por otro puerto salga a otra central el servidor asterisk lo unico que hace es grabe todas las llamdas salientes y entrantes
+[2016-05-12 13:02:43 -0500] [Iridos in #debian-offtopic] all the comment it has is "2d LJ crack simulation"
+[2016-05-12 13:03:44 -0500] [Iridos in #debian-offtopic] lj would be lennard-jones
+[2016-05-12 13:03:48 -0500] [TheBard in ##windows] trevor_s: in Outlook, File>Open&Export
+[2016-05-12 13:04:07 -0500] [TomTomTosch in #debian-offtopic] ah, yes. good ol' lennard.
+[2016-05-12 13:04:09 -0500] [S_SubZero in ##windows] think he's asking about a bulk method
+[2016-05-12 13:04:24 -0500] [trevor_s in ##windows] TheBard, i need to export every mailbox in the tenant
+[2016-05-12 13:04:30 -0500] [trevor_s in ##windows] not just 1
+[2016-05-12 13:04:33 -0500] [TheBard in ##windows] tenant?
+[2016-05-12 13:04:45 -0500] [trevor_s in ##windows] the whole office 365 organization
+[2016-05-12 13:05:06 -0500] [Iridos in #debian-offtopic] everything has mass 1... dunno... doesn't seem like a very realistic example
+[2016-05-12 13:05:07 -0500] [Smither in #debian] Heya. Just installed debian on my laptop, and the trackpad doesn't work. I have done `xinput list` and the only mouse that shows is a "virtual core XTEST pointer". and when i do `cat /proc/bus/input/devices` I don't get anything remotely mouse/trackpad like. Haven't a clue where to go from here, any pointers would be fantastic.
+[2016-05-12 13:05:08 -0500] [TheBard in ##windows]  <sepeck> trevor_s: ##windows-server
+[2016-05-12 13:05:12 -0500] [Camusensei in #bash] I guess that's a "no" then :)
+[2016-05-12 13:05:15 -0500] [Iridos in #debian-offtopic] but it was the only one that looked good!
+[2016-05-12 13:05:35 -0500] [sjohnson in #bash] set -x / bashdb maybe.
+[2016-05-12 13:05:48 -0500] [somiaj in #debian] Smither: check /var/log/Xorg.0.log and see if you can find more info
+[2016-05-12 13:05:51 -0500] [Iridos in #debian-offtopic] it's incredibly easy to make movies with that... I remember spending hours and hours on the one from my diss
+[2016-05-12 13:06:08 -0500] [TomTomTosch in #debian-offtopic] x)
+[2016-05-12 13:06:08 -0500] [Camusensei in #bash] uhm, I don't understand
+[2016-05-12 13:06:11 -0500] [Iridos in #debian-offtopic] just wait 15 years and... progress
+[2016-05-12 13:06:16 -0500] [Iridos in #debian-offtopic] well, different software
+[2016-05-12 13:06:24 -0500] [somiaj in #debian] Smither: There are two common problems. 1) The kernel is not correctly identifying your trackpad device and thus not making it available to the os. 2) xorg is not correctly detecting the device.
+[2016-05-12 13:06:30 -0500] [somiaj in #debian] the log will only check the second
+[2016-05-12 13:07:09 -0500] [Section1 in #debian-es] ah
+[2016-05-12 13:07:11 -0500] [Section1 in #debian-es] ok
+[2016-05-12 13:07:19 -0500] [Section1 in #debian-es] para grabar se usa mixmonitor
+[2016-05-12 13:08:52 -0500] [jelly in #debian] Smither: which debian release is that btw?
+[2016-05-12 13:09:01 -0500] [Section1 in #debian-es] ahora para hacer los reenvios no lo se
+[2016-05-12 13:09:03 -0500] [Smither in #debian] somiaj: if i grep the log for "pad" or "syn" i don't get anything related to trackpads or mouse or pointer devices or anything
+[2016-05-12 13:09:07 -0500] [Section1 in #debian-es] pero no debe ser complicado
+[2016-05-12 13:09:20 -0500] [Iridos in #debian-offtopic] jaja... I admit it... it's useless
+[2016-05-12 13:09:25 -0500] [Iridos in #debian-offtopic] but it looks nice!
+[2016-05-12 13:10:01 -0500] [Smither in #debian] debian 8.4
+[2016-05-12 13:10:09 -0500] [po0dle in ##windows] Hello
+[2016-05-12 13:10:30 -0500] [po0dle in ##windows] Can someone help me find the cause of my computer crashing?
+[2016-05-12 13:11:06 -0500] [sjohnson in #bash] i think that's as close to a "testing framework" as you're going to get.
+[2016-05-12 13:11:07 -0500] [compdoc in ##windows] could be many things
+[2016-05-12 13:11:13 -0500] [tuxayo in #django] Hi, is there a generic way to make a simple __str__ for models? (I tried with json.dumps but I can't find how to limit the nesting)
+[2016-05-12 13:11:40 -0500] [greycat in #bash] I don't see the connection myself.
+[2016-05-12 13:12:18 -0500] [greycat in #bash] A more typical testing framework would be something like  for test in tests/*; do bash "$test"; rc=$?; case $rc in ... esac; done
+[2016-05-12 13:12:39 -0500] [icelesstea in #bash] Camusensei: I've seen a bunch of people using this (although it's probably redundant and shit): https://github.com/sstephenson/bats
+[2016-05-12 13:13:14 -0500] [S_SubZero in ##windows] that's not enough information.
+[2016-05-12 13:13:22 -0500] [blkshp in ##windows] po0dle: Do you have issues with power?; have you poured water in it?; have you eaten the DIMM?
+[2016-05-12 13:13:24 -0500] [TomTomTosch in #debian-offtopic] it's all just balls in space. that's what everythin is made of.
+[2016-05-12 13:13:38 -0500] [sjohnson in #bash] ah, i see.
+[2016-05-12 13:13:42 -0500] [blkshp in ##windows] All of these things can cause a machine to crash
+[2016-05-12 13:14:12 -0500] [po0dle in ##windows] None of these things blkshp
+[2016-05-12 13:14:12 -0500] [S_SubZero in ##windows] maybe in .be people can just walk up to other people like "hey can you help me" and the other person just "knows" the entire history of the issue and a 100% perfect resolution
+[2016-05-12 13:14:13 -0500] [Alma in #bash] Can I split a line by using blank space as delimiters? I would like to show the output of df -h | grep /dev/ in a different way
+[2016-05-12 13:14:15 -0500] [Camusensei in #bash] looks nice, I can make use of that. Thanks icelesstea
+[2016-05-12 13:14:21 -0500] [greycat in #bash] !faq df
+[2016-05-12 13:14:22 -0500] [greybot in #bash] http://mywiki.wooledge.org/BashFAQ/094 -- I want to get an alert when my disk is full (parsing df output).
+[2016-05-12 13:14:31 -0500] [Smither in #debian] however a USB mouse does work totally fine and does show up in /var/log/Xorg.0.log
+[2016-05-12 13:14:38 -0500] [greycat in #bash] !faq 5
+[2016-05-12 13:14:38 -0500] [greybot in #bash] http://mywiki.wooledge.org/BashFAQ/005 -- How can I use array variables?
+[2016-05-12 13:14:47 -0500] [blkshp in ##windows] po0dle: then do you think it maybe an idea to provide symptoms
+[2016-05-12 13:14:55 -0500] [Iridos in #debian-offtopic] yeah
+[2016-05-12 13:15:04 -0500] [Iridos in #debian-offtopic] the universe is pretty ballsy
+[2016-05-12 13:15:16 -0500] [po0dle in ##windows] Maybe the people in .hu can ask questions or at least wait for me to explain
+[2016-05-12 13:15:27 -0500] [snfgf in #bash] So, 'var=' returns 0 to the shell. So 'if a= ;' is true. So how can 'if a=$(notacommand)' ever be false, $(notacommand) doesn't produce any output so the conditional is equivalent to 'if a= ;'?
+[2016-05-12 13:15:37 -0500] [po0dle in ##windows] Ok, it started after I upgraded to Win10
+[2016-05-12 13:15:42 -0500] [snfgf in #bash] :S
+[2016-05-12 13:16:05 -0500] [blkshp in ##windows] po0dle: 4 minutes is long enoug to wait
+[2016-05-12 13:16:08 -0500] [greycat in #bash] a=$(b) returns the exit status of b, not the assignment
+[2016-05-12 13:16:13 -0500] [greycat in #bash] local a=$(b) DOES NOT.
+[2016-05-12 13:16:23 -0500] [greycat in #bash] Welcome to bash.
+[2016-05-12 13:16:35 -0500] [po0dle in ##windows] Well, there is no point explaining if there isn't going to be a response
+[2016-05-12 13:16:35 -0500] [snfgf in #bash] 0_o
+[2016-05-12 13:16:38 -0500] [Unode in #bash] Hi everyone. I'm having a hard time finding the answer to this. Is it possible to run a process like OUTPUT=$(command) but in a way that I capture stdout to one variable and stderr to another?
+[2016-05-12 13:16:42 -0500] [gl in #bash] # foo=$(notfound); printf '%d' $?
+[2016-05-12 13:16:42 -0500] [shbot in #bash] gl: bash: notfound: command not found
+[2016-05-12 13:16:42 -0500] [shbot in #bash] gl: 127
+[2016-05-12 13:16:55 -0500] [sjohnson in #bash] Camusensei: i misunderstood your question; my bad.
+[2016-05-12 13:17:04 -0500] [Camusensei in #bash] np
+[2016-05-12 13:17:11 -0500] [greycat in #bash] Unode: No.  You need a temp file for one of them.
+[2016-05-12 13:17:11 -0500] [po0dle in ##windows] Now that there is, I can continue :)
+[2016-05-12 13:17:23 -0500] [Unode in #bash] greycat: ok, great, thanks
+[2016-05-12 13:17:34 -0500] [blkshp in ##windows] sepeck: can we block mhache for a bit
+[2016-05-12 13:17:44 -0500] [cnk in #django] tuxayo: anything that involved json doesn't sound 'simple' - what do you want the output to be?
+[2016-05-12 13:17:50 -0500] [blkshp in ##windows] until connections work properly
+[2016-05-12 13:17:55 -0500] [po0dle in ##windows] Basically I thought it only happened when I was gaming but I got it when just browsing the web aswell
+[2016-05-12 13:18:09 -0500] [po0dle in ##windows] Basically the screen goes to black, sound hangs
+[2016-05-12 13:18:10 -0500] [S_SubZero in ##windows] ok guys just like we practiced, now that he's talking, everyone scramble!
+[2016-05-12 13:18:42 -0500] [somiaj in #debian] Smither: sounds like it might be an issue with the kernel. Just to double check, you don't happen to have the touchpad turned off in the bios?
+[2016-05-12 13:18:50 -0500] [merced in ##windows] scramble the jets
+[2016-05-12 13:19:15 -0500] [Smither in #debian] let me check, but I'm 98% sure not. I haven't deliberately done that
+[2016-05-12 13:19:18 -0500] [blkshp in ##windows] mhache: hope thats fixed now
+[2016-05-12 13:19:24 -0500] [po0dle in ##windows] I described all the symptoms
+[2016-05-12 13:19:24 -0500] [Iridos in #debian] does rather sound as if there's nothing coming from the kernel...
+[2016-05-12 13:20:04 -0500] [talcite in #django] Is there a way to make django return an error when a non-existent element is accessed in a template? Ie I'm accessing things like label_tag in my form and the html renders no problem, but I try to access it in shell and it actually doesn't exist.
+[2016-05-12 13:20:40 -0500] [tbaxter in #django] TEMPLATE_DEBUG setting, perhaps.
+[2016-05-12 13:20:44 -0500] [po0dle in ##windows] What I'm asking is, how do I narrow down the cause
+[2016-05-12 13:20:46 -0500] [Iridos in #debian] Smither, you could do "cat /dev/input/mice" and then move around on it... IIRC any pointing device should be translated there
+[2016-05-12 13:20:49 -0500] [tuxayo in #django] cnk, something like "id=1, attr1=foo, attr2='bar'" it's something that I also regularly need when playing with the RELP: having a simple way to see all the attributes of any object.
+[2016-05-12 13:20:57 -0500] [blkshp in ##windows] po0dle: Describe your system
+[2016-05-12 13:21:16 -0500] [cnk in #django] let me guess, you are from Rails
+[2016-05-12 13:21:25 -0500] [po0dle in ##windows] What specifically blkshp ?
+[2016-05-12 13:21:26 -0500] [cnk in #django] I totally miss ActiveRecord's output
+[2016-05-12 13:21:36 -0500] [Smither in #debian] k I'l try that Iridos, also there is no option i can find in the bios to disable it
+[2016-05-12 13:21:43 -0500] [cnk in #django] the closest I have come in python is pprint(obj.__dict__)
+[2016-05-12 13:21:58 -0500] [ExoUNX in ##windows] if a command fails in batch is there a way to output the error? I tried command >> file.log
+[2016-05-12 13:22:07 -0500] [po0dle in ##windows] It's a desktop, Windows 10 installed on an SSD
+[2016-05-12 13:22:08 -0500] [blkshp in ##windows] How old, what is it, laptop/desktop, CPU, memory, OS, Whats running when it happens, what have you done to it recently
+[2016-05-12 13:22:25 -0500] [ScRaMbLe in ##windows] what
+[2016-05-12 13:22:31 -0500] [po0dle in ##windows] It's about 1.5/2 years old
+[2016-05-12 13:22:33 -0500] [ExoUNX in ##windows] but it doesn't output an error when I run the way I want, but when I run the source bat file it outputs fine
+[2016-05-12 13:22:40 -0500] [tbaxter in #django] tuxayo and cnk, it sounds to me like you're both looking for the admin docs.
+[2016-05-12 13:22:42 -0500] [ExoUNX in ##windows] it's almost like the commands just don't run
+[2016-05-12 13:23:06 -0500] [cnk in #django] cause that helps in python shell how?
+[2016-05-12 13:23:12 -0500] [Iridos in #debian] I guess not seeing it in xinput amounts to the same... still, only takes a couple of seconds
+[2016-05-12 13:23:20 -0500] [gl in #bash] greycat: do you know if there's a reason why 'local' acts as a command? (and thus prevents the user to get the return code if it's on the same statement)
+[2016-05-12 13:23:21 -0500] [Badrobot- in ##windows] maybe run as administrator
+[2016-05-12 13:23:40 -0500] [greycat in #bash] Of course there's a reason.  "That's the way the code is written."
+[2016-05-12 13:23:45 -0500] [cnk in #django] but enlighten me. what admin docs do you mean?
+[2016-05-12 13:23:55 -0500] [Badrobot- in ##windows] put 'pause' at the end of the batch file to see what it's doing
+[2016-05-12 13:24:04 -0500] [greycat in #bash] Are you asking "Is Chet going to change it some day?"  I don't know.
+[2016-05-12 13:24:06 -0500] [Smither in #debian] Iridos: optical mouse does display in there, touchpad doesn't
+[2016-05-12 13:24:21 -0500] [ExoUNX in ##windows] Badrobot-, it's running silently through invoke process on TFS
+[2016-05-12 13:24:23 -0500] [gl in #bash] i don't know what Chet is, actually
+[2016-05-12 13:24:34 -0500] [greycat in #bash] It'll be tricky because POSIX is planning to include "local" in an upcoming edition of their spec, and that will dictate how the command has to work.
+[2016-05-12 13:24:36 -0500] [ExoUNX in ##windows] but I can try to run it as admin
+[2016-05-12 13:24:43 -0500] [gl in #bash] oh, it's a guy
+[2016-05-12 13:24:46 -0500] [gl in #bash] ha-ha.
+[2016-05-12 13:24:48 -0500] [tbaxter in #django] https://docs.djangoproject.com/en/1.8/ref/contrib/admin/admindocs/
+[2016-05-12 13:25:02 -0500] [po0dle in ##windows] echo errorlevel?
+[2016-05-12 13:25:04 -0500] [tbaxter in #django] Tells you every field for every installed app and model, and a whole lot more.
+[2016-05-12 13:25:10 -0500] [gl in #bash] greycat: mh ok, thanks
+[2016-05-12 13:25:15 -0500] [Smither in #debian] also if i ls /dev/input it shows only one mouse, mouse0, which is my optical mouse
+[2016-05-12 13:25:21 -0500] [tbaxter in #django] Near inidispensible if you're unsure what you're working with.
+[2016-05-12 13:25:52 -0500] [tbaxter in #django] although, truth be told, sometimes the easiest way is to just go look at the damn thing,
+[2016-05-12 13:26:09 -0500] [greycat in #bash] # x=~/bin; echo "<$x>"
+[2016-05-12 13:26:10 -0500] [shbot in #bash] greycat: </root/bin>
+[2016-05-12 13:26:12 -0500] [greycat in #bash] sh# x=~/bin; echo "<$x>"
+[2016-05-12 13:26:12 -0500] [shbot in #bash] greycat: </root/bin>
+[2016-05-12 13:26:14 -0500] [Alma in #bash] df --output argument to show complete disk capacity?
+[2016-05-12 13:26:23 -0500] [Alma in #bash] available and used are the ones I found
+[2016-05-12 13:26:27 -0500] [greycat in #bash] wait, *what*?  That isn't what it did in /msg.
+[2016-05-12 13:26:57 -0500] [greycat in #bash] Alma: you mean on Linux?
+[2016-05-12 13:27:03 -0500] [Alma in #bash] yes
+[2016-05-12 13:27:21 -0500] [tuxayo in #django] tbaxter, actually I was looking how to make __str__ specifically for the admin. So the listing of a Model would give a comprehensive info.
+[2016-05-12 13:27:31 -0500] [greycat in #bash] It's in the man page.  FIELD_LIST is a comma-separated list of columns to be included.   Valid field  names  are:  'source',  'fstype', ....
+[2016-05-12 13:27:51 -0500] [teraflops in #debian-es-offtopic] now playing Jordi Savall – Marche, IV.83 (Marais)
+[2016-05-12 13:28:23 -0500] [hubot__ in #debian] how to browse internet without google?
+[2016-05-12 13:28:35 -0500] [tbaxter in #django] tuxayo: because you're trying to control how the object is displayed or… ?
+[2016-05-12 13:28:38 -0500] [greycat in #bash] Oh.  *facepalm*  I forgot the export when I retyped without /msg
+[2016-05-12 13:28:38 -0500] [tuxayo in #django] And I'm looking for a way to not having to individually tune __str__ to get a basic overview of an object just by it's str
+[2016-05-12 13:28:45 -0500] [ExoUNX in ##windows] I
+[2016-05-12 13:28:48 -0500] [greycat in #bash] sh# export x=~/bin; echo "x=<$x>"
+[2016-05-12 13:28:49 -0500] [shbot in #bash] greycat: x=<~/bin>
+[2016-05-12 13:28:49 -0500] [ExoUNX in ##windows] I'm doing runas /env /user:domain\Administrator
+[2016-05-12 13:28:57 -0500] [ExoUNX in ##windows] how do I output the password with the command?
+[2016-05-12 13:29:03 -0500] [ExoUNX in ##windows] input*
+[2016-05-12 13:29:27 -0500] [greycat in #debian] Follow links from page to page.  This was called "surfing" back in the 1990s.  The original meaning of the word has been lost over time.
+[2016-05-12 13:29:46 -0500] [jhutchins in #debian] hubot__: Use a different search engine.
+[2016-05-12 13:29:48 -0500] [tbaxter in #django] IMO, str is ONLY useful in the admin, and even then only when list_display doesn't feel worth it. I don't think an object should ever be referenced directly, triggering the use of str, in a template.
+[2016-05-12 13:29:48 -0500] [TomTomTosch in #debian-offtopic] found a channel that is about refining precious metals. strangely captivating. https://youtu.be/HhuwO8AjM7k
+[2016-05-12 13:29:49 -0500] [datase in #debian-offtopic] YouTube: Precious Metal Refining Episode 4: Recovering gold from RAM - 0:12:54 - 196553 views - 5339 likes / 46 dislikes
+[2016-05-12 13:30:04 -0500] [tbaxter in #django] it sounds to me like you really want list_display
+[2016-05-12 13:30:07 -0500] [CrowX- in #django] I am sending emails through email using django.core.mail.get_connection to select gmail's smtp servers. It works fine, however, the emails I send are unread in my gmail, so they appear in my inbox folder as well ass the sent folder.
+[2016-05-12 13:30:18 -0500] [hubot__ in #debian] without any search enginme? jhutchins any other ways?
+[2016-05-12 13:30:33 -0500] [greycat in #debian] Fine, ignore me.
+[2016-05-12 13:30:39 -0500] [tuxayo in #django] tbaxter, I actually want to do this *only* for the admin
+[2016-05-12 13:30:49 -0500] [greycat in #debian] What is the purpose of this question, exactly?
+[2016-05-12 13:30:56 -0500] [CrowX- in #django] Is there a way to automatically mark them as seen, so I can only see them in the sent folder and not the inbox?
+[2016-05-12 13:31:15 -0500] [Iridos in #debian] Smither, well... at this point it would be good to know the exact hardware so one can check if kernels support it and from what version on...
+[2016-05-12 13:31:32 -0500] [tuxayo in #django] The repl part was because I have a similar need in other context
+[2016-05-12 13:31:36 -0500] [tbaxter in #django] tuxayo: well, reread my answer there…
+[2016-05-12 13:31:58 -0500] [Iridos in #debian] Smither, on the other hand, you could just try to install the newer kernel from backports and see if it supports it (see http://backports.debian.org/ )
+[2016-05-12 13:32:23 -0500] [Smither in #debian] Iridos: Acer Aspire ES1-512 only about 1.5yrs old now
+[2016-05-12 13:32:30 -0500] [Smither in #debian] and ok I'll try that
+[2016-05-12 13:32:38 -0500] [Iridos in #debian] I meant of the touchpad stuff
+[2016-05-12 13:33:35 -0500] [Iridos in #debian] most useful thing would be if lspci -nn shows it... (but can't see that on my laptop)
+[2016-05-12 13:33:39 -0500] [Smither in #debian] the touch pad is the inbuilt one I'll get a part number, one sec
+[2016-05-12 13:34:17 -0500] [po0dle in ##windows] blkshp : https://paste.ee/p/dw0fU
+[2016-05-12 13:34:58 -0500] [somiaj in #debian] Iridos: It might be the touch pad is on the ps2 device still or usb not pci
+[2016-05-12 13:35:19 -0500] [somiaj in #debian] Iridos, Smither: I'd expect the device to be in lsusb over lspci or just not listed if it is still using the ps2 bus
+[2016-05-12 13:37:27 -0500] [blkshp in ##windows] po0dle: im sorry, but you havent anwered all the questions, its been 12 minutes since i askd and i dont really want to keep waiting.
+[2016-05-12 13:37:34 -0500] [tadgh in #django] p"
+[2016-05-12 13:37:47 -0500] [tadgh in #django] ^ oops wrong terminal tab :|
+[2016-05-12 13:37:57 -0500] [po0dle in ##windows] No problem
+[2016-05-12 13:37:57 -0500] [marc_v92 in #django] Is there a way for me to customize the Django admin so that any time a certain model is referenced via ForeignKey, an additional button is added next to the Edit / Add icons beside the dropdown?
+[2016-05-12 13:38:12 -0500] [tuxayo in #django] tbaxter, right I was confused, I thought that list_display was for choosing to call another function than __str__. I misunderstood "If you don’t set list_display, the admin site will display a single column that displays the __str__() "
+[2016-05-12 13:38:35 -0500] [tbaxter in #django] marc_v92: for?
+[2016-05-12 13:38:43 -0500] [Smither in #debian] somiaj: in lsusb there are a couple of things that don't say what they are... something from chicony electronics Co, and something from Lite-on Technology Corp
+[2016-05-12 13:40:29 -0500] [tuxayo in #django] tbaxter, I read it too fast, list_display is definitely better than manually outputting thea attributes. Thanks a lot :)
+[2016-05-12 13:40:37 -0500] [frangor in #debian-es-offtopic] nas teraflops musiquero
+[2016-05-12 13:40:42 -0500] [tbaxter in #django] good.
+[2016-05-12 13:40:54 -0500] [teraflops in #debian-es-offtopic] hola gominola :P
+[2016-05-12 13:41:14 -0500] [tbaxter in #django] also, remember to avoid calling the raw object in the template.. {{ foo }} is often much less efficient than {{ foo.name }}
+[2016-05-12 13:41:18 -0500] [S_SubZero in ##windows] check event viewer
+[2016-05-12 13:41:22 -0500] [tbaxter in #django] iMO
+[2016-05-12 13:41:31 -0500] [marc_v92 in #django] tbaxter: We have some specific guidelines that must be followed when people link objects to certain resources through the admin. I've created a page that has all this info on it, and I want to add a "?" icon to that spot in the admin that links to the page I've created.
+[2016-05-12 13:41:59 -0500] [marc_v92 in #django] But only when a model has a ForeignKey to another model that falls into the scope of those guidelines.
+[2016-05-12 13:42:03 -0500] [tbaxter in #django] marc_v92: I've added that sort of thing as help_text before
+[2016-05-12 13:42:42 -0500] [marc_v92 in #django] tbaxter: The only issue with that is that I have to then manually add that to every model with the ForeignKey in it...that's a fairly large number, and the link may change.
+[2016-05-12 13:42:55 -0500] [marc_v92 in #django] Trying to adhere to the DRY principle that makes Django so wonderful. :)
+[2016-05-12 13:43:07 -0500] [tbaxter in #django] what aobut JS to add it afterwards?
+[2016-05-12 13:43:31 -0500] [PaulePanter in #debian] Hi. How do you deal with these new fancy distributed mirrors (deb.debian.org), when some of them go out of sync?
+[2016-05-12 13:43:33 -0500] [PaulePanter in #debian] Feh http://deb.debian.org/debian sid/main i386 libc6 i386 2.22-9                                                                             404  Not Found [IP: 80.252.110.38 80]
+[2016-05-12 13:43:52 -0500] [PaulePanter in #debian] is there an option to tell APT to try again for a certain amount of time?
+[2016-05-12 13:43:55 -0500] [tuxayo in #django] cnk, I'll continue searching how to an object attrs because even if it turn out to not be what I needed for the admin, it would be interesting to know. Thanks for your help! :)
+[2016-05-12 13:44:36 -0500] [rixi60 in #django] Hi guys, I have a Poll with participants where participants has a ForeignKey to the User model's phone_number field - would it be bad practice to set db_constraint to False to be able to invite users/phone_numbers which are not yet in the system?
+[2016-05-12 13:44:36 -0500] [marc_v92 in #django] tbaxter: Hmm, that's not a bad idea. Didn't think of that. Before I resort to JS though, is there no built-in way to accomplish something like this in admin.py, or when the Model is defined?
+[2016-05-12 13:44:43 -0500] [lopid in #bash] a file exists, eg. filename "foo-7". there is only one file like that, and i want to capture the bit after the hyphen into a variable. i could use ls or find. is there a pure bash way? iow, how to test for the existence of a file that matches a glob, and capture the globbed bit?
+[2016-05-12 13:44:46 -0500] [Alma in #bash] df -h --output=target / | sed -e /Mounted in/d
+[2016-05-12 13:45:12 -0500] [Alma in #bash] non finished regular expretion?
+[2016-05-12 13:45:25 -0500] [greycat in #bash] # file=foo-7; left=${file%-*}; right=${file#*-}; declare -p left right
+[2016-05-12 13:45:25 -0500] [frangor in #debian-es-offtopic] en el futuro diabetico por comer tanta gominola
+[2016-05-12 13:45:26 -0500] [shbot in #bash] greycat: declare -- left="foo"
+[2016-05-12 13:45:26 -0500] [shbot in #bash] greycat: declare -- right="7"
+[2016-05-12 13:45:37 -0500] [lopid in #bash] excellent, thanks
+[2016-05-12 13:45:54 -0500] [greycat in #bash] I don't have the slightly earthly clue how you thought ls or find would help.
+[2016-05-12 13:45:54 -0500] [Iridos in #debian] somiaj, yeah... I didn't see mine with lsusb either... well not obviously. but anyway, we can't ask judd about an usbid :P
+[2016-05-12 13:46:09 -0500] [lopid in #bash] wait - i need to test that the file exists
+[2016-05-12 13:46:12 -0500] [Camusensei in #bash] it's time for the "how to I make declare -p not print anything, it's messing up my script's output" question :D
+[2016-05-12 13:46:18 -0500] [tbaxter in #django] not that I can think of
+[2016-05-12 13:46:18 -0500] [greycat in #bash] Are you saying you also have to *discover the name* of the file?  That it's not already in a variable?  If so, try something like file=(*)
+[2016-05-12 13:46:25 -0500] [Alma in #bash] I solved, it was that blank space that  was bugging the command never mind
+[2016-05-12 13:46:29 -0500] [greycat in #bash] ... what?  Now it's an existence test?!?
+[2016-05-12 13:46:29 -0500] [lopid in #bash] aha
+[2016-05-12 13:46:33 -0500] [greycat in #bash] What the hell is going on
+[2016-05-12 13:46:34 -0500] [tbaxter in #django] rixi60: show your models. you don't FK to a field.
+[2016-05-12 13:47:07 -0500] [marc_v92 in #django] Ahh, think I found a way!
+[2016-05-12 13:47:13 -0500] [somiaj in #debian] yea I wonder what bus it uses then, maybe they are still on the ps2 bus
+[2016-05-12 13:47:14 -0500] [greycat in #bash] Every time I type the answer to one question another one has replaced it.
+[2016-05-12 13:47:23 -0500] [rixi60 in #django] tbaxter: yes i do - customuser = models.ForeignKey('customauth.CustomUser', to_field='phone_number')
+[2016-05-12 13:47:40 -0500] [lopid in #bash] "iow, how to test for the existence of a file that matches a glob, and capture the globbed bit?"
+[2016-05-12 13:47:41 -0500] [greycat in #bash] Let's spin the Wheel Of Telepathy...
+[2016-05-12 13:47:46 -0500] [greycat in #bash] Oh wait, another question.
+[2016-05-12 13:47:50 -0500] [po0dle in ##windows] Nothing there
+[2016-05-12 13:47:51 -0500] [lopid in #bash] nope
+[2016-05-12 13:47:55 -0500] [greycat in #bash] !faq 4
+[2016-05-12 13:47:55 -0500] [greybot in #bash] http://mywiki.wooledge.org/BashFAQ/004 -- How can I check whether a directory is empty or not?  How do I check for any *.mpg files, or count how many there are?
+[2016-05-12 13:47:59 -0500] [marc_v92 in #django] I can define a global class that extends admin.ModelAdmin, and applies a widget to models.ForeignKey.
+[2016-05-12 13:48:03 -0500] [greycat in #bash] That's what I was going to spin anyway.
+[2016-05-12 13:48:04 -0500] [somiaj in #debian] maybe lshw would list it?
+[2016-05-12 13:48:12 -0500] [Camusensei in #bash] wtf does iow mean?
+[2016-05-12 13:48:16 -0500] [greycat in #bash] in other words
+[2016-05-12 13:48:17 -0500] [marc_v92 in #django] Within the widget, I can check if the instance is pointing to the relevant model.
+[2016-05-12 13:48:21 -0500] [Camusensei in #bash] ok
+[2016-05-12 13:48:22 -0500] [marc_v92 in #django] And handle accordingly.
+[2016-05-12 13:48:27 -0500] [kal_cividFajdida in #debian-es] -hi, en esta instruccion, para fundir subtitulos y video,, con la iso-8857-9 resulta que las vocales acentuadas salen de aquella manera, cual es la iso para castellano?
+[2016-05-12 13:48:27 -0500] [kal_cividFajdida in #debian-es] well-wɛl-bien-lo_correcto-guau-anda-orale-¿y_bien?-pozo-¿entonces?-hueco_ascensor-tintero
+[2016-05-12 13:48:28 -0500] [greycat in #bash] Lame for "i.e."
+[2016-05-12 13:48:29 -0500] [tbaxter in #django] rixi60: I think you're making all of this much more complicated
+[2016-05-12 13:48:37 -0500] [tbaxter in #django] marc_v92: that might work.
+[2016-05-12 13:48:49 -0500] [kal_cividFajdida in #debian-es] mencoder -sub [Juego_de_Tronos_6x03_VOSE.srt] -subcp iso-8857-9 -ovc xvid -xvidencopts bitrate=687 -oac copy -o Juego_de_Tronos_6x03_sub-es.avi [Juego_de_Tronos_6x03_VOSE.avi]
+[2016-05-12 13:48:50 -0500] [marc_v92 in #django] Then, when I define the admin classes, I just point to "CustomModelAdmin" rather than "admin.ModelAdmin"
+[2016-05-12 13:49:02 -0500] [rixi60 in #django] tbaxter: can you think of a more simple solution?
+[2016-05-12 13:49:12 -0500] [teraflops in #debian-es-offtopic] la cominolas es de las pocas cosas que no puedo evitar
+[2016-05-12 13:49:18 -0500] [teraflops in #debian-es-offtopic] gominolas
+[2016-05-12 13:49:19 -0500] [greycat in #bash] There isn't a "capture the globbed part only" because the result of a glob is a list of filenames, and there's no indication which substrings of the filename came from which substrings of the glob.
+[2016-05-12 13:49:21 -0500] [Iridos in #debian] only thing not clearly identifyable are two "intel integrated rate matching hups" that I have... but that doesn't sound right
+[2016-05-12 13:49:25 -0500] [Camusensei in #bash] i.e. is supposed to be for an example, isn't it?
+[2016-05-12 13:49:26 -0500] [somiaj in #debian] Smither: how old of a laptop?
+[2016-05-12 13:49:32 -0500] [Iridos in #debian] he said 1.5y
+[2016-05-12 13:49:35 -0500] [marc_v92 in #django] Will give it a shot and let you know.
+[2016-05-12 13:49:36 -0500] [greycat in #bash] No.  I.e. stands for "id est" and translates to "that is".
+[2016-05-12 13:49:36 -0500] [tbaxter in #django] rixi60: why isn't participants simply an M2M with your custom user?
+[2016-05-12 13:49:46 -0500] [po0dle in ##windows] Ok thanks all
+[2016-05-12 13:49:51 -0500] [somiaj in #debian] PaulePanter: deb.debian.org? Do you mean httpredir.debian.org?
+[2016-05-12 13:49:56 -0500] [greycat in #bash] E.g. stands for "exemsomething gratis" and translates *loosely* to "for example".
+[2016-05-12 13:49:58 -0500] [jelly in #debian] Welcome to deb.debian.org!  This is deb.debian.org. This is an experimental service.
+[2016-05-12 13:50:04 -0500] [Camusensei in #bash] oh right sorry. I wonder how I managed to misread est as something else. stupid brain :)
+[2016-05-12 13:50:13 -0500] [blkshp in ##windows] well that was odd
+[2016-05-12 13:50:23 -0500] [GabrielGF in #debian-es] Hola. Estoy probando GeexBox para reutilizar una compu vieja. Funciona perfecto pero cuando intento reemplazar el monitor por el proyector de la escuela el sistema no inicia. Si inicio con monitor y lo cambio por el proyector no hay problema. ¿Alguien tiene idea?
+[2016-05-12 13:50:24 -0500] [Smither in #debian] yeh I got it about a year ago but the model wasn't new then
+[2016-05-12 13:50:26 -0500] [greycat in #bash] More literally to "free example".
+[2016-05-12 13:50:39 -0500] [jelly in #debian] that last quoted sentence is in bold.
+[2016-05-12 13:51:05 -0500] [somiaj in #debian] ahh, its something new, I can't keep up with the changes.
+[2016-05-12 13:51:18 -0500] [debian894 in #debian] Hello, I installed Capistrano for Website deployment and SSH Key for connect to my webserver. I can connect on my server with SSH Key with " git@myip -p 9325 ". But, when I went to deploy, I have this error "Connection refused" (ip, user, port and depot git is true). Can you help me ? Sorry for my bad english I'm french. Thanks :)
+[2016-05-12 13:51:20 -0500] [rixi60 in #django] tbaxter: here is my models - http://dpaste.com/3D2KYE4
+[2016-05-12 13:51:26 -0500] [Alma in #bash] I finished my homework
+[2016-05-12 13:51:29 -0500] [Alma in #bash] Thank you everyone
+[2016-05-12 13:51:33 -0500] [Alma in #bash] Especially you greycat
+[2016-05-12 13:51:34 -0500] [Alma in #bash] :)
+[2016-05-12 13:51:36 -0500] [somiaj in #debian] Smither: I don't think this will fix the issue, but you could try a kernel from jessie-backports. I doubt it is the issue though.
+[2016-05-12 13:51:38 -0500] [greycat in #bash] Fuck.
+[2016-05-12 13:51:41 -0500] [Alma in #bash] And you too Camusensei
+[2016-05-12 13:52:02 -0500] [Smither in #debian] K i'll install that and see what happens, I'll report back in a couple of mins
+[2016-05-12 13:52:06 -0500] [jelly in #debian] PaulePanter: so try the slightly older fancy redirector at httpredir.debian.org instead, maybe
+[2016-05-12 13:52:43 -0500] [tbaxter in #django] one sec… fixing merge confflict
+[2016-05-12 13:52:50 -0500] [nchambers in #bash] people have bash for homework?
+[2016-05-12 13:52:53 -0500] [rixi60 in #django] tbaxter: I need an entry for each participant since they should be given a unique link to participate in the poll - if it's a M2M to my customuser then i wauld not be able to invite people which are not yet in the database
+[2016-05-12 13:52:56 -0500] [greycat in #bash] Yes.
+[2016-05-12 13:53:09 -0500] [timvisher in #bash] did i hear someone say `local` doesn't do what i think it does?
+[2016-05-12 13:53:09 -0500] [nchambers in #bash] lame
+[2016-05-12 13:53:12 -0500] [somiaj in #debian] PaulePanter: what version of debian are you running?
+[2016-05-12 13:53:12 -0500] [greycat in #bash] Usually HORRIBLE homework questions with arbitrary restrictions and ludicrously stupid goals.
+[2016-05-12 13:53:27 -0500] [timvisher in #bash] greycat: sounds like app development ;P
+[2016-05-12 13:53:28 -0500] [nchambers in #bash] greycat, but they have to know how to pipe a file into grep!!!
+[2016-05-12 13:53:29 -0500] [Camusensei in #bash] timvisher: it does. It just also returns true
+[2016-05-12 13:53:40 -0500] [MarkX in ##windows] hi
+[2016-05-12 13:53:44 -0500] [PaulePanter in #debian] somiaj, jelly: I did get the same errors with httpredir.debian.net and http.debian.net before that.
+[2016-05-12 13:53:48 -0500] [greycat in #bash] nchambers: usually "you are not allowed to use sed, awk or grep" is one of the restrictions.
+[2016-05-12 13:54:09 -0500] [nchambers in #bash] This sounds stupid
+[2016-05-12 13:54:21 -0500] [MarkX in ##windows] i have a CDC ACM usb device. i'm trying to figure out how to get the built in usbser.sys driver to basically attach itself to the device but i don't know where to go.
+[2016-05-12 13:54:28 -0500] [MarkX in ##windows] using windows 8.1 x64.
+[2016-05-12 13:54:32 -0500] [greycat in #debian] !httpredir issues
+[2016-05-12 13:54:32 -0500] [dpkg in #debian] The <httpredir> service selects bad mirrors for some people. If you're one of them, try explicitly choosing a mirror: "deb http://ftp.XX.debian.org/debian jessie main" etc. (where XX is your, or a nearby, country code). Avoid using the US mirror round robin; ask me about <mirror list> <ftp.us.debian.org>.
+[2016-05-12 13:54:36 -0500] [PaulePanter in #debian] debian894: Did you put the port in Capistranos configuration? What is the output?
+[2016-05-12 13:54:41 -0500] [timvisher in #bash] Camusensei: so it's not on the list of things not to do?
+[2016-05-12 13:54:45 -0500] [timvisher in #bash] checks the pitfalls
+[2016-05-12 13:54:54 -0500] [greycat in #bash] !pf local
+[2016-05-12 13:54:55 -0500] [greybot in #bash] http://mywiki.wooledge.org/BashPitfalls#pf27 -- Don't do this! -- local varname=$(command)
+[2016-05-12 13:54:59 -0500] [Iridos in #debian] PaulePanter, just use the old http://ftp.xx.debian.org  with the country code?
+[2016-05-12 13:55:15 -0500] [greycat in #debian] That's what I always do.
+[2016-05-12 13:55:17 -0500] [MarkX in ##windows] anyone have any suggestions? i've tried an inf file from the microchip website but since i'm on 8.1x64 it needs proper driver signing even though it pretty much just references the usbser.sys
+[2016-05-12 13:55:18 -0500] [timvisher in #bash] ah. i'm thinking of 27
+[2016-05-12 13:55:23 -0500] [timvisher in #bash] yep
+[2016-05-12 13:55:28 -0500] [timvisher in #bash] not what i'm doing :)
+[2016-05-12 13:55:35 -0500] [PaulePanter in #debian] greycat, Iridos: It’s only happening once a week or even less.
+[2016-05-12 13:55:36 -0500] [debian894 in #debian] Thanks PaulePanter, I put the port in repo_url : set :repo_url, 'ssh://git@myserver:9325/var/www/depotsGit/project.git/'
+[2016-05-12 13:56:00 -0500] [Kadigan in ##windows] MarkX https://doc.hcc-embedded.com/display/INSTCDC/Windows+8 does this relate?
+[2016-05-12 13:56:07 -0500] [Ungy in #debian] I want to purge a single package and tehn reinstall it without having to redownload any of the dependencies how woudl I remove and purge that one package
+[2016-05-12 13:56:10 -0500] [tbaxter in #django] you can't FK or M2m with objects that don't exist.
+[2016-05-12 13:56:16 -0500] [greycat in #debian] dpkg --purge --force-depends
+[2016-05-12 13:56:17 -0500] [dpkg in #debian] drinks a glass of salty water, sticks his fingers down his throat and throws up --force-depends all over greycat and DammitJim...
+[2016-05-12 13:56:20 -0500] [greycat in #debian] shut up
+[2016-05-12 13:56:36 -0500] [Iridos in #debian] you asked for that :)
+[2016-05-12 13:56:50 -0500] [Kadigan in ##windows] (there's an alt method bottom of page in case driver signing is a problem)
+[2016-05-12 13:56:54 -0500] [tbaxter in #django] I don't see where you're using this Participant model at all
+[2016-05-12 13:56:56 -0500] [jelly in #debian] she's barfed, Jim
+[2016-05-12 13:57:10 -0500] [Kadigan in ##windows] ie. how to disable driver signature enforcement
+[2016-05-12 13:57:13 -0500] [MarkX in ##windows] ah let me look at the alt method. i wouldn't get that red popup unless i was in "test mode" iirc
+[2016-05-12 13:57:31 -0500] [Kadigan in ##windows] Unless of course You NEED driver signing to be working.
+[2016-05-12 13:57:52 -0500] [Kadigan in ##windows] (in which case it's probably a gov job and You need to contact the manufacturer for an updated, signed driver :D)
+[2016-05-12 13:58:01 -0500] [MarkX in ##windows] hmm i was trying to figure out an easy way.
+[2016-05-12 13:58:19 -0500] [Kadigan in ##windows] Security is in-your-way by design and by principle. ;)
+[2016-05-12 13:58:22 -0500] [PaulePanter in #debian] debian894: Does it work now?
+[2016-05-12 13:59:06 -0500] [MarkX in ##windows] heh
+[2016-05-12 13:59:11 -0500] [t4nk557 in #debian] Hello guys, i've a question, i've a huge file filled with proxy IP numbers. What do I need to type after sort to only keep the first IP that has the sames 3 first set of numbers ?
+[2016-05-12 13:59:17 -0500] [DELLtra in #debian-es] alquien que configure una tarjeta sangoma a200
+[2016-05-12 13:59:22 -0500] [MarkX in ##windows] i don't even know how i would include this in a release
+[2016-05-12 13:59:38 -0500] [greycat in #debian] That sounds like a really bad question.  How do you know every network has a /24 netmask?
+[2016-05-12 13:59:42 -0500] [DammitJim in #debian] woot?
+[2016-05-12 14:00:05 -0500] [debian894 in #debian] Thanks PaulePanter, I have this error again sh: connect to host MYIP port 9325: Connection refused
+[2016-05-12 14:00:21 -0500] [rixi60 in #django] tbaxter: whenever a poll is created an SMS is sent to each user which are not yet in the system therefore i need the phonenumber stored on the Participant model - maybe i should just have a field which says phone_number and another which is FK to the user if a user exists whith that phone number
+[2016-05-12 14:01:06 -0500] [t4nk557 in #debian] greycat: ?
+[2016-05-12 14:01:09 -0500] [ExoUNX in ##windows] Badrobot-, so the script is running as NETWORK SERVICE, I've given it full access to the files, and it runs as admin anyways I think
+[2016-05-12 14:01:13 -0500] [PaulePanter in #debian] debian894: Are you sure, that ssh://git@myserver:9325/var/www/depotsGit/project.git/ is the correct syntax?
+[2016-05-12 14:01:13 -0500] [ExoUNX in ##windows] it will run xcopy
+[2016-05-12 14:01:18 -0500] [tbaxter in #django] rixi60: probably.
+[2016-05-12 14:01:23 -0500] [ExoUNX in ##windows] but not the custom program
+[2016-05-12 14:01:31 -0500] [tbaxter in #django] I think you've got the right general idea with a sorta through table.. one sec
+[2016-05-12 14:01:35 -0500] [ExoUNX in ##windows] doesn't echo anything
+[2016-05-12 14:01:39 -0500] [t4nk557 in #debian] How would a dude that doesnt even know how to remove duplicate 3 set of number could do any tech harm lel
+[2016-05-12 14:01:41 -0500] [greycat in #debian] t4nk557: the first three octets are not necessarily the network for any given IP.  Without knowing the netmask you cannot determine the network.
+[2016-05-12 14:01:41 -0500] [ExoUNX in ##windows] not even an error
+[2016-05-12 14:01:47 -0500] [ExoUNX in ##windows] doesn't even seem to run the command
+[2016-05-12 14:02:11 -0500] [t4nk557 in #debian] I'm fine with that, I'm just trying things
+[2016-05-12 14:02:14 -0500] [debian894 in #debian] Yes PaulePanter , I'm sure beacause when I push with Netbeans, it's work true ... and same depots ...
+[2016-05-12 14:03:21 -0500] [PaulePanter in #debian] debian894: `set :repo_url, 'ssh://git@example.com:30000/~/me/my_repo.git' from the documentation http://capistranorb.com/documentation/getting-started/configuration/#
+[2016-05-12 14:03:39 -0500] [PaulePanter in #debian] debian894: I would have expected a : after the port though.
+[2016-05-12 14:04:04 -0500] [somiaj in #debian] Smither: On my laptop (decided to power it up), seems my touchpad uses the ps2 mousedriver (so the ps2 bus and unsure how to check that)
+[2016-05-12 14:04:04 -0500] [PaulePanter in #debian] debian894: Try to set the port in `~/.ssh/config` and leave it out from the Capistrano configuration.
+[2016-05-12 14:04:13 -0500] [tbaxter in #django] rixi60: my thoughts: http://dpaste.com/1H8HWM4
+[2016-05-12 14:04:19 -0500] [somiaj in #debian] Smither: I was able to find the mouse mentioned in dmesg, and i'm using the module 'psmouse' for it.
+[2016-05-12 14:04:21 -0500] [PaulePanter in #debian] debian894: man ssh_config
+[2016-05-12 14:04:38 -0500] [somiaj in #debian] Smither: I'm unsure about drivers for fancer touchpads (I just disable my touch pad and use a wireless mouse as I don't like touchpadS)
+[2016-05-12 14:04:57 -0500] [Iridos in #debian] for some reason I wonder if that's the same guy who asked how to crack passwords the last time
+[2016-05-12 14:05:29 -0500] [Sebastien in ##windows] i forgot how to enable/disable the preview panel in the file explorer.
+[2016-05-12 14:05:31 -0500] [Sebastien in ##windows] any idea ?
+[2016-05-12 14:05:36 -0500] [Sebastien in ##windows] win10
+[2016-05-12 14:05:44 -0500] [MarkX in ##windows] Kadigan, do you suggest maybe using the WinUSB Device drivers and having the device just show up as a composite device?
+[2016-05-12 14:05:46 -0500] [blkshp in ##windows] View : Preview pane
+[2016-05-12 14:05:49 -0500] [blkshp in ##windows] Sebastien:
+[2016-05-12 14:05:57 -0500] [TheBard in ##windows] Sebastien: its in the View tab
+[2016-05-12 14:06:12 -0500] [Sebastien in ##windows] oh
+[2016-05-12 14:06:13 -0500] [Sebastien in ##windows] shit
+[2016-05-12 14:06:16 -0500] [Sebastien in ##windows] hahaha
+[2016-05-12 14:06:16 -0500] [TheBard in ##windows] language
+[2016-05-12 14:06:22 -0500] [Iridos in #debian-offtopic] ($user@freenude/topless/$user)???
+[2016-05-12 14:06:25 -0500] [Sebastien in ##windows] i was there and didnt even see it
+[2016-05-12 14:06:26 -0500] [Iridos in #debian-offtopic] O_O
+[2016-05-12 14:06:27 -0500] [Sebastien in ##windows] oh shut it
+[2016-05-12 14:06:29 -0500] [Sebastien in ##windows] be an adult
+[2016-05-12 14:06:33 -0500] [Sebastien in ##windows] Ty guys
+[2016-05-12 14:06:46 -0500] [TheBard in ##windows] Sebastien: this is a moderated support channel, please follow the channel guidelines linked above
+[2016-05-12 14:07:17 -0500] [blkshp in ##windows] hes gone
+[2016-05-12 14:07:30 -0500] [TheBard in ##windows] consider it a curse then.
+[2016-05-12 14:07:42 -0500] [MarkX in ##windows] ha
+[2016-05-12 14:08:02 -0500] [acmehendel in #pocoo] I'd like to launch flask using twisted
+[2016-05-12 14:08:16 -0500] [acmehendel in #pocoo] the flask doc pages dont give enough information
+[2016-05-12 14:09:07 -0500] [rixi60 in #django] tbaxter: Thank's i will think a little further about it - i appreciate your input - your'e definitely right about the PK replacement, that was a mistake - but i need the uuid though to generate a link for the Poll
+[2016-05-12 14:09:42 -0500] [Iridos in #debian] or homework, it's mighty specific
+[2016-05-12 14:09:55 -0500] [simpson in #pocoo] acmehendel: I didn't want to write an essay on Twisted, but I can help you right now. (As can #twisted.web if you have further questions.)
+[2016-05-12 14:10:02 -0500] [rixi60 in #django] tbaxter: what do you mean by validation on the participant though? checking whether the phone_number/user exists?
+[2016-05-12 14:10:13 -0500] [acmehendel in #pocoo] ah, twisted.web
+[2016-05-12 14:10:17 -0500] [frangor in #debian-es-offtopic] yo hay temporadas que tampoco
+[2016-05-12 14:10:17 -0500] [acmehendel in #pocoo] I'm only in #twisted
+[2016-05-12 14:10:22 -0500] [frangor in #debian-es-offtopic] o las palomitas
+[2016-05-12 14:10:28 -0500] [frangor in #debian-es-offtopic] ahora me ha dado por palomitas
+[2016-05-12 14:10:33 -0500] [acmehendel in #pocoo] I didnt realize it would be so complicated though
+[2016-05-12 14:10:35 -0500] [teraflops in #debian-es-offtopic] uh dan sed
+[2016-05-12 14:10:41 -0500] [teraflops in #debian-es-offtopic] frutos secos
+[2016-05-12 14:10:42 -0500] [simpson in #pocoo] It shouldn't be. What have you tried so far?
+[2016-05-12 14:10:47 -0500] [teraflops in #debian-es-offtopic] gominolas o sugus :P
+[2016-05-12 14:10:51 -0500] [frangor in #debian-es-offtopic] depende de la cantidad de sal que le eches
+[2016-05-12 14:12:26 -0500] [acmehendel in #pocoo] the following command:  twistd -n web --wsgi app_file.app   I keep getting wsgi not defined which I can understand but I have a line app.wsgi_app = ProxyFix(app.wsgi_app)
+[2016-05-12 14:12:49 -0500] [acmehendel in #pocoo] and the file is importing ProxyFix
+[2016-05-12 14:13:08 -0500] [frangor in #debian-es-offtopic] teraflops: o las palomitas con azucar tb estan bien :)
+[2016-05-12 14:13:19 -0500] [Ungy in #debian] if I screwed a package up and manually deleted some files and I only get errors from apt and dpkg tryign to remove the package How do I get rid of it completely so dpkg will redownload it and rinstall it without any fragmented crap?
+[2016-05-12 14:13:44 -0500] [debian894 in #debian] PaulePanter, when I add ":" after the port, this connect on 22 port.
+[2016-05-12 14:13:46 -0500] [greycat in #debian] What errors do you get when purging it with dpkg (not apt)?
+[2016-05-12 14:14:06 -0500] [Ungy in #debian] it is looking for a file that doesn;t exist
+[2016-05-12 14:14:10 -0500] [greycat in #debian] *what errors*
+[2016-05-12 14:14:21 -0500] [simpson in #pocoo] acmehendel: Let's double-check that your app is importable. Could you do this from a Python prompt: >>> from app_file import app; app
+[2016-05-12 14:14:44 -0500] [Ungy in #debian] aha nevermind I got it found the last nasty fragment thanks for the help though
+[2016-05-12 14:14:56 -0500] [debian894 in #debian] PaulePanter and I think mu SSH config is true, because I can connect with console " ssh git@myserver -p 9325 ". Juste Capistrano return error :/
+[2016-05-12 14:15:11 -0500] [acmehendel in #pocoo] it is
+[2016-05-12 14:15:12 -0500] [acmehendel in #pocoo] no errors
+[2016-05-12 14:15:26 -0500] [acmehendel in #pocoo] and it returns <Flask app_file'>
+[2016-05-12 14:15:31 -0500] [greycat in #debian] debian894: the ssh_config suggestion was for you to put the port number in the ~/.ssh/config file so you don't have to enter it on the command line.
+[2016-05-12 14:15:33 -0500] [simpson in #pocoo] As hoped.
+[2016-05-12 14:15:36 -0500] [acmehendel in #pocoo] rather, app returns <Flask 'app_file'>
+[2016-05-12 14:15:38 -0500] [acmehendel in #pocoo] but yest
+[2016-05-12 14:15:40 -0500] [paul424 in #bash] if [ $1 = 0]
+[2016-05-12 14:15:47 -0500] [paul424 in #bash] I keep getting syntax errors
+[2016-05-12 14:15:49 -0500] [greycat in #debian] That way the thing that is wrapping ssh for you doesn't have to know how to specify a port.
+[2016-05-12 14:16:02 -0500] [greycat in #bash] There are two errors in that line.
+[2016-05-12 14:16:10 -0500] [greycat in #bash] Unquoted parameter expansion, and missing space between arguments.
+[2016-05-12 14:16:10 -0500] [KatsWhoSayNi in #bash] maybe you should stop guessing at syntax like you continue to do
+[2016-05-12 14:16:11 -0500] [sjohnson in #bash] paul424: your space looks kind of cock-eyed to me.
+[2016-05-12 14:16:20 -0500] [debian894 in #debian] Oh ok, thank grecat, I search make this
+[2016-05-12 14:16:30 -0500] [FOX3 in ##windows] looking for a new operating system
+[2016-05-12 14:16:36 -0500] [FOX3 in ##windows] linux preferably
+[2016-05-12 14:16:45 -0500] [simpson in #pocoo] Okay. Could you pastebin your Twisted log? I need to know what the error message looks like so that I can go search for it.
+[2016-05-12 14:16:49 -0500] [simpson in #pocoo] Something like https://bpaste.net/show/3c16bbc0f9f9
+[2016-05-12 14:16:52 -0500] [greycat in #debian] Host whatever.domain.name
+[2016-05-12 14:16:57 -0500] [greycat in #debian]     Port 23456
+[2016-05-12 14:17:16 -0500] [blkshp in ##windows] probably the wrong place for you then
+[2016-05-12 14:17:42 -0500] [acmehendel in #pocoo] I dont know that I have a twisted log
+[2016-05-12 14:17:51 -0500] [acmehendel in #pocoo] I'm launching it from the command line.
+[2016-05-12 14:17:56 -0500] [apsdoma in #bash] Hey
+[2016-05-12 14:17:57 -0500] [acmehendel in #pocoo] where would I search for the log?
+[2016-05-12 14:18:00 -0500] [apsdoma in #bash] hey guys, I had a small doubt. I searched around a lot on google and was not getting a satisfiable answer..... I am running a command through my bash script, How do I detect if the command I have executed is waiting for STDIN / input example: password prompt? Any help will be appreciated...
+[2016-05-12 14:18:15 -0500] [greycat in #debian] Of course this only works if your wrapping-thing ("capistrano"?) invokes /usr/bin/ssh rather than implementing the protocol internally.
+[2016-05-12 14:18:27 -0500] [greycat in #debian] But the odds are pretty good.
+[2016-05-12 14:18:27 -0500] [simpson in #pocoo] It should be spit out onto the command line, just like in that example.
+[2016-05-12 14:18:46 -0500] [Iridos in #debian] capistrano - tool to execute commands in parallel on multiple servers
+[2016-05-12 14:18:48 -0500] [greycat in #bash] You can't determine what some other process is waiting for.
+[2016-05-12 14:19:05 -0500] [Iridos in #debian] written in ruby, of all things
+[2016-05-12 14:19:08 -0500] [greycat in #debian] Gods, how many of those are there now?
+[2016-05-12 14:19:09 -0500] [acmehendel in #pocoo] ok.  that I have.
+[2016-05-12 14:19:29 -0500] [jelly in #debian-offtopic] paynudes are seldom worth the price
+[2016-05-12 14:19:36 -0500] [Iridos in #debian] this must be the... 6th one I heard of?
+[2016-05-12 14:19:36 -0500] [acmehendel in #pocoo] but the last two lines say self['root'] = wsgi.WSGIResource(reactor, pool, application)
+[2016-05-12 14:19:42 -0500] [greycat in #bash] You could close stdin and see if it pukes. ;-)
+[2016-05-12 14:19:42 -0500] [Camusensei in #bash] well if the programs that didn't need stdin closed it then maybe we could have this possible but... not the case :)
+[2016-05-12 14:19:45 -0500] [Iridos in #debian] maybe 7th?
+[2016-05-12 14:19:46 -0500] [acmehendel in #pocoo] then: NameError: name 'wsgi' is not defined
+[2016-05-12 14:20:09 -0500] [simpson in #pocoo] Uh-oh.
+[2016-05-12 14:20:30 -0500] [apsdoma in #bash] yeah...
+[2016-05-12 14:20:34 -0500] [jelly in #debian-offtopic] too, eurosong semifinals
+[2016-05-12 14:20:35 -0500] [greycat in #debian] They're multiplying like text editors or desktop environments.
+[2016-05-12 14:20:37 -0500] [Iridos in #debian] it's kind of good there are so many, because a lot of them are pretty crappy in some way
+[2016-05-12 14:20:38 -0500] [paul424 in #bash] what's wrong in : return $1 * $(( silnia (($1 - 1)) ))
+[2016-05-12 14:20:39 -0500] [jelly in #debian-offtopic] s/too/ooh/
+[2016-05-12 14:20:40 -0500] [simpson in #pocoo] Which version of Twisted is this? It should be front and center in the log.
+[2016-05-12 14:20:43 -0500] [paul424 in #bash] where silnia is a function
+[2016-05-12 14:20:45 -0500] [debian894 in #debian] Thanks greycat & PaulePanter, I created ssh config file. I can connect with command, but no with Capistrano, same error :(
+[2016-05-12 14:20:49 -0500] [simpson in #pocoo] Could you pastebin the entire log, with the traceback?
+[2016-05-12 14:20:56 -0500] [greycat in #bash] return takes a single argument, not a series of random mathematical symbols
+[2016-05-12 14:20:57 -0500] [jelly in #debian-offtopic] and cartoons after that.  /me found a new favorite channel
+[2016-05-12 14:21:09 -0500] [paul424 in #bash] ahh thanks
+[2016-05-12 14:21:09 -0500] [greycat in #bash] return $(( my stuff ))
+[2016-05-12 14:21:12 -0500] [Camusensei in #bash] I love those questions
+[2016-05-12 14:21:23 -0500] [acmehendel in #pocoo] 16.1.1
+[2016-05-12 14:21:35 -0500] [apsdoma in #bash] I have a bunch of commands to run, I can't close STDIN
+[2016-05-12 14:21:41 -0500] [simpson in #pocoo] Okay. So, I'm gonna try to reproduce this with the example application.
+[2016-05-12 14:21:42 -0500] [apsdoma in #bash] i can't test the water for each...
+[2016-05-12 14:21:46 -0500] [greycat in #bash] Oh, silnia is a function name, not a variable?  Then you ALSO forgot to put $(...) around it.  Or something.
+[2016-05-12 14:21:47 -0500] [NotAnNSAgent in ##windows] I'm willing to bet there is a "Billionaire Geek Edition" of Windows that has existed for many years and is like the normal Windows but without any junk and privacy-violating stuff. A separate branch, given far more care and robust like nothing else. And it's only available to really rich people.
+[2016-05-12 14:22:04 -0500] [blkshp in ##windows] for gods sake
+[2016-05-12 14:22:06 -0500] [greycat in #bash] apsdoma: there is no way to determine what some other process is doing, not even when it's your child.
+[2016-05-12 14:22:06 -0500] [NotAnNSAgent in ##windows] I wish I were running that.
+[2016-05-12 14:22:10 -0500] [Gershwin in ##windows] how much are you willing to wager?
+[2016-05-12 14:22:35 -0500] [Gershwin in ##windows] and which escrow service would you like to use for this bet?
+[2016-05-12 14:22:37 -0500] [NotAnNSAgent in ##windows] Have no money to bet.
+[2016-05-12 14:22:40 -0500] [apsdoma in #bash] @greycat: damn...
+[2016-05-12 14:22:42 -0500] [greycat in #bash] $((...)) and $(...) are totally, completely different.  They have nothing in common at all except that they are both substitutions.
+[2016-05-12 14:22:43 -0500] [merced in ##windows] the problem with that build of windows is
+[2016-05-12 14:22:47 -0500] [NotAnNSAgent in ##windows] And you wouldn't be able to prove either way.
+[2016-05-12 14:22:54 -0500] [Gershwin in ##windows] it's like court
+[2016-05-12 14:22:57 -0500] [merced in ##windows] they steal your cc info and buy a redhat subscription per day
+[2016-05-12 14:22:58 -0500] [Gershwin in ##windows] preponderance of the evidence
+[2016-05-12 14:23:07 -0500] [NotAnNSAgent in ##windows] ?
+[2016-05-12 14:23:13 -0500] [simpson in #pocoo] I can't reproduce this with the example application: https://bpaste.net/show/e83704322561
+[2016-05-12 14:23:19 -0500] [simpson in #pocoo] Can I see your traceback?
+[2016-05-12 14:23:39 -0500] [Iridos in #debian] that looks kinda complicated... more like puppet or so
+[2016-05-12 14:23:46 -0500] [Gershwin in ##windows] proof, in your sense, is not something used outside of mathematics and syllogistic logic
+[2016-05-12 14:23:47 -0500] [simpson in #pocoo] Oh! Oh. Do you, by chance, have a module named 'wsgi' nearby?
+[2016-05-12 14:24:12 -0500] [acmehendel in #pocoo] I'm on python3.4
+[2016-05-12 14:24:12 -0500] [paul424 in #bash] damm
+[2016-05-12 14:24:32 -0500] [acmehendel in #pocoo] no module named wsgi     ..... :/
+[2016-05-12 14:24:59 -0500] [simpson in #pocoo] Oh. Twisted isn't fully ported to Python 3. You can either join in the porting effort or use Python 2.
+[2016-05-12 14:25:44 -0500] [simpson in #pocoo] twisted.web.wsgi is probably a module in hot demand for porting, but apparently it's not done yet. The Python 3 tarball automatically excludes unported modules.
+[2016-05-12 14:26:31 -0500] [acmehendel in #pocoo] ok, well that explains that
+[2016-05-12 14:26:51 -0500] [CrowX- in #django] I am sending emails through email using django.core.mail.get_connection to select gmail's smtp servers. It works fine, however, the emails I send are unread in my gmail, so they appear in my inbox folder as well ass the sent folder.
+[2016-05-12 14:26:52 -0500] [CrowX- in #django] Is there a way to automatically mark them as seen, so I can only see them in the sent folder and not the inbox?
+[2016-05-12 14:26:58 -0500] [acmehendel in #pocoo] that might explain why I cant get treq 
+[2016-05-12 14:27:35 -0500] [acmehendel in #pocoo] or maybe not
+[2016-05-12 14:28:29 -0500] [jcotton in ##windows] Has anyone in here with a windows phone gotten 14342?
+[2016-05-12 14:30:08 -0500] [cnk in #django] CrowX-: I think you will have to do that with a filter on your email client. Django can't really control how things appear on the recieviing side of email
+[2016-05-12 14:30:21 -0500] [jcotton in ##windows] Oh, just PC
+[2016-05-12 14:30:22 -0500] [jcotton in ##windows] I'm dumb
+[2016-05-12 14:30:25 -0500] [Iridos in #debian] debian894, did you read in /usr/share/doc/capistrano/README.md.gz ?
+[2016-05-12 14:31:37 -0500] [telecity in #debian] w
+[2016-05-12 14:31:46 -0500] [Iridos in #debian] they explicitly set port in "Using password authentication" ... but no idea how that would go together with your config
+[2016-05-12 14:32:09 -0500] [CrowX- in #django] cnk, isn't there some way for to use the connection to do something to the email I'm sending, so it appears as seen in the sent folder?
+[2016-05-12 14:32:26 -0500] [koniiiik in #django] CrowX-: Depends -- what backend are you using? SMTP?
+[2016-05-12 14:32:28 -0500] [sepeck in ##windows] NotAnNSAgent: stop doing that.  You aren't goign to get anymore warnings on the subject
+[2016-05-12 14:32:30 -0500] [paul424 in #bash]         return $(( $1 * $(silnia $(( $1 - 1 )))  ))
+[2016-05-12 14:32:34 -0500] [paul424 in #bash] does not work either
+[2016-05-12 14:32:49 -0500] [greycat in #bash] What is in $1, and what is the stdout of that silnia function?
+[2016-05-12 14:33:16 -0500] [greycat in #bash] And what did it *do* instead of working?
+[2016-05-12 14:33:20 -0500] [CrowX- in #django] koniiiik, I think so... I specify host, port, password, user, etc.
+[2016-05-12 14:33:29 -0500] [CrowX- in #django] to django.core.mail.get_connection
+[2016-05-12 14:33:31 -0500] [Iridos in #debian-offtopic] jelly, one of a kind
+[2016-05-12 14:33:33 -0500] [paul424 in #bash] it's natural number and output is also a natural number
+[2016-05-12 14:33:45 -0500] [greycat in #bash] And what is your intention with this complex mathematical crap that is supposed to generate an exit status?
+[2016-05-12 14:33:48 -0500] [paul424 in #bash] it';s pol.ish for factorial
+[2016-05-12 14:33:55 -0500] [greycat in #bash] !exit
+[2016-05-12 14:33:55 -0500] [greybot in #bash] Every Unix process returns an exit status code to its parent. This is an unsigned 8-bit value, a number from 0 to 255 inclusive. Your script returns the exit status from the last command it executed, unless you specifically call "exit" with a value. Functions also return values, using "return".
+[2016-05-12 14:34:01 -0500] [greycat in #bash] !faq return a
+[2016-05-12 14:34:01 -0500] [greybot in #bash] http://mywiki.wooledge.org/BashFAQ/084 -- How do I return a string (or large number, or negative number) from a function?  "return" only lets me give a number from 0 to 255.
+[2016-05-12 14:34:14 -0500] [koniiiik in #django] Ah, okay; if you haven't changed EMAIL_BACKEND, then it's SMTP.
+[2016-05-12 14:34:21 -0500] [greycat in #bash] !factorial
+[2016-05-12 14:34:21 -0500] [greybot in #bash] fact() { local n=1 i; for ((i=1; i<=$1; i++)); do n=$((n*i)); done; echo $n; }
+[2016-05-12 14:34:36 -0500] [xamua in #bash] I'm missing something obvious. #!/usr/bin/bash env ; terminal=$(/bin/tty) ; echo "Hello" > "$terminal" <-- produces "Hello" in the file "not a tty"
+[2016-05-12 14:34:44 -0500] [koniiiik in #django] That's weird, though – gmail should treat that as outgoing email.
+[2016-05-12 14:34:52 -0500] [xamua in #bash] swap bash and env...
+[2016-05-12 14:35:02 -0500] [greycat in #bash] xamua: well, you're running it in a way that it has no terminal
+[2016-05-12 14:35:04 -0500] [paul424 in #bash] ./silnia.sh: line 8: 1 *   : syntax error: operand expected (error token is "*   ")
+[2016-05-12 14:35:37 -0500] [koniiiik in #django] Perhaps it might be possible to add a header that would set gmail's flags, but not sure...
+[2016-05-12 14:35:45 -0500] [geirha in #bash] your function doesn't output anything
+[2016-05-12 14:35:51 -0500] [xamua in #bash] greycat: from crontab
+[2016-05-12 14:35:57 -0500] [xamua in #bash] okay
+[2016-05-12 14:36:04 -0500] [greycat in #bash] That would be a great example of an env that has no terminal.
+[2016-05-12 14:36:05 -0500] [xamua in #bash] I got ya
+[2016-05-12 14:36:10 -0500] [paul424 in #bash] geirha: are yoyu talkign to me ?>
+[2016-05-12 14:36:15 -0500] [geirha in #bash] paul424: yes
+[2016-05-12 14:36:31 -0500] [greycat in #bash] He is mixing up return and output.
+[2016-05-12 14:36:35 -0500] [ewew in #debian-offtopic] Iridos You are refering to cloak of user in #freenode ?
+[2016-05-12 14:36:41 -0500] [greycat in #bash] Easy enough to understand since bash makes this incredibly weird.
+[2016-05-12 14:36:46 -0500] [Iridos in #debian-offtopic] in #debian
+[2016-05-12 14:37:02 -0500] [deb in #debian-es-offtopic] teraflops, como subes imagenes a ptpb.pw ?
+[2016-05-12 14:37:12 -0500] [ewew in #debian-offtopic] ok. But i saw some user with it in #freenode.
+[2016-05-12 14:37:21 -0500] [Iridos in #debian-offtopic] probably the same one!
+[2016-05-12 14:37:29 -0500] [TomTomTosch in #debian-offtopic] did you ask him for free nudes?
+[2016-05-12 14:37:38 -0500] [Iridos in #debian-offtopic] you do that!
+[2016-05-12 14:37:56 -0500] [deb in #debian-es-offtopic] desde el shell
+[2016-05-12 14:38:01 -0500] [Iridos in #debian-offtopic] my best guess is, it's someone from freenode staff who lost a bet
+[2016-05-12 14:38:02 -0500] [paul424 in #bash] aha what is output in bash ?
+[2016-05-12 14:38:16 -0500] [geirha in #bash] printf '%d\n' "$(( $1 * $(silnia $(( $1 - 1 )))  ))"
+[2016-05-12 14:38:25 -0500] [teraflops in #debian-es-offtopic] sip tengi un par de scripts te los paso dame un segunfo
+[2016-05-12 14:38:28 -0500] [teraflops in #debian-es-offtopic] do*
+[2016-05-12 14:38:45 -0500] [greycat in #bash] even echo would work since these are just integers
+[2016-05-12 14:38:49 -0500] [nchambers in #bash] \o/ Just got to explain to another coworker why cat $file | grep 'foo' is bad :D
+[2016-05-12 14:38:50 -0500] [ewew in #debian-offtopic] Does it matter why ? I think if staff would not like it. Certainly they will not allow it-
+[2016-05-12 14:38:53 -0500] [ewew in #debian-offtopic] .
+[2016-05-12 14:38:54 -0500] [greycat in #bash] printf is of course safer in the general case
+[2016-05-12 14:38:54 -0500] [nchambers in #bash] another one bites the dust
+[2016-05-12 14:39:24 -0500] [deb in #debian-es-offtopic] xD
+[2016-05-12 14:39:31 -0500] [Iridos in #debian-offtopic] well, sure it matters... there's probably a funny story behind that
+[2016-05-12 14:39:45 -0500] [Iridos in #debian-offtopic] and if not, we can put funny speculation in front of it
+[2016-05-12 14:39:56 -0500] [greycat in #bash] recursive factorial is the worst way to do factorial, especially if you're doing it with functions-that-write-to-stdout in bash, where every function call is a fork().
+[2016-05-12 14:40:11 -0500] [teraflops in #debian-es-offtopic] deb: este http://ix.io/DEU usa https://github.com/HalosGhost/pbpst y main
+[2016-05-12 14:40:13 -0500] [orome in #debian-es-offtopic] Title: GitHub - HalosGhost/pbpst: A command-line libcurl C client for pb deployments (at github.com)
+[2016-05-12 14:41:02 -0500] [teraflops in #debian-es-offtopic] deb: este otro es agnostico xD http://ix.io/DEV
+[2016-05-12 14:41:05 -0500] [paul424 in #bash] greycat: well that's teh way I wanted to learn hwo the functions in bash works
+[2016-05-12 14:41:15 -0500] [nchambers in #bash] !xy
+[2016-05-12 14:41:15 -0500] [greybot in #bash] http://mywiki.wooledge.org/XyProblem -- "I want to do X, but I'm asking how to do Y..."
+[2016-05-12 14:41:15 -0500] [greycat in #bash] !faq return a
+[2016-05-12 14:41:16 -0500] [greybot in #bash] http://mywiki.wooledge.org/BashFAQ/084 -- How do I return a string (or large number, or negative number) from a function?  "return" only lets me give a number from 0 to 255.
+[2016-05-12 14:41:25 -0500] [nchambers in #bash] just write functions that do things helpful paul424
+[2016-05-12 14:41:27 -0500] [ExoUNX in ##windows] are their any alternative commands to RunAS
+[2016-05-12 14:41:29 -0500] [larryba in ##windows] hi. is it possible to schedule a task to run during system wake up? I tried google but I only got hits for waking computer up to perform a task, rather than performing a task on a wake up
+[2016-05-12 14:41:34 -0500] [deb in #debian-es-offtopic] hmm
+[2016-05-12 14:41:37 -0500] [teraflops in #debian-es-offtopic] deb: no lo hago desde el shell lo hago con una secuencia de teclas
+[2016-05-12 14:41:39 -0500] [TomTomTosch in #debian-offtopic] they are obviously part of the free nudes foundation.
+[2016-05-12 14:41:42 -0500] [larryba in ##windows] or even better, can I run a task when new network is create?
+[2016-05-12 14:41:49 -0500] [deb in #debian-es-offtopic] yo nomas quiero subir x archivo ya hecho
+[2016-05-12 14:41:56 -0500] [SerajewelKS in #debian] i have an internet-facing MTA (postfix with virtual users) that serves mail with courier (pop + pop-ssl), and i have another server at my house that polls courier every minute and pulls down mail for one specific user into a local dovecot server
+[2016-05-12 14:42:11 -0500] [cnk in #django] CrowX-: you said they appear in sent and in your inbox. Are you on the recipients list?
+[2016-05-12 14:42:17 -0500] [deb in #debian-es-offtopic] y vim me da miedo
+[2016-05-12 14:42:18 -0500] [larryba in ##windows] created*
+[2016-05-12 14:42:23 -0500] [TomTomTosch in #debian-offtopic] libreboobs would be an awesome name for a site.
+[2016-05-12 14:42:24 -0500] [SerajewelKS in #debian] i'm trying to eliminate this one-minute polling cycle and allow the postfix server to notify my LAN server that it should fetch mail
+[2016-05-12 14:42:25 -0500] [teraflops in #debian-es-offtopic] deb: ah, curl -F c=@archivo https://ptpb.pw 
+[2016-05-12 14:42:27 -0500] [Skyrider in #debian] How easy would it be to setup debian with STUN? I think, so I can use my phone to connect to my home IP address to make / receive calls.
+[2016-05-12 14:42:27 -0500] [orome in #debian-es-offtopic] Title: pb (at ptpb.pw)
+[2016-05-12 14:42:35 -0500] [Skyrider in #debian] with SIP.
+[2016-05-12 14:42:36 -0500] [deb in #debian-es-offtopic] eso!
+[2016-05-12 14:42:42 -0500] [jcotton in ##windows] ExoUNX: what's wrong with runas.exe
+[2016-05-12 14:42:49 -0500] [teraflops in #debian-es-offtopic] te devuelve la url
+[2016-05-12 14:42:56 -0500] [jelly in #debian] SerajewelKS: set up an imap-capable server side with IMAP IDLE support
+[2016-05-12 14:43:14 -0500] [frangor in #debian-es-offtopic] clbin tb es otra similar :)
+[2016-05-12 14:43:23 -0500] [teraflops in #debian-es-offtopic] usa netcat :S
+[2016-05-12 14:43:33 -0500] [CrowX- in #django] cnk, I am not.
+[2016-05-12 14:43:41 -0500] [frangor in #debian-es-offtopic] el que?
+[2016-05-12 14:43:44 -0500] [teraflops in #debian-es-offtopic] nc
+[2016-05-12 14:43:48 -0500] [deb in #debian-es-offtopic] https://ptpb.pw/kBP3.png
+[2016-05-12 14:43:52 -0500] [CrowX- in #django] cnk, the emails are in the sent folder only, but they appear in the inbox just because they are not 'seen'
+[2016-05-12 14:44:00 -0500] [teraflops in #debian-es-offtopic] deb: xD
+[2016-05-12 14:44:01 -0500] [frangor in #debian-es-offtopic] no se que es eso... ^_^'
+[2016-05-12 14:44:01 -0500] [deb in #debian-es-offtopic] eso me gusto
+[2016-05-12 14:44:14 -0500] [cnk in #django] oh how very odd
+[2016-05-12 14:44:18 -0500] [asimoviano in #debian-es] saludos
+[2016-05-12 14:44:28 -0500] [asimoviano in #debian-es] esto mas que una curiosidad es una necesidad
+[2016-05-12 14:44:32 -0500] [deb in #debian-es-offtopic] es un worldcloud de las palabras mas usadas en #debian-es y offtopic este rato
+[2016-05-12 14:44:43 -0500] [asimoviano in #debian-es] alguien conoce algun programa
+[2016-05-12 14:44:45 -0500] [teraflops in #debian-es-offtopic] frangor: ah no era clbin el ue usaba netcat?
+[2016-05-12 14:44:47 -0500] [frangor in #debian-es-offtopic] porque te has puesto mas grande y en el centro? xD
+[2016-05-12 14:44:48 -0500] [teraflops in #debian-es-offtopic] cuel era entonces?
+[2016-05-12 14:44:56 -0500] [teraflops in #debian-es-offtopic] frangor: porque es suyo jaja
+[2016-05-12 14:45:07 -0500] [asimoviano in #debian-es] que diga la posicion exacta en la que esta el modem que brinda el servicio de internet
+[2016-05-12 14:45:09 -0500] [asimoviano in #debian-es] es decir
+[2016-05-12 14:45:12 -0500] [frangor in #debian-es-offtopic] teraflops: no tengo ni idea, no se que es nc xD
+[2016-05-12 14:45:14 -0500] [jelly in #debian-offtopic] libreboot is 88% there
+[2016-05-12 14:45:16 -0500] [frangor in #debian-es-offtopic] quizas si lo usa
+[2016-05-12 14:45:16 -0500] [asimoviano in #debian-es] algo asi como un radar
+[2016-05-12 14:45:17 -0500] [teraflops in #debian-es-offtopic] frangor: jojo
+[2016-05-12 14:45:30 -0500] [frangor in #debian-es-offtopic] teraflops: yo lo uso con curl
+[2016-05-12 14:45:37 -0500] [teraflops in #debian-es-offtopic] escribe man nc
+[2016-05-12 14:45:39 -0500] [teraflops in #debian-es-offtopic] ;P
+[2016-05-12 14:45:50 -0500] [teraflops in #debian-es-offtopic] !google netcat 
+[2016-05-12 14:45:52 -0500] [orome in #debian-es-offtopic] teraflops: Netcat - Wikipedia, la enciclopedia libre: <https://es.wikipedia.org/wiki/Netcat>; Netcat - Wikipedia, the free encyclopedia: <https://en.wikipedia.org/wiki/Netcat>; NETCAT : Comandos útiles. - Gr2Dest: <http://www.gr2dest.org/netcat-comandos-utiles/>
+[2016-05-12 14:45:52 -0500] [SerajewelKS in #debian] jelly: that's one option i'm considering
+[2016-05-12 14:45:59 -0500] [frangor in #debian-es-offtopic] teraflops: nah, en verdad si que se lo que es, estaba pensando en servidores web
+[2016-05-12 14:46:04 -0500] [teraflops in #debian-es-offtopic] xd
+[2016-05-12 14:46:09 -0500] [teraflops in #debian-es-offtopic] ya sabia que lo sabuias
+[2016-05-12 14:46:10 -0500] [SerajewelKS in #debian] jelly: i don't suppose that courier and dovecot can coexist sharing the same maildirs?
+[2016-05-12 14:46:14 -0500] [asimoviano in #debian-es] que diga: el modem del internet se ecuentra a 5 metros del computador en direccion suroeste
+[2016-05-12 14:46:16 -0500] [asimoviano in #debian-es] o algo asi
+[2016-05-12 14:46:27 -0500] [solidvance in #django] turn off send copies to you?
+[2016-05-12 14:46:52 -0500] [solidvance in #django] there should be no reason they're ending up in your inbox unless something like that is enabled
+[2016-05-12 14:46:57 -0500] [frangor in #debian-es-offtopic] teraflops: pense que te quejabas porque usaba software privativo como servidor web o algo asi, se me ha ido la olla.. como netcat suena similar a tomcat que si es un servidor de aplicaciones xD
+[2016-05-12 14:47:14 -0500] [asimoviano in #debian-es] se que suena raro
+[2016-05-12 14:47:16 -0500] [asimoviano in #debian-es] pero el problema
+[2016-05-12 14:47:37 -0500] [asimoviano in #debian-es] es que hay un modem dentro de la estructura del edificio donde trabajo que no se sabe donde se encuentra con exactitud
+[2016-05-12 14:47:39 -0500] [frangor in #debian-es-offtopic] deb: muy mal por no añadirme, siento celos de vosotros dos.. :(
+[2016-05-12 14:47:39 -0500] [kal_cividFajdida in #debian-es] asimoviano: lo dudo. Si estas conectado por un proveedor, te asigna una ip y saldra el lugar donde esta el servidor dns del proveedor, p. ej, , el mio sale en otra ciudad a 150 km de mi.
+[2016-05-12 14:48:05 -0500] [asimoviano in #debian-es] kal_cividFajdida: me refiero en una red local
+[2016-05-12 14:48:11 -0500] [frangor in #debian-es-offtopic] deb y teraflops ahi con el mismo color..
+[2016-05-12 14:48:20 -0500] [kal_cividFajdida in #debian-es] ahh vale.
+[2016-05-12 14:48:22 -0500] [asimoviano in #debian-es] algo que diga: el equipo con la ip 10.0.0.1 esta en tal sitio
+[2016-05-12 14:48:29 -0500] [asimoviano in #debian-es] a tal distancia
+[2016-05-12 14:48:32 -0500] [asimoviano in #debian-es] en tal direccion
+[2016-05-12 14:48:34 -0500] [asimoviano in #debian-es] o algo mejor
+[2016-05-12 14:48:35 -0500] [asimoviano in #debian-es] :D
+[2016-05-12 14:48:52 -0500] [deb in #debian-es-offtopic] jaja
+[2016-05-12 14:48:55 -0500] [deb in #debian-es-offtopic] no hablas
+[2016-05-12 14:49:05 -0500] [deb in #debian-es-offtopic] deja saco uno de este canal en especifico
+[2016-05-12 14:49:07 -0500] [greycat in #debian] They can't both share the same IMAP listening port, that's for sure.
+[2016-05-12 14:49:13 -0500] [jelly in #debian] SerajewelKS: never tried anything that silly, just local mutt + dovecot
+[2016-05-12 14:49:15 -0500] [TomTomTosch in #debian-offtopic] just copy their website, replace all technical terms with the word 'boobs', add some pictures. done!
+[2016-05-12 14:49:32 -0500] [jelly in #debian] mutt tampering with Maildir directly, that is
+[2016-05-12 14:49:36 -0500] [kal_cividFajdida in #debian-es] hay un cmd que te dice la ruta del recorrido de una señal que envies, pero no te dice en que piso esta.
+[2016-05-12 14:49:40 -0500] [Stryyker in ##windows] larryba: If you find entries in event viewer as suitable triggers then they can be used for task triggers.
+[2016-05-12 14:49:43 -0500] [greycat in #debian] I gave up on courier-imap after they changed their entire setup around in some godawful confusing way that I couldn't be bothered to try to sort out.
+[2016-05-12 14:49:56 -0500] [asimoviano in #debian-es] bien
+[2016-05-12 14:50:02 -0500] [greycat in #debian] If you make it *THAT* fucking hard to use normal unix user accounts with passwords, something is wrong with you.
+[2016-05-12 14:50:06 -0500] [asimoviano in #debian-es] es mas o menos lo que necesito
+[2016-05-12 14:50:12 -0500] [asimoviano in #debian-es] puedo entrar al modem y activar el wifi
+[2016-05-12 14:50:21 -0500] [jelly in #debian-offtopic] cloud2butt has been done
+[2016-05-12 14:50:29 -0500] [SerajewelKS in #debian] jelly: in my case i don't want my edge MTA storing all of my mail, i want that on my local server, which is then served using IMAP to my desktop/mobile clients
+[2016-05-12 14:50:36 -0500] [asimoviano in #debian-es] no tengo nada encontra del modem.... el problema es que no esta del inversor
+[2016-05-12 14:50:48 -0500] [asimoviano in #debian-es] y cada que hay cambio de luz los equipos que estan conectado a el pierden la red
+[2016-05-12 14:50:58 -0500] [teraflops in #debian-es-offtopic] haha
+[2016-05-12 14:51:18 -0500] [jelly in #debian] usually people transport mail using some sort of a... simple mail transport protocol
+[2016-05-12 14:51:25 -0500] [koollman in #debian] :)
+[2016-05-12 14:51:29 -0500] [asimoviano in #debian-es] pero el problema es... que tiene que estar dentro del techo... y no quiisiera romper en vano...
+[2016-05-12 14:51:37 -0500] [TomTomTosch in #debian-offtopic] bahahaha "Build Your OpenStack Butt in Minutes, Butt Resources On Demand"
+[2016-05-12 14:51:42 -0500] [greycat in #debian] I don't know what IMAP IDLE is, but a reverse ssh tunnel would also allow you to deliver mail from the "edge server" to the "local server" even if the "edge server" cannot make a direct SMTP connection to the "local server".
+[2016-05-12 14:52:01 -0500] [jelly in #debian] greycat: think "push notifications"
+[2016-05-12 14:52:09 -0500] [greycat in #debian] I was guessing something like that.
+[2016-05-12 14:52:12 -0500] [asimoviano in #debian-es] si existiera algo... como el radar de las esferas del dragon....
+[2016-05-12 14:52:15 -0500] [SerajewelKS in #debian] jelly: i did think about forwarding, but that has the downside that if my home server goes offline for an extended period of time (it has happened unexpectedly due to ISP dumbness) then my edge MTA is going to start bouncing stuff
+[2016-05-12 14:52:15 -0500] [deb in #debian-es-offtopic] ah fijate status: already exists osea que el curl ese tiene limites?
+[2016-05-12 14:52:16 -0500] [asimoviano in #debian-es] :P
+[2016-05-12 14:52:26 -0500] [frangor in #debian-es-offtopic] xDD
+[2016-05-12 14:52:26 -0500] [teraflops in #debian-es-offtopic] no que yo sepa
+[2016-05-12 14:52:31 -0500] [greycat in #debian] Um.  And this is a problem because...?
+[2016-05-12 14:52:39 -0500] [jelly in #debian-offtopic] how is Australia on Eurovision?!
+[2016-05-12 14:53:12 -0500] [jelly in #debian-offtopic] I don't even.  But her song and her voice are very nice.
+[2016-05-12 14:53:18 -0500] [adamsilver in #bash] How do I store the result of this in a variable: $dir | awk -F/ '{print $(NF-2)}'
+[2016-05-12 14:53:23 -0500] [TomTomTosch in #debian-offtopic] you ask too many questions.
+[2016-05-12 14:53:29 -0500] [greycat in #bash] !faq 2
+[2016-05-12 14:53:30 -0500] [greybot in #bash] http://mywiki.wooledge.org/BashFAQ/002 -- How can I store the return value and/or output of a command in a variable?
+[2016-05-12 14:53:33 -0500] [SerajewelKS in #debian] it seems a bit obvious to me?
+[2016-05-12 14:53:46 -0500] [greycat in #debian] if your mail server is down for 10 days, then mail bounces.
+[2016-05-12 14:53:52 -0500] [frangor in #debian-es-offtopic] teraflops: :O Fue originalmente desarrollada por Hobbit en 1996 <- que hobbit sera? Frodo?
+[2016-05-12 14:54:00 -0500] [frangor in #debian-es-offtopic] nah, estoy cansado
+[2016-05-12 14:54:04 -0500] [frangor in #debian-es-offtopic] deberia ir a dormir ya xDD
+[2016-05-12 14:54:11 -0500] [adamsilver in #bash] faq #2? :D
+[2016-05-12 14:54:12 -0500] [teraflops in #debian-es-offtopic] nah frodo es un paná
+[2016-05-12 14:54:13 -0500] [SerajewelKS in #debian] in the case where i control both the edge and the local server, i would rather mail pool on the edge indefinitely until the local server comes back up
+[2016-05-12 14:54:15 -0500] [teraflops in #debian-es-offtopic] seria sam
+[2016-05-12 14:54:21 -0500] [greycat in #debian] You are weird.
+[2016-05-12 14:54:21 -0500] [adamsilver in #bash] I actually tried that but it's giving an error
+[2016-05-12 14:54:25 -0500] [jelly in #debian] 5 days, but SerajewelKS controls his own previous hop, so he can configure whatever queue lifetime
+[2016-05-12 14:54:38 -0500] [adamsilver in #bash] bad substitution
+[2016-05-12 14:54:39 -0500] [KatsWhoSayNi in #bash] surely you mean echo "$dir" | awk ...
+[2016-05-12 14:54:45 -0500] [greycat in #debian] Well, a fixed number of days, generally around 7, configured in the MTA.
+[2016-05-12 14:55:00 -0500] [greycat in #bash] or awk '...' <<< "$dir"
+[2016-05-12 14:55:07 -0500] [yitz_ in #bash] awl <<< "$d"  ...
+[2016-05-12 14:55:08 -0500] [yitz_ in #bash] ^
+[2016-05-12 14:55:23 -0500] [jelly in #debian] I've... not seen anytihng larger than 5 says since I first saw a Sendmail install 20 years back
+[2016-05-12 14:55:30 -0500] [SerajewelKS in #debian] greycat: i am treating the local server as a mail store, not an MTA -- if mail can be delivered to the edge MTA i don't want to lose it.  it's my mail.  if my mail store is down then it can sit there until the mail store becomes available.
+[2016-05-12 14:55:36 -0500] [yitz_ in #bash] adamsilver: Yes, FAQ2. If you got an error, do it right. Feel free to share the error here
+[2016-05-12 14:55:36 -0500] [greycat in #bash] or  IFS=/ read -ra x <<< "$dir"; variable=${x[@]:(-2):1}
+[2016-05-12 14:55:42 -0500] [adamsilver in #bash] this worked `echo $dir | awk -F/ '{print $(NF-2)}'`
+[2016-05-12 14:55:50 -0500] [greycat in #bash] !quotes > adamsilver
+[2016-05-12 14:55:51 -0500] [greybot in #bash] adamsilver: "Double quote" every literal that contains spaces/metacharacters and _every_ expansion: "$var", "$(command "$var")", "${array[@]}", "a & b". Use 'single quotes' for code or literal $'s: 'Costs $5 US', ssh host 'echo "$HOSTNAME"'. See http://mywiki.wooledge.org/Quotes , http://mywiki.wooledge.org/Arguments and http://wiki.bash-hackers.org/syntax/words .
+[2016-05-12 14:56:01 -0500] [greycat in #bash] THAT IS NOT NEGOTIABLE.  QUOTING MUST BE PERFORMED.
+[2016-05-12 14:56:08 -0500] [KatsWhoSayNi in #bash] !qefe
+[2016-05-12 14:56:08 -0500] [greybot in #bash] "$QUOTE" "$EVERY" "$FUCKING" "$EXPANSION"
+[2016-05-12 14:56:10 -0500] [greycat in #bash] The `...` is negotiable if you're an idiot.
+[2016-05-12 14:56:26 -0500] [yitz_ in #bash] Can I negotiate the "$"?
+[2016-05-12 14:56:50 -0500] [SerajewelKS in #debian] (and then i have the fallback option of sshing to my edge server and reading the mail with mutt)
+[2016-05-12 14:56:51 -0500] [greycat in #bash] Yes, if you're an idiot you can use `...` instead.
+[2016-05-12 14:57:09 -0500] [larryba in ##windows] Stryyker yeah I see it
+[2016-05-12 14:57:15 -0500] [deb in #debian-es-offtopic] hmm estaba mal mi script xD https://ptpb.pw/JGfF.png
+[2016-05-12 14:57:26 -0500] [larryba in ##windows] i didn't know task scheduler is this neat
+[2016-05-12 14:57:31 -0500] [jelly in #debian] why not always use the remote imap server, then
+[2016-05-12 14:57:38 -0500] [jelly in #debian] (pop3 must die)
+[2016-05-12 14:57:52 -0500] [yitz_ in #bash] Oops. Heh. I was thinking of the $ in $dir but I suppose that works
+[2016-05-12 14:58:06 -0500] [greycat in #debian] Set up a script that sshes to the remote box and runs the queue.  Set the "local server" up to run that script every time you open your MUA.
+[2016-05-12 14:58:08 -0500] [SerajewelKS in #debian] i'm not fond of all of my mail sitting in storage on rented hardware
+[2016-05-12 14:58:10 -0500] [adamsilver in #bash] >"$QUOTE" "$EVERY" "$FUCKING" "$EXPANSION" ... why is that? I don't like adding superfluous stuff. Bash syntax is not the prettiest and adding stuff that could be omitted make it worse
+[2016-05-12 14:58:19 -0500] [larryba in ##windows] no event when new network is created or when connection on specific network adapter is established though. or maybe i am looking in the wrong section
+[2016-05-12 14:58:21 -0500] [greycat in #bash] !quotes
+[2016-05-12 14:58:22 -0500] [greybot in #bash] "Double quote" every literal that contains spaces/metacharacters and _every_ expansion: "$var", "$(command "$var")", "${array[@]}", "a & b". Use 'single quotes' for code or literal $'s: 'Costs $5 US', ssh host 'echo "$HOSTNAME"'. See http://mywiki.wooledge.org/Quotes , http://mywiki.wooledge.org/Arguments and http://wiki.bash-hackers.org/syntax/words .
+[2016-05-12 14:58:31 -0500] [greycat in #bash] IT CANNOT BE OMITTED.
+[2016-05-12 14:58:41 -0500] [jelly in #debian] SerajewelKS: why not?  If you need backup, set up backup.
+[2016-05-12 14:58:42 -0500] [KatsWhoSayNi in #bash] Properly quoted bash looks perfectly fine.
+[2016-05-12 14:58:48 -0500] [shenk` in #django] Hey guys I am having some trouble with a contact form, I want it to send the contact email and also store the form into a model
+[2016-05-12 14:58:57 -0500] [yitz_ in #bash] adamsilver: It's not "superfluous"; it is required
+[2016-05-12 14:59:02 -0500] [shenk` in #django] Anyone have a second to listen ?
+[2016-05-12 15:00:28 -0500] [adamsilver in #bash] ok, I copied the above to read it carefully later. Thanks :)
+[2016-05-12 15:00:43 -0500] [Stryyker in ##windows] no idea
+[2016-05-12 15:00:54 -0500] [Stryyker in ##windows] there are some networking sections in event viewer
+[2016-05-12 15:00:57 -0500] [yitz_ in #bash] The !qefe line?
+[2016-05-12 15:01:02 -0500] [yitz_ in #bash] wanders off to nap
+[2016-05-12 15:01:04 -0500] [geirha in #bash] ommitting them adds superfluous behavior
+[2016-05-12 15:01:24 -0500] [yitz_ in #bash] geirha: "features"!\
+[2016-05-12 15:01:25 -0500] [KatsWhoSayNi in #bash] Which tends to only strike at 2am in the morning
+[2016-05-12 15:01:28 -0500] [deb in #debian-es-offtopic] https://ptpb.pw/PBFE.png  por usuarios, oyes pues los crea en menos de 5 segundos esta cosa, antes tenia que abrir el navegador y etc etc, ahora si me gusta xD
+[2016-05-12 15:01:45 -0500] [KatsWhoSayNi in #bash] When all your VMs get nuked
+[2016-05-12 15:01:50 -0500] [KatsWhoSayNi in #bash] looks at 123-reg
+[2016-05-12 15:01:51 -0500] [pitolek in #django] shenk`: so whats the problem?
+[2016-05-12 15:01:59 -0500] [greycat in #bash] !august
+[2016-05-12 15:02:00 -0500] [greybot in #bash] August is the month when all your scripts break because you placed $(date +%m) in a variable and tried to do arithmetic with it, without removing the leading zeros. 08 is considered octal. Use $((10#$month)) to force decimal, or strip the zero.
+[2016-05-12 15:02:18 -0500] [deb in #debian-es-offtopic] commiting xD
+[2016-05-12 15:02:25 -0500] [shenk` in #django] Basically, the email is never sent and the logging in form_valid in the CBV is never called so the form never seems to be valid.  Also the model isn't saved.  I'm not sure whether to write a save method inside the form, or to just call form.save() inside the contact CBV.

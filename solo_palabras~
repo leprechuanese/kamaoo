@@ -3,16 +3,17 @@
 # crea solo palabras del log
 in="$1"
 canal="$2"
+filtro='[,:.\"\}\^\=\#\*\/\{\!\(\)\-\]'
 if [ ! -f "$in" ]; then
 	echo "File not found! '$in'"
-	echo "Usage: $0 <archivo_log> <canal>"
+	echo "Usage: $0 <archivo_log>"
 	exit
 fi
 echo 
 while IFS= read -r line; do
 	words=$(echo "$line" | grep "$canal" | awk '{print $7}')
-	if [ ${words//[,:.\"]} ]; then
-		echo -n "${words//[,:.\"]} "
+	if [ ${words//$filtro} ]; then
+		echo -n "${words//$filtro} "
 	fi
 done < "$in"
 echo;echo

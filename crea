@@ -1,0 +1,3 @@
+./solo_users "lita_chat.log" > data-log
+python crea_grafica-colored.p
+

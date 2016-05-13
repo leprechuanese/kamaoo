@@ -1,0 +1,14 @@
+## backup
+cp fn-worldcloud-color.png logs/.
+cp lita_chat.log logs/.
+cp data-log logs/.
+rm lita_chat.log
+cd logs
+fecha=$(date +"%Y-%m-%d.%H:%m")
+mkdir $fecha
+for i in *; do
+	mv "$i" "$fecha/$fecha.$i"
+done
+cd ..
+
+

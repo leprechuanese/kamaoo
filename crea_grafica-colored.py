@@ -38,7 +38,7 @@ stopwords = STOPWORDS.copy()
 stopwords.add("int")
 stopwords.add("ext")
 
-wc = WordCloud(max_words=1000, mask=mask, stopwords=stopwords, margin=10,
+wc = WordCloud(max_words=1536, mask=mask, stopwords=stopwords, margin=10,
                random_state=1).generate(text)
 # store default colored image
 default_colors = wc.to_array()

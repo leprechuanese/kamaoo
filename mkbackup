@@ -22,6 +22,11 @@ mv fn-worldcloud-color.png "logs/$fecha/users.$fecha.png"
 
 cp lita_chat.log "logs/$fecha/lita_chat.log"
 
+echo "compressing folder ..."
+tar -zcvf $(pwd)/logs/$fecha.tar.gz $(pwd)/logs/$fecha
+
+echo "cleaning up ..."
+rm -rf "logs/$fecha"
 rm lita_chat.log
 rm fn-worldcloud-color.png
 rm data-log

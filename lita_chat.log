@@ -1,1 +1,25 @@
-[2016-05-13 16:20:43 -0500] [x-fak in #debian] erm3nda , it's working
+[2016-05-13 16:32:01 -0500] [erm3nda in #debian] try htop
+[2016-05-13 16:32:14 -0500] [erm3nda in #debian] how much ram did it consume before you install desktop?
+[2016-05-13 16:32:26 -0500] [x-fak in #debian] i dont know :(
+[2016-05-13 16:32:32 -0500] [x-fak in #debian] but i guess a lot less
+[2016-05-13 16:32:35 -0500] [erm3nda in #debian] so how do you know how much it grow?
+[2016-05-13 16:32:43 -0500] [erm3nda in #debian] im using 230Mb ram
+[2016-05-13 16:32:57 -0500] [erm3nda in #debian] ill start vnc now, xfce4 and i'll tell you the difference
+[2016-05-13 16:33:36 -0500] [erm3nda in #debian] no changes, as it was running even if not moving on
+[2016-05-13 16:33:54 -0500] [erm3nda in #debian] 231Mb ram and 174Mb on swap
+[2016-05-13 16:34:03 -0500] [erm3nda in #debian] use htop and look what's taking your memory
+[2016-05-13 16:34:17 -0500] [erm3nda in #debian] apt-get install htop
+[2016-05-13 16:34:24 -0500] [erm3nda in #debian] xfce4 has also a task manager i guess
+[2016-05-13 16:35:43 -0500] [x-fak in #debian] what takes memory are the multiple process xcfe-panel xcfe4-terminal xfdesktop
+[2016-05-13 16:37:25 -0500] [erm3nda in #debian] seems you're not looking good the Mb meter
+[2016-05-13 16:37:42 -0500] [erm3nda in #debian] free command doesn't tell you clearly how much memory is ACTUALLY being used
+[2016-05-13 16:37:52 -0500] [erm3nda in #debian] look at google for "linuxatemyram"
+[2016-05-13 16:37:57 -0500] [erm3nda in #debian] then understand it
+[2016-05-13 16:38:09 -0500] [erm3nda in #debian] later, install htop and you'll have a good coloured graph about your system resources
+[2016-05-13 16:38:20 -0500] [erm3nda in #debian] htop is terminal based
+[2016-05-13 16:38:50 -0500] [erm3nda in #debian] is top on steroids, more like a task-manager on the cli
+[2016-05-13 16:39:06 -0500] [x-fak in #debian] erm3nda , i had htop already installed
+[2016-05-13 16:39:14 -0500] [x-fak in #debian] and it's reporting the same as free -h
+[2016-05-13 16:39:32 -0500] [teraflops in #debian-es-offtopic] porque haces -rf en en un script, recursivo es para directorios
+[2016-05-13 16:41:06 -0500] [markybob in #debian] x-fak: it's because you don't understand what cached memory is. you didn't google like you were told
+[2016-05-13 16:43:40 -0500] [frostschutz in #debian] x-fak, if you have 866M available, out of 1G, there shouldn't be a problem?

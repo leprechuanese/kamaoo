@@ -1,11 +1,1 @@
-[2016-05-13 15:46:22 -0500] [x-fak in #debian] erm3nda , sorry i had SuperPutty installed
-[2016-05-13 15:46:22 -0500] [erm3nda in #debian] so, once connected you can simply use localhost:5901 on your computer and would be tunneled to localhost at your server ;)
-[2016-05-13 15:46:31 -0500] [erm3nda in #debian] You can use the one you like
-[2016-05-13 15:46:45 -0500] [erm3nda in #debian] ssh -L is just enough
-[2016-05-13 15:47:15 -0500] [x-fak in #debian] on the remote side?
-[2016-05-13 15:47:31 -0500] [erm3nda in #debian] ssh root@domain -L 5901:localhost:5901 On your computer
-[2016-05-13 15:47:45 -0500] [erm3nda in #debian] but if you use SuperPutty, you need to create putty profiles
-[2016-05-13 15:47:53 -0500] [erm3nda in #debian] then set them into the SuperPutty GUI
-[2016-05-13 15:48:47 -0500] [erm3nda in #debian] I know a good tutorial with images to do that, better than chat here
-[2016-05-13 15:50:29 -0500] [erm3nda in #debian] http://en.community.dell.com/techcenter/high-performance-computing/w/wiki/how-i-use-ssh-port-forwarding
-[2016-05-13 15:51:00 -0500] [erm3nda in #debian] Once you touch settings, you need to go to first item, called Session and save it to be able to load later
+[2016-05-13 16:20:43 -0500] [x-fak in #debian] erm3nda , it's working

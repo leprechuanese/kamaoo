@@ -1,14 +1,30 @@
 ## backup
-cp fn-worldcloud-color.png logs/.
-cp lita_chat.log logs/.
-cp data-log logs/.
-rm lita_chat.log
-cd logs
+
+echo "creating backup ...wait ..."
 fecha=$(date +"%Y-%m-%d.%H:%m")
-mkdir $fecha
-for i in *; do
-	mv "$i" "$fecha/$fecha.$i"
-done
-cd ..
 
+mkdir "logs/$fecha"
+touch "logs/$fecha/log"
 
+echo "...creating words.$fecha.png"
+./solo_palabras "lita_chat.log"  > data-log
+python crea_grafica-colored.py
+tmp=$(curl -F c=@fn-worldcloud-color.png https://ptpb.pw)
+echo "$tmp" >> "logs/$fecha/log"
+mv fn-worldcloud-color.png "logs/$fecha/words.$fecha.png"
+
+echo "...creating users.$fecha.png"
+./solo_users "lita_chat.log"  > data-log
+python crea_grafica-colored.py
+tmp=$(curl -F c=@fn-worldcloud-color.png https://ptpb.pw)
+echo "$tmp" >> "logs/$fecha/log"
+mv fn-worldcloud-color.png "logs/$fecha/users.$fecha.png"
+
+cp lita_chat.log "logs/$fecha/lita_chat.log"
+
+rm lita_chat.log
+rm fn-worldcloud-color.png
+rm data-log
+
+echo "Done!"
+echo

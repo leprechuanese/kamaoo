@@ -5,3 +5,46 @@
 [2016-05-14 13:09:47 -0500] [hmir in #debian] Guys, in debian, in the windows manager application, there is a style tab that lists allt he themes on the side that control the application's top border and the _oX and such. Can anyone tell me where these theme styles are stored?
 [2016-05-14 13:09:59 -0500] [jmcnaught in #debian] SzateX: this must be an OpenVZ VPS. You should also check to see what version of libc6 is installed (current version on jessie is 2.19-18+deb8u4). It sounds like whoever prepared this "debian 8" template did a botched job, probably in a misguided attempt to get it working on that ancient kernel
 [2016-05-14 13:10:45 -0500] [SzateX in #debian] jmcnaught: how to check it?
+[2016-05-14 13:12:14 -0500] [jmcnaught in #debian] SzateX: "apt-cache policy libc6 systemd-sysv" and just "apt-cache policy" without a package listed would be helpful
+[2016-05-14 13:12:51 -0500] [SzateX in #debian] http://wklej.org/id/2388127/
+[2016-05-14 13:13:20 -0500] [deb in #debian-es-offtopic] todos los dias android se parcha, wtf!
+[2016-05-14 13:13:56 -0500] [jmcnaught in #debian] SzateX: so far it's just the version of apt that is not current. "apt-cache policy" ?
+[2016-05-14 13:14:41 -0500] [SzateX in #debian] http://wklej.org/id/2388129/
+[2016-05-14 13:16:42 -0500] [jmcnaught in #debian] SzateX: okay well the only pinned package is sysvinit which makes sense because the default init for Jessie (systemd) will not work on this Debian 6 era kernel. You could either 1) open a ticket with provider to ask why the version of the "apt" package is so old or 2) try an "apt-get dist-upgrade" and paste what it wants to do before answering yes
+[2016-05-14 13:18:04 -0500] [SzateX in #debian] jmcnaught: ok i'm going to write ticket. Try 2 step now?
+[2016-05-14 13:19:10 -0500] [deb in #debian-offtopic] jmcnaught, todays "Debian-Offtopic Medal" goes to you and Lady_Aleena, TomTomTosch 3er place, congrats! https://ptpb.pw/1pi6.png
+[2016-05-14 13:19:20 -0500] [jmcnaught in #debian] SzateX: sure. "apt list --upgradable" will also show a list of packages that can be upgraded
+[2016-05-14 13:20:37 -0500] [hmir in #debian] what would be the simplest way to move files over my LAN between ubuntu laptop and debian desktop?
+[2016-05-14 13:20:56 -0500] [jmcnaught in #debian-offtopic] deb: each day i should pick a nonsense word and work it into every line i type.
+[2016-05-14 13:21:04 -0500] [wsky in #debian] hmir: probably cifs or nfs
+[2016-05-14 13:21:31 -0500] [wsky in #debian] you could have a look at scp and ssfs too
+[2016-05-14 13:21:34 -0500] [wsky in #debian] and rsync
+[2016-05-14 13:21:39 -0500] [deb in #debian-offtopic] heh, the cronjob runs at 11:49 everyday xD
+[2016-05-14 13:21:58 -0500] [wsky in #debian] ok, now i have a question, is anyone around familiar with gpsd?
+[2016-05-14 13:22:09 -0500] [SzateX in #debian] jmcnaught: "apt list --upgradable" doesn't exist on my system
+[2016-05-14 13:22:56 -0500] [SzateX in #debian] http://wklej.org/id/2388142/
+[2016-05-14 13:23:02 -0500] [deb in #debian-offtopic] the pattern shows YouTube be a comun word here
+[2016-05-14 13:23:03 -0500] [jmcnaught in #debian] SzateX: oh yeah sorry, the "apt" command is new in jessie and your problem is outdated apt package
+[2016-05-14 13:23:06 -0500] [hmir in #debian] No need for cifs when both are linux laptops, wsky.
+[2016-05-14 13:23:22 -0500] [hmir in #debian] SSHFS or sftp/scp - any other options?
+[2016-05-14 13:23:38 -0500] [wsky in #debian] hmir: so go with nfs but cifs would work too
+[2016-05-14 13:24:48 -0500] [SzateX in #debian] jmcnaught: we have problem: http://wklej.org/id/2388142/
+[2016-05-14 13:24:54 -0500] [deb in #debian-offtopic] weather, forecast are used too
+[2016-05-14 13:24:55 -0500] [hmir in #debian] can I update just the xscreensaver application that keeps saying it is out of date when i login?
+[2016-05-14 13:25:56 -0500] [hmir in #debian] Which is insists is already the newest version. The plot thickens...
+[2016-05-14 13:26:01 -0500] [jmcnaught in #debian] SzateX: for any packages that are mentioned in errors you might as well make a paste about them like : "apt-cache policy udev plymouth" but i would honestly consider thinking about a different VPS provider if you can get a refund
+[2016-05-14 13:28:05 -0500] [SzateX in #debian] jmcnaught: i will ask they. But changing VPS provider have to wait to 20th May (i will test my app). Fortunetlly letsencrypt installed with no problems
+[2016-05-14 13:32:21 -0500] [hankpete in #debian] hello everyone. I was wondering if I could get some help with rxvt terminal. I can't seem to get the perl extensions for copy paste working. i have perl in /usr/lib/urxvt/perl and in my .Xresources I pull all the supposed needed lines from guides. is there a dependency I am missing or something?
+[2016-05-14 13:32:41 -0500] [hmir in #debian] Can I use the Ubuntu Lock screen application with debian?
+[2016-05-14 13:32:57 -0500] [deb in #debian-offtopic] jmcnaught, this is your personal medal https://ptpb.pw/YMDL.png
+[2016-05-14 13:33:00 -0500] [hmir in #debian] I uninstalled xscreensaver, but I can't seem to lock my desktop anymore.
+[2016-05-14 13:38:17 -0500] [wsky in #debian] hmir: what is your de?
+[2016-05-14 13:38:32 -0500] [wsky in #debian] hmir: many des wont lock your screen if you have no xscreensaver
+[2016-05-14 13:38:38 -0500] [jml2 in #debian] hmir, shouldnt if it doesnt say debian compatible
+[2016-05-14 13:38:56 -0500] [jml2 in #debian] hmir, debian and ubuntu used to share repositories, but that was years ago
+[2016-05-14 13:41:10 -0500] [michael33 in #debian] guys im trying to install python and some deps but i get this error
+[2016-05-14 13:41:12 -0500] [michael33 in #debian]  Unable to locate package python3-venv
+[2016-05-14 13:41:14 -0500] [awwal in #debian] wsky, you mean 'light-locker' pkg?
+[2016-05-14 13:41:30 -0500] [michael33 in #debian] this is the command im running:
+[2016-05-14 13:41:31 -0500] [michael33 in #debian] sudo apt-get install python3-dev python3-pip python3.4-venv libjpeg-dev zlib1g-dev
+[2016-05-14 13:41:34 -0500] [jmcnaught in #debian] SzateX: i think that letsencrypt does require some of the packages that apt was complaining about, but it was complaining about virtual packages. it might be fine. sucks that you can't do dist-upgrade though. not often, but sometimes needed on debian stable

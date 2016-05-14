@@ -34,6 +34,7 @@ tar -zcvf $HOME/kamaoo/logs/$fecha.tar.gz $HOME/kamaoo/logs/$fecha
 
 echo "cleaning up ..."
 rm -rf "logs/$fecha"
+cp lita_chat.log lita_chat.log.bk
 rm lita_chat.log
 rm data-log
 

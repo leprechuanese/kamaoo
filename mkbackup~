@@ -35,9 +35,6 @@ tar -zcvf $HOME/kamaoo/logs/$fecha.tar.gz $HOME/kamaoo/logs/$fecha
 echo "cleaning up ..."
 rm -rf "logs/$fecha"
 rm lita_chat.log
-rm fn-worldcloud-color.png
 rm data-log
 
 echo "Done!";echo
-cat "logs/$fecha/log"
-echo

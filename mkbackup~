@@ -1,5 +1,12 @@
-## backup
+#!/bin/bash
+PATH=/opt/someApp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
+## backup
+# en crontab -e add to run every day at 23:59
+# m h  dom mon dow   command
+# 59 23 * * * cd $HOME/kamaoo;./mkbackup
+
+cd $HOME/kamaoo
 echo "creating backup ...wait ..."
 fecha=$(date +"%Y-%m-%d.%H:%m")
 
@@ -23,7 +30,7 @@ mv fn-worldcloud-color.png "logs/$fecha/users.$fecha.png"
 cp lita_chat.log "logs/$fecha/lita_chat.log"
 
 echo "compressing folder ..."
-tar -zcvf $(pwd)/logs/$fecha.tar.gz $(pwd)/logs/$fecha
+tar -zcvf $HOME/kamaoo/logs/$fecha.tar.gz $HOME/kamaoo/logs/$fecha
 
 echo "cleaning up ..."
 rm -rf "logs/$fecha"
@@ -31,5 +38,6 @@ rm lita_chat.log
 rm fn-worldcloud-color.png
 rm data-log
 
-echo "Done!"
+echo "Done!";echo
+cat "logs/$fecha/log"
 echo

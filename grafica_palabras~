@@ -1,2 +1,0 @@
-./solo_palabras "lita_chat.log" > data-log
-python crea_grafica-colored.py

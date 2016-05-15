@@ -757,12 +757,3 @@
 [2016-05-14 23:10:57 -0500] [Tirn in #debian] @themill after reboot and selecting the said USB I installed on. With other distros the Grub menu shows up
 [2016-05-14 23:11:00 -0500] [markybob in #debian] jmcnaught: that was my understanding as well
 [2016-05-14 23:11:33 -0500] [Tirn in #debian] running Mint Mate that way now, but would like to be able to do it with Deb 8
-[2016-05-14 23:11:56 -0500] [themill in #debian] Tirn: selecting as the boot device? Are you sure you installed grub on the usb stick?
-[2016-05-14 23:12:02 -0500] [x032cx in #debian] themill:it looks like its been some change when the prompt appears but still the same problem
-[2016-05-14 23:13:18 -0500] [Tirn in #debian] yes, did the installation twice to get sure...that was also my first reaction... I can also locate the Boot/Grub folder on the pen
-[2016-05-14 23:13:42 -0500] [x032cx in #debian] themill:I no see a started Dispatch for password on console but the crypt process is halted down the road until i enter the password
-[2016-05-14 23:13:51 -0500] [x032cx in #debian] now*
-[2016-05-14 23:14:33 -0500] [themill in #debian] x032cx: so it is working?
-[2016-05-14 23:15:16 -0500] [x032cx in #debian] themill:no it is not working, the password is not entered at the promt
-[2016-05-14 23:16:39 -0500] [x032cx in #debian] themill:there is someting i quit can't pinpoint that causes the prompt to just flyby
-[2016-05-14 23:18:21 -0500] [x032cx in #debian] what is the conflict between kbd and console-tools

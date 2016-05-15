@@ -12,7 +12,7 @@ echo
 while IFS= read -r line; do
 	words=$(echo "$line" | grep "$canal" | awk '{print $4}')
 	if [ ${words//[,:.\"\[]} ]; then
-		echo -n "${words//[,:.\"\[]} "
+		echo "${words//[,:.\"\[]}"
 	fi
 done < "$in"
 echo;echo

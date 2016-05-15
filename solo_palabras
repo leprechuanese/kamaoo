@@ -19,7 +19,7 @@ while IFS= read -r line; do
 	for i in $words; do
 		i="${i/ /}"
 		if [[ "${#i}" -gt "$min_len" ]]; then
-			echo -n "$i "
+			echo "$i"
 		fi
 	done
 done < "$in"

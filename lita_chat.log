@@ -48,3 +48,566 @@
 [2016-05-14 13:41:30 -0500] [michael33 in #debian] this is the command im running:
 [2016-05-14 13:41:31 -0500] [michael33 in #debian] sudo apt-get install python3-dev python3-pip python3.4-venv libjpeg-dev zlib1g-dev
 [2016-05-14 13:41:34 -0500] [jmcnaught in #debian] SzateX: i think that letsencrypt does require some of the packages that apt was complaining about, but it was complaining about virtual packages. it might be fine. sucks that you can't do dist-upgrade though. not often, but sometimes needed on debian stable
+[2016-05-14 13:42:22 -0500] [markybob in #debian] hmir: why did you do that? i told  you xscreensaver got fixed and all you had to do was update/upgrade
+[2016-05-14 13:42:35 -0500] [awwal in #debian] wsky, if by ubuntu lock screen you meant light-locker, light-locker is available in debian, and you can use it just fine
+[2016-05-14 13:42:47 -0500] [wsky in #debian] awwal: why would i want to use it?
+[2016-05-14 13:43:12 -0500] [wsky in #debian] i think you're mistaking me with hmir
+[2016-05-14 13:43:22 -0500] [awwal in #debian] wsky, excuses, nickname confusion. wanted to talk to hmir :)
+[2016-05-14 13:43:30 -0500] [wsky in #debian] right
+[2016-05-14 13:44:36 -0500] [awwal in #debian] hmir, i guess light-locker only will work if you have lightdm installed
+[2016-05-14 13:44:49 -0500] [markybob in #debian] how can you think installing xscreensaver from ubuntu is easier than update/upgrade in debian?
+[2016-05-14 13:47:43 -0500] [Sam54 in #debian] Hi. I'm running on a debian server. I have several instances of a java program. Sometimes I can't start new instances because the port they try to bind to is already used. But in fact ... it is'nt. How can-I resolve the problem ?
+[2016-05-14 13:50:19 -0500] [hankpete in #debian] hello everyone. I was wondering if I could get some help with rxvt terminal. I can't seem to get the perl extensions for copy paste working. i have perl in /usr/lib/urxvt/perl and in my .Xresources I pull all the supposed needed lines from guides. is there a dependency I am missing or something?
+[2016-05-14 13:50:27 -0500] [hmir in #debian] awwal: But lightdm IS installed. The locker only apparently works with a screensaver installed.
+[2016-05-14 13:51:03 -0500] [hmir in #debian] awwal: The author of xscreensavers says he doesn't want debian to ship xscreensaver with the distry. Says use gnome-screensaver instead. Is that safe to do with xfce?
+[2016-05-14 13:52:13 -0500] [markybob in #debian] hmir: if you read the bug report you'd know it was resolved and it's not going away. lightdm isn't enough. you also need to apt-get install light-locker
+[2016-05-14 13:52:34 -0500] [markybob in #debian] then restart lightdm. done.
+[2016-05-14 13:52:50 -0500] [hmir in #debian] I'll try that right now, thanks.
+[2016-05-14 13:53:16 -0500] [awwal in #debian] hmir, I dont use light-locker, i dont know how it works. follow markybob; he uses both lightdm & light-locker :D
+[2016-05-14 13:53:17 -0500] [hmir in #debian] Why does debian ship with xscreensaver and not light-locker by default?
+[2016-05-14 13:53:26 -0500] [hmir in #debian] hmir
+[2016-05-14 13:53:27 -0500] [hmir in #debian]    
+[2016-05-14 13:53:36 -0500] [markybob in #debian] because you need lightdm and most people dont use that
+[2016-05-14 13:54:35 -0500] [hmir in #debian] i thought lightdm was the default for debian now?
+[2016-05-14 13:54:40 -0500] [hmir in #debian] How can I check what I am running?
+[2016-05-14 13:54:48 -0500] [markybob in #debian] only when you use xfce
+[2016-05-14 13:54:57 -0500] [awwal in #debian] hmir, which DE are you using?
+[2016-05-14 13:54:58 -0500] [stoned in #debian] I use kdm b/c it's nice
+[2016-05-14 13:55:07 -0500] [stoned in #debian] but i use xmonad and cli apps
+[2016-05-14 13:55:07 -0500] [hmir in #debian] awwal: DE?
+[2016-05-14 13:55:14 -0500] [awwal in #debian] lxde also comes with lightdm
+[2016-05-14 13:55:34 -0500] [awwal in #debian] desktop environement , hmir
+[2016-05-14 13:55:41 -0500] [hmir in #debian] xfce.
+[2016-05-14 13:55:51 -0500] [awwal in #debian] so you should have lightdm yet
+[2016-05-14 13:55:52 -0500] [hmir in #debian] I thought lightdm was the default for gnome also.
+[2016-05-14 13:56:03 -0500] [markybob in #debian] no. gdm3
+[2016-05-14 13:56:45 -0500] [stoned in #debian] simplest fastest one is xdm
+[2016-05-14 13:57:09 -0500] [stoned in #debian] if you don't need to switch env/wm etc. etc. just install your wm and install your xdm and call it a day
+[2016-05-14 13:57:19 -0500] [awwal in #debian] hmir, popup xscreensaver problem is solved with recent xscreensaver version. upgrade your pkg, or install light-locker alongside lightdm and configure it. dont know what we can tell you more
+[2016-05-14 13:57:24 -0500] [stoned in #debian] even if you do, just use update-alternatives
+[2016-05-14 13:57:29 -0500] [hmir in #debian] Thanks alot guys. I uninstalled xscreensaver and installed light-locker.
+[2016-05-14 13:57:30 -0500] [stoned in #debian] no need to mess w/ so much gooey stuff
+[2016-05-14 13:57:32 -0500] [hmir in #debian] And all is good!
+[2016-05-14 13:57:39 -0500] [stoned in #debian] yay
+[2016-05-14 13:58:00 -0500] [hmir in #debian] awwal: My xscreensaver was the laest version 5.30. And it STILL gave me the error.
+[2016-05-14 13:58:29 -0500] [markybob in #debian] that's because you needed deb2 of it which is in jessie-backports like i said
+[2016-05-14 13:58:45 -0500] [toogley in #debian] i have a a xfce4-debian8 system. date reports a correct time (CEST), but the xfce4 clock applet does not. (it shows UTC although in the settings of that xfce4 program, the timezone is set correctly to europe berlin
+[2016-05-14 13:58:47 -0500] [markybob in #debian] jessie-updates*
+[2016-05-14 13:59:08 -0500] [awwal in #debian] hmir, like 3 years using debian and xscreensaver and I never got that xssaver popup about outdated version. dont know why, but never got them
+[2016-05-14 13:59:28 -0500] [markybob in #debian] awwal: because it just started like a month ago
+[2016-05-14 13:59:31 -0500] [CutMeOwnThroat in #debian] markybob, as you're already talking about...so doess light-locker only work with lightdm? I installed and looked at light-locker when removal of xscreensaver was discussed but it wouldn't lock...
+[2016-05-14 13:59:40 -0500] [awwal in #debian] markybob, oh, ok
+[2016-05-14 13:59:49 -0500] [hmir in #debian] markybob: So add the backports reposa and the update/upgrade?
+[2016-05-14 13:59:53 -0500] [toogley in #debian] output of timedatectl: http://paste.debian.net/683888
+[2016-05-14 13:59:57 -0500] [markybob in #debian] CutMeOwnThroat: right
+[2016-05-14 14:00:17 -0500] [markybob in #debian] hmir: i misspoke just now. i didnt mean backports. it's in  jessie-updates
+[2016-05-14 14:00:32 -0500] [hmir in #debian] How do i add that repo?
+[2016-05-14 14:00:45 -0500] [markybob in #debian] !tell hmir about sources.list
+[2016-05-14 14:01:57 -0500] [tharkun in #debian] Is the debian torrent tracker down?
+[2016-05-14 14:02:18 -0500] [markybob in #debian] tharkun: i tried a couple days ago and it was down. still worked with dht though
+[2016-05-14 14:03:00 -0500] [hmir in #debian] Okay, added this like to my sources.list -> deb http://httpredir.debian.org/debian/jessie-updates main contrib non-free
+[2016-05-14 14:03:01 -0500] [tharkun in #debian] It seems dht is also down since I get no response and stopped seeding sometime yesterday night.
+[2016-05-14 14:03:26 -0500] [markybob in #debian] hmir: you missed a space
+[2016-05-14 14:04:32 -0500] [hmir in #debian] got it -> deb http://httpredir.debian.org/debian/ jessie-updates main contrib non-free
+[2016-05-14 14:04:39 -0500] [markybob in #debian] yes
+[2016-05-14 14:04:40 -0500] [hmir in #debian] Thanks!
+[2016-05-14 14:04:54 -0500] [hmir in #debian] And real need to add the deb-src as well?
+[2016-05-14 14:05:11 -0500] [markybob in #debian] not for most "normal" users no
+[2016-05-14 14:05:21 -0500] [hmir in #debian] Cool!
+[2016-05-14 14:06:52 -0500] [awwal in #debian] toogley, what's your problem?
+[2016-05-14 14:07:00 -0500] [hmir in #debian] I asked this question earlier, but is debian 8 jessie SSD aware? Will it rcognize the SSD and optimize it for use for an SSD?
+[2016-05-14 14:07:12 -0500] [hmir in #debian] Or do I need to look into tweakng the settings?
+[2016-05-14 14:07:19 -0500] [toogley in #debian] awwal: => i have a a xfce4-debian8 system. date reports a correct time (CEST), but the xfce4 clock applet does not. (it shows UTC although in the settings of that xfce4 program, the timezone is set correctly to europe berlin
+[2016-05-14 14:07:43 -0500] [wsky in #debian] hmir: what you need to do is put hte 'discard' option to your filesystems, in order to make debian ssd aware
+[2016-05-14 14:07:44 -0500] [hmir in #debian] My understanding was that everything post kernel 2.8 was SSD aware but I can't remember the specifics.
+[2016-05-14 14:07:59 -0500] [hmir in #debian] In the fstab, wsky?
+[2016-05-14 14:08:01 -0500] [wsky in #debian] yes
+[2016-05-14 14:08:04 -0500] [markybob in #debian] hmir: it won't optimize it per se...but...really, just leave the defaults alone. it'll be fine
+[2016-05-14 14:08:08 -0500] [hmir in #debian] Okay, I'll look into it.
+[2016-05-14 14:08:38 -0500] [markybob in #debian] i see bad things in your future
+[2016-05-14 14:08:42 -0500] [hmir in #debian] Will the SSD do load balancing across NAND memory internally, and invisible to the OS?
+[2016-05-14 14:09:01 -0500] [hmir in #debian] Bad things in my future, markybob? Why????!!!!!
+[2016-05-14 14:09:04 -0500] [hmir in #debian] =|
+[2016-05-14 14:09:36 -0500] [markybob in #debian] you had such a hard time with jessie-updates and light-locker/xscreensaver and that's easy stuff. now you want to fuck around with fstab and other things...yeah, you won't boot :/
+[2016-05-14 14:10:52 -0500] [hmir in #debian] No big deal!
+[2016-05-14 14:11:05 -0500] [markybob in #debian] cool. have fun with that.
+[2016-05-14 14:11:15 -0500] [hmir in #debian] I'm on it!
+[2016-05-14 14:11:20 -0500] [hmir in #debian] dick pics
+[2016-05-14 14:11:22 -0500] [hmir in #debian] oops
+[2016-05-14 14:11:28 -0500] [hmir in #debian] sorry, wrong channel.
+[2016-05-14 14:12:10 -0500] [wsky in #debian] so i can see gpsdata being read in minicom but i can't get any app to work with gpsd
+[2016-05-14 14:12:47 -0500] [unborn in #debian] fstab is pretty easy eh at least for me.. you only need to know it thats all. I guess soon or later he would be here with no big deal :)
+[2016-05-14 14:13:02 -0500] [unborn in #debian] markybob: hows your sat going?
+[2016-05-14 14:13:48 -0500] [hmir in #debian] UGh.
+[2016-05-14 14:14:02 -0500] [hmir in #debian] Now I pressed Ctrl+q on the wrong jeyboard.
+[2016-05-14 14:14:07 -0500] [awwal in #debian] toogley, you may be better served in #debian-xfce  (oftc)
+[2016-05-14 14:14:32 -0500] [toogley in #debian] awwal: ah, thansk
+[2016-05-14 14:16:28 -0500] [Rene in #debian] Hi all!
+[2016-05-14 14:17:27 -0500] [wsky in #debian] when i cat /dev/ttyACM2 it gives me no data
+[2016-05-14 14:17:32 -0500] [wsky in #debian] and it should read something
+[2016-05-14 14:17:52 -0500] [wsky in #debian] however i can see the gps coordinates in minicom under /dev/ttyACM1 at the same time
+[2016-05-14 14:18:09 -0500] [Rene in #debian] I'm trying to figure out how to list all installed packages and also from what source.I just upgraded from lenny to squeeze, and i wanted to find those packages that are installed from somewhere else than standard repositories..
+[2016-05-14 14:19:16 -0500] [ewew in #debian-offtopic] It looks like rsyslog had a depedency on network systemd unit.
+[2016-05-14 14:19:28 -0500] [DELLtra in #debian-es] AS O/
+[2016-05-14 14:19:32 -0500] [DELLtra in #debian-es] nas o/
+[2016-05-14 14:19:51 -0500] [ewew in #debian-offtopic] or it can not bring network up without cable pluged in ?
+[2016-05-14 14:21:52 -0500] [hmir in #debian] Can I just change this like so for debian testing? -> deb http://httpredir.debian.org/debian/ stretch main <- ?
+[2016-05-14 14:22:22 -0500] [wsky in #debian] hmir: don't worry about markybob mocking you, they try to look scary here
+[2016-05-14 14:22:47 -0500] [hmir in #debian] (=
+[2016-05-14 14:23:26 -0500] [Aleksandar86 in #debian] Where I can download driver for my Wifi Card bcm43142?
+[2016-05-14 14:23:42 -0500] [Aleksandar86 in #debian] I wanna install driver via usb
+[2016-05-14 14:23:44 -0500] [Aleksandar86 in #debian] how?
+[2016-05-14 14:23:56 -0500] [markybob in #debian] hmir: stretch support is on #debian-next on irc.oftc.net per /topic they'll help you
+[2016-05-14 14:31:04 -0500] [unborn in #debian] Aleksandar86: http://lmgtfy.com/?q=Where+I+can+download+driver+for+my+Wifi+Card+bcm43142+debian+8
+[2016-05-14 14:31:11 -0500] [unborn in #debian] 1st link from top
+[2016-05-14 14:32:03 -0500] [Souchiro in #debian-es-offtopic] <deb> todos los dias android se parcha, wtf! <------------ a la mujer = se le parcha todos los dias
+[2016-05-14 14:32:16 -0500] [Souchiro in #debian-es-offtopic] xD
+[2016-05-14 14:36:53 -0500] [jmcnaught in #debian-offtopic] deb: ahh cool. i guess that's things i said and also things hilighted to me?
+[2016-05-14 14:38:04 -0500] [jmcnaught in #debian] Rene: hello. first of all, were you following the squeeze release notes to do the upgrade?
+[2016-05-14 14:39:35 -0500] [jmcnaught in #debian] Rene: a couple of commands that might help are "aptitude search '?narrow(?installed, ?not(?origin(debian)))'" which looks for packages not in Debian, and "aptitude search '?narrow(?installed, ?not(?archive(stable)))'" which looks for packages not in stable (like backports for example). "aptitude search ~o" also shows obsolete packages that can no longer be downloaded
+[2016-05-14 14:40:05 -0500] [jmcnaught in #debian] !which repo
+[2016-05-14 14:40:06 -0500] [dpkg in #debian] To see what repository a package may have come from, try https://www.palfrader.org/gitweb/?p=tools/weaselutils.git;a=blob_plain;f=apt-listrepository or use dpkg -l | awk '/^.i/ {print $2}' | xargs apt-cache policy | awk '/^[a-z0-9.-]+:/ {pkg=$1}; /\*\*\*/ {OFS="\t"; ver=$2; getline; print pkg,ver,$2,$3}', or ask me about <obsolete>, or http://people.debian.org/~dannf/apt-inventory, or <bdo list>, or <dmm list>
+[2016-05-14 14:40:32 -0500] [jmcnaught in #debian] Rene: see also the above message from dpkg for a way to see which repo a package came from
+[2016-05-14 14:42:31 -0500] [deb in #debian-offtopic] yeah
+[2016-05-14 14:42:46 -0500] [deb in #debian-offtopic] the bigger letter the most repeat
+[2016-05-14 14:43:09 -0500] [deb in #debian-es-offtopic] xD
+[2016-05-14 14:43:32 -0500] [awwal in #debian] toogley, xfce4 comes with 2 plugins for date. which one are you using? default?
+[2016-05-14 14:43:56 -0500] [toogley in #debian] awwal: yes
+[2016-05-14 14:44:09 -0500] [deb in #debian-es-offtopic] el word-cloud de hoy https://ptpb.pw/upLm.png
+[2016-05-14 14:45:43 -0500] [jmcnaught in #debian-offtopic] gets his 15 minutes
+[2016-05-14 14:45:51 -0500] [awwal in #debian] toogley, right now I'm not in xfce session so I dont remember the exact names of those plugins, but my suggestion is : edit your panel preference, disable/remove the default time/date plugin and use the second one (its more featured and customizable
+[2016-05-14 14:47:04 -0500] [deb in #debian-offtopic] jmcnaught, you are into the series, youtube ?
+[2016-05-14 14:47:17 -0500] [jmcnaught in #debian-offtopic] which series?
+[2016-05-14 14:47:38 -0500] [deb in #debian-offtopic] you talk about series and youtube, the patterns shows it
+[2016-05-14 14:48:24 -0500] [awwal in #debian] possibly its a bug it that default plugin
+[2016-05-14 14:48:31 -0500] [jmcnaught in #debian-offtopic] oh last night Lady_Aleena and I were nerding out about favourite sci-fi/fantasy shows. i also sometimes share music i like in the form of youtube links
+[2016-05-14 14:48:33 -0500] [toogley in #debian] awwal: works, thanks
+[2016-05-14 14:48:52 -0500] [awwal in #debian] toogley, second plugin show time/date correctly?
+[2016-05-14 14:49:05 -0500] [deb in #debian-offtopic] ohh makes sense since Lady_Aleena shows a lot to
+[2016-05-14 14:49:20 -0500] [toogley in #debian] awwal: yes
+[2016-05-14 14:49:27 -0500] [awwal in #debian] so probably the defult plugin is buggy
+[2016-05-14 14:49:39 -0500] [deb in #debian-offtopic] s/to/too
+[2016-05-14 14:50:18 -0500] [awwal in #debian] me I dont use the default one...
+[2016-05-14 14:52:13 -0500] [toogley in #debian] awwal: probably
+[2016-05-14 14:53:23 -0500] [awwal in #debian] I dont like the default bcoz it requires 'orage' for calendar ; the alternative have a calendar built in (also weather stuff, I think)
+[2016-05-14 14:53:39 -0500] [Gaspappan in #debian] Hey, i'm using a webservice that creates files on it's own and saves them on a freeNAS, however, i have an issue accessing the files from my windows machine due to the permissions, is there anyway to set that all files is set with a specific chmod?
+[2016-05-14 14:53:45 -0500] [evilytwisted in #debian-offtopic] hey deb, without starting an uproar or a riot
+[2016-05-14 14:53:52 -0500] [Rene in #debian] jmcnaught: yep, i got the upgrade done with no problems. It's just a crazy-old server with loads of different packages installed over time. Now i just want to clean it up and either get rid of odd/wrong packages,,
+[2016-05-14 14:54:08 -0500] [evilytwisted in #debian-offtopic] with burning torches and picks.  do deb still they they are superior over the other distros that  came off it?
+[2016-05-14 14:54:15 -0500] [evilytwisted in #debian-offtopic] such as ubuntu and linuxmint
+[2016-05-14 14:54:30 -0500] [deb in #debian-offtopic] idk
+[2016-05-14 14:55:00 -0500] [jmcnaught in #debian] Rene: those commands should help. there's an aptitude search term reference here: https://www.debian.org/doc/manuals/aptitude/ch02s04s05.en.html
+[2016-05-14 14:55:03 -0500] [deb in #debian-offtopic] its really up to the user
+[2016-05-14 14:55:16 -0500] [evilytwisted in #debian-offtopic] i meant the deb community as a whole
+[2016-05-14 14:57:05 -0500] [deb in #debian-offtopic] hmm, let me show you a complete word-cloud of #debian channels, this include this channel and see for your self https://ptpb.pw/upLm.png
+[2016-05-14 14:57:17 -0500] [deb in #debian-offtopic] thats the last 24hrs
+[2016-05-14 14:58:23 -0500] [deb in #debian-offtopic] yesterday we see word "ubuntu" a lot, not today
+[2016-05-14 14:58:28 -0500] [Rene in #debian] dpkg and jmcnaught thanks for your help.. Now it's time to clean up some stuff, merge config-files and then jump for upgrading to next release :-) yeay :-)
+[2016-05-14 14:58:29 -0500] [dpkg in #debian] Rene: You are person #1 to send an unparseable request
+[2016-05-14 15:00:02 -0500] [wegg in #debian] does anyone know how I can fix my GTK applications so they don't look like garbage?  I don't know what I did to break them but they are broken badly.  :-(
+[2016-05-14 15:00:04 -0500] [wegg in #debian] http://www.pasteall.org/pic/show.php?id=103096
+[2016-05-14 15:00:07 -0500] [jmcnaught in #debian] Rene: enjoy, and don't mind dpkg (it's a bot)
+[2016-05-14 15:00:42 -0500] [jmcnaught in #debian] wegg: did this happen on Jessie?
+[2016-05-14 15:01:01 -0500] [Rene in #debian] jmcnaught: yeah, i noticed that :-) A great bot :-9
+[2016-05-14 15:01:03 -0500] [wegg in #debian] (sigh) no.  Testing.
+[2016-05-14 15:01:03 -0500] [Rene in #debian] :-)
+[2016-05-14 15:01:26 -0500] [wegg in #debian] But I can't imagine it's specific to testing.  No?
+[2016-05-14 15:01:37 -0500] [jmcnaught in #debian] dpkg: tell wegg about moving target
+[2016-05-14 15:01:39 -0500] [markybob in #debian] i certainly haven't seen it in jessie. or reports of it
+[2016-05-14 15:01:57 -0500] [wegg in #debian] k
+[2016-05-14 15:02:01 -0500] [markybob in #debian] wegg: /topic says testing support is in #debian-next on irc.oftc.net ...maybe they know
+[2016-05-14 15:02:01 -0500] [deb in #debian-offtopic] evilytwisted, yesterday https://ptpb.pw/upLm.png
+[2016-05-14 15:02:06 -0500] [jmcnaught in #debian] wegg: the thing about jessie is stuff doesn't change. but with testing stuff does change, and changes break things sometimes.
+[2016-05-14 15:02:29 -0500] [evilytwisted in #debian-offtopic] Woah...
+[2016-05-14 15:02:31 -0500] [wegg in #debian] markybob, there is just hardly anyone on there who is willing to help.
+[2016-05-14 15:02:32 -0500] [evilytwisted in #debian-offtopic] this..
+[2016-05-14 15:02:33 -0500] [evilytwisted in #debian-offtopic] how
+[2016-05-14 15:02:46 -0500] [deb in #debian-offtopic] ups worn one
+[2016-05-14 15:03:11 -0500] [deb in #debian-offtopic] https://ptpb.pw/YMDL.png this is today's
+[2016-05-14 15:03:23 -0500] [markybob in #debian] wegg: since we use stable we wouldn't know wtf happened/changed
+[2016-05-14 15:03:52 -0500] [jmcnaught in #debian] wegg: be patient, if no response try again in an hour or two. it is the weekend
+[2016-05-14 15:04:12 -0500] [wegg in #debian] but markybob, where would one look to fix gtk issues in general?
+[2016-05-14 15:04:24 -0500] [deb in #debian-offtopic] s/worn/wrong
+[2016-05-14 15:04:54 -0500] [markybob in #debian] well..that wouldn't happen in jessie. so if it's general gtk issue i'd probably go to irc.gimp.net ...but they'd laugh you off for using testing and saying it's their problem
+[2016-05-14 15:04:56 -0500] [jmcnaught in #debian] wegg: i would start by looking at changes logs and news files for packages that have been upgraded recently. also do you use apt-listbugs?
+[2016-05-14 15:05:17 -0500] [posi in #debian] Anyone wanna make a few easy Benjamins packaging my pgsql extension for open source. You get the credit as well
+[2016-05-14 15:05:58 -0500] [wegg in #debian] jmcnaught, this happened over a week ago.  Many updates/changes since then.  I only just now found an app I need that I can't work around.
+[2016-05-14 15:06:08 -0500] [jmcnaught in #debian] posi: https://wiki.debian.org/RFP
+[2016-05-14 15:06:11 -0500] [mtn in #debian] wegg: gtk has gone to 3.20, which breaks a lot of things. I have seen it in other distros, too
+[2016-05-14 15:06:39 -0500] [wegg in #debian] mtn, oooohh.  And what was the version just before 3.20?
+[2016-05-14 15:06:58 -0500] [posi in #debian] Wow that's cool
+[2016-05-14 15:07:02 -0500] [posi in #debian] Might try that
+[2016-05-14 15:07:15 -0500] [mtn in #debian] wegg: at  least it looks like parts of it are 3.20. again, the testing channel is your best bet
+[2016-05-14 15:07:51 -0500] [deb in #debian-es-offtopic] https://ptpb.pw/YMDL.png  <--hoy   me equivoque, la de arriba fue ayer
+[2016-05-14 15:10:31 -0500] [tout in #debian-es-offtopic] buenas muyayos :-)
+[2016-05-14 15:11:16 -0500] [Rene in #debian] is there btw any tool to manage new configfiles (/etc/*.dpkg-*)?
+[2016-05-14 15:21:52 -0500] [alexis in #debian] Hi, I'm new to debian packaging, and I want to package a python package named cornice.
+[2016-05-14 15:22:16 -0500] [alexis in #debian] I've started doing so with stdeb (https://pypi.python.org/pypi/stdeb#quickstart-3-i-read-the-warning-so-show-me-how-to-make-a-source-package-then-compile-it) but I'm blocked at some point
+[2016-05-14 15:22:54 -0500] [alexis in #debian] I have a `debian` folder alongside the sources of my python package
+[2016-05-14 15:23:01 -0500] [alexis in #debian] And then I run "dpkg-buildpackage -rfakeroot -uc -us"
+[2016-05-14 15:23:33 -0500] [alexis in #debian] Which (I suppose) summons a "dh build --with python2 --buildsystem=pybuild"
+[2016-05-14 15:24:17 -0500] [alexis in #debian] And at which point I end up with a dependency not found
+[2016-05-14 15:24:29 -0500] [alexis in #debian] "from cornice import util" — ImportError: cannot import name util
+[2016-05-14 15:24:47 -0500] [alexis in #debian] cornice is the name of the package I'm trying to package
+[2016-05-14 15:25:44 -0500] [alexis in #debian] And the "cornice" folder is in my path
+[2016-05-14 15:26:20 -0500] [alexis in #debian] Hmm, maybe it's because the file cornice/utils.py have imports that cannot be done, I've seen this in the past. Let me try
+[2016-05-14 15:28:13 -0500] [alexis in #debian] Hmm, apparently that's not it: json, simplejson and pyramid are the only dependencies, and I've installed them on my machine already
+[2016-05-14 15:28:20 -0500] [alexis in #debian] Anyone got an idea?
+[2016-05-14 15:34:07 -0500] [alexis in #debian] Or maybe I'm not in the right channel?
+[2016-05-14 15:39:13 -0500] [teraflops in #debian-es-offtopic] Brigo: a ti te pasa que se añaden las feeds de yts.ga asi raros?  - <![CDATA[The Absen ...
+[2016-05-14 15:43:53 -0500] [jmcnaught in #debian] alexis: is your goal to get the package included in Debian?
+[2016-05-14 15:45:11 -0500] [jmcnaught in #debian] dpkg: tell alexis about nmg
+[2016-05-14 15:48:47 -0500] [pecg in #debian] Hello. I was wondering if there is a reason why dbeaver is not in the official repositories of the distribution.
+[2016-05-14 15:49:58 -0500] [frangor in #debian-es-offtopic] hello boys
+[2016-05-14 15:50:06 -0500] [tout in #debian-es-offtopic] frangor: buenas
+[2016-05-14 15:50:12 -0500] [frangor in #debian-es-offtopic] how are you?
+[2016-05-14 15:50:25 -0500] [tout in #debian-es-offtopic] well thanks
+[2016-05-14 15:50:38 -0500] [tout in #debian-es-offtopic] creo ...........
+[2016-05-14 15:52:27 -0500] [teraflops in #debian] because it rhymes with justin beaver?
+[2016-05-14 15:53:43 -0500] [evilytwisted in #debian] beiber..
+[2016-05-14 15:53:46 -0500] [evilytwisted in #debian] not beaver
+[2016-05-14 15:54:20 -0500] [teraflops in #debian] :(
+[2016-05-14 15:56:16 -0500] [kung in #debian] anybody knows why alt+tab doesnt work in cinnamon with debian 8?
+[2016-05-14 15:56:28 -0500] [kung in #debian] (in fullscreen games)
+[2016-05-14 15:57:41 -0500] [DHowett in #debian] "in fullscreen games": the game is probably consuming input that would remove its focus
+[2016-05-14 15:58:10 -0500] [kung in #debian] yea thought that too, so its probably the fault of libsdl
+[2016-05-14 16:05:30 -0500] [frangor in #debian-es-offtopic] que te hace dudar?
+[2016-05-14 16:08:00 -0500] [tout in #debian-es-offtopic] nada hombre, se dice asi verdad? well thanks, qe tengo el ingles muy oxidado
+[2016-05-14 16:08:09 -0500] [mirage335 in #debian] After install debian, I find that resolv.conf frequently gets overwritten with IPv6 only nameserver entries.
+[2016-05-14 16:08:17 -0500] [mirage335 in #debian] This is broken, how do I fix it?
+[2016-05-14 16:08:31 -0500] [evilytwisted in #debian-offtopic] deb:  can i show you something funny?
+[2016-05-14 16:09:02 -0500] [Dagger in #debian] mirage335: try installing resolvconf, it should merge all sources of nameservers
+[2016-05-14 16:09:05 -0500] [deb in #debian-offtopic] pls
+[2016-05-14 16:09:18 -0500] [Dagger in #debian] although v6 nameservers should work just fine...
+[2016-05-14 16:09:18 -0500] [mirage335 in #debian] Hmm, ok. Is this documented anywhere?
+[2016-05-14 16:09:29 -0500] [mirage335 in #debian] Unless the network does not provide IPv6.
+[2016-05-14 16:09:43 -0500] [evilytwisted in #debian-offtopic] http://thrillblender.com/wp-content/uploads/2015/09/awesome-funny-pictures-28.jpg
+[2016-05-14 16:10:20 -0500] [Dagger in #debian] dunno. it's what I did when rdnssd kept whiping out my search domain
+[2016-05-14 16:11:19 -0500] [Dagger in #debian] if it has no v6, why is the network advertising v6 nameservers?
+[2016-05-14 16:11:47 -0500] [deb in #debian-offtopic] xD
+[2016-05-14 16:12:07 -0500] [mirage335 in #debian] I don't know. I do know that my /etc/resolv.conf sometimes starts with valid info, then gets wiped out by a single-entry file.
+[2016-05-14 16:12:17 -0500] [mirage335 in #debian] Could well be rdnssd .
+[2016-05-14 16:12:24 -0500] [lugonzaro in #debian-es] hi
+[2016-05-14 16:12:47 -0500] [mirage335 in #debian] Could also be that my OpenWRT router may support IPv6, while my ISP does not.
+[2016-05-14 16:13:21 -0500] [Dagger in #debian] openwrt does do some funky ULA stuff, whether or not you have global v6
+[2016-05-14 16:14:06 -0500] [Dagger in #debian] but in that case, if it's advertising a DNS server, you'd expect it to advertise itself, using the ULA address
+[2016-05-14 16:14:13 -0500] [Dagger in #debian] which should work
+[2016-05-14 16:14:25 -0500] [mirage335 in #debian] It does not. It also wipes out the search entries.
+[2016-05-14 16:14:39 -0500] [mirage335 in #debian] I suspected network manager, configured that correctly, and then the file still got wiped out.
+[2016-05-14 16:16:54 -0500] [CutMeOwnThroat in #debian-offtopic] albanian guy coded windows?
+[2016-05-14 16:17:11 -0500] [evilytwisted in #debian-offtopic] it was a picture  ifound on stumbleupon
+[2016-05-14 16:19:02 -0500] [Dagger in #debian] yeah, that was the problem I had (even though I was sending a search list...)
+[2016-05-14 16:19:26 -0500] [Dagger in #debian] no n-m here though. I killed that thing with fire immediately, because it's incapable of leaving things alone to work and wants to break everything :/
+[2016-05-14 16:20:18 -0500] [mirage335 in #debian] Indeed.
+[2016-05-14 16:20:39 -0500] [mirage335 in #debian] Now, my server has not survived a reboot, after installing resolv.conf. Will have to head down and fix it.
+[2016-05-14 16:22:58 -0500] [ewew in #debian-offtopic] well. It looks like i run into a video with sound clipping hard.
+[2016-05-14 16:23:55 -0500] [hmir in #debian] Yikes!
+[2016-05-14 16:25:37 -0500] [PadawanLearner in #debian] mirage335: hit it with the sledjehammer
+[2016-05-14 16:26:11 -0500] [mirage335 in #debian] no
+[2016-05-14 16:26:51 -0500] [CutMeOwnThroat in #debian] mirage335, it's still one of the remaining decade-old problems that one cannot watch what processes access a certain file under linux.
+[2016-05-14 16:27:47 -0500] [PadawanLearner in #debian] CutMeOwnThroat: lsof
+[2016-05-14 16:28:01 -0500] [mirage335 in #debian] Indeed. I have found that quite difficult.
+[2016-05-14 16:28:36 -0500] [CutMeOwnThroat in #debian] PadawanLearner, that would only work, if said process kept the file open. Read context.
+[2016-05-14 16:30:00 -0500] [SpeakerToMeat in #debian] Hello
+[2016-05-14 16:30:34 -0500] [SpeakerToMeat in #debian] Do you foresee any trouble if I manually emulate the process of update-flashplugin-nonfree to get the latest flash (while having flashplugin-nonfree installed)
+[2016-05-14 16:31:17 -0500] [Dagger in #debian] opensnoop can give you a list of PIDs that open() a file though
+[2016-05-14 16:31:47 -0500] [CutMeOwnThroat in #debian] PadawanLearner, you'd think the fam kernel-tracing stuff could do it.. until you read the docu and see that that information isn't included in the kernel api (IIRC)
+[2016-05-14 16:31:49 -0500] [Dagger in #debian] ...then you just need some way of turning the PID into a process name
+[2016-05-14 16:31:50 -0500] [SpeakerToMeat in #debian] Dagger: So can lsof and fuser
+[2016-05-14 16:32:16 -0500] [Dagger in #debian] SpeakerToMeat: really? how?
+[2016-05-14 16:32:39 -0500] [Dagger in #debian] thought they just listed file handles that were currently open
+[2016-05-14 16:33:08 -0500] [SpeakerToMeat in #debian] Dagger: Ah you mean processes that opened a file but closed it already?
+[2016-05-14 16:33:32 -0500] [Dagger in #debian] yeah. kinda hard to catch those in lsof/fuser
+[2016-05-14 16:33:40 -0500] [SpeakerToMeat in #debian] Yes
+[2016-05-14 16:34:03 -0500] [CutMeOwnThroat in #debian] I guess you could strace -f every single process
+[2016-05-14 16:34:43 -0500] [SpeakerToMeat in #debian] Eh, you could combine fam with fuser. Seeying if you can trigger a fuser on the file and log it when it's changed before the handle gets closed..... I wonder if that'd work.
+[2016-05-14 16:34:46 -0500] [Dagger in #debian] yeah. or use opensnoop, it'll be faster
+[2016-05-14 16:34:48 -0500] [Geo in #debian] Hi, I'm looking for Debian 7.0, (not 7.10), and I can't find the iso anywhere- can anyone direct me to an archive of releases? http://cdimage.debian.org/cdimage/archive/7.0.0/amd64/iso-dvd/ doesn't seem to have an actual iso init
+[2016-05-14 16:35:04 -0500] [CutMeOwnThroat in #debian] SpeakerToMeat, no, fam tells you after the fact
+[2016-05-14 16:36:07 -0500] [CutMeOwnThroat in #debian] or close-enough at it... but spawning another process is too slow for a short write anyway
+[2016-05-14 16:36:24 -0500] [Dagger in #debian] https://p.6core.net/p/BLzMf8GuczrswkacVQFdzH20 <-- just leaves you with the challenge of working out what those PIDs are
+[2016-05-14 16:37:04 -0500] [Dagger in #debian] which, okay, is the same problem you started with except with PIDs instead of files, but it should be doable somehow
+[2016-05-14 16:37:39 -0500] [CutMeOwnThroat in #debian] macos system?
+[2016-05-14 16:37:43 -0500] [Dagger in #debian] like with execsnoop! which you can't run at the same time as opensnoop because apparently only one process can use ftrace at once
+[2016-05-14 16:37:52 -0500] [CutMeOwnThroat in #debian] Dagger, no... that is trivial
+[2016-05-14 16:38:12 -0500] [Dagger in #debian] no, that's linux. check out perf-tools-unstable
+[2016-05-14 16:38:31 -0500] [CutMeOwnThroat in #debian] either the process is still there, or... oh. problem, can't see the PPID after the fact
+[2016-05-14 16:38:51 -0500] [PadawanLearner in #debian] actually you can
+[2016-05-14 16:39:18 -0500] [CutMeOwnThroat in #debian] will do, that is new to me
+[2016-05-14 16:39:43 -0500] [PadawanLearner in #debian] just grab all the pid's and dump it to disk... periodically...
+[2016-05-14 16:40:25 -0500] [CutMeOwnThroat in #debian] no, that's the same problem... if the process exists only 50ms or so, you wouldn't grab it
+[2016-05-14 16:40:46 -0500] [CutMeOwnThroat in #debian] but I guess in  most cases the process still would be there
+[2016-05-14 16:41:07 -0500] [CutMeOwnThroat in #debian] anyway... there's execsnoop in the same package :P
+[2016-05-14 16:41:12 -0500] [SpeakerToMeat in #debian] Yes, or make a versioned copy of /proc pid subdirs.... (including only cmdline for each), and compare....
+[2016-05-14 16:41:24 -0500] [CutMeOwnThroat in #debian] Dagger, woo... interesting stuff
+[2016-05-14 16:41:38 -0500] [CutMeOwnThroat in #debian] Dagger, thanks for that one
+[2016-05-14 16:43:05 -0500] [CutMeOwnThroat in #debian] holy funk
+[2016-05-14 16:51:13 -0500] [deb in #debian-es-offtopic] hola
+[2016-05-14 16:51:33 -0500] [tout in #debian-es-offtopic] hola
+[2016-05-14 16:53:34 -0500] [CutMeOwnThroat in #debian] Dagger, any idea on the performance hit of that tracing?
+[2016-05-14 16:54:05 -0500] [Dagger in #debian] nope, sorry
+[2016-05-14 16:54:35 -0500] [Dagger in #debian] but wait. perf-tools-unstable isn't even the cool suite of tracing tools I was thinking of!
+[2016-05-14 16:54:42 -0500] [SpeakerToMeat in #debian] afaik perf tools trace to ram to minimize impact as much as possible, but I could be wrong.
+[2016-05-14 16:54:48 -0500] [Dagger in #debian] what you really want to be checking out is bcc-bpf-tools
+[2016-05-14 16:54:53 -0500] [Dagger in #debian] which... I think I had to build myself
+[2016-05-14 16:55:42 -0500] [Ingvix in #debian] tried to set up owncloud server on debian with this https://www.howtoforge.com/tutorial/owncloud-install-debian-8-jessie/ but apt get install owncloud did not install mysql and I installed it separately afterwards and when getting to the webadmin part I only get 404 when trying to connect the web installer on another pc
+[2016-05-14 16:55:48 -0500] [Ingvix in #debian] any help?
+[2016-05-14 16:56:14 -0500] [Dagger in #debian] yeah, I did. but it has its own `opensnoop` which prints process names (...unfortunately just "cat" in this case)
+[2016-05-14 16:56:17 -0500] [Dagger in #debian] CutMeOwnThroat: https://github.com/iovisor/bcc
+[2016-05-14 16:56:45 -0500] [CutMeOwnThroat in #debian] iovisor I remember seeing
+[2016-05-14 16:59:54 -0500] [CutMeOwnThroat in #debian] Ingvix, that seems to use a 3rd-party owncloud package
+[2016-05-14 17:00:34 -0500] [Ingvix in #debian] oh
+[2016-05-14 17:00:43 -0500] [CutMeOwnThroat in #debian] Ingvix, but there is an owncloud packagage in debian itself
+[2016-05-14 17:01:04 -0500] [Ingvix in #debian] ohh
+[2016-05-14 17:02:58 -0500] [Ingvix in #debian] uh, I'm not sure how to proceed though
+[2016-05-14 17:03:18 -0500] [Ingvix in #debian] should I remove those that I installed and try more official instructions?
+[2016-05-14 17:03:58 -0500] [CutMeOwnThroat in #debian] I haven't tried installing it... and the "owncloud" package seems to be just a meta-package that pulls in apache2 and others
+[2016-05-14 17:04:30 -0500] [CutMeOwnThroat in #debian] but it's not unusual that 3rd-party packages don't work very well in debian
+[2016-05-14 17:05:53 -0500] [CutMeOwnThroat in #debian] but cant really say much about owncloud itself, haven't tried it
+[2016-05-14 17:06:10 -0500] [Ingvix in #debian] okay
+[2016-05-14 17:06:26 -0500] [Ingvix in #debian] I guess I try to clean up the mess I did now and try some other way maybe
+[2016-05-14 17:07:24 -0500] [CutMeOwnThroat in #debian] it is generally better to build yourself and install in /opt or /user/local/ (e.g. /opt/mysoftware) than install packages from outside debian
+[2016-05-14 17:07:59 -0500] [Ingvix in #debian] I try that if I find out how
+[2016-05-14 17:08:02 -0500] [deb in #debian-es-offtopic] como estas tout 
+[2016-05-14 17:08:13 -0500] [CutMeOwnThroat in #debian] or well, maybe depends
+[2016-05-14 17:08:38 -0500] [tout in #debian-es-offtopic] contento, le cambie la pasta al pc y parece qe era eso, en vez de la metalica tenia la blanca y no iba bien
+[2016-05-14 17:10:28 -0500] [markybob in #debian] really the main issue is you should never use webmin
+[2016-05-14 17:11:07 -0500] [Ingvix in #debian] oh
+[2016-05-14 17:11:15 -0500] [Ingvix in #debian] why not
+[2016-05-14 17:11:16 -0500] [markybob in #debian] !webmin
+[2016-05-14 17:11:16 -0500] [dpkg in #debian] Webmin is a lame web-based interface for unsafe system administration for Unix.  Check it out at http://webmin.com/  Remember, dondelelcaro *hates* webmin.  "i'd rather sit on the floor shoving table knives into live electrical outlets than run webmin on an exposed server."  Removed from Debian post-Sarge, see http://bugs.debian.org/343897 .  The Debian package from webmin.com is of poor quality.  See <free whcp> for alternatives.
+[2016-05-14 17:11:31 -0500] [Ingvix in #debian] oh
+[2016-05-14 17:12:20 -0500] [CutMeOwnThroat in #debian] but what does this have to do with webmin?
+[2016-05-14 17:12:24 -0500] [CutMeOwnThroat in #debian] nuffin
+[2016-05-14 17:12:34 -0500] [markybob in #debian] he was getting 404 errors trying to install webmin
+[2016-05-14 17:12:52 -0500] [markybob in #debian] so, yeah, it matters
+[2016-05-14 17:13:26 -0500] [CutMeOwnThroat in #debian] no?
+[2016-05-14 17:13:37 -0500] [Ingvix in #debian] if the package even installed it as it didn't install mysql though according to that tutorial it should've
+[2016-05-14 17:14:04 -0500] [CutMeOwnThroat in #debian] owncloud apparently has some webadmin thingy
+[2016-05-14 17:14:08 -0500] [CutMeOwnThroat in #debian] that's hardly "webmin"
+[2016-05-14 17:14:23 -0500] [markybob in #debian] oh. then i misread
+[2016-05-14 17:21:09 -0500] [CutMeOwnThroat in #debian] guess it doesn't help that the webmin and dotdeb php packages are a bit notorious
+[2016-05-14 17:40:33 -0500] [pw16 in #debian] Is there a OneNote/Evernote equivalent for linux?
+[2016-05-14 17:40:43 -0500] [pw16 in #debian] If not, what do people use?
+[2016-05-14 17:44:43 -0500] [teraflops in #debian] wine?
+[2016-05-14 17:47:00 -0500] [markybob in #debian] pw16: i know codeweavers supports evernote 4.x and onenote 2010...wine might be hard. newer might be hard.
+[2016-05-14 17:47:11 -0500] [Zarthus in #debian] pw16: maybe wunderlist? I'm not sure if it allows creating notes
+[2016-05-14 17:47:35 -0500] [Zarthus in #debian] only ever used it in a browser.
+[2016-05-14 17:47:49 -0500] [pw16 in #debian] Zarthus, wunderlist is just more for task management i believe - but you can add notes to tasks
+[2016-05-14 17:47:52 -0500] [markybob in #debian] for notes i just use google's keep. *shrug*
+[2016-05-14 17:48:10 -0500] [Zarthus in #debian] yeah it also doesn't seem to support linux, just macs
+[2016-05-14 17:48:17 -0500] [teraflops in #debian] https://appdb.winehq.org/objectManager.php?sClass=application&iId=2566
+[2016-05-14 17:48:18 -0500] [pw16 in #debian] just found this: http://keepnote.org/
+[2016-05-14 17:48:18 -0500] [Zarthus in #debian] (well, anything but linux, to be more accurate.)
+[2016-05-14 17:48:27 -0500] [pw16 in #debian] markybob, hows that worked out for you? :)
+[2016-05-14 17:48:44 -0500] [markybob in #debian] pw16: obviously great since i still use it :P
+[2016-05-14 17:49:44 -0500] [jmcnaught in #debian] pw16: basket and zim are a couple you might want ot check out, or tomboy notes (if you're looking for something native to linux)
+[2016-05-14 17:49:59 -0500] [pw16 in #debian] jmcnaught, thanks! :)
+[2016-05-14 17:50:02 -0500] [jmcnaught in #debian] not exactly the same but might scratch the same itch
+[2016-05-14 17:50:39 -0500] [teraflops in #debian] markybob: I heard google keep is not that bad
+[2016-05-14 17:50:46 -0500] [markybob in #debian] teraflops: i really like it
+[2016-05-14 17:52:28 -0500] [pw16 in #debian] i'm still in the process of transitioning to linux
+[2016-05-14 17:52:35 -0500] [pw16 in #debian] not quite sure how i'm going to really do it
+[2016-05-14 17:52:39 -0500] [pw16 in #debian] i'm still dual booting
+[2016-05-14 17:52:45 -0500] [pw16 in #debian] so taking a step at a time
+[2016-05-14 17:53:05 -0500] [markybob in #debian] pw16: that's what's great about something like keep. you can use it in linux, mac, windows, android, ios...same notes
+[2016-05-14 17:53:17 -0500] [evilytwisted in #debian] Linux is love, linux is life.  its people friendly but its picky on who its friendly with!
+[2016-05-14 17:54:50 -0500] [pw16 in #debian] markybob, I actually haven't tried keep yet but will note that to try out
+[2016-05-14 17:55:10 -0500] [pw16 in #debian] evilytwisted, yep i'm already loving this channel, everyone is so responsive
+[2016-05-14 17:56:38 -0500] [jmcnaught in #debian] we have our moments
+[2016-05-14 17:57:45 -0500] [teraflops in #debian] hmm there is a chrome/chromium extension and app
+[2016-05-14 17:58:06 -0500] [pw16 in #debian] jmcnaught, never heard of basket and zim
+[2016-05-14 17:58:21 -0500] [pw16 in #debian] but will check them out too
+[2016-05-14 17:58:57 -0500] [jmcnaught in #debian] pw16: they're both available as Debian packages
+[2016-05-14 17:59:04 -0500] [evilytwisted in #debian] pw16: but im not a deb user :P
+[2016-05-14 17:59:10 -0500] [evilytwisted in #debian] im one of those.. offbreeds
+[2016-05-14 17:59:34 -0500] [pw16 in #debian] jmcnaught, i'm not currently on deb but will check it later :)
+[2016-05-14 18:02:07 -0500] [pw16 in #debian] getting ready to sleep
+[2016-05-14 18:02:11 -0500] [jmcnaught in #debian] pw16: they both have websites too :)
+[2016-05-14 18:02:19 -0500] [pw16 in #debian] goodnight everyone! happy to meet you all.
+[2016-05-14 18:02:29 -0500] [pw16 in #debian] thank you for all your replies, you know who you are
+[2016-05-14 18:05:42 -0500] [evilytwisted in #debian] is it possibe to add yast, kyum, yum, and synaptic on one os?
+[2016-05-14 18:05:48 -0500] [evilytwisted in #debian] and work
+[2016-05-14 18:16:10 -0500] [neglesaks in #debian-offtopic] under disk tidied... amplifier moved... cable nest tidied..
+[2016-05-14 18:18:22 -0500] [ewew in #debian-offtopic] here https://www.youtube.com/watch?v=MILCZgt21kY
+[2016-05-14 18:18:23 -0500] [datase in #debian-offtopic] YouTube: [Drum Cover] What's Up People?! by Maximum the Hormone - 0:04:26 - 2063 views - 27 likes / 6 dislikes
+[2016-05-14 18:19:11 -0500] [ewew in #debian-offtopic] poor thing that recorded it.
+[2016-05-14 18:21:19 -0500] [Lady_Aleena in #debian-offtopic] Hello. I need to rant for a moment, so please bear with me. <rant>Why is it every time I get something to make this computer work better something else breaks? Today I replaced the backup battery cartridge in my battery back up, and now my left rear speaker is out. I can't win with this computer anymore. I can't afford a new one, especially since my keyboard and mouse are no longer in production and all the keyboards and mice thes
+[2016-05-14 18:21:19 -0500] [Lady_Aleena in #debian-offtopic] e days suck. I would still have to use old equipment since I still have files on iOmega and 3.5" disks. I can't win anymore.</rant>
+[2016-05-14 18:22:25 -0500] [Lady_Aleena in #debian-offtopic] And I'm sorry, I know rants are supposed to go to /dev/null, but I had to vent somewhere. So please forgive me.
+[2016-05-14 18:22:55 -0500] [ewew in #debian-offtopic] maybe to a toilet ?
+[2016-05-14 18:23:46 -0500] [Lady_Aleena in #debian-offtopic] ewew, what?
+[2016-05-14 18:24:15 -0500] [ewew in #debian-offtopic] venting rants.
+[2016-05-14 18:24:46 -0500] [Lady_Aleena in #debian-offtopic] I need more animate sounding boards.
+[2016-05-14 18:25:28 -0500] [ewew in #debian-offtopic] well. I should go to sleep now.
+[2016-05-14 18:25:40 -0500] [Lady_Aleena in #debian-offtopic] Sleep sweet ewew.
+[2016-05-14 18:26:03 -0500] [ewew in #debian-offtopic] I hope i will not rotate like last time on bed.
+[2016-05-14 18:26:27 -0500] [Lady_Aleena in #debian-offtopic] Sounds like fun, not knowing where one will be on the bed when one wakes.
+[2016-05-14 18:30:57 -0500] [Lady_Aleena in #debian] Hello. I did a apt-cache search for a gui battery monitor. I'm just not sure if any of these are what I'm looking for.
+[2016-05-14 18:31:32 -0500] [neglesaks in #debian-offtopic] haroooo
+[2016-05-14 18:32:31 -0500] [neglesaks in #debian-offtopic] It breaks because of 1) the 2nd law of thermopdynamics 2) planned obsolesence 3) evil gnomes inside your computer that are powered by bad karma
+[2016-05-14 18:32:53 -0500] [neglesaks in #debian-offtopic] What computer is iot?
+[2016-05-14 18:33:00 -0500] [jim in #debian] Lady_Aleena, this battery is powering what?
+[2016-05-14 18:33:27 -0500] [Lady_Aleena in #debian-offtopic] neglesaks, are you talking about my rant?
+[2016-05-14 18:33:49 -0500] [Lady_Aleena in #debian] jim, it is the battery backup.
+[2016-05-14 18:34:13 -0500] [Lady_Aleena in #debian-offtopic] And now my keyboard is acting up!
+[2016-05-14 18:34:21 -0500] [jim in #debian] ok, probably you're looking for a different kind of monitor?
+[2016-05-14 18:34:37 -0500] [neglesaks in #debian-offtopic] What else?
+[2016-05-14 18:34:56 -0500] [jim in #debian] what's it backing up?
+[2016-05-14 18:34:58 -0500] [neglesaks in #debian-offtopic] I blamemy keyboard when my fingers act up.
+[2016-05-14 18:35:10 -0500] [u0_a219 in #debian] test
+[2016-05-14 18:35:27 -0500] [Lady_Aleena in #debian] If the power goes out, this will keep my computer running long enough so I can shut it down correctly.
+[2016-05-14 18:36:14 -0500] [u0_a219 in #debian] this is so cool, im running irssi on my phone lol
+[2016-05-14 18:36:32 -0500] [Lady_Aleena in #debian-offtopic] I was typing and suddenly my keystrokes were not appearing on screen. It is like it is pausing for a moment before letting me type anything else.
+[2016-05-14 18:36:37 -0500] [jim in #debian] ok, did you get it connected? and, what are the cables? also, what manufacturer/model is the battery backup?
+[2016-05-14 18:36:38 -0500] [neglesaks in #debian-offtopic] there is so tide under my desk now... there is space for my legs
+[2016-05-14 18:36:57 -0500] [neglesaks in #debian-offtopic] Lagging... CP tied up for a moment, or the app.... oh well.
+[2016-05-14 18:37:00 -0500] [neglesaks in #debian-offtopic] I digress.
+[2016-05-14 18:37:01 -0500] [jim in #debian] omit the second question, malformed thought.
+[2016-05-14 18:37:11 -0500] [Lady_Aleena in #debian] jim, APC BE750G, and yes the cord I had was correct.
+[2016-05-14 18:37:54 -0500] [Lady_Aleena in #debian] I see something called apcupsd, but the little description doesn't tell me if it is gui.
+[2016-05-14 18:38:19 -0500] [Lady_Aleena in #debian-offtopic] I just want to break down and cry.
+[2016-05-14 18:38:29 -0500] [jim in #debian] so do I...
+[2016-05-14 18:38:45 -0500] [jim in #debian] ,find apcupsd
+[2016-05-14 18:38:48 -0500] [judd in #debian] Search for apcupsd in jessie/amd64: apcupsd: etc/default/apcupsd, etc/init.d/apcupsd, sbin/apcupsd; logcheck-database: etc/logcheck/ignore.d.server/apcupsd; aide-common: usr/share/aide/config/aide/aide.conf.d/31_aide_apcupsd
+[2016-05-14 18:39:06 -0500] [Lady_Aleena in #debian] jim, I just ran apt-cache search APC.
+[2016-05-14 18:39:29 -0500] [jim in #debian] ,v apcupsd
+[2016-05-14 18:39:31 -0500] [judd in #debian] Package: apcupsd on amd64 -- squeeze: 3.14.8-2; wheezy: 3.14.10-2; jessie: 3.14.12-1.1; sid: 3.14.12-1.2; stretch: 3.14.12-1.2
+[2016-05-14 18:39:49 -0500] [jim in #debian] so this thing is there...
+[2016-05-14 18:40:00 -0500] [Lady_Aleena in #debian] jim, I know, I just don't know if it is gui.
+[2016-05-14 18:40:10 -0500] [jim in #debian] it's a daemon
+[2016-05-14 18:40:18 -0500] [jim in #debian] so it's not
+[2016-05-14 18:40:40 -0500] [Lady_Aleena in #debian] BEGONE! 8) # I have to get a little silly right now, or I'll break into tears.
+[2016-05-14 18:40:42 -0500] [jim in #debian] but that's not to say you can't monitor it with one
+[2016-05-14 18:41:29 -0500] [Lady_Aleena in #debian] My keyboard is now acting up too.
+[2016-05-14 18:41:33 -0500] [jim in #debian] one step at a time... first, let's see if you can get apcupsd to work
+[2016-05-14 18:42:10 -0500] [Lady_Aleena in #debian] installing.
+[2016-05-14 18:42:21 -0500] [jim in #debian] then, let's see how to query it
+[2016-05-14 18:42:49 -0500] [jim in #debian] well, first make sure the ups is seen by it
+[2016-05-14 18:43:51 -0500] [jim in #debian] if it's really simple, maybe it uses syslog... and you can monitor using that
+[2016-05-14 18:44:44 -0500] [Lady_Aleena in #debian] Sorry, I need to stop for a moment, I'm broken.
+[2016-05-14 18:46:06 -0500] [jim in #debian] ok, let me know when you;re feeling better and want to continue
+[2016-05-14 18:46:38 -0500] [Lady_Aleena in #debian] jim, maybe after my keyboard stops acting up. I don't get why it is suddenly being such a pain.
+[2016-05-14 18:47:34 -0500] [jim in #debian] hmm... what kind of kbd?
+[2016-05-14 18:48:11 -0500] [Lady_Aleena in #debian] A Microsoft Natural Ergonomic Keyboard 4000 v1.0
+[2016-05-14 18:48:32 -0500] [jim in #debian] ok... how does it connect?
+[2016-05-14 18:48:44 -0500] [Lady_Aleena in #debian] USB
+[2016-05-14 18:48:53 -0500] [markybob in #debian] i never understood how people use those and then use other computers
+[2016-05-14 18:49:17 -0500] [markybob in #debian] muscle memory is real :P
+[2016-05-14 18:49:49 -0500] [Lady_Aleena in #debian] markybob, I know. Every other keyboard is so cramped to me now. Laptop keyboards are almost useless.
+[2016-05-14 18:50:13 -0500] [markybob in #debian] maybe it's time for a change :)
+[2016-05-14 18:50:31 -0500] [jim in #debian] do you happen to have a spare?
+[2016-05-14 18:50:41 -0500] [mosh in #debian] I use mechanical keyboards :)
+[2016-05-14 18:50:45 -0500] [Lady_Aleena in #debian] markybob, um, go back to a cramped keyboard which will kill my wrists?
+[2016-05-14 18:50:52 -0500] [Lady_Aleena in #debian] jim, no.
+[2016-05-14 18:51:12 -0500] [mosh in #debian] hugs his IBM Model M recapped with a programmer's dvorak layout
+[2016-05-14 18:51:24 -0500] [jim in #debian] yeah, taking care of wrists is good of course
+[2016-05-14 18:51:37 -0500] [Lady_Aleena in #debian] jim, let me quality that "no". There are other keyboards available, however they are so dirty I won't let them back in the house.
+[2016-05-14 18:52:06 -0500] [mosh in #debian] You can even get different colored key caps, even custom ones printed
+[2016-05-14 18:52:12 -0500] [markybob in #debian] mosh: good geek. we all should have those
+[2016-05-14 18:52:22 -0500] [jim in #debian] what's good about mechanical kbds?
+[2016-05-14 18:52:40 -0500] [markybob in #debian] jim: are you being serious? ever used one?
+[2016-05-14 18:52:48 -0500] [mosh in #debian] They last forever, aren't made cheaply. You can even get weighted keys :)
+[2016-05-14 18:52:56 -0500] [jim in #debian] not sure...
+[2016-05-14 18:53:05 -0500] [markybob in #debian] jim: you'd know. they're heaven.
+[2016-05-14 18:53:09 -0500] [jim in #debian] weighted?
+[2016-05-14 18:53:12 -0500] [markybob in #debian] young people, i swear
+[2016-05-14 18:53:15 -0500] [markybob in #debian] ;)
+[2016-05-14 18:53:31 -0500] [jim in #debian] hah :P
+[2016-05-14 18:53:33 -0500] [mosh in #debian] I have an 1987 model m keyboard that works flawless, only problem is the letters were rubbed off
+[2016-05-14 18:53:50 -0500] [mosh in #debian] isn't young
+[2016-05-14 18:54:01 -0500] [markybob in #debian] me either. that's why we know :)
+[2016-05-14 18:54:53 -0500] [mosh in #debian] :D, I even switched the windows key to the meta key symbol used on unix workstations (sun, ibm, etc) the diamond key
+[2016-05-14 18:55:18 -0500] [mosh in #debian] feels more comfortable that way
+[2016-05-14 18:57:23 -0500] [neglesaks in #debian-offtopic] I do know that feeling many times over if it offers a modicum of consolation.
+[2016-05-14 18:57:42 -0500] [Lady_Aleena in #debian] mosh, I want my "Windows" key back to use on my application launcher in KDE.
+[2016-05-14 18:57:58 -0500] [TomTomTosch in #debian-offtopic] hooka bars are a weird place at night...
+[2016-05-14 18:58:21 -0500] [Lady_Aleena in #debian] Either Debian or KDE stole that key and made it a "meta" key which annoys me to bits.
+[2016-05-14 18:58:42 -0500] [neglesaks in #debian-offtopic] It started back in 1995 when my first short story I was working on was lost due to me fidding with the partitioning of my hard drive...
+[2016-05-14 18:59:07 -0500] [TomTomTosch in #debian-offtopic] i was sitting in a corner with an old friend i havn't seen for a year. suddenly the host came in and started punching people in the face...
+[2016-05-14 18:59:19 -0500] [Lady_Aleena in #debian-offtopic] neglesaks, if I start down memory lane of all the files I've lost over the years, I will be useless.
+[2016-05-14 18:59:23 -0500] [markybob in #debian] i know nothing about kde but xfce can reset it. i assume kde can
+[2016-05-14 18:59:48 -0500] [Lady_Aleena in #debian] markybob, I haven't found it yet.
+[2016-05-14 19:00:36 -0500] [markybob in #debian] Lady_Aleena: i'm sure if you asked #debian-kde on irc.oftc.net they'd know right away how to do it
+[2016-05-14 19:01:08 -0500] [jmcnaught in #debian-offtopic] TomTomTosch: are you okay? i don't think that's a universal quality of hookah bars, thankfully
+[2016-05-14 19:02:01 -0500] [Lady_Aleena in #debian] markybob, right now I want to kick something. Do one thing good for my system, and several other things break.
+[2016-05-14 19:02:23 -0500] [markybob in #debian] Lady_Aleena: are you doing something stupid like using testing?
+[2016-05-14 19:02:41 -0500] [TomTomTosch in #debian-offtopic] jmcnaught: i didn't get involved. i think they were fiddling with the gaming machines.
+[2016-05-14 19:02:41 -0500] [Lady_Aleena in #debian] markybob, not that I am aware of.
+[2016-05-14 19:03:03 -0500] [markybob in #debian] Lady_Aleena: can you put your /etc/apt/sources.list on paste.debian.net ?
+[2016-05-14 19:03:30 -0500] [Lady_Aleena in #debian] markybob, why do you need that?
+[2016-05-14 19:04:09 -0500] [markybob in #debian] Lady_Aleena: it'd tell me if you're using stable/testing/sid/frakendebian/whatever. jessie doesn't break that easily
+[2016-05-14 19:04:55 -0500] [Lady_Aleena in #debian] http://paste.debian.net/683950/
+[2016-05-14 19:05:25 -0500] [markybob in #debian] Lady_Aleena: okay that looks good
+[2016-05-14 19:05:59 -0500] [TomTomTosch in #debian-offtopic] jmcnaught: it was an interesting sight. the host was at least a had shorter than those guys and still had no problem throwing them out.
+[2016-05-14 19:06:09 -0500] [markybob in #debian] oh no
+[2016-05-14 19:06:19 -0500] [markybob in #debian] Lady_Aleena: i misread and skipped something
+[2016-05-14 19:06:19 -0500] [TomTomTosch in #debian-offtopic] s/had/head
+[2016-05-14 19:06:22 -0500] [Lady_Aleena in #debian] What?
+[2016-05-14 19:06:33 -0500] [markybob in #debian] http.debian.net are your main sources
+[2016-05-14 19:06:38 -0500] [markybob in #debian] that's not right
+[2016-05-14 19:07:14 -0500] [jmcnaught in #debian-offtopic] probably a matter of experience, still when i visit a place i'd prefer the staff not to punch people in the face if they need to be asked to leave
+[2016-05-14 19:07:20 -0500] [markybob in #debian] Lady_Aleena: well...it can be. but the point is it uses httpredir.debian.org which is often broken
+[2016-05-14 19:07:25 -0500] [markybob in #debian] Lady_Aleena: so i'd change it
+[2016-05-14 19:08:05 -0500] [markybob in #debian] !httpredir issues
+[2016-05-14 19:08:05 -0500] [dpkg in #debian] The <httpredir> service selects bad mirrors for some people. If you're one of them, try explicitly choosing a mirror: "deb http://ftp.XX.debian.org/debian jessie main" etc. (where XX is your, or a nearby, country code). Avoid using the US mirror round robin; ask me about <mirror list> <ftp.us.debian.org>.
+[2016-05-14 19:08:08 -0500] [TomTomTosch in #debian-offtopic] yeah, i'll probably not be a regular there x)
+[2016-05-14 19:08:41 -0500] [evilytwisted in #debian-offtopic] Lady_Aleena:  if i may make some assurance.
+[2016-05-14 19:08:49 -0500] [evilytwisted in #debian-offtopic] Just because its new doesnt mean its better.
+[2016-05-14 19:08:57 -0500] [evilytwisted in #debian-offtopic] Norton alone teaches us that lesson.
+[2016-05-14 19:08:57 -0500] [Lady_Aleena in #debian-offtopic] evilytwisted, you may.
+[2016-05-14 19:09:21 -0500] [evilytwisted in #debian-offtopic] thats why if i was you i would go to newegg.com buy a 500 dollar ibuypower tower
+[2016-05-14 19:09:27 -0500] [Lady_Aleena in #debian] markybob, you sure?
+[2016-05-14 19:09:29 -0500] [evilytwisted in #debian-offtopic] OR even less
+[2016-05-14 19:09:36 -0500] [evilytwisted in #debian-offtopic] and get linuxmint. erm i mean debian
+[2016-05-14 19:09:45 -0500] [Lady_Aleena in #debian-offtopic] evilytwisted, you buying?
+[2016-05-14 19:09:49 -0500] [jim in #debian] whats an example of how such a mirror got bad?
+[2016-05-14 19:09:58 -0500] [markybob in #debian] Lady_Aleena: i'm sure. that factoid was made by greycat. in greycat we trust. plus i've seen plenty of people having problems with it on here
+[2016-05-14 19:09:59 -0500] [evilytwisted in #debian-offtopic] if i had the money to spend i would
+[2016-05-14 19:10:07 -0500] [evilytwisted in #debian-offtopic] But i already blew my tax return on an xbox 1
+[2016-05-14 19:10:18 -0500] [Lady_Aleena in #debian] markybob, I've not seen any problems with it yet.
+[2016-05-14 19:10:20 -0500] [markybob in #debian] jim: 404
+[2016-05-14 19:10:38 -0500] [jim in #debian] dead mirrors, nonexistant
+[2016-05-14 19:10:46 -0500] [evilytwisted in #debian-offtopic] and amongst other things
+[2016-05-14 19:10:56 -0500] [markybob in #debian] yes
+[2016-05-14 19:11:01 -0500] [evilytwisted in #debian-offtopic] newegg and ibuypower sells cheap towers
+[2016-05-14 19:11:23 -0500] [jmcnaught in #debian-offtopic] TomTomTosch: is there still tobacco in the shisha over there? seems like it's just dried fruits here now
+[2016-05-14 19:11:41 -0500] [jmcnaught in #debian-offtopic] with the anti-smoking laws and all
+[2016-05-14 19:11:52 -0500] [jim in #debian] -still- loves his sources.list.m4
+[2016-05-14 19:11:59 -0500] [Lady_Aleena in #debian] I got kitten in hand now, brb.
+[2016-05-14 19:12:15 -0500] [jim in #debian] and associated makefile
+[2016-05-14 19:12:26 -0500] [markybob in #debian] Lady_Aleena: you always do. how many do you have? i have 3 :P had four 'til a month ago :(
+[2016-05-14 19:12:40 -0500] [Lady_Aleena in #debian] markybob, 1
+[2016-05-14 19:12:46 -0500] [markybob in #debian] i'm the man version of the old cat lady
+[2016-05-14 19:13:07 -0500] [TomTomTosch in #debian-offtopic] jmcnaught: yeah, this stuff is good. they can't sell food thogh in a place where smoking is allowed, only drinks and snacks.
+[2016-05-14 19:13:30 -0500] [jim in #debian] sorry to hear cats=cats-1
+[2016-05-14 19:13:41 -0500] [jmcnaught in #debian] markybob: three cats is the threshold. more than three you are official a crazy person
+[2016-05-14 19:13:46 -0500] [Lady_Aleena in #debian] GUH! I am so tense right now.
+[2016-05-14 19:13:56 -0500] [markybob in #debian] jmcnaught: i had 9 at one point. i'm not even kidding.
+[2016-05-14 19:14:11 -0500] [markybob in #debian] jmcnaught: i live in the woods, though. they're mostly always outside
+[2016-05-14 19:14:31 -0500] [Lady_Aleena in #debian] I think I need to step away from this computer and deal with it later.
+[2016-05-14 19:14:43 -0500] [Lady_Aleena in #debian] Something is really wrong with it now.
+[2016-05-14 19:14:46 -0500] [TomTomTosch in #debian-offtopic] jmcnaught: but it's pretty expensive. ~ 8€ for one.
+[2016-05-14 19:15:28 -0500] [Lady_Aleena in #debian-offtopic] waves and disappears in a puff of steam.
+[2016-05-14 19:15:42 -0500] [Lady_Aleena in #debian] waves and disappears in a puff of steam.
+[2016-05-14 19:15:44 -0500] [jmcnaught in #debian-offtopic] TomTomTosch: it's been over a year since i went to one and i think it was around $15 CAD for one
+[2016-05-14 19:16:25 -0500] [neglesaks in #debian-offtopic] gn gents
+[2016-05-14 19:16:32 -0500] [TomTomTosch in #debian-offtopic] good night.
+[2016-05-14 19:18:32 -0500] [TomTomTosch in #debian-offtopic] jmcnaught: but i tell you, the beer. we have been to a pub with an adjacent brewery before. best weissbier i ever had. x)
+[2016-05-14 19:18:54 -0500] [jmcnaught in #debian-offtopic] i bet there are electronic hookahs now, like the e-cig vapourisers but larger and more bong like
+[2016-05-14 19:23:43 -0500] [TomTomTosch in #debian-offtopic] maybe. the goal is, after all, to blow the biggest cloud of smoke!
+[2016-05-14 19:24:53 -0500] [jmcnaught in #debian-offtopic] vape stores actually do cloud competitions
+[2016-05-14 19:25:14 -0500] [TomTomTosch in #debian-offtopic] ah well, time for blissful drunken sleep. good night, jmcnaught x)
+[2016-05-14 19:25:22 -0500] [jmcnaught in #debian-offtopic] TomTomTosch: good night :)
+[2016-05-14 19:41:27 -0500] [jrabbit in #debian] did the default settigns for typing and using the ouse at the same time change
+[2016-05-14 19:41:37 -0500] [jrabbit in #debian] and how can i get the old behvior back?
+[2016-05-14 19:47:18 -0500] [jmcnaught in #debian] jrabbit: what do you mean? what has changed?
+[2016-05-14 19:49:42 -0500] [jrabbit in #debian] jmcnaught: before I could use a non-modifier key and move my mouse
+[2016-05-14 19:49:44 -0500] [jrabbit in #debian] now i cant
+[2016-05-14 19:49:50 -0500] [jrabbit in #debian] the mouse is disabled when i type
+[2016-05-14 19:50:43 -0500] [jrabbit in #debian] all i did was update
+[2016-05-14 19:52:29 -0500] [jmcnaught in #debian] jrabbit: which release of Debian is this? this channel primarily caters to stable/jessie users (where upgrades don't generally change behaviours).
+[2016-05-14 19:53:11 -0500] [jmcnaught in #debian] jrabbit: this is also likely tied to your choice of desktop environment or window manager. in gnome for instance the mouse/touchpad settings has a "disable while typing" setting
+[2016-05-14 19:58:31 -0500] [markybob in #debian] jrabbit: i've heard this a couple times recently from testing users. i assume that's what you're using?
+[2016-05-14 19:59:22 -0500] [jrabbit in #debian] yeah
+[2016-05-14 19:59:44 -0500] [markybob in #debian] jrabbit: so you should ask the testing people on #debian-next on irc.oftc.net per /topic

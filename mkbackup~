@@ -8,23 +8,49 @@ PATH=/opt/someApp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b
 
 cd $HOME/kamaoo
 echo "creating backup ...wait ..."
-fecha=$(date +"%Y-%m-%d.%H:%m")
+fecha=$(date +"%Y-%m-%d.%H:%M")
 
 mkdir "logs/$fecha"
 touch "logs/$fecha/log"
 
 echo "...creating words.$fecha.png"
 ./solo_palabras "lita_chat.log"  > data-log
+
+tmp2="
+--- Most frecuent words (Total Unique Count: $(awk -F '\t' '{print $1}' data-log | sort | uniq -c | sort -nr | wc -w)) ---"
+tmp3="
+$(awk -F '\t' '{print $1}' data-log | sort | uniq -c | sort -nr)
+
+"
+
+echo "...creating png"
 python crea_grafica-colored.py
 tmp=$(curl -F c=@fn-worldcloud-color.png https://ptpb.pw)
 echo "$tmp" >> "logs/$fecha/log"
+echo >> "logs/$fecha/log"
 mv fn-worldcloud-color.png "logs/$fecha/words.$fecha.png"
-
 echo "...creating users.$fecha.png"
 ./solo_users "lita_chat.log"  > data-log
 python crea_grafica-colored.py
 tmp=$(curl -F c=@fn-worldcloud-color.png https://ptpb.pw)
 echo "$tmp" >> "logs/$fecha/log"
+tmp4="--- User Count: $(awk -F '\t' '{print $1}' data-log | sort | uniq -c | sort -nr | wc -w) ---"
+tmp5="
+$(awk -F '\t' '{print $1}' data-log | sort | uniq -c | sort -nr)
+
+"
+
+echo "$tmp2" >> "logs/$fecha/log"
+echo "$tmp4" >> "logs/$fecha/log"
+
+echo "---Words:" >> "logs/$fecha/log"
+
+echo "$tmp3" >> "logs/$fecha/log"
+
+echo "---Users:" >> "logs/$fecha/log"
+
+echo "$tmp5" >> "logs/$fecha/log"
+
 mv fn-worldcloud-color.png "logs/$fecha/users.$fecha.png"
 
 cp lita_chat.log "logs/$fecha/lita_chat.log"
@@ -34,7 +60,8 @@ tar -zcvf $HOME/kamaoo/logs/$fecha.tar.gz $HOME/kamaoo/logs/$fecha
 
 echo "cleaning up ..."
 rm -rf "logs/$fecha"
-rm lita_chat.log
-rm data-log
+cp lita_chat.log lita_chat.log.bk
+#rm lita_chat.log
+#rm data-log
 
 echo "Done!";echo

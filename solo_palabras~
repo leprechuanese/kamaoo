@@ -3,7 +3,6 @@
 # crea solo palabras del log
 in="$1"
 canal="$2"
-usuario="$3"
 #filtro='[,:.\"\}\^\=\#\*\/\\]'
 filtro='[,]'
 min_len=2
@@ -14,11 +13,7 @@ if [ ! -f "$in" ]; then
 fi
 echo 
 while IFS= read -r line; do
-	if [ "$usuario" ]; then
-		words=$(echo "$line" | grep "$usuario" | awk '{$1=$2=$3=$4=$5=$6=""; print $0}')
-	else
-		words=$(echo "$line" | grep "$canal" | awk '{$1=$2=$3=$4=$5=$6=""; print $0}')
-	fi
+	words=$(echo "$line" | grep "$canal" | awk '{$1=$2=$3=$4=$5=$6=""; print $0}')
 	words=${words//$filtro}
 	
 	for i in $words; do

@@ -50,7 +50,7 @@ echo >> "$directory/logs/$fecha/log"
 cp "$directory/fn-worldcloud-color.png" "$directory/logs/$fecha/users.$fecha.png"
 
 tmp4="--- User Count: $(awk -F '\t' '{print $1}' $directory/data-log | sort | uniq -c | sort -nr | wc -w) ---"
-tmp4="$tmp4 First Place: $(awk -F '\t' '{print $1}' $directory/data-log | sort | uniq -c | sort -nr | head -3 | awk '{print $2}')"
+tmp4="$tmp4 Places: $(awk -F '\t' '{print $1}' $directory/data-log | sort | uniq -c | sort -nr | head -3 | awk '{print $2}')"
 
 tmp5="$(awk -F '\t' '{print $1}' $directory/data-log | sort | uniq -c | sort -nr)"
 

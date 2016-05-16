@@ -8,11 +8,16 @@ Using the recolor method and custom coloring functions.
 import numpy as np
 from PIL import Image
 from os import path
+
+import matplotlib
+# Force matplotlib to not use any Xwindows backend.
+matplotlib.use('Agg')
+
 import matplotlib.pyplot as plt
+
 import random
 
 from wordcloud import WordCloud, STOPWORDS
-
 
 def grey_color_func(word, font_size, position, orientation, random_state=None, **kwargs):
     return "hsl(0, 0%%, %d%%)" % random.randint(60, 100)

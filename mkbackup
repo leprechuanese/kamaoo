@@ -34,9 +34,7 @@ echo "--- words.$fecha.png ---" >> "$directory/logs/$fecha/log"
 echo "$tmp" >> "$directory/logs/$fecha/log"
 echo >> "$directory/logs/$fecha/log"
 
-cp "$directory/fn-worldcloud-color.png" "$directory/logs/$fecha/words.$fecha.png" >> "$directory/logs/$fecha/log"
-
-touch "$directory/logs/$fecha/ya"
+mv "$directory/fn-worldcloud-color.png" "$directory/logs/$fecha/words.$fecha.png" >> "$directory/logs/$fecha/log"
 
 echo "...creating $directory/users.$fecha.png"
 
@@ -47,7 +45,7 @@ tmp=$(curl -F c=@$directory/fn-worldcloud-color.png https://ptpb.pw)
 echo "--- $directory/users.$fecha.png ---" >> "$directory/logs/$fecha/log"
 echo "$tmp" >> "$directory/logs/$fecha/log"
 echo >> "$directory/logs/$fecha/log"
-cp "$directory/fn-worldcloud-color.png" "$directory/logs/$fecha/users.$fecha.png"
+mv "$directory/fn-worldcloud-color.png" "$directory/logs/$fecha/users.$fecha.png"
 
 tmp4="--- User Count: $(awk -F '\t' '{print $1}' $directory/data-log | sort | uniq -c | sort -nr | wc -w) ---"
 tmp4="$tmp4 First Place: $(awk -F '\t' '{print $1}' $directory/data-log | sort | uniq -c | sort -nr | head -3 | awk '{print $2}')"
@@ -63,7 +61,7 @@ for i in $(awk -F '\t' '{print $1}' $directory/data-log | sort | uniq -c | sort 
 	echo "--- $directory/$num-place.$i.$fecha ---" >> "$directory/logs/$fecha/log"
 	echo "$tmp" >> "$directory/logs/$fecha/log"
 	echo >> "$directory/logs/$fecha/log"
-	cp "$directory/fn-worldcloud-color.png" "$directory/logs/$fecha/$num-place.$i.$fecha.png"
+	mv "$directory/fn-worldcloud-color.png" "$directory/logs/$fecha/$num-place.$i.$fecha.png"
 	let num=num+1
 done
 
@@ -83,7 +81,7 @@ echo "cleaning up ..."
 rm -rf "$directory/logs/$fecha"
 cp "$directory/lita_chat.log.tmp" "lita_chat.log.bk"
 rm "$directory/lita_chat.log.tmp"
-rm "$directory/lita_chat.log"
+#rm "$directory/lita_chat.log"
 rm "$directory/data-log"
 
 echo "Done!";echo

@@ -5,6 +5,9 @@ PATH=/opt/someApp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b
 # en crontab -e add to run every day at 23:59
 # m h  dom mon dow   command
 # 59 23 * * * cd $HOME/kamaoo;./mkbackup
+
+# TODO: get a ramdom file pro process another image in crea_grafica-colores.py
+# randomfile=(*.png); echo "${answer[RANDOM % ${#randomfile[@]}]}"
 directory="/home/deb/kamaoo"
 
 cd "$directory"
@@ -12,14 +15,14 @@ echo "creating backup ...wait ..."
 fecha=$(date +"%Y-%m-%d.%H:%M")
 
 cp "$directory/lita_chat.log" "$directory/lita_chat.log.tmp"
+cp "$directory/lita_chat.log" "$directory/$fecha-chat.log"
 cp "$directory/lita_chat.log" "$directory/lita_chat.log.bk"
 rm "lita_chat.log"
 
 mkdir "$directory/logs/$fecha"
+cp "$directory/$fecha-chat.log" "$directory/logs/$fecha-chat.log"
 touch "$directory/logs/$fecha/log"
-echo "--- kamaoo ver 0.01b ---
-repo at: https://github.com/leprechuanese/kamaoo
-$fecha" >> "$directory/logs/$fecha/log"
+##echo "--- kamaoo ver 0.01b ---repo at: https://github.com/leprechuanese/kamaoo$fecha" >> "$directory/logs/$fecha/log"
 
 echo "...creating $directory/words.$fecha.png"
 $directory/solo_palabras "$directory/lita_chat.log.tmp"  > "$directory/data-log"

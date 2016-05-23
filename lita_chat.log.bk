@@ -1,5 +1,1228 @@
-[2016-05-15 20:27:54 -0500] [incal in #debian] how do I autostart a process on boot in a specific tty with systemd? I managed to start the process but the I/O isn't in the tty
-[2016-05-15 20:46:36 -0500] [Arthur_D in #debian] how can I find the broadcast address of my interface?
-[2016-05-15 20:47:03 -0500] [JustinHitla in #debian] I use command "sudo pand -n -c A4:CE:06:03:E0:16 -p10 -i hci0 -u /etc/bluetooth/pan/dev-up" it brings up "bnep0" interface but looks like commands from "dev-up" file don't run at all, they should bring interface up, assign ip, and assign route, but its if I don't use "-u file" option at all, so I need to run that file separately, so why do you
-[2016-05-15 20:47:08 -0500] [JustinHitla in #debian]  think it doesn't run by "pand" itself as it should ?
-[2016-05-15 20:47:57 -0500] [markybob in #debian] Arthur_D: /sbin/ifconfig -a will tell you what it's set at
+[2016-05-22 00:00:46 -0500] [avis- in #debian-offtopic] sure there is.  life everlasting :D
+[2016-05-22 00:00:56 -0500] [Lady_Aleena in #debian-offtopic] Anything more solid?
+[2016-05-22 00:01:06 -0500] [avis- in #debian-offtopic] the devil's poop
+[2016-05-22 00:01:10 -0500] [avis- in #debian-offtopic] he died
+[2016-05-22 00:01:32 -0500] [avis- in #debian-offtopic] that sure isn't positive
+[2016-05-22 00:02:12 -0500] [jmcnaught in #debian-offtopic] it's nighttime balcony weather here
+[2016-05-22 00:04:49 -0500] [Lady_Aleena in #debian-offtopic] The weather is dreary here.
+[2016-05-22 00:05:19 -0500] [avis- in #debian-offtopic] i don't believe your any different.  and i don't mean the weather.  men do become suicidal
+[2016-05-22 00:05:40 -0500] [avis- in #debian-offtopic] do you linux ?
+[2016-05-22 00:05:47 -0500] [avis- in #debian-offtopic] heheheheheheh
+[2016-05-22 00:06:01 -0500] [jmcnaught in #debian-offtopic] avis-: are you okay?
+[2016-05-22 00:06:29 -0500] [avis- in #debian-offtopic] yes sir
+[2016-05-22 00:06:39 -0500] [jmcnaught in #debian-offtopic] is linux a verb now?
+[2016-05-22 00:06:41 -0500] [avis- in #debian-offtopic] debian.  its good for you :D
+[2016-05-22 00:09:06 -0500] [avis- in #debian-offtopic] Lady_Aleena, you ever get out on the internet ?
+[2016-05-22 00:09:16 -0500] [avis- in #debian-offtopic] there's tons of websites
+[2016-05-22 00:09:36 -0500] [Lady_Aleena in #debian-offtopic] I got back on the internet tonight around midnight.
+[2016-05-22 00:09:46 -0500] [avis- in #debian-offtopic] midnights so pretty.
+[2016-05-22 00:10:08 -0500] [Lady_Aleena in #debian-offtopic] And I am not only chatting on IRC right now, I'm doing research on other things too.
+[2016-05-22 00:10:28 -0500] [avis- in #debian-offtopic] thats very good
+[2016-05-22 00:10:53 -0500] [avis- in #debian-offtopic] thats better than my family.  they're asleep.  i've got all sorts of wants and desires that never happen.  are you like that ?
+[2016-05-22 00:11:32 -0500] [avis- in #debian-offtopic] enjoy the evening Lady_Aleena i wasn't being evil i was being happy and funny.  kermie rocks !!!
+[2016-05-22 00:11:54 -0500] [Lady_Aleena in #debian-offtopic] Hubby is in bed sleeping right now.
+[2016-05-22 00:12:28 -0500] [avis- in #debian-offtopic] i heard that
+[2016-05-22 00:12:31 -0500] [avis- in #debian-offtopic] in my place
+[2016-05-22 00:13:06 -0500] [avis- in #debian-offtopic] you have "baybee" ?
+[2016-05-22 00:13:10 -0500] [avis- in #debian-offtopic] so sweet
+[2016-05-22 00:14:26 -0500] [avis- in #debian-offtopic] give him kissy from yourself.  it helps present divorce
+[2016-05-22 00:14:36 -0500] [avis- in #debian-offtopic] i'm the math solver.  i can do all.
+[2016-05-22 00:15:19 -0500] [avis- in #debian-offtopic] https://www.youtube.com/watch?v=6dqVDQ-lF4Q
+[2016-05-22 00:15:21 -0500] [datase in #debian-offtopic] YouTube: Sweet Child O Mine / Taken by Trees - 0:05:06 - 2775059 views - 10408 likes / 510 dislikes
+[2016-05-22 00:17:38 -0500] [han-solo in #debian] guys, is it possible to run both bash and ksh at the same time?
+[2016-05-22 00:17:49 -0500] [grantwu in #debian] What do you mean at the same time?
+[2016-05-22 00:17:50 -0500] [han-solo in #debian] and how to get ksh?
+[2016-05-22 00:18:04 -0500] [han-solo in #debian] ofcourse in two different terminals
+[2016-05-22 00:18:05 -0500] [grantwu in #debian] apt-get install ksh
+[2016-05-22 00:18:33 -0500] [han-solo in #debian] okay
+[2016-05-22 00:18:35 -0500] [grantwu in #debian] Yes, shells are just programs, there's nothing stopping you from running them in separate terminals at the same time
+[2016-05-22 00:18:36 -0500] [jmcnaught in #debian-offtopic] :/ telling people who and when to kiss is not necessary
+[2016-05-22 00:21:37 -0500] [jmcnaught in #debian-offtopic] i was reading in an announcement that the alpha installer for stretch has support for blends on the tasksel screen. still reading #758116
+[2016-05-22 00:23:26 -0500] [han-solo in #debian] okay thanks, my system just restarted(unusal)
+[2016-05-22 00:23:56 -0500] [tortib in #debian-offtopic] hi
+[2016-05-22 00:24:12 -0500] [han-solo in #debian] so didn't get what you said after apt-get :)
+[2016-05-22 00:24:35 -0500] [Jaga-Jaga in #debian] How can I wake my debian from suspend with only power button? (i want to prevent accidental wakes as i move my laptop around)
+[2016-05-22 00:24:47 -0500] [grantwu in #debian] han-solo: Yes, shells are just programs, there's nothing stopping you from running them in separate terminals at the same time
+[2016-05-22 00:25:01 -0500] [han-solo in #debian] grantwu: okay, thanks
+[2016-05-22 00:25:37 -0500] [han-solo in #debian] so i can just change the SHELL variable to /bin/ksh in the other, right?
+[2016-05-22 00:26:29 -0500] [grantwu in #debian] no, if you want to launch ksh, you should just run ksh from bash
+[2016-05-22 00:26:40 -0500] [han-solo in #debian] okay
+[2016-05-22 00:26:56 -0500] [han-solo in #debian] thanks
+[2016-05-22 00:27:03 -0500] [grantwu in #debian] You can also do exec ksh if you don't want ksh to be a child of bash
+[2016-05-22 00:27:13 -0500] [han-solo in #debian] although, which one do you prefer?
+[2016-05-22 00:27:34 -0500] [grantwu in #debian] SHELL is something that should be set by the shell itself on startup for informative purposes, changing it shouldn't affect the behavior of the shell
+[2016-05-22 00:27:52 -0500] [grantwu in #debian] Although it might affect programs run from the shell which have shell-dependent behavior
+[2016-05-22 00:27:56 -0500] [grantwu in #debian] I actually use zsh
+[2016-05-22 00:28:57 -0500] [Jaga-Jaga in #debian] How can I wake my debian from suspend with only power button? (i want to prevent accidental wakes as i move my laptop around)
+[2016-05-22 00:30:39 -0500] [han-solo in #debian] okay
+[2016-05-22 00:32:33 -0500] [Lady_Aleena in #debian-offtopic] Be back in a few.
+[2016-05-22 00:36:22 -0500] [aurelien in #debian] MAAS was approved by Savannah \o/ https://savannah.nongnu.org/projects/maas \o/
+[2016-05-22 01:31:29 -0500] [shtrb in #debian] Other than a VM , do I have a solution for a chroot to a different arch ? I had a problem in upgrading jessy to testing on pi, systemd started to missbehave (failure to start/stop services), and I wish to save the system by chrooting into it and fixing the system
+[2016-05-22 01:34:30 -0500] [juul in #debian] Hi. I'm working on a debian-derived distro that needs to be very minimal with regards to amount of harddrive space used. I'd like to use packages from the Debian repository but I'd like to strip away certain things like documentation and multi-language files.
+[2016-05-22 01:35:03 -0500] [juul in #debian] Would I need to manually alter the debian/rules of every package or is there a way to filter installed files by path?
+[2016-05-22 01:39:39 -0500] [plasmoduck in #debian] juul: manual
+[2016-05-22 01:39:51 -0500] [plasmoduck in #debian] manually
+[2016-05-22 01:42:37 -0500] [juul in #debian] plasmoduck: ok thanks
+[2016-05-22 02:31:18 -0500] [dombarg in #debian] Anyone here installed RStudio Server on an ARM Chromebook on Debian?
+[2016-05-22 02:42:49 -0500] [shtrb in #debian] anyone about the chroot question ?
+[2016-05-22 02:48:39 -0500] [ochiottes in #debian-offtopic] Gooood moooorning
+[2016-05-22 02:50:12 -0500] [jarick in #debian-offtopic] Have you come to return the book you borrowed?
+[2016-05-22 02:55:40 -0500] [jarick in #debian-offtopic] wonders if the earworm worked
+[2016-05-22 03:01:19 -0500] [juul in #debian] shtrb: ?
+[2016-05-22 03:05:07 -0500] [ochiottes in #debian-offtopic] is sorry to disappoint :D
+[2016-05-22 03:05:26 -0500] [jarick in #debian-offtopic] ochiottes is clearly not in a little town
+[2016-05-22 03:05:40 -0500] [ochiottes in #debian-offtopic] A town called Malice?
+[2016-05-22 03:10:55 -0500] [ochiottes in #debian-offtopic] oh no, it wasn't this song: https://www.youtube.com/watch?v=6MtRlFixzyE
+[2016-05-22 03:10:56 -0500] [datase in #debian-offtopic] YouTube: The Jam - Town Called Malice + Lyrics - 0:02:51 - 626630 views - 1626 likes / 37 dislikes
+[2016-05-22 03:11:14 -0500] [ochiottes in #debian-offtopic] But it's a good one nonetheless
+[2016-05-22 03:16:36 -0500] [jarick in #debian-offtopic] ochiottes: Clearly not
+[2016-05-22 03:18:00 -0500] [KindOne in #debian] What the hell? sudo: unable to resolve host 127.0.0.1localhost.machine
+[2016-05-22 03:37:35 -0500] [ochiottes in #debian-offtopic] jarick: That's devastating news.
+[2016-05-22 03:37:42 -0500] [ochiottes in #debian-offtopic] Good news however is:
+[2016-05-22 03:37:51 -0500] [ochiottes in #debian-offtopic] TomTomTosch: HOT NURSE ALERT!!!!
+[2016-05-22 03:38:08 -0500] [themill in #debian] juul: dpkg can ignore paths at install time; that's configurable
+[2016-05-22 03:38:53 -0500] [juul in #debian] themill: ooh!
+[2016-05-22 03:39:19 -0500] [themill in #debian] juul: see path-exclude in dpkg(1)
+[2016-05-22 03:40:01 -0500] [juul in #debian] thanks! is there a way to do the same with aptitude/apt-get ?
+[2016-05-22 03:40:01 -0500] [apt in #debian] no problem, juul
+[2016-05-22 03:40:18 -0500] [themill in #debian] you stick that in the dpkg config file
+[2016-05-22 03:41:18 -0500] [juul in #debian] themill: ah so aptitude calls dpkg?
+[2016-05-22 03:43:51 -0500] [juul in #debian] hm no aptitude doesn't depend on dpkg
+[2016-05-22 03:46:07 -0500] [themill in #debian] juul: all package unpacking is done by dpkg; "Essential: yes" packages aren't listed as dependencies
+[2016-05-22 03:46:35 -0500] [themill in #debian] (It'd be highly advisable to learn a bit more about how debian works before trying to reinvent it)
+[2016-05-22 03:47:05 -0500] [themill in #debian] you'll create yourself a lot of pain or useless work chasing shadows
+[2016-05-22 03:47:09 -0500] [juul in #debian] ah!
+[2016-05-22 03:49:28 -0500] [wewlad in #debian] hey debs
+[2016-05-22 03:50:01 -0500] [wewlad in #debian] does anyone know what's the reason of this? https://paste.kde.org/pv9qxo1wz
+[2016-05-22 03:51:28 -0500] [juul in #debian] themill: Yes i'm definitely learning as i go here. Thanks a lot for the help!
+[2016-05-22 03:52:25 -0500] [themill in #debian] np
+[2016-05-22 03:54:58 -0500] [juul in #debian] wewlad: probably a question for the wine folks?
+[2016-05-22 03:55:56 -0500] [wewlad in #debian] juul: wine folks said to report it to debian if the issue is reproducible
+[2016-05-22 04:01:40 -0500] [dutchfish in #debian-offtopic] good morning
+[2016-05-22 04:12:03 -0500] [ochiottes in #debian-offtopic] 11:11!
+[2016-05-22 04:12:09 -0500] [ochiottes in #debian-offtopic] Good morning dutchfish
+[2016-05-22 04:12:55 -0500] [ochiottes in #debian-offtopic] I'm stuck with a radio station playing the weirdest oldies
+[2016-05-22 04:13:01 -0500] [ochiottes in #debian-offtopic] https://www.youtube.com/watch?v=_nqrwUHIh8s
+[2016-05-22 04:13:02 -0500] [datase in #debian-offtopic] YouTube: Cliff Richard - Dreamin' (1980) - 0:03:40 - 59666 views - 261 likes / 2 dislikes
+[2016-05-22 04:17:13 -0500] [Nel in #debian] hi @ all
+[2016-05-22 04:17:22 -0500] [bazhang in #debian] hi
+[2016-05-22 04:17:54 -0500] [Nel in #debian] german or english speaking guys here?
+[2016-05-22 04:18:31 -0500] [bazhang in #debian] english
+[2016-05-22 04:18:44 -0500] [themill in #debian] Nel: this is an English-speaking channel; #debian.de also exists.
+[2016-05-22 04:21:04 -0500] [Nel in #debian] thx for info, themill - i need help with my device. cannot connect my smartphone to debian. any ideas? i am a real noob :(
+[2016-05-22 04:21:32 -0500] [Nel in #debian] Linux debian 3.16.0-4-amd64 #1 SMP Debian 3.16.7-ckt25-2 (2016-04-08) x86_64 GNU/Linux
+[2016-05-22 04:21:42 -0500] [Nel in #debian] samsung galaxy s5
+[2016-05-22 04:23:06 -0500] [dutchfish in #debian-offtopic] ochiottes, ah, it could be worse ;)
+[2016-05-22 04:23:21 -0500] [dutchfish in #debian-offtopic] ochiottes, and good morning to you as well :)
+[2016-05-22 04:24:42 -0500] [bazhang in #debian] ,v gmtp
+[2016-05-22 04:24:43 -0500] [judd in #debian] Package: gmtp on amd64 -- wheezy: 1.3.3-1; jessie: 1.3.7-1; jessie-backports: 1.3.9-2~bpo8+1; sid: 1.3.9-2; stretch: 1.3.9-2
+[2016-05-22 04:25:10 -0500] [bazhang in #debian] Nel, try that^
+[2016-05-22 04:27:01 -0500] [Nel in #debian] bazhang, sry i didn't get it? what should i try?
+[2016-05-22 04:27:30 -0500] [bazhang in #debian] gmtp
+[2016-05-22 04:27:52 -0500] [Nel in #debian] gmtp: Kommando nicht gefunden
+[2016-05-22 04:28:11 -0500] [bazhang in #debian] it's a package to install
+[2016-05-22 04:29:04 -0500] [Nel in #debian] ok. well as i am a real noob, i would really really need full information what letters to put in the terminal: is "aptget gmtp"correct?
+[2016-05-22 04:29:39 -0500] [bazhang in #debian] apt-get install packagename
+[2016-05-22 04:38:32 -0500] [tout in #debian-es-offtopic] 05♬  02Cacophony - Live 1989.03.25, Tokyo - Savage 15[ 040:43 07@ 04128 kbps 15] 05♬ 
+[2016-05-22 04:43:17 -0500] [tout in #debian-es-offtopic] 05♬  02Jeff Walker Und Die Fluffers - Welcome To Carcass Cuntry - Sunday Mornin' Comin' Down 15[ 041:37 07@ 04128 kbps 15] 05♬ 
+[2016-05-22 04:45:24 -0500] [teraflops in #debian-es-offtopic] !gm
+[2016-05-22 04:45:24 -0500] [orome in #debian-es-offtopic] buenos dias a todos de parte de teraflops
+[2016-05-22 04:46:06 -0500] [Nel in #debian] same problem after installing gmtp :(
+[2016-05-22 04:49:56 -0500] [teraflops in #debian-es-offtopic] tout: buenos dias
+[2016-05-22 04:53:11 -0500] [tout in #debian-es-offtopic] 05♬  02Kiss - MTV Unplugged - Prin - Rock Bottom 15[ 040:10 07@ 04128 kbps 15] 05♬ 
+[2016-05-22 04:53:18 -0500] [tout in #debian-es-offtopic] 12[[3teraflops12]] buenos dias muyayo 
+[2016-05-22 04:53:32 -0500] [tout in #debian-es-offtopic] esa de kiss para likevinyl doquiera esté 
+[2016-05-22 04:54:08 -0500] [tout in #debian-es-offtopic] ayer vi una peli malisima, maggie, no recomendable 
+[2016-05-22 04:55:56 -0500] [teraflops in #debian-es-offtopic] uhhh
+[2016-05-22 04:56:21 -0500] [teraflops in #debian-es-offtopic] tout: te viste la serie de beowulf?
+[2016-05-22 04:56:38 -0500] [tout in #debian-es-offtopic] maggie y no crezcas o moriras, son malisimias 
+[2016-05-22 04:56:43 -0500] [tout in #debian-es-offtopic] malisimas * 
+[2016-05-22 04:56:58 -0500] [tout in #debian-es-offtopic] no, ademas no me acordaba, llega un momento en qe se amontona 
+[2016-05-22 04:57:39 -0500] [tout in #debian-es-offtopic] 12[[3teraflops12]] https://es.wikipedia.org/wiki/Mr._Robot_%28serie_de_televisi%C3%B3n%29 
+[2016-05-22 04:57:40 -0500] [orome in #debian-es-offtopic] Title: Mr. Robot (serie de televisión) - Wikipedia, la enciclopedia libre (at es.wikipedia.org)
+[2016-05-22 04:57:45 -0500] [tout in #debian-es-offtopic] a ver qe tal es 
+[2016-05-22 04:58:28 -0500] [tout in #debian-es-offtopic] es de un hacker, creia qe era un cyborg 
+[2016-05-22 04:59:30 -0500] [teraflops in #debian-es-offtopic] tout: esa serie ya acabo hace tiempo
+[2016-05-22 04:59:38 -0500] [tout in #debian-es-offtopic] ah 
+[2016-05-22 04:59:50 -0500] [teraflops in #debian-es-offtopic] me refiero que es raro que no hayas oido hablar de ella
+[2016-05-22 05:00:09 -0500] [tout in #debian-es-offtopic] no es posible saberselo todo 
+[2016-05-22 05:00:48 -0500] [frangor in #debian-es-offtopic] yo no la terminé
+[2016-05-22 05:00:53 -0500] [tout in #debian-es-offtopic] has escuchado a queensryche? esos son en plan progresivo, un pelin metaleros pero siempre los han vendido como progresivos 
+[2016-05-22 05:01:03 -0500] [tout in #debian-es-offtopic] 12[[3frangor12]] no te gustaba 
+[2016-05-22 05:01:13 -0500] [frangor in #debian-es-offtopic] me llamo los primeros 2 o 3 capitulos
+[2016-05-22 05:01:25 -0500] [frangor in #debian-es-offtopic] luego me pareció aburrido
+[2016-05-22 05:01:42 -0500] [frangor in #debian-es-offtopic] y lo que me llamo es que era friki.. salia gnome y tal xD
+[2016-05-22 05:01:51 -0500] [tout in #debian-es-offtopic] a mi me paso algo parecido con true blood, aguante las primeras temporadas pero no la acabe 
+[2016-05-22 05:02:15 -0500] [tout in #debian-es-offtopic] en openwindows sale lo qe parece openbox+conky 
+[2016-05-22 05:03:04 -0500] [teraflops in #debian-es-offtopic] frangor: sip, la serie es sobre las pajas mentales de un drogata sicotico lo del hackeo es accesorio
+[2016-05-22 05:04:39 -0500] [tout in #debian-es-offtopic] drogata? ufff 
+[2016-05-22 05:05:13 -0500] [tout in #debian-es-offtopic] 05♬  02Kiss - MTV Unplugged - Prin - Rock And Roll All Nite 15[ 040:52 07@ 04128 kbps 15] 05♬ 
+[2016-05-22 05:10:06 -0500] [}{ultimo}{ in #debian] k
+[2016-05-22 05:12:14 -0500] [tout in #debian-es-offtopic] 12[[3teraflops12]] recuerdame como se hacen busquedas en ncmpcpp, es C-f ? 
+[2016-05-22 05:12:20 -0500] [tout in #debian-es-offtopic] es qe no va 
+[2016-05-22 05:16:29 -0500] [TomTomTosch in #debian-offtopic] ochiottes: i'll be right over!
+[2016-05-22 05:17:56 -0500] [teraflops in #debian-es-offtopic] tout: donde estas en arch?
+[2016-05-22 05:18:17 -0500] [TomTomTosch in #debian-offtopic] good morning!
+[2016-05-22 05:18:21 -0500] [teraflops in #debian-es-offtopic] tout: en arch no va esa opcion, el devel la quito
+[2016-05-22 05:18:22 -0500] [TomTomTosch in #debian-offtopic] well... noon...
+[2016-05-22 05:18:27 -0500] [teraflops in #debian-es-offtopic] y arch tira de upstream
+[2016-05-22 05:19:45 -0500] [teraflops in #debian-es-offtopic] si te manejas bien en consola no necesitas ncmpcpp solo mpc
+[2016-05-22 05:20:45 -0500] [tout in #debian-es-offtopic] ah 
+[2016-05-22 05:21:00 -0500] [tout in #debian-es-offtopic] es qe el otro dia lo comentabas, y si, estoy en arch 
+[2016-05-22 05:22:07 -0500] [tout in #debian-es-offtopic] de todas maneras nunca he hecho busqedas de mp3, me sorprendio, siempre he arrastrado en lo grafico y aqi hago las listas 
+[2016-05-22 05:22:36 -0500] [teraflops in #debian-es-offtopic] tout: hay clientes graficos para mpd tb
+[2016-05-22 05:22:53 -0500] [teraflops in #debian-es-offtopic] no es que los haya probado pero haberlos haylos
+[2016-05-22 05:23:12 -0500] [tout in #debian-es-offtopic] si pero me enseñasteis ese y es el qe uso, me he acostumbrado 
+[2016-05-22 05:23:29 -0500] [teraflops in #debian-es-offtopic] si, no esta mal ncmpcpp
+[2016-05-22 05:23:38 -0500] [tout in #debian-es-offtopic] bueno me reclaman :( 
+[2016-05-22 05:23:40 -0500] [tout in #debian-es-offtopic] ahhh 
+[2016-05-22 05:23:42 -0500] [tout in #debian-es-offtopic] cierro 
+[2016-05-22 05:23:45 -0500] [ompaul in #debian-offtopic] it is always morning when you join irc, as it is always morning somewhere on the planet, then it is always night when you leave irc, I'll let you infer the rest. ;-)
+[2016-05-22 05:23:52 -0500] [ompaul in #debian-offtopic] morning
+[2016-05-22 05:26:11 -0500] [ompaul in #debian-offtopic] TomTomTosch: however current participants seem to have forgotten the long and rich history of irc though the centuries (in internet time ;-))
+[2016-05-22 05:42:42 -0500] [frangor in #debian-es-offtopic] me están viniendo ganas de volver al desktop gtk clasico..
+[2016-05-22 05:42:57 -0500] [frangor in #debian-es-offtopic] i3 me cansa graficamente..
+[2016-05-22 05:45:20 -0500] [teraflops in #debian-es-offtopic] frangor: si quieres ver algo bonito vete al campo :P
+[2016-05-22 05:45:21 -0500] [teraflops in #debian-es-offtopic] jaja
+[2016-05-22 05:45:42 -0500] [frangor in #debian-es-offtopic] tss, es algo que ves continuamente
+[2016-05-22 05:45:45 -0500] [teraflops in #debian-es-offtopic] frangor: nah yo prefiero usabilidad > eyecandy
+[2016-05-22 05:45:47 -0500] [frangor in #debian-es-offtopic] en el trabajo y en casa xD
+[2016-05-22 05:45:56 -0500] [frangor in #debian-es-offtopic] pero si puedes tener ambas cosas
+[2016-05-22 05:45:58 -0500] [frangor in #debian-es-offtopic] mejor
+[2016-05-22 05:46:05 -0500] [teraflops in #debian-es-offtopic] supongo que si
+[2016-05-22 05:46:23 -0500] [frangor in #debian-es-offtopic] ademas en el trabajo sobretodo
+[2016-05-22 05:46:35 -0500] [teraflops in #debian-es-offtopic] bueno yo uso gnome-shell bastante
+[2016-05-22 05:46:41 -0500] [frangor in #debian-es-offtopic] que muchas veces tengo que hacer cosas diferenets
+[2016-05-22 05:46:46 -0500] [frangor in #debian-es-offtopic] con aplicaciones distintas
+[2016-05-22 05:46:58 -0500] [frangor in #debian-es-offtopic] y no tengo tiempo a pararme a configurar i3 cada vez que uso una nueva ventana
+[2016-05-22 05:47:11 -0500] [frangor in #debian-es-offtopic] se vuelve menos usable el tiling..
+[2016-05-22 05:47:12 -0500] [teraflops in #debian-es-offtopic] gnome tiene ese tiling basico que hace el habio
+[2016-05-22 06:04:09 -0500] [ochiottes in #debian-offtopic] Breakfast at 8, lunch at 12, dinner at 17:00 - what a life
+[2016-05-22 06:04:28 -0500] [ochiottes in #debian-offtopic] Although the food is subpar
+[2016-05-22 06:05:08 -0500] [ochiottes in #debian-offtopic] .weather thf
+[2016-05-22 06:05:09 -0500] [datase in #debian-offtopic] ochiottes: Weather for Tempelhof, Germany | Temperature: 81°F / 27°C; Humidity: 28%; Pressure: 29.86in / 101.1kPa; Conditions: Clear; Wind: Sse, 15mph / 24kph; Updated: 14 mins, 48 secs ago | Forecast for Sunday: Clear; High of 85°F / 29°C; Low of 61°F / 16°C | Forecast for Monday: Partly cloudy; High of 81°F / 27°C; Low of 58°F / 14°C | Forecast for Tuesday: Chance of a thunderstorm; High of 80°F / 27°C; Low of 58°F / (1 more message)
+[2016-05-22 06:07:59 -0500] [frangor in #debian-es-offtopic] me acabo de acordar de una frase de mi madre de hace muucho tiempo: "tienes novia o alguien que te haga tiling?" xDD
+[2016-05-22 06:12:12 -0500] [teraflops in #debian-es-offtopic] jaja
+[2016-05-22 06:15:44 -0500] [jordila in #debian] hola #debian
+[2016-05-22 06:19:06 -0500] [dutchfish in #debian-offtopic] irc is still my number one on the list of social media, without it, i would never had learned all things i did.
+[2016-05-22 06:19:36 -0500] [dutchfish in #debian-offtopic] or within that timespan i did.
+[2016-05-22 06:20:39 -0500] [jordila in #debian] hi i am on a Wheezy --> Jessie upgrade :
+[2016-05-22 06:21:33 -0500] [jordila in #debian] May i 'Configuration file '/etc/sysctl.conf' ,  ==> Modified (by you or by a script) since installation.
+[2016-05-22 06:21:34 -0500] [jordila in #debian] keep it or update it ?
+[2016-05-22 06:21:35 -0500] [jordila in #debian] :-/
+[2016-05-22 06:22:17 -0500] [jordila in #debian] Mmh... is this warning maybe due to a simple swappinness adjustment in the past ?
+[2016-05-22 06:23:47 -0500] [dutchfish in #debian] jordila, you should know. One question, did you make a backup before starting on this?
+[2016-05-22 06:24:36 -0500] [jordila in #debian] yes, backup(ed)
+[2016-05-22 06:24:42 -0500] [dutchfish in #debian] ok
+[2016-05-22 06:25:13 -0500] [dutchfish in #debian] jordila, in that case, i would go with the one the packagmaintainer supplied.
+[2016-05-22 06:25:24 -0500] [jordila in #debian] new one... ok
+[2016-05-22 06:25:30 -0500] [MaBunny in #debian] how many times can you format a 64 gb pendrive???
+[2016-05-22 06:26:05 -0500] [TomTomTosch in #debian] how often you like.
+[2016-05-22 06:26:14 -0500] [MaBunny in #debian] 10 at most :D
+[2016-05-22 06:26:26 -0500] [jordila in #debian] i think that any change to systcl.conf in the past... was just fine tunning anyway dutchfish
+[2016-05-22 06:26:41 -0500] [dutchfish in #debian] jordila, ok, fair enough.
+[2016-05-22 06:26:43 -0500] [MaBunny in #debian] i didnt solve the problems i had with my 64 gb pendrive
+[2016-05-22 06:26:50 -0500] [jordila in #debian] :-)
+[2016-05-22 06:26:54 -0500] [MaBunny in #debian] my delivery came today :(
+[2016-05-22 06:27:33 -0500] [MaBunny in #debian] wait ill show the product i bought
+[2016-05-22 06:27:35 -0500] [jordila in #debian] mmh... here comes all the new systemd stuff , while upgrading...
+[2016-05-22 06:29:46 -0500] [jordila in #debian] mmh... #debian , any other recommendation while Wheezy to Jessie upgrading ? :-/
+[2016-05-22 06:30:40 -0500] [TomTomTosch in #debian] jordila: reading the release notes is the first thing you should do.
+[2016-05-22 06:31:10 -0500] [jordila in #debian] :-)
+[2016-05-22 06:31:58 -0500] [dutchfish in #debian-offtopic] scrugh, i got forbidden on this https://wiki.debian.org/DebianEdu/Documentation/Jessie/Upgrades
+[2016-05-22 06:32:32 -0500] [ochiottes in #debian-offtopic] "Social media" - there's only one word that expresses my feelings accurately: *floccinaucinihilipilification*
+[2016-05-22 06:33:37 -0500] [MaBunny in #debian] heres the thing i bought--> http://www.flipkart.com/egizmos-connector-male-am-female-af-usb-cable/p/itmeaqfyubaj4kkb?pid=ACCEAQFYZGHTQG7E&otracker=reco_pp_historyFooter_mobileaccessory_na_3
+[2016-05-22 06:34:07 -0500] [dutchfish in #debian-offtopic] ochiottes, that was for a lack of a better word, maybe we should go back to more simple terms, like discussion and communication .....
+[2016-05-22 06:34:33 -0500] [MaBunny in #debian] it works with pendrives
+[2016-05-22 06:35:20 -0500] [ochiottes in #debian-offtopic] I think these are accurate terms, unlike "social medium/-a"
+[2016-05-22 06:35:35 -0500] [ochiottes in #debian-offtopic] Who wants a kiwi?
+[2016-05-22 06:35:37 -0500] [dutchfish in #debian-offtopic] yeh, you are probably right
+[2016-05-22 06:35:43 -0500] [TomTomTosch in #debian-offtopic] well, it's a medium and it's social.
+[2016-05-22 06:35:51 -0500] [ochiottes in #debian-offtopic] TomTomTosch: you're social
+[2016-05-22 06:35:59 -0500] [dutchfish in #debian-offtopic] TomTomTosch, anti-social at best ;)
+[2016-05-22 06:36:05 -0500] [cheapie in #debian-offtopic] got bored again...
+[2016-05-22 06:36:08 -0500] [TomTomTosch in #debian-offtopic] well, thanks...
+[2016-05-22 06:36:16 -0500] [ochiottes in #debian-offtopic] Which medium is not social?
+[2016-05-22 06:36:26 -0500] [MaBunny in #debian] i remember tht i formatted my pendrive once,so i was asking
+[2016-05-22 06:36:27 -0500] [dutchfish in #debian-offtopic] TomTomTosch, i ment to medium, not you as a person
+[2016-05-22 06:36:31 -0500] [TomTomTosch in #debian-offtopic] :P
+[2016-05-22 06:36:34 -0500] [cheapie in #debian-offtopic] So, uh, here's music "played on" a hydraulic elevator motor: https://cheapiesystems.com/media/furelisehydro.ogg
+[2016-05-22 06:37:34 -0500] [ochiottes in #debian-offtopic] A medium by definition connects two or more subjects
+[2016-05-22 06:38:02 -0500] [jarick in #debian-offtopic] wonders if ochiottes is counting the sort that connects subjects to the afterlife
+[2016-05-22 06:38:30 -0500] [ochiottes in #debian-offtopic] jarick: Beware of the black cats
+[2016-05-22 06:38:54 -0500] [dutchfish in #debian-offtopic] wonders if jarick's connection still does filtering
+[2016-05-22 06:40:06 -0500] [MaBunny in #debian] ???
+[2016-05-22 06:41:52 -0500] [MaBunny in #debian] anyways...this is the sleeping hour :|
+[2016-05-22 06:43:11 -0500] [dutchfish in #debian-offtopic] argh, what did i say, there are to many bad puns inside which i did not mean to state .... i tmust have been brianhurting .... sorry for that
+[2016-05-22 06:43:42 -0500] [ochiottes in #debian-offtopic] dutchfish: What did Brian do?
+[2016-05-22 06:43:51 -0500] [dutchfish in #debian-offtopic] s/brian/brain
+[2016-05-22 06:43:55 -0500] [ochiottes in #debian-offtopic] oh
+[2016-05-22 06:44:40 -0500] [dutchfish in #debian-offtopic] jarick, you may slap me now.
+[2016-05-22 06:44:56 -0500] [TomTomTosch in #debian-offtopic] meh. it's a stupid thing to heat solder with a lighter.
+[2016-05-22 06:45:22 -0500] [dutchfish in #debian-offtopic] TomTomTosch, well, unless you use a copper wire to conduct
+[2016-05-22 06:46:45 -0500] [TomTomTosch in #debian-offtopic] hmm... yeah :D
+[2016-05-22 06:48:30 -0500] [TomTomTosch in #debian-offtopic] i was heating the solder wire directly. the flux inside exploded. one shouldn't do that without protective glasses :S
+[2016-05-22 06:48:41 -0500] [dutchfish in #debian-offtopic] ouch
+[2016-05-22 06:49:02 -0500] [dutchfish in #debian-offtopic] did it get into your eyes?
+[2016-05-22 06:49:13 -0500] [dutchfish in #debian-offtopic] Pb isnt that good
+[2016-05-22 06:49:25 -0500] [TomTomTosch in #debian-offtopic] nope. was lucky x)
+[2016-05-22 06:49:46 -0500] [dutchfish in #debian-offtopic] oh and use leadfree, please
+[2016-05-22 06:50:05 -0500] [dutchfish in #debian-offtopic] or at least some proper ventilation
+[2016-05-22 06:50:27 -0500] [dutchfish in #debian-offtopic] lead poisoning isnt pretty
+[2016-05-22 06:50:34 -0500] [TomTomTosch in #debian-offtopic] yeah, i'm soldering with an open window.
+[2016-05-22 06:50:45 -0500] [TomTomTosch in #debian-offtopic] and carbon filter
+[2016-05-22 06:50:50 -0500] [dutchfish in #debian-offtopic] ok
+[2016-05-22 06:52:02 -0500] [TomTomTosch in #debian-offtopic] i was at the e-laboratory recently. the guys there don't think much about PB free solder.
+[2016-05-22 06:52:06 -0500] [jarick in #debian-offtopic] If your soldering process leads to aerosolized vapour compounds, you may be using too much heat
+[2016-05-22 06:52:29 -0500] [jarick in #debian-offtopic] Also, flux residue from more aggressive lead-free solder is a lot more hazardous
+[2016-05-22 06:53:48 -0500] [TomTomTosch in #debian-offtopic] you will always have dangerous vapors, doesn't hurt to get a filter.
+[2016-05-22 06:54:08 -0500] [jarick in #debian-offtopic] has an extractor fan for that 
+[2016-05-22 06:54:15 -0500] [jarick in #debian-offtopic] But if you don't solder much, what's the point?
+[2016-05-22 07:00:41 -0500] [dutchfish in #debian-offtopic] jarick, maybe i will do that as well, this summer. With all the extra stuff for mearurement, thinks get pretty hot quickly in my shack as well, so extra ventilation is needed.
+[2016-05-22 07:00:54 -0500] [dutchfish in #debian-offtopic] measurement*
+[2016-05-22 07:18:02 -0500] [antzero in #debian] Anybody has an idea of 3 red icons persistent in the system tray? (MATE desktop)
+[2016-05-22 07:18:19 -0500] [antzero in #debian] a 9, an A and an arrow with an external red circle
+[2016-05-22 07:20:59 -0500] [telecity in #debian] antzero: how do you mean
+[2016-05-22 07:37:31 -0500] [antzero in #debian] imgur.com/XK9iEcB
+[2016-05-22 07:42:48 -0500] [Guest14726 in #debian] Hi, i use Debian Jessie and the Nvidia driver from backport but i play Dota 2 and they are going to switch to Vulkan next week how can i install this Nvidia with Vulkan driver safely i mean with repo plz ?
+[2016-05-22 07:43:51 -0500] [lugonzaro in #debian-es] hola
+[2016-05-22 07:56:28 -0500] [dutchfish in #debian] Guest14726, its unlikely it will be in yet, even sid. But you can take the nvidia route https://developer.nvidia.com/vulkan-driver. I have only expirience with AMD gpu's.
+[2016-05-22 07:58:42 -0500] [user___ in #debian] hey
+[2016-05-22 07:58:48 -0500] [user___ in #debian] I thought duplicate file names were not possible
+[2016-05-22 07:59:05 -0500] [user___ in #debian] but i'm looking at my irssi logs and there are two files named #debian.log
+[2016-05-22 07:59:15 -0500] [user___ in #debian] so I'm confused
+[2016-05-22 08:05:35 -0500] [user___ in #debian] another question
+[2016-05-22 08:05:46 -0500] [user___ in #debian] when I'm in the file explorer
+[2016-05-22 08:06:00 -0500] [user___ in #debian] if I type a letter to jump to a folder
+[2016-05-22 08:06:07 -0500] [user___ in #debian] it starts searching instead
+[2016-05-22 08:30:07 -0500] [user___ in #debian] bash question
+[2016-05-22 08:30:18 -0500] [user___ in #debian] how do I remove a non empty directory?
+[2016-05-22 08:30:25 -0500] [user___ in #debian] with multiple folders and files within it
+[2016-05-22 08:30:39 -0500] [evilman_work in #debian] rm -rf <path-to-directory>
+[2016-05-22 08:32:00 -0500] [user___ in #debian] evilman_work: thanks
+[2016-05-22 08:32:11 -0500] [user___ in #debian] I can't see the -rf parameter in the help bit though
+[2016-05-22 08:32:16 -0500] [user___ in #debian] does -rf = -r -f?
+[2016-05-22 08:32:26 -0500] [Xenthys in #debian] yes
+[2016-05-22 08:32:41 -0500] [user___ in #debian] what happens if I leave out f?
+[2016-05-22 08:36:11 -0500] [jml2 in #debian] user___, maybe you should do ->"man intro<enter>" and "man rm"
+[2016-05-22 08:36:21 -0500] [jml2 in #debian] user___, you can concatenate options
+[2016-05-22 08:43:54 -0500] [user___ in #debian] jml2: thanks
+[2016-05-22 09:09:50 -0500] [redips in #debian-es] SaluII
+[2016-05-22 09:28:12 -0500] [docmur in #debian] I'm trying to install teamviewer via the command line to a debian 8 live dvd.  I've downloaded the amd64 version but when I go to install i get the following two unmet dependacies:  lib32asound2 and ia32-libs  I did an apt-cache search and can't find them, where would i get these packages from?
+[2016-05-22 09:29:10 -0500] [ochiottes in #debian-offtopic] ,weather santiago
+[2016-05-22 09:29:17 -0500] [ochiottes in #debian-offtopic] .weather santiago
+[2016-05-22 09:29:26 -0500] [ochiottes in #debian-offtopic] .weather santiago, chile
+[2016-05-22 09:29:27 -0500] [datase in #debian-offtopic] ochiottes: Weather for Santiago, Chile | Temperature: 36°F / 2°C; Humidity: 100%; Pressure: 30.09in / 101.9kPa; Conditions: Patches fog; Wind: Variable, 2mph / 3kph; Updated: 1 hr, 29 mins, 6 secs ago | Forecast for Sunday: Clear; High of 69°F / 21°C; Low of 54°F / 12°C | Forecast for Monday: Clear; High of 71°F / 22°C; Low of 49°F / 9°C | Forecast for Tuesday: Partly cloudy; High of 66°F / 19°C; Low of 49°F / 9°C | (1 more message)
+[2016-05-22 09:29:43 -0500] [themill in #debian] sounds like you've got the i386 version there
+[2016-05-22 09:30:50 -0500] [kenifanying in #debian] hi all, how to enable 256 color support in gnome-terminal?
+[2016-05-22 09:32:02 -0500] [docmur in #debian] that's the weird part, I made sure to down the amd64 version
+[2016-05-22 09:32:33 -0500] [jml2 in #debian] docmur, you should just use the tarball in this case
+[2016-05-22 09:32:42 -0500] [docmur in #debian] okay
+[2016-05-22 09:33:31 -0500] [jml2 in #debian] docmur, unfort it looks like the tar is i386-only, but you can see from there if theres less issues
+[2016-05-22 09:34:25 -0500] [jml2 in #debian] docmur, here i see .64 somewhere, so it might also have 64-bit compile in it
+[2016-05-22 09:34:33 -0500] [docmur in #debian] okay
+[2016-05-22 09:36:24 -0500] [jml2 in #debian] docmur, no wonder its not in debian, it uses wine.
+[2016-05-22 09:36:30 -0500] [markybob in #debian] docmur: you didn't get that deb from teamviewer website, did you? it's asking for wheezy deps. i downloaded their multiarch deb and it works fine without needing those.
+[2016-05-22 09:37:14 -0500] [jml2 in #debian] docmur, for the tar, that is, dunno about the other .rpm or .deb
+[2016-05-22 09:59:37 -0500] [syncrr in #debian] what's the smallest, simplest software in current debian stable for fetching mail from a pop3 server into a local maildir, leave the mails on the server for 30 days after they were downloaded, always use tls, and only fetch when explicitly asked to? no local mail system, no outgoing mail, no gui.
+[2016-05-22 10:00:34 -0500] [jml2 in #debian] syncrr, you pretty much said it
+[2016-05-22 10:00:38 -0500] [jml2 in #debian] syncrr, fetchmail
+[2016-05-22 10:01:26 -0500] [jml2 in #debian] syncrr, you can also spot alternatives using this keyword, there's a number of them
+[2016-05-22 10:01:51 -0500] [syncrr in #debian] jml2: thanks, will have a look.
+[2016-05-22 10:02:13 -0500] [eluus in #debian] I install parted with "sudo aptitude install parted"
+[2016-05-22 10:02:29 -0500] [eluus in #debian] and then when I type parted I get "bash: parted: command not found"
+[2016-05-22 10:02:29 -0500] [jml2 in #debian] syncrr, there's also procmail, if you need to do some processing on messages
+[2016-05-22 10:02:50 -0500] [jml2 in #debian] eluus, um, but you're using ubuntu
+[2016-05-22 10:02:57 -0500] [eluus in #debian] nevermind, sudo parted works
+[2016-05-22 10:03:03 -0500] [sje46 in #debian] eluus: apt-cache search parted
+[2016-05-22 10:03:06 -0500] [syncrr in #debian] jml2: ok. i might want to have some sort of subdir or tag system, but i'm thinking of using notmuch for that.
+[2016-05-22 10:03:07 -0500] [eluus in #debian] no I am using debian
+[2016-05-22 10:03:16 -0500] [sje46 in #debian] Try that, that will tell you candidates for parted
+[2016-05-22 10:04:01 -0500] [sje46 in #debian] oh wait, sorry, eluus
+[2016-05-22 10:04:07 -0500] [sje46 in #debian] You did successfully install it
+[2016-05-22 10:04:11 -0500] [sje46 in #debian] try apropos parted
+[2016-05-22 10:04:14 -0500] [eluus in #debian] sje46: sudo parted actually works
+[2016-05-22 10:04:20 -0500] [eluus in #debian] don't know why parted alone didn't work
+[2016-05-22 10:04:34 -0500] [jml2 in #debian] eluus, if you're not superuser, then /sbin is not in $PATH
+[2016-05-22 10:04:35 -0500] [sje46 in #debian] Do you know what sudo does?
+[2016-05-22 10:04:45 -0500] [markybob in #debian] because you're fucking with the HD. that's huge. you need root
+[2016-05-22 10:04:47 -0500] [eluus in #debian] executes the command as super user?
+[2016-05-22 10:05:08 -0500] [eluus in #debian] I'm trying to format the usb stick in gpt
+[2016-05-22 10:05:09 -0500] [jml2 in #debian] eluus, you also shouldn't be using parted on a mounted system
+[2016-05-22 10:05:09 -0500] [sje46 in #debian] eluus: yeah.  It's not soething you want any user on your computer to do.
+[2016-05-22 10:06:03 -0500] [jml2 in #debian] eluus, you're not going to fix your bios-lock problem with linux
+[2016-05-22 10:06:04 -0500] [sje46 in #debian] user including any malicious program not running under rot as well
+[2016-05-22 10:06:17 -0500] [jml2 in #debian] eluus, that you have to resort to your manufacturer manual on how to reset the bios
+[2016-05-22 10:06:33 -0500] [markybob in #debian] wishes he had seen the start of this
+[2016-05-22 10:06:37 -0500] [eluus in #debian] jml2: I'll first try to boot from debian installer that is on a gpt formatted usb
+[2016-05-22 10:06:58 -0500] [jml2 in #debian] eluus, well according to what you said (#linux) the only linux that boots is ubuntu
+[2016-05-22 10:07:13 -0500] [eluus in #debian] yes, and I am trying to install debian
+[2016-05-22 10:07:17 -0500] [jml2 in #debian] eluus, still playing around with usb formats is not going to fix your bios-lock problem
+[2016-05-22 10:07:31 -0500] [eluus in #debian] on some places it says it might help
+[2016-05-22 10:07:42 -0500] [jml2 in #debian] eluus, you're stubborn
+[2016-05-22 10:07:52 -0500] [jml2 in #debian] and "clueless" :)
+[2016-05-22 10:08:09 -0500] [sje46 in #debian] stubborness can be a good quality sometimes
+[2016-05-22 10:08:16 -0500] [markybob in #debian] you're actually doing parted on a usb to copy a debian install image to it?
+[2016-05-22 10:08:19 -0500] [jml2 in #debian] sje46, not if your bios is locked
+[2016-05-22 10:08:26 -0500] [jml2 in #debian] sje46, has nothing to do with linux
+[2016-05-22 10:09:15 -0500] [sje46 in #debian] Appropriately executed stubborness
+[2016-05-22 10:09:26 -0500] [markybob in #debian] because if you say yes...that's crazy.
+[2016-05-22 10:09:40 -0500] [eluus in #debian] markybob: yes, how else I can make it GPT?
+[2016-05-22 10:10:01 -0500] [jml2 in #debian] also linux isoz are hybrid, are uefi and bios bootable.. but even that he doesn't even know about
+[2016-05-22 10:10:14 -0500] [eluus in #debian] jml2: I know that
+[2016-05-22 10:10:22 -0500] [markybob in #debian] eluus: you're not making sense.
+[2016-05-22 10:10:36 -0500] [eluus in #debian] jml2: some have suggested that making it GPT could make the UEFI boot from it
+[2016-05-22 10:10:50 -0500] [markybob in #debian] eluus: did you use the live install?
+[2016-05-22 10:11:27 -0500] [eluus in #debian] markybob: the bios/uefi of the computer is fucked up, it doesn't boot into installers
+[2016-05-22 10:11:50 -0500] [markybob in #debian] throw it out
+[2016-05-22 10:12:24 -0500] [eluus in #debian] https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1082418
+[2016-05-22 10:12:38 -0500] [eluus in #debian] markybob: if it was my computer, I would
+[2016-05-22 10:13:05 -0500] [jml2 in #debian] eluus, maybe your brother-in-law set a password on the bios
+[2016-05-22 10:13:13 -0500] [eluus in #debian] no he didn't
+[2016-05-22 10:13:13 -0500] [jml2 in #debian] eluus, ask him for the password
+[2016-05-22 10:13:24 -0500] [eluus in #debian] I was able to get in the bios before
+[2016-05-22 10:13:24 -0500] [jml2 in #debian] eluus, well ther's no other reason why it all of a sudden became "locked"
+[2016-05-22 10:13:33 -0500] [eluus in #debian] jml2: read this: https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1082418
+[2016-05-22 10:13:42 -0500] [jml2 in #debian] eluus, ask on #ubuntu
+[2016-05-22 10:13:43 -0500] [eluus in #debian] this is what happened to me
+[2016-05-22 10:13:50 -0500] [markybob in #debian] eluus: when he's in the bathroom take a screwdriver, go in and take out the cpu. done. he'll never know.
+[2016-05-22 10:13:57 -0500] [jml2 in #debian] eluus, here I use "reportbug" with bugs.debian.org
+[2016-05-22 10:14:21 -0500] [markybob in #debian] eluus: it just "died"
+[2016-05-22 10:15:08 -0500] [eluus in #debian] I just want the computer to work
+[2016-05-22 10:15:39 -0500] [markybob in #debian] i'm sorry we can't fix your fucked up bios. that's kind of outside #debian
+[2016-05-22 10:15:55 -0500] [eluus in #debian] yes, I came here to ask about parted
+[2016-05-22 10:15:59 -0500] [eluus in #debian] which was resolved
+[2016-05-22 10:16:29 -0500] [eluus in #debian] I mentioned the bios issue to answer your question
+[2016-05-22 10:16:44 -0500] [eluus in #debian] as to why I was trying to format the usb stick to the gpt format
+[2016-05-22 10:26:07 -0500] [jamesl in #debian] I'm trying to install debian on an unallocated partition, alongside windows 10. There were no errors in the installation, and GRUB appared to install successfuly on sda. GRUB recognized windows 10 was present, but when I restarted, instead of the grub menu the standard windows loader started, preventing me from being able to boot into linux. How to install a bootloader so I can select between Windows 10 and Debian 8?
+[2016-05-22 10:27:15 -0500] [jamesl in #debian] and windows 10 started automatic repair when it first booted. It then started a disk chack, and I just got a popup saying windows 10 needed to "repair drive errors"
+[2016-05-22 10:27:39 -0500] [markybob in #debian] jamesl: did you use live install?
+[2016-05-22 10:27:59 -0500] [jamesl in #debian] markybob: no, graphical install from CD-ROM
+[2016-05-22 10:28:02 -0500] [AfterDark in #debian] Honestly, in this situation, I recommend EasyBCD to modify the Windows boot loader to see Linux.
+[2016-05-22 10:28:03 -0500] [AfterDark in #debian] https://neosmart.net/EasyBCD/
+[2016-05-22 10:28:17 -0500] [markybob in #debian] jamesl: that doesn't answer the question
+[2016-05-22 10:28:44 -0500] [jamesl in #debian] markybob: what do you mean live install? I booted from CD, selected graphical install, followed the promps
+[2016-05-22 10:28:49 -0500] [jamesl in #debian] prompts*
+[2016-05-22 10:29:28 -0500] [markybob in #debian] booted from cd tells me nothing about which install you used
+[2016-05-22 10:30:26 -0500] [jamesl in #debian] I booted from CD, I used the arrow keys to select "graphical install", I pressed enter. There were no "types of install" to select from.
+[2016-05-22 10:31:02 -0500] [markybob in #debian] jamesl: i can't tell if you're trolling me or not.
+[2016-05-22 10:31:04 -0500] [jamesl in #debian] what information do you require?
+[2016-05-22 10:31:30 -0500] [jamesl in #debian] I don't exactly know what live install is, can you explain what a live installation is please?
+[2016-05-22 10:32:35 -0500] [jamesl in #debian] markybob: what is a "live install" and how do I tell if I used it or not?
+[2016-05-22 10:32:37 -0500] [markybob in #debian] you use the live iso. debian has many iso's. all different to some extent. live doesn't support uefi.
+[2016-05-22 10:32:55 -0500] [jamesl in #debian] I used the normal installation iso, not a live iso.
+[2016-05-22 10:33:20 -0500] [markybob in #debian] what was the exact name of the iso?
+[2016-05-22 10:34:01 -0500] [jamesl in #debian] markybob: debian CD-1 i386
+[2016-05-22 10:34:24 -0500] [markybob in #debian] no. no it wasnt. i give up.
+[2016-05-22 10:36:41 -0500] [Jaga-Jaga in #debian] How can I prevent my laptop;s keyboard to wake the computer from Suspend? (I'd prefer to use the power button instead)
+[2016-05-22 10:38:23 -0500] [Guest95995 in #debian-es] Existe algun canal para soporte de Debian?
+[2016-05-22 10:38:43 -0500] [syncrr in #debian] Jaga-Jaga: you probably can't.
+[2016-05-22 10:39:01 -0500] [syncrr in #debian] Jaga-Jaga: that usually happens without any intervention from the os.
+[2016-05-22 10:42:13 -0500] [Jaga-Jaga in #debian] syncrr: then i;; ll gave up debian in favor of windows
+[2016-05-22 10:42:45 -0500] [markybob in #debian] Jaga-Jaga: makes sense
+[2016-05-22 10:52:35 -0500] [tortib in #debian-offtopic] hi
+[2016-05-22 10:55:27 -0500] [jamesl in #debian] markybob:  Debian GNU/Linux 8.2.0 "Jessie" - Official i386 CD Binary-1 20150906-10:02
+[2016-05-22 11:00:16 -0500] [Jaga-Jaga in #debian] can anyone tell me which one is my laptop's  keyboard? http://paste.debian.net/694104/
+[2016-05-22 11:05:51 -0500] [unlike in #debian-offtopic] Yesterday: First place: Slimy https://ptpb.pw/K4bI.png 2nd. Matumaros https://ptpb.pw/g0l1.png 3rd. nikitishttps://ptpb.pw/CcN-.png   Words: https://ptpb.pw/vjue.png Users: https://ptpb.pw/1g87.png Complete-log: http://sprunge.us/KJRO
+[2016-05-22 11:06:12 -0500] [unlike in #debian-es-offtopic] Ayer: First place: Slimy https://ptpb.pw/K4bI.png 2nd. Matumaros https://ptpb.pw/g0l1.png 3rd. nikitishttps://ptpb.pw/CcN-.png   Words: https://ptpb.pw/vjue.png Users: https://ptpb.pw/1g87.png Complete-log: http://sprunge.us/KJRO 
+[2016-05-22 11:09:24 -0500] [unlike in #debian-es-offtopic] frangor, https://ptpb.pw/rPgi.png teraflops, https://ptpb.pw/yy7p.png  log: http://sprunge.us/YcZb
+[2016-05-22 11:09:43 -0500] [frangor in #debian-es-offtopic] wow xD
+[2016-05-22 11:10:15 -0500] [Jaga-Jaga in #debian] How can I disable my laptop's keyboard from waking up the computer from Suspend? (I want to use the power button only)
+[2016-05-22 11:11:44 -0500] [petn-randall in #debian] Jaga-Jaga: That is something your BIOS does. Check if your BIOS has such a setting.
+[2016-05-22 11:11:54 -0500] [unlike in #debian-es-offtopic] frangor, segun los logs el 21 de mayo fuistes el mas activo en los canales #debian de ingles, español y offtopic xD
+[2016-05-22 11:12:06 -0500] [frangor in #debian-es-offtopic] ingles imposible
+[2016-05-22 11:12:16 -0500] [julius_ in #debian] hi
+[2016-05-22 11:12:17 -0500] [unlike in #debian-es-offtopic] contando*
+[2016-05-22 11:12:36 -0500] [unlike in #debian-es-offtopic] #debian, #debian-es, #debian-offtopic y #debian-es-offtopic
+[2016-05-22 11:12:50 -0500] [Jaga-Jaga in #debian] petn-randall: I see someone who managed to make his mouse wake up, if u want i show u the link
+[2016-05-22 11:13:01 -0500] [julius_ in #debian] apparentl virtualbox cant load its kernel driver...i just rebooted and im running a default debian kernel. how can i manuall build the vbox module?
+[2016-05-22 11:13:19 -0500] [Jaga-Jaga in #debian] petn-randall: so i'd assume i could do the reverse and disable my keyboard
+[2016-05-22 11:16:40 -0500] [dutchfish in #debian-offtopic] unlike, was that debian/freenode?
+[2016-05-22 11:17:32 -0500] [unlike in #debian-es-offtopic] el martes pasado me fui a Distrito Federal, primera vez en mi vida, Señores el Distrito Federal de Mexico es un COMPLETO ASCO!, que feo esta hehehe
+[2016-05-22 11:18:42 -0500] [unlike in #debian-offtopic] #debian and #debian-offtopic last 24hrs into today at 0:0am
+[2016-05-22 11:19:03 -0500] [dutchfish in #debian-offtopic] unlike, oh, i used words not in it
+[2016-05-22 11:19:06 -0500] [unlike in #debian-offtopic] i mean, not including today from 0 hours
+[2016-05-22 11:19:45 -0500] [dutchfish in #debian-offtopic] maybe i was outside your period
+[2016-05-22 11:19:46 -0500] [unlike in #debian-offtopic] hmm the graphic is based in your nick, maybe some mention you or you said it
+[2016-05-22 11:20:16 -0500] [unlike in #debian-offtopic] like if someone said: dutchfish , hi ...then is record it}
+[2016-05-22 11:20:24 -0500] [dutchfish in #debian-offtopic] ah ok
+[2016-05-22 11:21:49 -0500] [unlike in #debian-offtopic] dutchfish, this is the log: http://sprunge.us/KJRO
+[2016-05-22 11:22:39 -0500] [dutchfish in #debian-offtopic] unlike, i am it but not all my words
+[2016-05-22 11:22:56 -0500] [dutchfish in #debian-offtopic] i am in it*
+[2016-05-22 11:23:08 -0500] [unlike in #debian-offtopic] ahh, probably the bot was offline at that time
+[2016-05-22 11:23:22 -0500] [dutchfish in #debian-offtopic] ah ok
+[2016-05-22 11:24:59 -0500] [avallac_h in #debian] julius_: check dkms manpage (/usr/sbin/dkms) or simply run 'dpkg-reconfigure virtualbox-dkms'
+[2016-05-22 11:25:22 -0500] [unlike in #debian-offtopic] dutchfish, this is the complete .tar.gz with the files created from yesterday http://filebin.net/v4m0w28tme
+[2016-05-22 11:25:57 -0500] [dutchfish in #debian-offtopic] it is ok, i believe you :)
+[2016-05-22 11:26:30 -0500] [teraflops in #debian-es-offtopic] unlike: viajar es un conazo
+[2016-05-22 11:26:30 -0500] [dutchfish in #debian-offtopic] unlike, i have my own logs
+[2016-05-22 11:26:36 -0500] [teraflops in #debian-es-offtopic] ñ*
+[2016-05-22 11:26:38 -0500] [unlike in #debian-offtopic] heh
+[2016-05-22 11:27:01 -0500] [dutchfish in #debian-offtopic] unlike, at least for the time i was online
+[2016-05-22 11:27:43 -0500] [unlike in #debian-es-offtopic] yep, me encanta, por fin conoci a los especimenes denominados "chilangos" hehehe, la gente de la capital asi los nombramos xD, unos seres detestables por cierto xD
+[2016-05-22 11:30:52 -0500] [tout in #debian-es-offtopic] unlike: explica qué son en concreto, chilango suena a comestible
+[2016-05-22 11:31:05 -0500] [frangor in #debian-es-offtopic] pues yo prefiero viajar a trabajar xD
+[2016-05-22 11:32:08 -0500] [frangor in #debian-es-offtopic] teraflops: me ha llevado toda la tarde esto: https://clbin.com/ruwldN.png ><
+[2016-05-22 11:32:09 -0500] [unlike in #debian-es-offtopic] tout, los chilangos son gente del DF o Estado de Mexico (Capital) segun los de provincia (nosotros) y segun ellos Chilangos son gente que no es de alla hehehe
+[2016-05-22 11:32:30 -0500] [dutchfish in #debian-offtopic] unlike, i have logs that go back to around 2003, i use them quiet alot, for links people has pasted to me or explamations i want to reread
+[2016-05-22 11:32:44 -0500] [teraflops in #debian-es-offtopic] frangor: ^
+[2016-05-22 11:32:47 -0500] [dutchfish in #debian-offtopic] explanations*
+[2016-05-22 11:32:52 -0500] [unlike in #debian-offtopic] wow
+[2016-05-22 11:33:15 -0500] [frangor in #debian-es-offtopic] yo no soy Chileno, ni español, ni catalan xD
+[2016-05-22 11:33:19 -0500] [dutchfish in #debian-offtopic] unlike, its fragmented however since i dont use a bot
+[2016-05-22 11:33:22 -0500] [unlike in #debian-es-offtopic] frangor, andriod?
+[2016-05-22 11:33:27 -0500] [ChrisH in #debian] julius_: I sometimes faced the problem of missing packages. Installing a newer kernel build the modules automagically and booting into the new installed kernel will load them.
+[2016-05-22 11:33:30 -0500] [frangor in #debian-es-offtopic] unlike: sep
+[2016-05-22 11:33:42 -0500] [dutchfish in #debian-offtopic] unlike, it is only my 'active' time
+[2016-05-22 11:34:17 -0500] [unlike in #debian-offtopic] thats good, yuou should do a web with a 'time-machine repo' like xD
+[2016-05-22 11:34:34 -0500] [dutchfish in #debian-offtopic] hah, timemachine
+[2016-05-22 11:35:01 -0500] [dutchfish in #debian-offtopic] actually i have it in all my backups from the beginning and that predates 2003
+[2016-05-22 11:35:19 -0500] [teraflops in #debian-es-offtopic] frangor: pero porque estas en modo frangor o porque esta jodida la generacion de graficas? :P
+[2016-05-22 11:35:21 -0500] [unlike in #debian-offtopic] i bet you have some funny shit
+[2016-05-22 11:35:25 -0500] [dutchfish in #debian-offtopic] but i started to use irc since 2003
+[2016-05-22 11:35:41 -0500] [tout in #debian-es-offtopic] frangor: no soy madrileño ni  gallego ni aragonés, por ejemplo
+[2016-05-22 11:35:47 -0500] [frangor in #debian-es-offtopic] teraflops: porque soy lento :( buscando info y demas
+[2016-05-22 11:35:48 -0500] [dutchfish in #debian-offtopic] unlike, oh yes, stuff like cpm, cobol and my pascal era
+[2016-05-22 11:36:01 -0500] [tout in #debian-es-offtopic] unlike: por qué son detestables?
+[2016-05-22 11:36:09 -0500] [teraflops in #debian-es-offtopic] frangor: ah bien
+[2016-05-22 11:36:12 -0500] [frangor in #debian-es-offtopic] investigando que libreria usar y estudiando la api y tal
+[2016-05-22 11:36:32 -0500] [dutchfish in #debian-offtopic] unlike, my earliest backup go back as far as 1990
+[2016-05-22 11:36:33 -0500] [unlike in #debian-offtopic] hehe, i will love to see some oldfashioned logs, you never know who was in back then xD
+[2016-05-22 11:36:40 -0500] [teraflops in #debian-es-offtopic] frangor: modo frangor me refiero a cuando tienes examenes y te pones a ver pelis :P
+[2016-05-22 11:36:47 -0500] [teraflops in #debian-es-offtopic] jaja
+[2016-05-22 11:36:54 -0500] [frangor in #debian-es-offtopic] teraflops: eso no es solo en examenes xD
+[2016-05-22 11:36:57 -0500] [teraflops in #debian-es-offtopic] jeje
+[2016-05-22 11:37:10 -0500] [dutchfish in #debian-offtopic] unlike, some friends i lost in that time, too bad
+[2016-05-22 11:37:25 -0500] [frangor in #debian-es-offtopic] tout: yo segun con quien hable.. lo que mas troll me haga.. xD
+[2016-05-22 11:37:50 -0500] [dutchfish in #debian-offtopic] unlike, thats life
+[2016-05-22 11:37:56 -0500] [unlike in #debian-es-offtopic] tout, en primera son mas vivos (tranzas) que la gente normal, la gente de la provincia los detesta por deshonestos y mentirosos, se cren dueños de mexico cuando van a un pueblito y mas cosas, no se si pase en tu pais con tus capitalinoz visitando provincia
+[2016-05-22 11:38:24 -0500] [unlike in #debian-offtopic] heh, yep
+[2016-05-22 11:38:48 -0500] [unlike in #debian-offtopic] dutchfish, you have some logs with lilo in it?
+[2016-05-22 11:39:02 -0500] [dutchfish in #debian-offtopic] unlike, oh yes
+[2016-05-22 11:39:21 -0500] [frangor in #debian-es-offtopic] teraflops: ya "solo" me falya la pestaña appointment (que es la mas complicada diria) y los settings.. yo creo que si lo acabo xD
+[2016-05-22 11:39:24 -0500] [dutchfish in #debian-offtopic] unlike, i started to use Debian around Woody/Sarge
+[2016-05-22 11:39:26 -0500] [frangor in #debian-es-offtopic] para el 15
+[2016-05-22 11:39:32 -0500] [teraflops in #debian-es-offtopic] frangor: \o/
+[2016-05-22 11:39:34 -0500] [unlike in #debian-offtopic] wow
+[2016-05-22 11:39:42 -0500] [unlike in #debian-offtopic] mr. Rob Levin aka lilo xD
+[2016-05-22 11:39:48 -0500] [dutchfish in #debian-offtopic] :D
+[2016-05-22 11:39:50 -0500] [frangor in #debian-es-offtopic] si le diera duro, lo acabaria hoy mismo
+[2016-05-22 11:39:53 -0500] [frangor in #debian-es-offtopic] pero no va a pasar
+[2016-05-22 11:39:56 -0500] [dutchfish in #debian-offtopic] i rem it vividly
+[2016-05-22 11:39:57 -0500] [unlike in #debian-offtopic] i remember him, sad he die
+[2016-05-22 11:40:15 -0500] [frangor in #debian-es-offtopic] me pondre alguna peli antes de dormir.. xD
+[2016-05-22 11:40:40 -0500] [dutchfish in #debian-offtopic] unlike, i am not getting younger either ;)
+[2016-05-22 11:40:47 -0500] [unlike in #debian-offtopic] heh
+[2016-05-22 11:43:17 -0500] [Skyrider in #debian] Can anyone recommend a SSH client where you can have multiple (tabbed) sessions + where scrolling up/down is possible?
+[2016-05-22 11:43:37 -0500] [teraflops in #debian-es-offtopic] jojo
+[2016-05-22 11:43:54 -0500] [frangor in #debian-es-offtopic] teraflops: se me hace muy pesado java :(
+[2016-05-22 11:44:10 -0500] [teraflops in #debian-es-offtopic] a mi se me hace pesado lo que sea si hace calor
+[2016-05-22 11:44:12 -0500] [teraflops in #debian-es-offtopic] jaja
+[2016-05-22 11:44:29 -0500] [frangor in #debian-es-offtopic] aqui acaba de llover, se esta agusto
+[2016-05-22 11:44:38 -0500] [frangor in #debian-es-offtopic] esta saliendo el sol, pero hace fresquito
+[2016-05-22 11:45:00 -0500] [teraflops in #debian-es-offtopic] esto es ya un infierno 
+[2016-05-22 11:48:52 -0500] [sje46 in #debian] Skyrider: not a direct answer to your question, but maybe look into gnu screen or tmux?
+[2016-05-22 11:49:27 -0500] [Skyrider in #debian] Did forgot to mention, windows client :)
+[2016-05-22 11:49:30 -0500] [jamesl in #debian] I am trying to dualboot Windows with debian 8, and I installed GRUB as part of Debian's setup. When I booted my PC after the installation finished, the Windows bootloader started, leaving me no option to boot into Linux. I tried to use easyBCD to add a Linux entry, but apparently I'm running in EFI mode, even though I enabled "launch CSM" and disabled secure boot. How to get GRUB working on EFI, so I can dual-boot windows 10
+[2016-05-22 11:49:30 -0500] [jamesl in #debian] and debian 8?
+[2016-05-22 11:49:37 -0500] [dutchfish in #debian-offtopic] unlike, but promise me to pull the plug, when i start to talk rubbish ;)
+[2016-05-22 11:49:46 -0500] [unlike in #debian-offtopic] xD
+[2016-05-22 11:50:03 -0500] [babilen in #debian] Skyrider: Generally you simply run your SSH client in a shell and use whatever window manager or terminal you deem most helpful. Using a terminal multiplexer such as the aforementioned tmux or screen is another way ..
+[2016-05-22 11:50:28 -0500] [frangor in #debian-es-offtopic] necesito vacaciones.. y no voy a tener xD
+[2016-05-22 11:50:38 -0500] [frangor in #debian-es-offtopic] que feliz me hace eso
+[2016-05-22 11:50:45 -0500] [frangor in #debian-es-offtopic] me van a volver loco
+[2016-05-22 11:54:05 -0500] [teraflops in #debian-es-offtopic] frangor: en verano la cosa se suele tranquilizar pero teniendo en cuenta en lo que curras me parece que va a ser que no
+[2016-05-22 11:54:14 -0500] [dutchfish in #debian-offtopic] unlike, you remember Pauline?
+[2016-05-22 11:54:44 -0500] [dutchfish in #debian-offtopic] around the midle of 1990..2000 or the like
+[2016-05-22 11:55:27 -0500] [dutchfish in #debian-offtopic] (pdpc)
+[2016-05-22 11:56:11 -0500] [Skyrider in #debian] Will check it out
+[2016-05-22 11:57:09 -0500] [babilen in #debian] Skyrider: Might want to look into mosh also if you are on intermittent connections (such as a laptop that you carry from A to B)
+[2016-05-22 12:00:44 -0500] [dutchfish in #debian-offtopic] walks of for dinner
+[2016-05-22 12:00:59 -0500] [Skyrider in #debian] babilen Either I'm blind or mosh windows client is only available for Chrome (windows).
+[2016-05-22 12:01:39 -0500] [babilen in #debian] Windows?
+[2016-05-22 12:01:49 -0500] [babilen in #debian] You can install mosh with "apt-get install mosh"
+[2016-05-22 12:02:10 -0500] [babilen in #debian] (as this in #debian !!)
+[2016-05-22 12:03:38 -0500] [babilen in #debian] Skyrider: Err, yeah .. you mentioned Windows earlier. What does that have to do with Debian and why don't you ask in ##windows? I mean, naturally, our support in here pertains to Debian
+[2016-05-22 12:06:59 -0500] [teraflops in #debian-es-offtopic] ♫ Airbag — Sounds That I Hear (Identity)
+[2016-05-22 12:10:26 -0500] [ianthius in #debian] I asked a question earlier about a HD from a NAS but got disconnected, if anyone responded i missed it :)
+[2016-05-22 12:11:15 -0500] [Skyrider in #debian] Indeed, but debian = linux, connection to shell is usually towards linux.
+[2016-05-22 12:11:20 -0500] [Skyrider in #debian] Hence, I'm asking here :)
+[2016-05-22 12:11:35 -0500] [Skyrider in #debian] But never knew such windows channel existed ^^.
+[2016-05-22 12:11:49 -0500] [Skyrider in #debian] What's up with the double # in channel names though?
+[2016-05-22 12:13:53 -0500] [babilen in #debian] Skyrider: Yeah, but you are not asking for advice about Debian and the advice we gave does not apply to Windows. So please, ask in the appropriate channel :)
+[2016-05-22 12:13:57 -0500] [teraflops in #debian-es-offtopic] jajaja ED IS THE TRUE PATH TO NIRVANA! ED HAS BEEN THE CHOICE OF EDUCATED AND IGNORANT ALIKE FOR CENTURIES! ED WILL NOT CORRUPT YOUR PRECIOUS BODILY FLUIDS!! ED IS THE STANDARD TEXT EDITOR! ED MAKES THE SUN SHINE AND THE BIRDS SING AND THE GRASS GREEN!
+[2016-05-22 12:14:13 -0500] [teraflops in #debian-es-offtopic] :P
+[2016-05-22 12:17:38 -0500] [ianthius in #debian] when i run 'parted /dev/sdb print' i see the main data partition as not have a listed filesystem. It was using some combo of RAID and some logical volume stuff :(
+[2016-05-22 12:19:12 -0500] [ianthius in #debian] i installed mdadm and ran vgscan and pvscan and that worked on the main drive, but not for this drive :(
+[2016-05-22 12:23:36 -0500] [tout in #debian-es-offtopic] frangor: ni se te ocurra ponerte diez mil santos o engendros, son malisimaas
+[2016-05-22 12:24:05 -0500] [frangor in #debian-es-offtopic] ni la había escuchado
+[2016-05-22 12:25:27 -0500] [tout in #debian-es-offtopic] mejor
+[2016-05-22 12:32:32 -0500] [tortib in #debian-offtopic] hi
+[2016-05-22 12:32:49 -0500] [tortib in #debian-offtopic] anyone active to chat?
+[2016-05-22 12:35:42 -0500] [shantanoo in #debian] hi all
+[2016-05-22 12:36:57 -0500] [Guest78862 in #debian] Heya
+[2016-05-22 12:37:08 -0500] [shantanoo in #debian] i have setup pptpd on a VPS. am able to connect to it. ipv4 is working perfectly fine. i don't have ipv6 connectivity, but the vps has. can i use it to access ipv6 sites? similar to ipv4-ipv6 tunnel.
+[2016-05-22 12:37:56 -0500] [Guest78862 in #debian] I rlly do now know about that stuff.
+[2016-05-22 12:38:01 -0500] [Guest78862 in #debian] not*
+[2016-05-22 12:38:09 -0500] [shantanoo in #debian] :(
+[2016-05-22 12:38:17 -0500] [shantanoo in #debian] Guest78862: no worries
+[2016-05-22 13:02:12 -0500] [TomTomTo1 in #debian-offtopic] cat! http://i.imgur.com/poQyZxS.gifv
+[2016-05-22 13:02:58 -0500] [julius_ in #debian] ChrisH, theres no newer kernel :(
+[2016-05-22 13:03:12 -0500] [julius_ in #debian] avallac_h, thank you...but that commands gives me: Module build for the currently running kernel was skipped since the
+[2016-05-22 13:03:12 -0500] [julius_ in #debian] kernel source for this kernel does not seem to be installed
+[2016-05-22 13:04:35 -0500] [julius_ in #debian] linux-image-4.5.0-0.bpo.1-amd64/jessie-backports      thats my currently running kernel
+[2016-05-22 13:04:47 -0500] [julius_ in #debian] what is the common source name for that?
+[2016-05-22 13:05:15 -0500] [avallac_h in #debian] justyns: try this: 'apt-get install linux-headers-$(uname -r)'
+[2016-05-22 13:06:33 -0500] [julius_ in #debian] ah
+[2016-05-22 13:06:37 -0500] [julius_ in #debian] i was thining of: apt install linux-source-`uname -r`
+[2016-05-22 13:06:43 -0500] [julius_ in #debian] lets try yours
+[2016-05-22 13:07:36 -0500] [julius_ in #debian] apt-get install linux-headers-$(uname -r)'
+[2016-05-22 13:07:39 -0500] [julius_ in #debian] oh wit
+[2016-05-22 13:07:45 -0500] [julius_ in #debian] E: Unable to locate package linux-headers-4.5.0-0.bpo.1-amd64
+[2016-05-22 13:08:02 -0500] [avallac_h in #debian] julius_: update your apt cache
+[2016-05-22 13:08:36 -0500] [avallac_h in #debian] julius_: currently backports contain linux-headers-4.5.0-0.bpo.2-all
+[2016-05-22 13:09:09 -0500] [teraflops in #debian] julius_: shellcheck would have warned you about that `uname -r` :P
+[2016-05-22 13:09:42 -0500] [julius_ in #debian] maybe a -t jessie-backports will help
+[2016-05-22 13:10:18 -0500] [julius_ in #debian] hm
+[2016-05-22 13:10:34 -0500] [julius_ in #debian] just specifying the version/name you posted did it
+[2016-05-22 13:10:45 -0500] [avallac_h in #debian] julius_: yes. I forgot about that.
+[2016-05-22 13:11:17 -0500] [julius_ in #debian] there should be a "link" in the repo to make the uname version work
+[2016-05-22 13:11:31 -0500] [julius_ in #debian] giving it a different name is kinda unhelpfull in this case
+[2016-05-22 13:13:42 -0500] [jannis in #debian] does anyone happen to know a webpage (or other place) with some advice about intel i915 (skylake) graphics on Debian?
+[2016-05-22 13:14:13 -0500] [teraflops in #debian-es-offtopic] tout: hoy me he visto una peli en modo teraflops
+[2016-05-22 13:14:26 -0500] [avallac_h in #debian] julius_: what do you mean? $(uname -r) - returns kernel version that you currently use
+[2016-05-22 13:14:28 -0500] [lucas-arg in #debian] any apt source to use with nice themes for cinnamon??
+[2016-05-22 13:15:07 -0500] [teraflops in #debian-es-offtopic] http://www.elitetorrent.net/torrent/29645/area-51-hdrip ...
+[2016-05-22 13:15:08 -0500] [orome in #debian-es-offtopic] Title: Area 51 (HDRip) descarga torrent - EliteTorrent.net (at www.elitetorrent.net)
+[2016-05-22 13:15:24 -0500] [teraflops in #debian-es-offtopic] !peli area 51
+[2016-05-22 13:15:24 -0500] [orome in #debian-es-offtopic] teraflops: area 51
+[2016-05-22 13:15:27 -0500] [orome in #debian-es-offtopic] teraflops: Area 51 (2011-02-26) 4.83/10 https://www.themoviedb.org/movie/57812-51?language=es Cinta de terror y ciencia ficción dirigida por Jason Connery entorno a la misteriosa 'Area 51' estadounidense. Debido a la presión política de la opinión pública estadounidense, la Fuerza Aérea ha decidido permitir que dos periodistas conocidos tengan acceso limitado a la base más secreta del planeta. Pero un (1 more message)
+[2016-05-22 13:15:39 -0500] [teraflops in #debian-es-offtopic] no esa no es
+[2016-05-22 13:16:43 -0500] [Krakakanok in #debian-es-offtopic] xD
+[2016-05-22 13:17:14 -0500] [Krakakanok in #debian-es-offtopic] yo me he estado viendo person of interest 5x01
+[2016-05-22 13:17:26 -0500] [teraflops in #debian-es-offtopic] joer es que no tengo nada pendiente de ver
+[2016-05-22 13:17:32 -0500] [julius_ in #debian] avallac_h, but linux-headers-$(uname -r)'      did not work
+[2016-05-22 13:17:40 -0500] [teraflops in #debian-es-offtopic] hoy salen got y penny dreadful
+[2016-05-22 13:17:49 -0500] [SzateX_ in #debian] Hi. Is any way to translate bash prompts to English from other language - not using google translate? I have some problems with install Brackets but the all prompts are in Polish
+[2016-05-22 13:19:14 -0500] [Krakakanok in #debian-es-offtopic] got?
+[2016-05-22 13:19:30 -0500] [Krakakanok in #debian-es-offtopic] penny dreadful dicen que esta muy bien, de que va?
+[2016-05-22 13:19:44 -0500] [teraflops in #debian-es-offtopic] juego de tronos
+[2016-05-22 13:19:47 -0500] [avallac_h in #debian] julius_: you need to manually select a jessie-backports with -t option
+[2016-05-22 13:20:18 -0500] [teraflops in #debian-es-offtopic] Krakakanok: penny dreadful es mi serie preferida, va de demonios btujas y cosas asi en el londres del imperio 
+[2016-05-22 13:20:23 -0500] [teraflops in #debian-es-offtopic] brujas*
+[2016-05-22 13:20:26 -0500] [julius_ in #debian] avallac_h, crap...dpkg-reconfigure virtualbox-dkms is still unable to find the sources        but: Setting up linux-headers-4.5.0-0.bpo.2-all (4.5.3-2~bpo8+1) ...      is dome
+[2016-05-22 13:20:28 -0500] [julius_ in #debian] done
+[2016-05-22 13:20:50 -0500] [teraflops in #debian-es-offtopic] !serie penny dreadful
+[2016-05-22 13:20:53 -0500] [Krakakanok in #debian-es-offtopic] mmm, peny tendre que verla
+[2016-05-22 13:20:53 -0500] [orome in #debian-es-offtopic] teraflops: Penny Dreadful (2014-05-11) 6.59/10 https://www.themoviedb.org/tv/54671-penny-dreadful?language=es Penny Dreadful es una serie de televisión estadounidense de horror y suspense, creada y escrita por John Logan junto con Sam Mendes para el canal Showtime. La serie entrelaza los orígenes de famosos personajes literarios de terror, como el Dr. Frankestein, Dorian Gray, Jack el Destripador o (1 more message)
+[2016-05-22 13:20:55 -0500] [avallac_h in #debian] julius_: do you have backports enabled?
+[2016-05-22 13:20:57 -0500] [teraflops in #debian-es-offtopic] !more
+[2016-05-22 13:20:58 -0500] [orome in #debian-es-offtopic] teraflops: Drácula, que atacan con su monstruosa alienación en el Londres de la época victoriana.
+[2016-05-22 13:21:00 -0500] [julius_ in #debian] yes
+[2016-05-22 13:21:01 -0500] [Krakakanok in #debian-es-offtopic] juego de tronos no la veo
+[2016-05-22 13:21:26 -0500] [julius_ in #debian] now apt upgrade wants to upgrade linux-image-amd64
+[2016-05-22 13:21:33 -0500] [julius_ in #debian] lets see if that works
+[2016-05-22 13:22:24 -0500] [julius_ in #debian] jannis, use the kernel in jessie-backports
+[2016-05-22 13:22:29 -0500] [avallac_h in #debian] julius_: you need to upgrade you kernel to linux-headers-4.5.0-0.bpo.2-amd64
+[2016-05-22 13:23:04 -0500] [julius_ in #debian] jannis, you get decent flash performance at high cpu loads. fullscreen movie watching is skippy with totem/mplayer
+[2016-05-22 13:23:45 -0500] [julius_ in #debian] avallac_h, ah yes of course
+[2016-05-22 13:23:57 -0500] [julius_ in #debian] apt just did that, now i need to reboot
+[2016-05-22 13:24:23 -0500] [jannis in #debian] julius, I'm running the latest kernel in unstable, but there are some problems with video playback (vlc crashes, full screen playback doesn't work properly)
+[2016-05-22 13:24:55 -0500] [jannis in #debian] and I was curious whether Debian has some sort of page about the status of recent hardware, like Arch linux does
+[2016-05-22 13:25:22 -0500] [julius_ in #debian] ah yes i installed a bunch of other packages from jessie-backports
+[2016-05-22 13:25:37 -0500] [julius_ in #debian] but you probably already have them since your running unstable
+[2016-05-22 13:25:57 -0500] [julius_ in #debian] fullscreen support gives me a small window in mplayer for example
+[2016-05-22 13:25:59 -0500] [julius_ in #debian] brb
+[2016-05-22 13:32:45 -0500] [awwal in #debian] awwal wonders my he have chromium if pepperflash is no longer available for i386 :P
+[2016-05-22 13:32:56 -0500] [awwal in #debian] why ^
+[2016-05-22 13:33:33 -0500] [teraflops in #debian] wonders if awwal knows about /me
+[2016-05-22 13:33:54 -0500] [awwal in #debian] teraflops, no clue. whats that?
+[2016-05-22 13:34:14 -0500] [teraflops in #debian] awwal: you write /me whatever
+[2016-05-22 13:34:16 -0500] [julius_ in #debian] knows
+[2016-05-22 13:34:18 -0500] [teraflops in #debian] :P
+[2016-05-22 13:34:25 -0500] [awwal in #debian] teraflps, oh, ok :)
+[2016-05-22 13:34:58 -0500] [julius_ in #debian] you kinda have to know thís or youre just a hipstar
+[2016-05-22 13:35:18 -0500] [nikoma in #debian] hi, I can't mount a CD, I get the following error msg "mount: /dev/sr0: can't read superblock"
+[2016-05-22 13:35:22 -0500] [nikoma in #debian] any idea what could be wrong?
+[2016-05-22 13:35:23 -0500] [teraflops in #debian] julius_: ha!
+[2016-05-22 13:35:45 -0500] [mtn in #debian] nikoma: tired more than one cd?
+[2016-05-22 13:35:50 -0500] [mtn in #debian] tried, that is
+[2016-05-22 13:35:54 -0500] [julius_ in #debian] hipstar means you only eat veggie burgers and crap
+[2016-05-22 13:36:07 -0500] [nikoma in #debian] not yet
+[2016-05-22 13:36:19 -0500] [mtn in #debian] nikoma: first troubleshooting step
+[2016-05-22 13:36:26 -0500] [nikoma in #debian] will have to find some other cd for that haha
+[2016-05-22 13:36:33 -0500] [julius_ in #debian] as the nike commercials says: just do it
+[2016-05-22 13:37:24 -0500] [teraflops in #debian] nikoma: how do you mount the cdrom?
+[2016-05-22 13:37:49 -0500] [nikoma in #debian] sudo mount /dev/sr0 /media/cdrom
+[2016-05-22 13:37:56 -0500] [awwal in #debian] nikoma, is automounting enabled there?
+[2016-05-22 13:38:02 -0500] [julius_ in #debian] tried nautilus?
+[2016-05-22 13:38:26 -0500] [nikoma in #debian] I don't think automounting is enabled
+[2016-05-22 13:38:48 -0500] [teraflops in #debian] nikoma: give a try to `sudo mount -t iso9660 /dev/sr0 /mnt` also take a look at the logs while doing it
+[2016-05-22 13:39:00 -0500] [olx69 in #debian] can a mounted hard disk spin down. Prio mounting after a idel time it got into standy. After I mounted it it doesn't seems to any more.
+[2016-05-22 13:39:36 -0500] [tout in #debian-es-offtopic] teraflops: esa la vi no hace mucho, en modo normal,  area 51
+[2016-05-22 13:39:48 -0500] [olx69 in #debian] or better: can a mounted hard disk spin down? Prior mounting, after a idle time it got into standy. After I mounted it it doesn't seems to any more.
+[2016-05-22 13:40:13 -0500] [teraflops in #debian] olx69: hdparm
+[2016-05-22 13:40:56 -0500] [teraflops in #debian-es-offtopic] tout: la de los 3 que se cuelan en la base?
+[2016-05-22 13:41:03 -0500] [teraflops in #debian-es-offtopic] y la chica, 4
+[2016-05-22 13:41:24 -0500] [tout in #debian-es-offtopic] si
+[2016-05-22 13:41:24 -0500] [tout in #debian-es-offtopic] esa
+[2016-05-22 13:42:10 -0500] [nikoma in #debian] http://pastebin.com/rr4e3tUZ
+[2016-05-22 13:42:15 -0500] [nikoma in #debian] here's the log
+[2016-05-22 13:45:41 -0500] [teraflops in #debian] nikoma: the cdrom is borked :P
+[2016-05-22 13:47:05 -0500] [nikoma in #debian] can it also be just corrupted cd?
+[2016-05-22 13:47:08 -0500] [teraflops in #debian] nikoma: wait, it his an audio cd?
+[2016-05-22 13:47:14 -0500] [teraflops in #debian] this*
+[2016-05-22 13:47:55 -0500] [nikoma in #debian] I think so
+[2016-05-22 13:48:04 -0500] [teraflops in #debian] you _dont_ mount audio cds!
+[2016-05-22 13:48:14 -0500] [nikoma in #debian] what do you do with them?
+[2016-05-22 13:48:24 -0500] [teraflops in #debian] just play it
+[2016-05-22 13:48:48 -0500] [nikoma in #debian] how?
+[2016-05-22 13:49:27 -0500] [teraflops in #debian] mplayer vlc ...
+[2016-05-22 13:52:18 -0500] [nikoma in #debian] ok, it works, thank you so much!
+[2016-05-22 13:52:24 -0500] [teraflops in #debian] np
+[2016-05-22 14:07:31 -0500] [Jaga-Jaga in #debian] I want to setup a hotkey to suspend my machine. However the command needs "sudo" and I see it doesn't work. ANy ideas?
+[2016-05-22 14:11:07 -0500] [olx69 in #debian] teraflops: hdparm works so far; I'm able to set it into standby '-y' and after idel time (spindown_time = 60 aka 300sec) is goes into standby. Now it's mounted to bacula storage, which has access only at xxx PM, and doesn't standby anymore
+[2016-05-22 14:12:11 -0500] [teraflops in #debian] Does it work with sudo? If it does you can use use e.g  polkit (pkexec)
+[2016-05-22 14:12:30 -0500] [teraflops in #debian] Jaga-Jaga: ^
+[2016-05-22 14:12:34 -0500] [markybob in #debian] i assume he doesn't have sudo installed
+[2016-05-22 14:12:44 -0500] [Jaga-Jaga in #debian] teraflops: it works with this command : systemctl suspend
+[2016-05-22 14:13:39 -0500] [Jaga-Jaga in #debian] teraflops: however the funny part is that if suspended from terminal it doesnt ask for no password when i wake it up.
+[2016-05-22 14:13:39 -0500] [teraflops in #debian] olx69: if the disk is in use why not -B?
+[2016-05-22 14:14:30 -0500] [olx69 in #debian] what do you mean?
+[2016-05-22 14:14:54 -0500] [olx69 in #debian] hdparm -B  /dev/sdb show APM_level	= off
+[2016-05-22 14:15:09 -0500] [olx69 in #debian] is set to 255 (default 254)
+[2016-05-22 14:15:30 -0500] [olx69 in #debian] setit with -S60 (iirc)
+[2016-05-22 14:15:49 -0500] [teraflops in #debian] olx69: no. -B 254 please check the manage I'm not sure
+[2016-05-22 14:16:12 -0500] [olx69 in #debian] it's a WD, with 254 never will spin down :(
+[2016-05-22 14:16:16 -0500] [teraflops in #debian] Jaga-Jaga: do you need sudo for systemctl suspend?
+[2016-05-22 14:16:27 -0500] [Jaga-Jaga in #debian] teraflops: nope.
+[2016-05-22 14:16:36 -0500] [teraflops in #debian] olx69: wat?
+[2016-05-22 14:16:45 -0500] [Jaga-Jaga in #debian] teraflops: now i can suspend using a hotkey!
+[2016-05-22 14:17:20 -0500] [Jaga-Jaga in #debian] teraflops: its just that when i wake it up. doesnt ask for no password. which is not funny
+[2016-05-22 14:17:25 -0500] [olx69 in #debian] WD disk have problems with spin down after the given time; some suggest to use hd-idle (not on debian as far I've seen). The work arround is to disable APM
+[2016-05-22 14:18:51 -0500] [teraflops in #debian] Jaga-Jaga: what does mean asking for no password? Same as not asking for a password? Sorry English is hard for me
+[2016-05-22 14:19:00 -0500] [olx69 in #debian] is one partition is mounted it doesn#t spin down; is it not mountted it spins down afte rthe given time; hence the question - if there is no read/write on the partition, does it spindle down even if the partition is mounted
+[2016-05-22 14:19:58 -0500] [teraflops in #debian] olx69: oh well -B 254 means powrsaving by default. I wasn't aware of that particular issue
+[2016-05-22 14:20:19 -0500] [Jaga-Jaga in #debian] teraflops: i mean, it doesnt ask for my user password. it means my mom can access my porn collection
+[2016-05-22 14:20:41 -0500] [teraflops in #debian] Jaga-Jaga: use xscreensaver
+[2016-05-22 14:20:49 -0500] [teraflops in #debian] Or a DM
+[2016-05-22 14:22:01 -0500] [Jaga-Jaga in #debian] teraflops: when i suspend from the menu, it does ask for my password wen i wake it up. ... i would like the same behaviour when i suspend from a terminal.
+[2016-05-22 14:22:22 -0500] [olx69 in #debian] teraflops: hdparm -y  /dev/sdb; hdparm -C  /dev/sdb drive state is:  standby
+[2016-05-22 14:22:23 -0500] [olx69 in #debian]  even mounted
+[2016-05-22 14:22:32 -0500] [olx69 in #debian] starnge ...
+[2016-05-22 14:22:48 -0500] [teraflops in #debian] Jaga-Jaga: your mom cannot watch your porn from tty
+[2016-05-22 14:25:15 -0500] [Jaga-Jaga in #debian] teraflops: my mom would just press the power putton and the computer will wake up and she can acces everything
+[2016-05-22 14:27:05 -0500] [teraflops in #debian] Jaga-Jaga: if you suspend from tty what happens when it wakes up? it's still on tty?
+[2016-05-22 14:27:47 -0500] [Jaga-Jaga in #debian] teraflops: ye
+[2016-05-22 14:27:48 -0500] [teraflops in #debian] Jaga-Jaga: and if you suspend from the DE it asks for a password right?
+[2016-05-22 14:27:53 -0500] [Jaga-Jaga in #debian] ye
+[2016-05-22 14:27:55 -0500] [teraflops in #debian] then youre r0ng
+[2016-05-22 14:28:11 -0500] [teraflops in #debian] i mean I was right ;P
+[2016-05-22 14:28:57 -0500] [Jaga-Jaga in #debian] teraflops:  if i suspend from the DE, it asks for a password. if i suspend from a terminal, it does NOT ask for password
+[2016-05-22 14:29:32 -0500] [teraflops in #debian] and again is your mom able to see your damn porn from tty?
+[2016-05-22 14:29:50 -0500] [teraflops in #debian] this is getting weird...
+[2016-05-22 14:30:04 -0500] [markybob in #debian] it's been weird.
+[2016-05-22 14:30:27 -0500] [tout in #debian-es-offtopic] otra porquerida
+[2016-05-22 14:30:28 -0500] [Celelibi in #debian] It's already weird.
+[2016-05-22 14:30:32 -0500] [teraflops in #debian] ok :P
+[2016-05-22 14:30:36 -0500] [tout in #debian-es-offtopic] poli de guarderia 2 :P
+[2016-05-22 14:30:39 -0500] [Celelibi in #debian] (And yes, I have a highlight on "porn".)
+[2016-05-22 14:30:45 -0500] [tout in #debian-es-offtopic] de dolph lundgren 
+[2016-05-22 14:30:47 -0500] [tout in #debian-es-offtopic] jajajjaja
+[2016-05-22 14:30:59 -0500] [Jaga-Jaga in #debian] teraflops: wtf :)
+[2016-05-22 14:31:28 -0500] [markybob in #debian] helping a kid protect his porn from mom isn't normal for #debian
+[2016-05-22 14:31:38 -0500] [markybob in #debian] plus you're not making much sense
+[2016-05-22 14:31:52 -0500] [teraflops in #debian] me of he? ;)
+[2016-05-22 14:31:56 -0500] [teraflops in #debian] or*
+[2016-05-22 14:32:29 -0500] [markybob in #debian] him :P i know you
+[2016-05-22 14:32:48 -0500] [Celelibi in #debian] Parents finding kid's porn isn't the end of the world. The generations before survived it.
+[2016-05-22 14:33:12 -0500] [teraflops in #debian] porn or whatever he said porn I guess it was a joke
+[2016-05-22 14:34:27 -0500] [Jaga-Jaga in #debian] markybob: here's the issue. i suspend from the DE, it does ask for a pass when i wake it up. if i suspend enetering a command line on a terminal, it suspends fine, but on thewake up doesnt ask for a password.
+[2016-05-22 14:34:56 -0500] [awwal in #debian] Trying to find out what (and where) I must modify for change the default title bar & scroll bar blue color of "clearlooks-phenix-theme". Any clue?
+[2016-05-22 14:34:58 -0500] [Celelibi in #debian] This can be an issue if you leave your laptop unattended in a semi-public place.
+[2016-05-22 14:35:01 -0500] [teraflops in #debian] Jaga-Jaga: you mean in tty ot in a vt inside the de?
+[2016-05-22 14:36:01 -0500] [teraflops in #debian] or*
+[2016-05-22 14:36:27 -0500] [jmcnaught in #debian] Jaga-Jaga: which DE is this? i just suspended using systemctl on tty1, and on resume gnome was locked
+[2016-05-22 14:37:15 -0500] [awwal in #debian] thinks that clearlooks-phenix-theme is the best gtk+ theme :P
+[2016-05-22 14:37:17 -0500] [teraflops in #debian] I guess he does from the DE (vt)
+[2016-05-22 14:38:06 -0500] [awwal in #debian] I want to change title bar & scroll bar color to grey/black :(
+[2016-05-22 14:39:29 -0500] [teraflops in #debian] :S
+[2016-05-22 14:45:09 -0500] [Jaga-Jaga in #debian] I've been disconnected, did I miss anything ?
+[2016-05-22 14:45:22 -0500] [Celelibi in #debian] no
+[2016-05-22 14:45:40 -0500] [Celelibi in #debian] Well, depends what you got last.
+[2016-05-22 14:46:14 -0500] [jmcnaught in #debian] Jaga-Jaga: which DE is this? i just suspended using systemctl on tty1, and on resume gnome was locked
+[2016-05-22 14:46:26 -0500] [Jaga-Jaga in #debian] jmcnaught: lxde
+[2016-05-22 14:47:21 -0500] [jmcnaught in #debian] Jaga-Jaga: i believe the missing ingredient for you is logind
+[2016-05-22 14:48:01 -0500] [Jaga-Jaga in #debian] jmcnaught: what do you mean
+[2016-05-22 14:49:09 -0500] [jmcnaught in #debian] Jaga-Jaga: i think the reason gnome locked when i suspended in a tty is because it listens to logind
+[2016-05-22 14:49:34 -0500] [Jaga-Jaga in #debian] jmcnaught: and my lxde does not?
+[2016-05-22 14:50:12 -0500] [jmcnaught in #debian] Jaga-Jaga: that's what i think. i don't know what level of logind integration lxde in jessie has
+[2016-05-22 14:50:14 -0500] [wulllst in #debian] anyone here using openbox in wheezy, stretch or sid?
+[2016-05-22 14:50:55 -0500] [Jaga-Jaga in #debian] is should seek help in lxde channel then
+[2016-05-22 14:51:30 -0500] [jmcnaught in #debian] Jaga-Jaga: or read the documentation that comes with lxde packages in Debian, maybe there's a note about getting this to work in a README.Debian somewhere
+[2016-05-22 14:52:16 -0500] [Jaga-Jaga in #debian] ok
+[2016-05-22 14:52:21 -0500] [markybob in #debian] !tell wulllst about anyone
+[2016-05-22 14:53:25 -0500] [wulllst in #debian] markybob: got it.
+[2016-05-22 14:54:50 -0500] [wulllst in #debian] i would like to know how the debian menu is correctly implemented into the openbox menu in wheezy, strecht and sid. reason: the is a little uncertainness about a leading slash in openbox' docs (http://openbox.org/wiki/Help:Menus#The_Debian_menu)
+[2016-05-22 14:56:25 -0500] [wulllst in #debian] if some one, using wheezy, strech or sid with openbox and also the deb menu inside the ob menu could paste his/her menu.xml somewhere for me to have a loog, i'd be quite happy.
+[2016-05-22 14:58:19 -0500] [grantwu in #debian]  /close
+[2016-05-22 15:15:22 -0500] [avallac_h in #debian] wulllst: I can post a config from jessie. The part in which you are interested in should be the same: <file>/var/lib/openbox/debian-menu.xml</file>
+[2016-05-22 15:15:53 -0500] [wulllst in #debian] avallac_h:  but that is in the rc.xml
+[2016-05-22 15:15:59 -0500] [Jaga-Jaga in #debian] Can I make a hotkey with two commands?
+[2016-05-22 15:16:22 -0500] [wulllst in #debian] avallac_h: i'm looking for the part in the menu.xml file. but i'm on jessie also and already looked it up.
+[2016-05-22 15:17:02 -0500] [teraflops in #debian] Jaga-Jaga: hotkeys depend on your DE/WM
+[2016-05-22 15:17:16 -0500] [Jaga-Jaga in #debian] teraflops: lxde
+[2016-05-22 15:17:38 -0500] [teraflops in #debian] Jaga-Jaga: wait you mean associate 2 commands to the hotkey action?
+[2016-05-22 15:18:53 -0500] [teraflops in #debian] Jaga-Jaga: if yes tell the hotkey to run a script I suppose
+[2016-05-22 15:19:04 -0500] [Jaga-Jaga in #debian] teraflops: ok
+[2016-05-22 15:20:38 -0500] [avallac_h in #debian] wulllst: Is that what you for? http://pastebin.com/KksRc631
+[2016-05-22 15:22:49 -0500] [wulllst in #debian] avallac_h: yes. thanks. i was looking for thr " <menu id="/Debian" />" part.
+[2016-05-22 15:41:00 -0500] [frangor in #debian-es-offtopic] que andais haciendo?
+[2016-05-22 15:41:23 -0500] [syadmin in #debian] Hello. What iso should I choose to have the minimal installation possible that comprehends a desktop interface?
+[2016-05-22 15:41:26 -0500] [teraflops in #debian-es-offtopic] Paseo al gato
+[2016-05-22 15:41:53 -0500] [frangor in #debian-es-offtopic] muy bieen ^_^
+[2016-05-22 15:42:04 -0500] [vf in #debian] can anyone here help me with ShoutIRC installation on Debian, also maybe ShoutCast DNAS2 installation and running + Webrequest and AutoDJ
+[2016-05-22 15:42:06 -0500] [vf in #debian] ^^
+[2016-05-22 15:42:13 -0500] [teraflops in #debian-es-offtopic] Y soft trolling a los sevillistas
+[2016-05-22 15:42:24 -0500] [frangor in #debian-es-offtopic] van a ganar
+[2016-05-22 15:42:32 -0500] [markybob in #debian] syadmin: netinst is generally the best choice.
+[2016-05-22 15:42:41 -0500] [teraflops in #debian-es-offtopic] Yo soy del betis ...
+[2016-05-22 15:42:42 -0500] [frangor in #debian-es-offtopic] que a mi no me interesa, pero mi padre esta con la tele a todo volumen
+[2016-05-22 15:43:09 -0500] [extor in #debian] is looking for suggestions on how to run a remote X session on a virtual machine, and then VNC to it to use stuff like firefox, openoffice etc
+[2016-05-22 15:43:11 -0500] [frangor in #debian-es-offtopic] y ya he visto que el sevilla almenos mantiene a todos sus jugadores xD
+[2016-05-22 15:43:38 -0500] [frangor in #debian-es-offtopic] asi no hay quien se concentre
+[2016-05-22 15:43:49 -0500] [frangor in #debian-es-offtopic] cuando yo tenga mi apartamento no pienso tener TV
+[2016-05-22 15:43:53 -0500] [awwal in #debian] markybob, yes, the best in the West :P
+[2016-05-22 15:43:59 -0500] [teraflops in #debian-es-offtopic] Haces bien
+[2016-05-22 15:44:10 -0500] [teraflops in #debian-es-offtopic] Yo tengo las teles sin la antena jaja
+[2016-05-22 15:44:20 -0500] [teraflops in #debian-es-offtopic] Monitores
+[2016-05-22 15:44:28 -0500] [frangor in #debian-es-offtopic] bueno, quizas una de esas grandes curvadas, sin antena.. para enchufarle kodi xD
+[2016-05-22 15:44:34 -0500] [teraflops in #debian-es-offtopic] Siii
+[2016-05-22 15:45:18 -0500] [frangor in #debian-es-offtopic] netflix con en 4hd ese com ose llame
+[2016-05-22 15:45:19 -0500] [RoyK in #debian] markybob: iirc netinst installs exactly the same as cd1, it just installs from the usb or cd instead of using the network
+[2016-05-22 15:45:25 -0500] [frangor in #debian-es-offtopic] hiperhd? xd
+[2016-05-22 15:46:23 -0500] [teraflops in #debian-es-offtopic] Necesitarás algo.más q el navegador. En Linux no hace full HD con el navegador no?
+[2016-05-22 15:46:43 -0500] [teraflops in #debian-es-offtopic] Hace 720p?
+[2016-05-22 15:46:47 -0500] [frangor in #debian-es-offtopic] teraflops: tengo entendido que estas teles modernas ultrahd curvas ya tienen netflix incorporado
+[2016-05-22 15:46:56 -0500] [awwal in #debian] syadmin, installation comprehending a DE isn't minimal
+[2016-05-22 15:46:58 -0500] [teraflops in #debian-es-offtopic] Oh si cierto
+[2016-05-22 15:47:00 -0500] [frangor in #debian-es-offtopic] solo hay que enchufarles ethernet
+[2016-05-22 15:47:02 -0500] [teraflops in #debian-es-offtopic] Traen la app
+[2016-05-22 15:47:25 -0500] [Jaga-Jaga in #debian] I have a script called screenshot.sh that i run by a hotkey. How can I find the file itself ?
+[2016-05-22 15:47:26 -0500] [frangor in #debian-es-offtopic] las de LD almenos
+[2016-05-22 15:47:39 -0500] [frangor in #debian-es-offtopic] LG*
+[2016-05-22 15:47:41 -0500] [frangor in #debian-es-offtopic] xD
+[2016-05-22 15:47:44 -0500] [teraflops in #debian-es-offtopic] Sipi
+[2016-05-22 15:49:00 -0500] [TomTomTosch in #debian] Jaga-Jaga: what do you mean? it's where you put it... probably somewhere in your home directory.
+[2016-05-22 15:49:50 -0500] [Jaga-Jaga in #debian] TomTomTosch: I made it a long time ago. And no i can't see it in the home directory
+[2016-05-22 15:49:59 -0500] [teraflops in #debian-es-offtopic] Se supone q hoy se ve marte de escándalo y esta nublado....
+[2016-05-22 15:50:18 -0500] [frangor in #debian-es-offtopic] Resolution: Stream in HD if your Internet connection supports 5 megabits per second or more.
+[2016-05-22 15:50:20 -0500] [frangor in #debian-es-offtopic]     Google Chrome up to 720p
+[2016-05-22 15:50:22 -0500] [frangor in #debian-es-offtopic]     Internet Explorer up to 1080p
+[2016-05-22 15:50:24 -0500] [frangor in #debian-es-offtopic]     Microsoft Edge up to 1080p
+[2016-05-22 15:50:26 -0500] [frangor in #debian-es-offtopic]     Mozilla Firefox up to 720p
+[2016-05-22 15:50:28 -0500] [frangor in #debian-es-offtopic]     Opera up to 720p
+[2016-05-22 15:50:30 -0500] [frangor in #debian-es-offtopic]     Safari up to 1080p on Mac OS X 10.10.3 or later
+[2016-05-22 15:50:32 -0500] [frangor in #debian-es-offtopic] asi que en internet explorer y edge si
+[2016-05-22 15:50:38 -0500] [markybob in #debian] it's a good thing TomTomTosch is psychic
+[2016-05-22 15:50:54 -0500] [TomTomTosch in #debian] Jaga-Jaga: then use find -iname
+[2016-05-22 15:51:01 -0500] [frangor in #debian-es-offtopic] teraflops: tampoco verias mucho mas que una estrella de diferente tonalidad ..
+[2016-05-22 15:51:22 -0500] [teraflops in #debian-es-offtopic] frangor: en realidad puedes verlo a 1080p con ff y pipelight
+[2016-05-22 15:51:52 -0500] [teraflops in #debian-es-offtopic] Because silverlight
+[2016-05-22 15:52:03 -0500] [frangor in #debian-es-offtopic] up to.. nunca entendi porque usa esa formula.. intuitivamente parece que sea un "por encima de" xD
+[2016-05-22 15:52:16 -0500] [TomTomTosch in #debian] Jaga-Jaga: then use find -iname "screenshot.sh"     in your case.
+[2016-05-22 15:52:40 -0500] [Jaga-Jaga in #debian] TomTomTosch: didnt return anythin
+[2016-05-22 15:52:51 -0500] [redips in #debian-es] SaluII
+[2016-05-22 15:53:04 -0500] [FinalX in #debian] find / -iname '*screenshot*'
+[2016-05-22 15:53:05 -0500] [FinalX in #debian] ?
+[2016-05-22 15:53:40 -0500] [jml2 in #debian] faster to use ~
+[2016-05-22 15:53:46 -0500] [jml2 in #debian]  / is overkill
+[2016-05-22 15:54:17 -0500] [frangor in #debian-es-offtopic] vengaaa
+[2016-05-22 15:54:20 -0500] [frangor in #debian-es-offtopic] ahora me peta todo
+[2016-05-22 15:54:26 -0500] [markybob in #debian] you could just type scrot and be done. no need for a script
+[2016-05-22 15:54:32 -0500] [FinalX in #debian] true, though sometimes people put them in the weirdest places. plus, if you installed locate, you could use that instead
+[2016-05-22 15:56:28 -0500] [Jaga-Jaga in #debian] FinalX: that worked
+[2016-05-22 16:03:27 -0500] [unlike in #debian-es-offtopic] no entendi nada, vamo por pasos, que libro deveria leer como principiante para saber sobre "teraflops: tampoco verias mucho mas que una estrella de diferente tonalidad .." ??
+[2016-05-22 16:04:06 -0500] [frangor in #debian-es-offtopic] es un bot unlike?
+[2016-05-22 16:04:22 -0500] [unlike in #debian-es-offtopic] no, hombre soy ahora ...real!
+[2016-05-22 16:04:39 -0500] [frangor in #debian-es-offtopic] xD
+[2016-05-22 16:04:47 -0500] [unlike in #debian-es-offtopic] ...me entro la curiosidad.
+[2016-05-22 16:04:47 -0500] [frangor in #debian-es-offtopic] nada, que yo ya he visto marte alguna vez
+[2016-05-22 16:05:16 -0500] [frangor in #debian-es-offtopic] y se veia como una estrella mas, mas brillante
+[2016-05-22 16:05:37 -0500] [unlike in #debian-es-offtopic] ...ahora estoy en las artes graficas y tu respueta me detono, podria ampliar?
+[2016-05-22 16:05:47 -0500] [frangor in #debian-es-offtopic] y menos parpadeante :)
+[2016-05-22 16:06:19 -0500] [frangor in #debian-es-offtopic] no, no sabria ampliar, no soy experto en estos temas.. xD
+[2016-05-22 16:06:28 -0500] [unlike in #debian-es-offtopic] jajajaja
+[2016-05-22 16:06:34 -0500] [frangor in #debian-es-offtopic] solo me gusta observar el cielo aveces
+[2016-05-22 16:06:57 -0500] [unlike in #debian-es-offtopic] es bueno siempre tener ese irc buddy que amplia las ideas al 100%
+[2016-05-22 16:07:08 -0500] [teraflops in #debian-es-offtopic] unlike: se ve bien.marte. A ver a ojo limpio notarás nada más que punto rojo pero bastante visible
+[2016-05-22 16:07:09 -0500] [unlike in #debian-es-offtopic] xD
+[2016-05-22 16:07:52 -0500] [frangor in #debian-es-offtopic] recuerdo, eso si, que para distinguir una estrella de un planeta, siempre te dicen lo de si parpadea o no
+[2016-05-22 16:07:55 -0500] [frangor in #debian-es-offtopic] por la distancia
+[2016-05-22 16:08:09 -0500] [frangor in #debian-es-offtopic] los objetos mas cercanos no tienen un parpadeo perceptible
+[2016-05-22 16:08:20 -0500] [unlike in #debian-es-offtopic] "la distancia parpadeante"
+[2016-05-22 16:09:17 -0500] [unlike in #debian-es-offtopic] a mi tambien, me gusta bastante la astronomia.
+[2016-05-22 16:09:47 -0500] [teraflops in #debian-es-offtopic] unlike: yo se poco o nada lo que leo si se explica clarito o lo que veo en algun documentañ
+[2016-05-22 16:09:49 -0500] [teraflops in #debian-es-offtopic] l
+[2016-05-22 16:10:27 -0500] [unlike in #debian-es-offtopic] teraflops, si, es bastante intrigante
+[2016-05-22 16:11:18 -0500] [frangor in #debian-es-offtopic] a mi eran los documentales que mas me gustaban de niños :P
+[2016-05-22 16:11:21 -0500] [frangor in #debian-es-offtopic] niño*
+[2016-05-22 16:11:22 -0500] [unlike in #debian-es-offtopic] la otra vez en la NSA lei que segun, quien sabe, ...en marte hay agua? 
+[2016-05-22 16:11:25 -0500] [teraflops in #debian-es-offtopic] unlike: cuando me jubile y me compre un barco para ir de puerto en puerto a visitar a mis novias pensionistas aprendere mas de astronomia ya que un patron de barco algo de eso debera saber digo yo
+[2016-05-22 16:11:46 -0500] [frangor in #debian-es-offtopic] teraflops: sabes que no nos vamos a jubilar, no? xD
+[2016-05-22 16:11:47 -0500] [teraflops in #debian-es-offtopic] unlike: por lo visto el hilo de los polos de marte es co2 no agua
+[2016-05-22 16:11:50 -0500] [teraflops in #debian-es-offtopic] hielo*
+[2016-05-22 16:11:52 -0500] [unlike in #debian-es-offtopic] teraflops, +1 barco
+[2016-05-22 16:13:11 -0500] [teraflops in #debian-es-offtopic] frangor: dejame que tenga sueños y esperanzas vanas
+[2016-05-22 16:13:55 -0500] [frangor in #debian-es-offtopic] si, mejor no pensar
+[2016-05-22 16:14:09 -0500] [frangor in #debian-es-offtopic] mi esperanza es morir antes de verme en esa situación xD
+[2016-05-22 16:14:19 -0500] [frangor in #debian-es-offtopic] de no poder ni trabajar ni tener pension
+[2016-05-22 16:14:43 -0500] [frangor in #debian-es-offtopic] </modo pesimista>
+[2016-05-22 16:15:43 -0500] [teraflops in #debian-es-offtopic] frangor: me voy a tomar un gintonic pa olvidar :P
+[2016-05-22 16:15:48 -0500] [frangor in #debian-es-offtopic] xD
+[2016-05-22 16:19:31 -0500] [Rene in #debian] \quit
+[2016-05-22 16:20:11 -0500] [unlike in #debian-es-offtopic] !google gintonic
+[2016-05-22 16:20:13 -0500] [orome in #debian-es-offtopic] unlike: Gin tonic - Wikipedia, la enciclopedia libre: <https://es.wikipedia.org/wiki/Gin_tonic>; Gintonic perfecto - Schweppes: <http://www.schweppes.es/descubre-como-preparar-el-gintonic-perfecto>; Gin Tonic: <http://www.recetagintonic.com/>
+[2016-05-22 16:20:39 -0500] [teraflops in #debian-es-offtopic] esta de moda el gintonic ahora
+[2016-05-22 16:21:01 -0500] [unlike in #debian-es-offtopic] wow
+[2016-05-22 16:21:05 -0500] [unlike in #debian-es-offtopic] ginebra.
+[2016-05-22 16:21:32 -0500] [unlike in #debian-es-offtopic] necesitas saber tomarlo
+[2016-05-22 16:22:42 -0500] [frangor in #debian-es-offtopic] basicamente igual que otro liquido.. no? xD
+[2016-05-22 16:23:17 -0500] [teraflops in #debian-es-offtopic] unlike: con moderacion
+[2016-05-22 16:23:59 -0500] [jml2 in #debian] ^ :)
+[2016-05-22 16:24:11 -0500] [unlike in #debian-es-offtopic] "<teraflops> unlike: con moderacion" <-
+[2016-05-22 16:27:29 -0500] [teraflops in #debian-es-offtopic] wtf! https://i.imgur.com/in90h6G.gif
+[2016-05-22 16:28:01 -0500] [frangor in #debian-es-offtopic] que dañoo me hace solo de verlo
+[2016-05-22 16:28:18 -0500] [teraflops in #debian-es-offtopic] !itch is <reply>https://i.imgur.com/in90h6G.gif
+[2016-05-22 16:28:19 -0500] [orome in #debian-es-offtopic] teraflops: The operation succeeded.
+[2016-05-22 16:28:56 -0500] [unlike in #debian-es-offtopic] wtf!
+[2016-05-22 16:30:00 -0500] [unlike in #debian-es-offtopic] imaginate ...
+[2016-05-22 16:30:07 -0500] [teraflops in #debian-es-offtopic] !factinfo aliens
+[2016-05-22 16:30:07 -0500] [orome in #debian-es-offtopic] teraflops: Error: No such factoid: "aliens"
+[2016-05-22 16:30:09 -0500] [teraflops in #debian-es-offtopic] !factinfo alien
+[2016-05-22 16:30:09 -0500] [orome in #debian-es-offtopic] teraflops: alien: Created by teraflops on 2016-04-16T23:48:49+0200. Last requested by frangor!~frangor@unaffiliated/frangor on 2016-04-17T00:07:34+0200, requested 1 time.
+[2016-05-22 16:30:14 -0500] [teraflops in #debian-es-offtopic] !alien
+[2016-05-22 16:30:15 -0500] [unlike in #debian-es-offtopic] john lennon le queda corto
+[2016-05-22 16:30:15 -0500] [orome in #debian-es-offtopic] https://mediagoblin.mysticemporium.xyz/mgoblin_media/media_entries/31/probe.gif
+[2016-05-22 16:38:29 -0500] [tout in #debian-es-offtopic] al fin en casita 
+[2016-05-22 16:38:32 -0500] [teraflops in #debian-es-offtopic] frangor: mira xD https://github.com/tombh/texttop
+[2016-05-22 16:38:33 -0500] [orome in #debian-es-offtopic] Title: GitHub - tombh/texttop: A fully interactive X linux desktop rendered to ASCII and streamed over SSH (at github.com)
+[2016-05-22 16:38:36 -0500] [tout in #debian-es-offtopic] buenas muyayos :) 
+[2016-05-22 16:38:40 -0500] [teraflops in #debian-es-offtopic] tout: o/
+[2016-05-22 16:39:00 -0500] [frangor in #debian-es-offtopic] teraflops: eso para la rpi xD
+[2016-05-22 16:39:19 -0500] [teraflops in #debian-es-offtopic] esta molon igual lo pruebo si me aburro
+[2016-05-22 16:39:36 -0500] [Gerowen in #debian] Debian 8 32 bit (32 bit only processor), no backport updates installed, used to work fine, but won't log into a graphical Gnome session, even after making new user accounts or renaming the home folder in order to force a default/new session.  Suggestions?
+[2016-05-22 16:39:55 -0500] [Gerowen in #debian] Graphical login screen appears fine, but when you enter the password, the screen goes black for a second, then kicks back to the login screen as if nothing happened.
+[2016-05-22 16:43:07 -0500] [tout in #debian-es-offtopic] qe es? se ve pixelado 
+[2016-05-22 16:44:24 -0500] [teraflops in #debian-es-offtopic] es un DE en ascii para usar via ssh
+[2016-05-22 16:44:44 -0500] [teraflops in #debian-es-offtopic] amos lo mas friki entre lo friki
+[2016-05-22 16:45:20 -0500] [tout in #debian-es-offtopic] ehh ... mmm .... me recuerda a las cacautils a qe si 
+[2016-05-22 16:45:34 -0500] [frangor in #debian-es-offtopic] libcaca
+[2016-05-22 16:45:35 -0500] [tout in #debian-es-offtopic] en ascii jajaajaja , como las librerias caca 
+[2016-05-22 16:45:37 -0500] [tout in #debian-es-offtopic] eso es 
+[2016-05-22 16:45:38 -0500] [teraflops in #debian-es-offtopic] algo asi si
+[2016-05-22 16:45:48 -0500] [teraflops in #debian-es-offtopic] cacafire y compañia
+[2016-05-22 16:45:49 -0500] [zykotick9 in #debian] Gerowen: from a VT, you might want to confirm "ls -l ~/.Xauthority" is owned by your user, and not root.
+[2016-05-22 16:46:02 -0500] [tout in #debian-es-offtopic] asi me vi yo una serie de chavales, Glee, con las caca 
+[2016-05-22 16:46:04 -0500] [tout in #debian-es-offtopic] jaajajaja 
+[2016-05-22 16:46:06 -0500] [teraflops in #debian-es-offtopic] xD
+[2016-05-22 16:46:33 -0500] [tout in #debian-es-offtopic] se veia mejor de lejos, si te acercabas era peor, parecido a la pintura impresionista de velazqez ....... parecido .......... jajajajajaaj a:P 
+[2016-05-22 16:46:34 -0500] [frangor in #debian-es-offtopic] esa serie no necesita de libcaca paque que sea una..
+[2016-05-22 16:46:37 -0500] [teraflops in #debian-es-offtopic] mpv va de lujo en framebuffer hasta tiene aceleracion por hw
+[2016-05-22 16:46:44 -0500] [teraflops in #debian-es-offtopic] jaja
+[2016-05-22 16:46:49 -0500] [tout in #debian-es-offtopic] 12[[3frangor12]] empezo bien pero luego se torcio 
+[2016-05-22 16:47:27 -0500] [Gerowen in #debian] Would .Xauthority be located in the user's home folder?  When I try "ls -l /home/user/.Xauthority" I get "No such file or directory"
+[2016-05-22 16:48:06 -0500] [tout in #debian-es-offtopic] 12[[3teraflops12]] mpv o el mplayer? mo 
+[2016-05-22 16:48:08 -0500] [tout in #debian-es-offtopic] mp 
+[2016-05-22 16:48:14 -0500] [frangor in #debian-es-offtopic] mpv mola mas
+[2016-05-22 16:48:24 -0500] [teraflops in #debian-es-offtopic] no se mplayer respecto a la aceleracion por hw
+[2016-05-22 16:48:25 -0500] [tout in #debian-es-offtopic] en la tty? 
+[2016-05-22 16:48:28 -0500] [teraflops in #debian-es-offtopic] sip
+[2016-05-22 16:48:42 -0500] [teraflops in #debian-es-offtopic] --vo=opengl:backend=drm-egl
+[2016-05-22 16:49:13 -0500] [zykotick9 in #debian] Gerowen: Gerowen yes, .Xauthority is in users home directory.  not sure why you would have one?!?!  good luck.
+[2016-05-22 16:50:15 -0500] [tout in #debian-es-offtopic] nunca lo he probado ahi, ahi hacia mplayer -vo fbdev2 archivo 
+[2016-05-22 16:50:22 -0500] [tout in #debian-es-offtopic] y le metia mas cosas para escalarlo 
+[2016-05-22 16:52:03 -0500] [tout in #debian-es-offtopic] entonces seria mpv -vo fbdev2 archivo 
+[2016-05-22 16:52:07 -0500] [tout in #debian-es-offtopic] no no? 
+[2016-05-22 16:52:12 -0500] [teraflops in #debian-es-offtopic] no
+[2016-05-22 16:52:22 -0500] [teraflops in #debian-es-offtopic] mpv --vo=opengl:backend=drm-egl
+[2016-05-22 16:52:38 -0500] [tout in #debian-es-offtopic] vale 
+[2016-05-22 16:54:47 -0500] [frangor in #debian-es-offtopic] teraflops: https://goblinrefuge.com/mediagoblin/u/frangor/m/laicare/ 
+[2016-05-22 16:54:48 -0500] [tout in #debian-es-offtopic] efectivamente, y mejor q mplayer, ya lo creo, mpv siempre va un poco mejor, si 
+[2016-05-22 16:54:49 -0500] [orome in #debian-es-offtopic] Title: LaiCare — Goblin Refuge (at goblinrefuge.com)
+[2016-05-22 16:56:05 -0500] [frangor in #debian-es-offtopic] tengo que mejorar lso formularios..
+[2016-05-22 16:56:10 -0500] [frangor in #debian-es-offtopic] pero ya va pillando forma jeje
+[2016-05-22 16:57:13 -0500] [teraflops in #debian-es-offtopic] sii esta guapo
+[2016-05-22 16:58:23 -0500] [tout in #debian-es-offtopic] lo estoy viendo .... 
+[2016-05-22 16:59:56 -0500] [tout in #debian-es-offtopic] esta muy bien, es para el seguimiento de los animales :) 
+[2016-05-22 17:00:14 -0500] [frangor in #debian-es-offtopic] sep
+[2016-05-22 17:00:32 -0500] [frangor in #debian-es-offtopic] uy, aqui ya es mañana
+[2016-05-22 17:00:35 -0500] [frangor in #debian-es-offtopic] deberia dormir
+[2016-05-22 17:02:58 -0500] [awwal in #debian] I havGerowen, do you have any gnome extension installed?
+[2016-05-22 17:07:29 -0500] [awwal in #debian] :D, mistake :D
+[2016-05-22 17:08:54 -0500] [ac1dh0n3ycl0ud in #debian-offtopic] https://www.youtube.com/watch?v=pSEDRvNkw7I
+[2016-05-22 17:08:55 -0500] [datase in #debian-offtopic] YouTube: Ludwig Van Beethoven - Symphony No  6, Op 68 - 1st Movement - 0:12:04 - 45054 views - 185 likes / 4 dislikes
+[2016-05-22 17:09:31 -0500] [Storfiskaren in #debian] Hey guys, about dist upgrades, it says you shouldn't rely on X sessions managed by xdm, gdm or kdim. Does that mean, I shouldn't perform dist upgrades using a terminal emulator?
+[2016-05-22 17:09:34 -0500] [frangor in #debian-es-offtopic] buenas noches
+[2016-05-22 17:10:12 -0500] [tout in #debian-es-offtopic] 12[[3frangor12]] buenas noches 
+[2016-05-22 17:10:32 -0500] [tout in #debian-es-offtopic] 12[[3teraflops12]] para usar esas ordenes hay qe hacer un master, estaba leyendo qe es drm-egl, por ejemplo 
+[2016-05-22 17:11:25 -0500] [teraflops in #debian-es-offtopic] o simplemente las usas jaja
+[2016-05-22 17:11:46 -0500] [tout in #debian-es-offtopic] si, pero aun asi hay qe empollar un poco, es extenso 
+[2016-05-22 17:13:36 -0500] [FinalX in #debian] Storfiskaren: You should preferably do it on a console window or at least something that doesn't rely on much (like X, GNOME etc.)
+[2016-05-22 17:15:35 -0500] [Storfiskaren in #debian] FinalX: That is, switch to one of the ttys (Ctrl-Alt F1-6)
+[2016-05-22 17:17:48 -0500] [FinalX in #debian] Storfiskaren: yeah, that'd be better
+[2016-05-22 17:19:22 -0500] [Storfiskaren in #debian] FinalX: Thank you. I have done my upgrades using a terminal emulator so far, but I guess I may have been lucky.
+[2016-05-22 17:20:45 -0500] [FinalX in #debian] Storfiskaren: I think they should be fine from any terminal, but it might upgrade things you're using and make stuff act weird. Restarting the window manager would be sufficient in that case, though
+[2016-05-22 17:24:20 -0500] [Mr-Fog in #debian-es] Hola, ya busque por la red y no encuentro respuesta; ¿Que archivo tengo que modificar para seleccionar los programas que se pueden iniciar en mi S.O.?
+[2016-05-22 17:38:22 -0500] [syadmin in #debian] awwal
+[2016-05-22 17:38:41 -0500] [ways900 in #debian-offtopic] Do you care?
+[2016-05-22 17:38:47 -0500] [syadmin in #debian] awwal: you're right sorry. I meant that I cannot "afford" to install a whole DVD :)
+[2016-05-22 17:39:56 -0500] [ways900 in #debian-offtopic] https://youtu.be/Q1QbBlEPkfM
+[2016-05-22 17:39:58 -0500] [datase in #debian-offtopic] YouTube: The Best and the Brightest, Targeted - 0:02:07 - 160 views - 13 likes / 1 dislikes
+[2016-05-22 17:40:41 -0500] [ways900 in #debian-offtopic] "Even the best of the Gentiles should be killed." WTF?
+[2016-05-22 17:44:00 -0500] [tout in #debian-es-offtopic] bueno acabo de poner una remesa de heavy clasico, 1 dia 22 horas 13 minutos 46 segundos 
+[2016-05-22 17:48:06 -0500] [bryant in #debian] herro
+[2016-05-22 17:48:17 -0500] [awwal in #debian] syadmin, it doesn't matter if you use cd or dvd. if you dont want a desktop environement, just don't select one when prompted for
+[2016-05-22 17:49:18 -0500] [awwal in #debian-es] Mr-Fog, tu pregunta es vaga...
+[2016-05-22 17:51:01 -0500] [[TheFlash] in #debian] what should i do if i want to make a package, but it requires itself as a build-dependency?
+[2016-05-22 17:51:38 -0500] [markybob in #debian] you look in the mirror and ask yourself wtf you're doing
+[2016-05-22 17:52:02 -0500] [[TheFlash] in #debian] markybob: lol, but, in this case it really does
+[2016-05-22 17:52:09 -0500] [[TheFlash] in #debian] markybob: freebasic can't be compiled without freebasic
+[2016-05-22 17:52:35 -0500] [tout in #debian-es-offtopic] 05♬  02Avantasia - Angel Of Babylon - Stargazers 15[ 040:09 07@ 04128 kbps 15] 05♬ 
+[2016-05-22 17:52:43 -0500] [tout in #debian-es-offtopic] otro qe se va, talues 
+[2016-05-22 17:52:45 -0500] [[TheFlash] in #debian] markybob: mainly because it's written in freebasic
+[2016-05-22 17:54:44 -0500] [syadmin in #debian] awwal: but will I be able to select one with the netinstall?
+[2016-05-22 17:56:19 -0500] [markybob in #debian] syadmin: yes . which is what i told you to use earlier
+[2016-05-22 17:56:23 -0500] [bipul in #debian] Do anyone in #iptables channel? could he/she invite me there
+[2016-05-22 17:56:37 -0500] [markybob in #debian] bipul: it's #netfilter
+[2016-05-22 17:57:00 -0500] [awwal in #debian] syadmin, yes: lxde, xfce, mate, cinnamon, gnome, kde (increasing size)
+[2016-05-22 17:57:32 -0500] [bipul in #debian] markybob, So it's name become #netfilter?
+[2016-05-22 17:57:54 -0500] [syadmin in #debian] awwal: great thanks :)
+[2016-05-22 17:57:57 -0500] [markybob in #debian] bipul: the channel has always been #netfilter
+[2016-05-22 17:58:32 -0500] [bipul in #debian] Oh i see, thank you markybob
+[2016-05-22 17:58:56 -0500] [awwal in #debian] syadmin, cinnamon, gnome & kde are the heaviest
+[2016-05-22 18:00:33 -0500] [syadmin in #debian] awwal: xfce should be a good choice for debian server in a VM?
+[2016-05-22 18:02:01 -0500] [awwal in #debian] syadmin,  I dont run a server. can't commment about that
+[2016-05-22 18:02:43 -0500] [teclo- in #debian] a server ? Well, for any server, I use no window manager at all
+[2016-05-22 18:02:49 -0500] [markybob in #debian] syadmin:  a server shouldn't have a DE. but if you must, xfce is great. i use it (though on laptop)
+[2016-05-22 18:04:01 -0500] [syadmin in #debian] markybob: I know that it shouldnt but I have some tasks to accomplish that would be pretty faster having a DE... so I was looking for something stable and very lightweight :)
+[2016-05-22 18:04:18 -0500] [markybob in #debian] syadmin: xfce fits that
+[2016-05-22 18:04:19 -0500] [awwal in #debian] syadmin, xfce
+[2016-05-22 18:04:26 -0500] [syadmin in #debian] nice :) thanks guys
+[2016-05-22 18:09:27 -0500] [avis- in #debian-offtopic] hey everyone :D
+[2016-05-22 18:10:10 -0500] [tortib in #debian-offtopic] hi
+[2016-05-22 18:10:23 -0500] [avis- in #debian-offtopic] https://www.youtube.com/watch?v=FCf23ZTFaDM
+[2016-05-22 18:10:24 -0500] [datase in #debian-offtopic] YouTube: Elton John - Rocket Man Studio Version with Lyrics - 0:04:45 - 3304327 views - 12812 likes / 283 dislikes
+[2016-05-22 18:10:48 -0500] [avis- in #debian-offtopic] i miss the "earth so much, i miss my wife"
+[2016-05-22 18:11:47 -0500] [avis- in #debian-offtopic] time servers and ezekiel.  because some things really are "far out d00d"
+[2016-05-22 18:13:26 -0500] [avis- in #debian-offtopic] i'm as bold as love.  i never stopped eating new yokers.  get it ?  its sour.  that my baseline.
+[2016-05-22 18:15:29 -0500] [avis- in #debian-offtopic] emily dickinson.  because that ti calculator that is stupid didn't exist.
+[2016-05-22 18:16:43 -0500] [avis- in #debian-offtopic] https://www.youtube.com/watch?v=Trk4vxAWSgE
+[2016-05-22 18:16:45 -0500] [datase in #debian-offtopic] YouTube: Public Image Ltd - Warrior - 0:04:18 - 9853 views - 72 likes / 2 dislikes
+[2016-05-22 18:17:42 -0500] [avis- in #debian-offtopic] words they have ears o/~
+[2016-05-22 18:20:12 -0500] [avis- in #debian-offtopic] i may be funny and happy and try to spread joy to everyone but i also defender of the sacred and good.
+[2016-05-22 18:26:57 -0500] [avis- in #debian-offtopic] debian.  because mommy comes first.  :D
+[2016-05-22 18:27:08 -0500] [avis- in #debian-offtopic] GERBERRRRRRRRRRRRR
+[2016-05-22 18:27:57 -0500] [TomTomTosch in #debian-offtopic] debian, because i'm too lazy to work on my OS!
+[2016-05-22 18:28:15 -0500] [dTal in #debian-offtopic] can't work on every OS
+[2016-05-22 18:28:35 -0500] [dTal in #debian-offtopic] need something stable to look up how to fix things on everything else :p
+[2016-05-22 18:28:51 -0500] [TomTomTosch in #debian-offtopic] exactly :>
+[2016-05-22 18:29:35 -0500] [avis- in #debian-offtopic] everyone seen the Michael Jackson video where he becomes as if federal man in black.  he has the most innocent eyes ever.  what else could be more satanic ?
+[2016-05-22 18:29:57 -0500] [dTal in #debian-offtopic] what distro would you recommend for 8 megs of disk space and 32 megs of ram
+[2016-05-22 18:30:19 -0500] [avis- in #debian-offtopic] if you got something to hide, get off the internet
+[2016-05-22 18:30:27 -0500] [dTal in #debian-offtopic] let's say disk upgrade is possible but indesirable
+[2016-05-22 18:31:10 -0500] [TomTomTosch in #debian-offtopic] is that for an integrated system?
+[2016-05-22 18:31:38 -0500] [dTal in #debian-offtopic] avis-: what if I'm trying to hide my dislike for the internet hmmm?
+[2016-05-22 18:31:54 -0500] [dTal in #debian-offtopic] what's an integrated system?
+[2016-05-22 18:32:01 -0500] [avis- in #debian-offtopic] you want the most accurate thing in the universe or you want CERN's answer ?
+[2016-05-22 18:32:17 -0500] [avis- in #debian-offtopic] 30 minutes duggie fresh your gone
+[2016-05-22 18:32:32 -0500] [avis- in #debian-offtopic] mama said knock you out
+[2016-05-22 18:33:03 -0500] [zerothis in #debian] I'm trying to compile moria (source via apt-build). no "configure" and "make" finds no targets'
+[2016-05-22 18:33:33 -0500] [avis- in #debian-offtopic] https://www.youtube.com/watch?v=zGn56N_mtBk
+[2016-05-22 18:33:34 -0500] [datase in #debian-offtopic] YouTube: Snap - The Power (Jungle Fever Mix) by"COX" - 0:07:25 - 921839 views - 2925 likes / 107 dislikes
+[2016-05-22 18:33:48 -0500] [avis- in #debian-offtopic] i'm the lyrical jessie james :D
+[2016-05-22 18:34:35 -0500] [markybob in #debian] zerothis: you know moria is in debian, right? no need to compile
+[2016-05-22 18:34:54 -0500] [zerothis in #debian] there is a need if I want to change the source
+[2016-05-22 18:35:20 -0500] [markybob in #debian] zerothis: so do apt-get source moria then go into the dir it gets then dpkg-buildpackage -b -tc -uc -rfakeroot
+[2016-05-22 18:35:29 -0500] [johnkeates in #debian] moria in debian? does sauron know?
+[2016-05-22 18:35:30 -0500] [markybob in #debian] the dpkg-buildpackage after you do the changes
+[2016-05-22 18:40:29 -0500] [zerothis in #debian] oh, duh, it doesn't compile if I run it in the wrong directory. It was already working, I'm fixed now
+[2016-05-22 18:49:58 -0500] [avis- in #debian-offtopic] https://www.youtube.com/watch?v=M_ciiCyxOJA this is what America's top Shapiro taste like when he loves your butt
+[2016-05-22 18:50:00 -0500] [datase in #debian-offtopic] YouTube: Patti Smith - Smells Like Teen Spirit - 0:09:24 - 5873027 views - 27050 likes / 1137 dislikes
+[2016-05-22 18:50:03 -0500] [fer640 in #debian-offtopic] one more thing to go, and get ready, a compositor.
+[2016-05-22 18:50:18 -0500] [avis- in #debian-offtopic] i still don't know what android n is
+[2016-05-22 18:51:10 -0500] [ac1dh0n3ycl0ud in #debian-offtopic] avis-: it's the jvm on steroids
+[2016-05-22 18:51:24 -0500] [avis- in #debian-offtopic] that whole X windowing system evil.  remove pnp and it just updated your kernel module.  anyone got a FORK ?  whos got a stop watch ?
+[2016-05-22 18:51:42 -0500] [fer640 in #debian-offtopic] who knows if will be run on here. i3-git dont compile, lemonbar either.
+[2016-05-22 18:53:50 -0500] [fer640 in #debian-offtopic] seems like im with the half of c headers
+[2016-05-22 18:55:17 -0500] [avis- in #debian-offtopic] only the most evil hospital in the world won't hold my hand while i'm there.
+[2016-05-22 18:56:37 -0500] [avis- in #debian-offtopic] that includes you you and you.  its my job to giver power back to the people of Nelson Mandela.
+[2016-05-22 18:56:59 -0500] [MaBunny in #debian] is there an app for reading epub extension ebooks
+[2016-05-22 18:59:21 -0500] [markybob in #debian] MaBunny: fbreader is one
+[2016-05-22 18:59:33 -0500] [zerothis in #debian] thanks
+[2016-05-22 19:00:26 -0500] [MaBunny in #debian] fbreader...is it available in the repos and does it hav anything to do with facebook???
+[2016-05-22 19:00:39 -0500] [markybob in #debian] ,v fbreader
+[2016-05-22 19:00:41 -0500] [judd in #debian] Package: fbreader on amd64 -- squeeze: 0.10.7dfsg-4; wheezy: 0.12.10dfsg-8; jessie: 0.12.10dfsg-9.1+b1; stretch: 0.12.10dfsg2-1+b1; sid: 0.12.10dfsg2-1+b1
+[2016-05-22 19:00:43 -0500] [markybob in #debian] MaBunny: no
+[2016-05-22 19:01:16 -0500] [MaBunny in #debian] ok thnx :)
+[2016-05-22 19:01:24 -0500] [Alt__ in #debian] Hi, how i can modify the services at the start of my S.O.?
+[2016-05-22 19:01:28 -0500] [avis- in #debian-offtopic] whos still here.   neuromancer is in the bible.   were legends in our own time.  like super puppy monkey baby.
+[2016-05-22 19:03:25 -0500] [jmcnaught in #debian] Alt__: "S.O." ?
+[2016-05-22 19:04:08 -0500] [Alt__ in #debian] jmcnaught,  mistake is O.S
+[2016-05-22 19:04:20 -0500] [Alt__ in #debian] jmcnaught,  Operative System
+[2016-05-22 19:04:26 -0500] [avis- in #debian-offtopic] i confess.  the holiest of you should be called to prayer at some point of my funny funny tummy.  the key is this, its an allowance, some people get to jump out of the eiffel tower, others get credit readjustments sometimes graces, and sometimes lessons or trivialties.  to the channel that hears me, i don't want to hurt everyone.  i love everyone that'll accept me or hear me out.
+[2016-05-22 19:04:34 -0500] [MaBunny in #debian] also do you guys hav heard of conquest,a space exploration game
+[2016-05-22 19:04:50 -0500] [MaBunny in #debian] i was searching their irc chan in freenode
+[2016-05-22 19:05:27 -0500] [markybob in #debian] MaBunny: i've heard of konquest
+[2016-05-22 19:05:38 -0500] [markybob in #debian] ,v konquest
+[2016-05-22 19:05:41 -0500] [judd in #debian] Package: konquest on amd64 -- squeeze: 4:4.4.5-1; wheezy: 4:4.8.4-3; jessie: 4:4.14.0-1; stretch: 4:15.08.0-1; sid: 4:15.08.0-2
+[2016-05-22 19:05:42 -0500] [MaBunny in #debian] no not the KDE
+[2016-05-22 19:05:45 -0500] [MaBunny in #debian] one
+[2016-05-22 19:06:13 -0500] [MaBunny in #debian] www.radscan.com/conquest.html
+[2016-05-22 19:06:37 -0500] [jmcnaught in #debian] Alt__: what exactly do you want to change? are you on Debian 8 using systemd?
+[2016-05-22 19:06:41 -0500] [MaBunny in #debian] thts their official site
+[2016-05-22 19:07:26 -0500] [markybob in #debian] MaBunny: no. debian has freeorion. http://www.freeorion.org/index.php/Main_Page
+[2016-05-22 19:08:09 -0500] [Alt__ in #debian] jmcnaught, just want to stop some services
+[2016-05-22 19:08:19 -0500] [MaBunny in #debian] ok...but my computer wont support tht...but thnx :D
+[2016-05-22 19:09:12 -0500] [jmcnaught in #debian] Alt__: if you're using Debian 8 (jessie) than the default init system changed to systemd. You'd use "systemctl disable SERVICE" to disable a service at boot
+[2016-05-22 19:23:53 -0500] [avis- in #debian-offtopic] https://www.youtube.com/watch?v=KBWfUc5jKiM
+[2016-05-22 19:23:55 -0500] [datase in #debian-offtopic] YouTube: Tiny Dancer - 0:06:16 - 8196846 views - 27841 likes / 783 dislikes
+[2016-05-22 19:24:35 -0500] [fer640 in #debian-offtopic] damn previews on facebook, always bugged my posts.
+[2016-05-22 19:24:47 -0500] [avis- in #debian-offtopic] because even God now acknowledges circumstances do count
+[2016-05-22 19:25:28 -0500] [fer640 in #debian-offtopic] https://www.youtube.com/watch?v=YT2ojzrs70k
+[2016-05-22 19:25:30 -0500] [datase in #debian-offtopic] YouTube: Dan Balan - Лишь до утра - 0:03:43 - 14599161 views - 43259 likes / 1950 dislikes
+[2016-05-22 19:26:03 -0500] [dTal in #debian-offtopic] God should just make the circumstances go away
+[2016-05-22 19:26:15 -0500] [fer640 in #debian-offtopic] well datase opens that, seems like an true video.
+[2016-05-22 19:27:17 -0500] [polyzen in #debian-offtopic] s/stances/cisions/
+[2016-05-22 19:27:53 -0500] [fer640 in #debian-offtopic] that was like a little rude
+[2016-05-22 19:31:55 -0500] [fer640 in #debian-offtopic] Damn our soccer squad keep out Apache and Dybala.
+[2016-05-22 19:32:27 -0500] [fer640 in #debian-offtopic] we're screwed.
+[2016-05-22 19:38:03 -0500] [Yaso in #debian] 32132
+[2016-05-22 19:38:04 -0500] [Yaso in #debian] .
+[2016-05-22 19:38:07 -0500] [Yaso in #debian] .
+[2016-05-22 19:38:07 -0500] [Yaso in #debian] .
+[2016-05-22 19:38:07 -0500] [Yaso in #debian] .
+[2016-05-22 19:38:08 -0500] [Yaso in #debian] .
+[2016-05-22 19:38:08 -0500] [Yaso in #debian] .
+[2016-05-22 19:42:49 -0500] [ryan57 in #debian] is checkinstall still the preferred way to build a package from a tarball?
+[2016-05-22 19:45:23 -0500] [abrotman in #debian] ryan57: generally, yes
+[2016-05-22 19:45:35 -0500] [ryan57 in #debian] fair enough
+[2016-05-22 19:52:41 -0500] [jml2 in #debian] i always thought tarballs were a sin in debian
+[2016-05-22 19:53:25 -0500] [abrotman in #debian] not everything is packaged by maintainers, helps to have tools to control that type of installation
+[2016-05-22 20:21:45 -0500] [ryan57 in #debian] abrotman: and will this package know to upgrade a package of an older version from the repository? I ask because GMP is being a pain
+[2016-05-22 20:23:11 -0500] [ryan57 in #debian] abrotman: with the typical 'make install' upgrading gmp.h, but not the environmental variable or whatnot for libgmp, leaving me with a conflict of 6.1/6.0
+[2016-05-22 20:23:40 -0500] [ryan57 in #debian] abrotman: ?
+[2016-05-22 20:30:56 -0500] [avis- in #debian-offtopic] i hope you all getting exercise
+[2016-05-22 20:31:05 -0500] [avis- in #debian-offtopic] it good for you
+[2016-05-22 20:31:22 -0500] [avis- in #debian-offtopic] even in baby steps
+[2016-05-22 20:35:24 -0500] [paintedpony in #debian-offtopic] https://youtu.be/WqtcnMZA0Hc
+[2016-05-22 20:35:26 -0500] [datase in #debian-offtopic] YouTube: A Day in Auschwitz - Nazi Jewish Holocaust Amazing Documentary - 0:47:33 - 1231862 views - 6450 likes / 1481 dislikes
+[2016-05-22 20:44:07 -0500] [aypea[2] in #debian] so in systemd land, how do I get the dmesg output from bootup?
+[2016-05-22 20:46:14 -0500] [markybob in #debian] aypea[2]: you type dmesg
+[2016-05-22 20:46:28 -0500] [dvs in #debian] too easy
+[2016-05-22 20:46:33 -0500] [aypea[2] in #debian] markybob: that gets me current dmesg. I want to know what boot-up dmesg was
+[2016-05-22 20:46:48 -0500] [aypea[2] in #debian] markybob: this used to be stored in /var/log/dmesg but is no longer there
+[2016-05-22 20:48:13 -0500] [markybob in #debian] aypea[2]: for that you need journalctl and set storage. https://wiki.archlinux.org/index.php?title=Systemd&redirect=no#Journal
+[2016-05-22 20:48:29 -0500] [aypea[2] in #debian] has a look-see
+[2016-05-22 20:49:54 -0500] [aypea[2] in #debian] markybob: wont that be an attempt to store /everything/ since boot? or am I missing something?
+[2016-05-22 20:51:15 -0500] [markybob in #debian] aypea[2]: you're right. but you can set filters or time limits or whatever you want
+[2016-05-22 20:51:36 -0500] [machinehum in #debian] Are some of the Deb repos down?
+[2016-05-22 20:51:38 -0500] [markybob in #debian] --since "20 min ago"
+[2016-05-22 20:51:51 -0500] [dvs in #debian] machinehum, some of them, probably.
+[2016-05-22 20:51:54 -0500] [machinehum in #debian] Err http://ftp3.nrc.ca jessie/main Sources
+[2016-05-22 20:51:56 -0500] [machinehum in #debian]   403  Forbidden [IP: 132.246.2.23 80]
+[2016-05-22 20:52:27 -0500] [aypea[2] in #debian] markybob: hmm. sounds like overkill for what I want. I may have to resort to rc.local here. I just need a static store of a tiny bit of info from the "beginning of time".
+[2016-05-22 20:52:32 -0500] [markybob in #debian] machinehum: yeah that's down here
+[2016-05-22 20:52:41 -0500] [dTal in #debian] is http-redir smart enough to avoid failing mirrors?
+[2016-05-22 20:53:00 -0500] [dvs in #debian] machinehum, use http://httpredir.debian.org instead
+[2016-05-22 20:53:02 -0500] [markybob in #debian] dTal: no. it kinda sucks
+[2016-05-22 20:54:03 -0500] [markybob in #debian] i can never find greycat's httpredir factoid when i need it
+[2016-05-22 20:54:07 -0500] [dTal in #debian] Huh. Well I don't really know how it works, but it works really well for me
+[2016-05-22 20:54:38 -0500] [avis- in #debian-offtopic] look everyone.  its just a BABY :D  https://www.youtube.com/watch?v=cGusP7aCCYc
+[2016-05-22 20:54:39 -0500] [datase in #debian-offtopic] YouTube: Arrested Development - People Everyday - 0:04:57 - 410912 views - 3971 likes / 63 dislikes
+[2016-05-22 20:54:58 -0500] [avis- in #debian-offtopic] dang.  i even got secret service saying God bless.
+[2016-05-22 20:55:08 -0500] [avis- in #debian-offtopic] they very beyonce.
+[2016-05-22 20:55:22 -0500] [avis- in #debian-offtopic] whatever *that* means.  ROCK
+[2016-05-22 20:55:37 -0500] [dvs in #debian] !jessie source-list
+[2016-05-22 20:55:47 -0500] [dvs in #debian] !jessie sources-list
+[2016-05-22 20:55:53 -0500] [dvs in #debian] hmmmm
+[2016-05-22 20:56:26 -0500] [dvs in #debian] !jessie sources.list
+[2016-05-22 20:56:26 -0500] [dpkg in #debian] A suitable /etc/apt/sources.list for Debian 8 "Jessie" has three lines: "deb http://httpredir.debian.org/debian/ jessie main" "deb http://security.debian.org/ jessie/updates main" "deb http://httpredir.debian.org/debian/ jessie-updates main".  Be sure to run «aptitude update» after editing sources.list.  Also see <deb-src> <contrib> <non-free> <jessie/updates> <jessie-updates> <mirrors> and "man sources.list".
+[2016-05-22 20:56:54 -0500] [markybob in #debian] that factoid needs to be changed too.
+[2016-05-22 20:57:06 -0500] [avis- in #debian-offtopic] i still love those beyonces
+[2016-05-22 20:57:12 -0500] [avis- in #debian-offtopic] whatever "that" is
+[2016-05-22 20:57:15 -0500] [markybob in #debian] to include the fact that httpredir sucks and causes a lot of people problems
+[2016-05-22 20:57:40 -0500] [aypea[2] in #debian] markybob: thanks for your help, btw. looks like I'll be rolling my own init.d script just to keep things simple.
+[2016-05-22 20:57:55 -0500] [avis- in #debian-offtopic] they pay for you school.  you willing to do anything for the president ?  you'll never have excess but you'll have what you need
+[2016-05-22 20:57:56 -0500] [aypea[2] in #debian] /etc/init.d/bootlogs seems to be permanently masked out. :/
+[2016-05-22 20:58:36 -0500] [avis- in #debian-offtopic] a broken heart is hard to mend.  i give them job appropriation as a gift
+[2016-05-22 20:59:32 -0500] [avis- in #debian-offtopic] codings hard.
+[2016-05-22 21:00:24 -0500] [markybob in #debian] !httpredir issues
+[2016-05-22 21:00:25 -0500] [dpkg in #debian] The <httpredir> service selects bad mirrors for some people. If you're one of them, try explicitly choosing a mirror: "deb http://ftp.XX.debian.org/debian jessie main" etc. (where XX is your, or a nearby, country code). Avoid using the US mirror round robin; ask me about <mirror list> <ftp.us.debian.org>.
+[2016-05-22 21:00:27 -0500] [markybob in #debian] found it
+[2016-05-22 21:00:54 -0500] [dvs in #debian] !prize markybob
+[2016-05-22 21:00:54 -0500] [dpkg in #debian] gives markybob a beer.
+[2016-05-22 21:01:15 -0500] [markybob in #debian] dvs: already had a few, mate. probably why it took me so long to find it ;)
+[2016-05-22 21:01:24 -0500] [dvs in #debian] heh
+[2016-05-22 21:01:29 -0500] [avis- in #debian-offtopic] hey james
+[2016-05-22 21:06:48 -0500] [windblow in #debian-offtopic] IRCCloud is a platform to develop profiling tools (machine learning) and for study of human behavior for law enforcement. https://ghostbin.com/paste/nsee3/raw
+[2016-05-22 21:09:22 -0500] [avis- in #debian-offtopic] :D
+[2016-05-22 21:09:27 -0500] [avis- in #debian-offtopic] any of them single ?
+[2016-05-22 21:10:00 -0500] [avis- in #debian-offtopic] are ya darlin ?
+[2016-05-22 21:11:02 -0500] [avis- in #debian-offtopic] https://www.youtube.com/watch?v=16yarf4ZCwA
+[2016-05-22 21:11:04 -0500] [datase in #debian-offtopic] YouTube: John Michael Montgomery - I swear - 0:04:25 - 1548299 views - 9204 likes / 292 dislikes
+[2016-05-22 21:12:11 -0500] [markybob in #debian] TomTomTosch: do you want a shell account on my server so you can use screen to irc? you join/leave so often :P free of course
+[2016-05-22 21:15:26 -0500] [n_blownapart in #debian] hi I'm getting this same problem with duplicates for i386 packages..at least I think its a duplicate problem. my machine is amd64. I'm trying to install haskell. any idea? thanks : https://www.refheap.com/119492
+[2016-05-22 21:16:22 -0500] [markybob in #debian] n_blownapart: we don't support ubuntu ppa's. we can't.
+[2016-05-22 21:17:10 -0500] [markybob in #debian] n_blownapart: that is what your problem is. that ppa has ubuntu releases, not jessie. so it doesn't work, thus 404.
+[2016-05-22 21:18:23 -0500] [n_blownapart in #debian] dang thanks markybob
+[2016-05-22 21:20:48 -0500] [n_blownapart in #debian] markybob, btw how would I remove the command I did: sudo add-apt-repository -y ppa:hvr/ghc  ?
+[2016-05-22 21:22:17 -0500] [markybob in #debian] n_blownapart: it created a file in /etc/apt/sources.list.d/ ...just rm it then apt-get update
+[2016-05-22 21:23:07 -0500] [n_blownapart in #debian] ok markybob thanks a lot
+[2016-05-22 21:23:55 -0500] [avis- in #debian-offtopic] living like lovers, rolling like thunder "under" the covers :D
+[2016-05-22 21:35:42 -0500] [TomTomTosch in #debian] markybob: thanks man. i have a server though, i'm just too lazy to set it up. i'll do it eventually x)
+[2016-05-22 21:37:57 -0500] [SagelessFox2 in #debian] I am looking for a light weight desktop
+[2016-05-22 21:38:09 -0500] [SagelessFox2 in #debian] Which offers only a few softwares
+[2016-05-22 21:38:35 -0500] [SagelessFox2 in #debian] Is there any desktop like that?
+[2016-05-22 21:39:14 -0500] [markybob in #debian] SagelessFox2: you need to do your own research because this gets into a touchy topic. i use xfce. it's light and basically just works like i'd expect.
+[2016-05-22 21:39:21 -0500] [somiaj in #debian] SagelessFox2: lxde calls itself the light desktop. You could try that, xfce4 is kinda light, but you may find you would rather just run a windowmanger and isntall the sfotware you want to
+[2016-05-22 21:42:24 -0500] [SagelessFox2 in #debian] somiaj : lxde provides a basket of softwares that I don't need. When I am trying to uninstall a mail client on Debian's lxde , it says I must uninstall the whole environment
+[2016-05-22 21:42:43 -0500] [SagelessFox2 in #debian] :(
+[2016-05-22 21:42:52 -0500] [markybob in #debian] SagelessFox2: no it doesnt. it says you need to uninstall the task package
+[2016-05-22 21:42:59 -0500] [somiaj in #debian] SagelessFox2: you don't have to install the whole enviroment. You just have to remove the meta package (and then change some of the auto flags.
+[2016-05-22 21:43:18 -0500] [somiaj in #debian] If you use apt instead of aptitude you can see which packages it wants to autoremove and change the ones you don't want to manual install
+[2016-05-22 21:44:12 -0500] [SagelessFox2 in #debian] Hmm..
+[2016-05-22 21:44:43 -0500] [markybob in #debian] SagelessFox2: do you not know what task/meta means? because that could clarify things
+[2016-05-22 21:45:09 -0500] [SagelessFox2 in #debian] I am searching about them..
+[2016-05-22 21:45:16 -0500] [SagelessFox2 in #debian] In my first language
+[2016-05-22 21:45:29 -0500] [SagelessFox2 in #debian] I don't know those names
+[2016-05-22 21:45:58 -0500] [markybob in #debian] SagelessFox2: they're kind of fake packages that include a ton of packages just to make things easier to install. you don't need them and they contain nothing. they just bring in things when installed
+[2016-05-22 21:46:18 -0500] [markybob in #debian] SagelessFox2: when you remove them, the packages they brought in don't get removed
+[2016-05-22 21:46:46 -0500] [somiaj in #debian] (unless they are marked auto, then without the meta package to hold them in, apt will want to remove them -- aptitude and synamptic will remove them without asking first)
+[2016-05-22 21:47:18 -0500] [somiaj in #debian] SagelessFox2: the other option is during the isntall don't install the big meta package but only isntall the bits you need.
+[2016-05-22 21:48:28 -0500] [SagelessFox2 in #debian] So the meta packages aren't necessary I mean they are not the dependences of lxde?
+[2016-05-22 21:48:45 -0500] [somiaj in #debian] SagelessFox2: they are just packages that depend on other packages to make install groups of packages easier
+[2016-05-22 21:49:00 -0500] [markybob in #debian] SagelessFox2: correct
+[2016-05-22 21:49:40 -0500] [SagelessFox2 in #debian] Thx markybob somiaj :)
+[2016-05-22 22:50:37 -0500] [orome in #debian-es-offtopic] News from pdreadful: Penny Dreadful 3x04 A Blade of Grass 720p <magnet:?xt=urn:btih:BDFC0BB68EA63FCBBA7B29B91A04B1FE9A4EF1F0&dn=Penny+Dreadful+S03E04+720p+HDTV+x264+AVS&tr=udp://tracker.coppersurfer.tk:6969/announce&tr=udp://tracker.leechers-paradise.org:6969&tr=udp://open.demonii.com:1337>
+[2016-05-22 23:19:28 -0500] [nix1947 in #debian] hello everyone, lsusb command is hangs forever in my machine
+[2016-05-22 23:19:59 -0500] [markybob in #debian] nix1947: lsb_release -a says what?
+[2016-05-22 23:22:08 -0500] [avis- in #debian-offtopic] i do not lie about truth and serious issues when i'm not being a good timer.  i will say this, most of you have much more than i have now, and means i'd have to work hard to be where you all are.  the key to that is no matter what we have a choice to choose goodness over a downgrade, because life couldn't get any better.  what i didn't know is i didn't realize there's a way around it.
+[2016-05-22 23:23:54 -0500] [avis- in #debian-offtopic] it came apparent to me that there were those that felt a little off because of me.  i guarantee you in my mind, as a friend, you were all worthy of my time as if in person.
+[2016-05-22 23:26:28 -0500] [markybob in #debian] nix1947: it's really great when people ask for help and don't answer questions
+[2016-05-22 23:27:29 -0500] [nix1947 in #debian] markybob: sorry, I just forget to see the client, sorry
+[2016-05-22 23:27:58 -0500] [nix1947 in #debian] No LSB modules are available.
+[2016-05-22 23:27:59 -0500] [nix1947 in #debian] Description:    Debian GNU/Linux 8.4 (jessie)
+[2016-05-22 23:27:59 -0500] [nix1947 in #debian] Distributor ID: Debian
+[2016-05-22 23:27:59 -0500] [nix1947 in #debian] Codename:       jessie
+[2016-05-22 23:27:59 -0500] [nix1947 in #debian] Release:        8.4
+[2016-05-22 23:28:29 -0500] [markybob in #debian] yeah figures that would happen
+[2016-05-22 23:28:46 -0500] [markybob in #debian] smoke break
+[2016-05-22 23:28:46 -0500] [nix1947 in #debian] markybob: I am using debian 8
+[2016-05-22 23:35:29 -0500] [nix1947 in #debian] markybob: this is the output of lsbrelase -a http://paste.debian.net/695637/
+[2016-05-22 23:45:03 -0500] [unlike in #debian-offtopic] almost
+[2016-05-22 23:45:45 -0500] [unlike in #debian-offtopic] ...almost ...15 minutes to go ..,.
+[2016-05-22 23:49:32 -0500] [n_blownapart in #debian] hi sorry if I download with a curl command but haven't unpacked anything yet, how do I find the file to remove it?
+[2016-05-22 23:55:03 -0500] [n_blownapart in #debian] I used this command and would like to remove anything on my system associated with this. How to remove it? : curl -sL https://git.io/haskell-vim-now
+[2016-05-22 23:55:34 -0500] [swift110 in #debian-offtopic] hey
+[2016-05-22 23:56:33 -0500] [nix1947 in #debian] why lsusb hanging forever in my debian 8, does anybody knows about it

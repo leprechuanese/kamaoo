@@ -444,3 +444,11 @@
 [2016-05-24 10:29:08 -0500] [jelly in #debian] Arcanos: the only thing I can say about it is "works for me on this HD7450"
 [2016-05-24 10:29:22 -0500] [fryntiz in #debian-es] Son los programas los que buscarán que tipos de fuentes hay instaladas.
 [2016-05-24 10:29:28 -0500] [jml2 in #debian] pflanze, ok
+[2016-05-24 10:30:10 -0500] [jml2 in #debian] pflanze, you should use gdisk or sgdisk to do a quick zero-clieaning of the parition tables
+[2016-05-24 10:30:15 -0500] [jml2 in #debian] pflanze, (prior)
+[2016-05-24 10:31:30 -0500] [digidog in #debian] jelly: do I need dosfstools to create a FAT32 filesystem?
+[2016-05-24 10:31:49 -0500] [digidog in #debian] jelly: or is mkfs enough
+[2016-05-24 10:31:55 -0500] [digidog in #debian] jelly:  https://www.garron.me/en/go2linux/format-usb-drive-fat32-file-system-ubuntu-linux.html
+[2016-05-24 10:31:59 -0500] [jml2 in #debian] digidog, y
+[2016-05-24 10:32:21 -0500] [digidog in #debian] jml2: y = mkfs is enough or y = need dofstools
+[2016-05-24 10:32:33 -0500] [jml2 in #debian] digidog, dosftools contains mkfs.vfat

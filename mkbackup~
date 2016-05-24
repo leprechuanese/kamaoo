@@ -20,6 +20,10 @@ cp "$directory/lita_chat.log" "$directory/lita_chat.log.bk"
 rm "lita_chat.log"
 
 mkdir "$directory/logs/$fecha"
+cp "$directory/$fecha-chat.log" "$directory/logs/$fecha-chat.log"
+cp "$directory/*.py" "$directory/logs/."
+cp "$directory/mkbackup" "$directory/logs/mkbackup"
+cp "$directory/hyp*" "$directory/logs/."
 touch "$directory/logs/$fecha/log"
 ##echo "--- kamaoo ver 0.01b ---repo at: https://github.com/leprechuanese/kamaoo$fecha" >> "$directory/logs/$fecha/log"
 

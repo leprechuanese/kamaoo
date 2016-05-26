@@ -1,0 +1,26 @@
+CREATE USER 'debianprizes'@'localhost' IDENTIFIED BY '***';
+
+GRANT USAGE ON * . * TO 'debianprizes'@'localhost' IDENTIFIED BY '***' WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0 ;
+
+CREATE DATABASE IF NOT EXISTS `debianprizes` ;
+
+GRANT ALL PRIVILEGES ON `debianprizes` . * TO 'debianprizes'@'localhost';
+
+CREATE TABLE IF NOT EXISTS `prizes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `date` datetime NOT NULL,
+  `words_file` varchar(128) NOT NULL,
+  `words_url` varchar(128) NOT NULL,
+  `users_file` varchar(128) NOT NULL,
+  `users_url` varchar(128) NOT NULL,
+  `first_place_name` varchar(128) NOT NULL,
+  `first_place_url` varchar(128) NOT NULL,
+  `second_place_name` varchar(128) NOT NULL,
+  `second_place_url` varchar(128) NOT NULL,
+  `third_place_name` varchar(128) NOT NULL,
+  `third_place_url` varchar(128) NOT NULL,
+  `unique_words` int(12) NOT NULL,
+  `user_count` int(12) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+

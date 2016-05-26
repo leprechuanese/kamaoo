@@ -1,0 +1,61 @@
+#!/bin/bash
+PATH=/opt/someApp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+echo "Making sql record:"
+fecha=$(date +"%Y-%m-%d.%H:%M")
+filec=$(cat log-test)
+:>"$fecha.html"
+echo "<html><title>www.ircprices.tk - Prizes for $fecha</title><body>" >> "$fecha.html"
+echo "<h1>$fecha.html</h1>" >> "$fecha.html"
+echo "Unique words: $unique_words <br>" >> "$fecha.html"
+echo "User Count: $user_count <br>" >> "$fecha.html"
+
+#palabras
+tmp=$(awk "NR==1" <<< "$filec")
+words_name="${tmp//[- ]}"
+echo $words_name >> "sql.sql"
+tmp=$(awk "NR==8" <<< "$filec" | awk '{$1=""; print $0}')
+words_url="${tmp//[ ]}"
+echo "$tmp" >> sql.sql
+echo "<a href=\"$words_url\">$words_name</a>" >> "$fecha.html"
+
+#users
+tmp=$(awk "NR==11" <<< "$filec")
+users_name="${tmp//[- ]}"
+echo $tmp >> "sql.sql"
+tmp=$(awk "NR==18" <<< "$filec" | awk '{$1=""; print $0}')
+users_url="${tmp//[ ]}"
+echo "$tmp" >> sql.sql
+echo "<a href=\"$users_url\">$users_name</a>" >> "$fecha.html"
+
+#first-place
+tmp=$(awk "NR==21" <<< "$filec")
+first_name="${tmp//[ ]}"
+echo $tmp >> "sql.sql"
+tmp=$(awk "NR==28" <<< "$filec" | awk '{$1=""; print $0}')
+first_url="${tmp//[ ]}"
+echo "$tmp" >> sql.sql
+echo "<a href=\"$first_url\">$first_name</a>" >> "$fecha.html"
+
+#second-place
+tmp=$(awk "NR==31" <<< "$filec")
+second_name="${tmp//[ ]}"
+echo $tmp >> "sql.sql"
+tmp=$(awk "NR==38" <<< "$filec" | awk '{$1=""; print $0}')
+second_url="${tmp//[ ]}"
+echo "$tmp" >> sql.sql
+echo "<a href=\"$second_url\">$second_name</a>" >> "$fecha.html"
+
+#third place
+tmp=$(awk "NR==41" <<< "$filec")
+third_name="${tmp//[ ]}"
+echo $tmp >> "sql.sql"
+tmp=$(awk "NR==48" <<< "$filec" | awk '{$1=""; print $0}')
+third_url="${tmp//[ ]}"
+echo "$tmp" >> sql.sql
+echo "<a href=\"$third_url\">$third_name</a>" >> "$fecha.html"
+
+echo "INSERT INTO \`debianprizes\`.\`prizes\` (\`id\`, \`date\`, \`words_file\`, \`words_url\`, \`users_file\`, \`users_url\`, \`first_place_name\`, \`first_place_url\`, \`second_place_name\`, \`second_place_url\`, \`third_place_name\`, \`third_place_url\`, \`unique_words\`, \`user_count\`) VALUES (NULL, CURRENT_DATE(), '$words_name', '$words_url', '$users_name', '$users_url', '$first_name', '$first_url', '$second_name', '$second_url', '$third_name', '$third_url', '$unique_words', '$user_cont');"| mysql -udebianprizes -pdebianprizes debianprizes
+
+echo "</body></html>" >> "$fecha.html"
+
